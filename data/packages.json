@@ -4,13 +4,13 @@
     "name" : "tests.test_text_box",
     "children" : [ {
       "name" : "Completing the text box fields",
-      "uid" : "69ae1e2980ebdd7d",
+      "uid" : "67be336b5efd897b",
       "parentUid" : "a296da0f6cca0789f7c3581c1666debd",
       "status" : "passed",
       "time" : {
-        "start" : 1725279115760,
-        "stop" : 1725279123379,
-        "duration" : 7619
+        "start" : 1725291710152,
+        "stop" : 1725291718197,
+        "duration" : 8045
       },
       "flaky" : false,
       "newFailed" : false,

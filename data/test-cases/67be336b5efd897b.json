@@ -1,22 +1,22 @@
 {
-  "uid" : "69ae1e2980ebdd7d",
+  "uid" : "67be336b5efd897b",
   "name" : "Completing the text box fields",
   "fullName" : "tests.test_text_box.TestTextBox#test_complete_text_box",
   "historyId" : "3003eea26cf009c4e05a5883424b3803",
   "time" : {
-    "start" : 1725279115760,
-    "stop" : 1725279123379,
-    "duration" : 7619
+    "start" : 1725291710152,
+    "stop" : 1725291718197,
+    "duration" : 8045
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "_session_faker",
+    "name" : "setup",
     "time" : {
-      "start" : 1725279115256,
-      "stop" : 1725279115338,
-      "duration" : 82
+      "start" : 1725291710129,
+      "stop" : 1725291710151,
+      "duration" : 22
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "setup",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1725279115736,
-      "stop" : 1725279115760,
-      "duration" : 24
+      "start" : 1725291709654,
+      "stop" : 1725291709736,
+      "duration" : 82
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,9 +44,9 @@
   }, {
     "name" : "driver",
     "time" : {
-      "start" : 1725279115338,
-      "stop" : 1725279115736,
-      "duration" : 398
+      "start" : 1725291709736,
+      "stop" : 1725291710129,
+      "duration" : 393
     },
     "status" : "passed",
     "steps" : [ ],
@@ -62,9 +62,9 @@
     "steps" : [ {
       "name" : "Open https://demoqa.com/text-box page",
       "time" : {
-        "start" : 1725279115760,
-        "stop" : 1725279122586,
-        "duration" : 6826
+        "start" : 1725291710152,
+        "stop" : 1725291717343,
+        "duration" : 7191
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,9 +77,9 @@
     }, {
       "name" : "Open https://demoqa.com/text-box is opened",
       "time" : {
-        "start" : 1725279122586,
-        "stop" : 1725279122589,
-        "duration" : 3
+        "start" : 1725291717343,
+        "stop" : 1725291717347,
+        "duration" : 4
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,9 +92,9 @@
     }, {
       "name" : "Enter full name",
       "time" : {
-        "start" : 1725279122589,
-        "stop" : 1725279122652,
-        "duration" : 63
+        "start" : 1725291717347,
+        "stop" : 1725291717419,
+        "duration" : 72
       },
       "status" : "passed",
       "steps" : [ ],
@@ -107,9 +107,9 @@
     }, {
       "name" : "Enter email",
       "time" : {
-        "start" : 1725279122652,
-        "stop" : 1725279122737,
-        "duration" : 85
+        "start" : 1725291717419,
+        "stop" : 1725291717501,
+        "duration" : 82
       },
       "status" : "passed",
       "steps" : [ ],
@@ -122,9 +122,9 @@
     }, {
       "name" : "Enter current address",
       "time" : {
-        "start" : 1725279122737,
-        "stop" : 1725279122894,
-        "duration" : 157
+        "start" : 1725291717501,
+        "stop" : 1725291717607,
+        "duration" : 106
       },
       "status" : "passed",
       "steps" : [ ],
@@ -137,9 +137,9 @@
     }, {
       "name" : "Enter permanent address",
       "time" : {
-        "start" : 1725279122894,
-        "stop" : 1725279122966,
-        "duration" : 72
+        "start" : 1725291717607,
+        "stop" : 1725291717791,
+        "duration" : 184
       },
       "status" : "passed",
       "steps" : [ ],
@@ -152,9 +152,9 @@
     }, {
       "name" : "Click submit button",
       "time" : {
-        "start" : 1725279122966,
-        "stop" : 1725279123024,
-        "duration" : 58
+        "start" : 1725291717791,
+        "stop" : 1725291717853,
+        "duration" : 62
       },
       "status" : "passed",
       "steps" : [ ],
@@ -167,9 +167,9 @@
     }, {
       "name" : "Verify saved full name",
       "time" : {
-        "start" : 1725279123025,
-        "stop" : 1725279123078,
-        "duration" : 53
+        "start" : 1725291717853,
+        "stop" : 1725291717881,
+        "duration" : 28
       },
       "status" : "passed",
       "steps" : [ ],
@@ -182,9 +182,9 @@
     }, {
       "name" : "Verify saved email",
       "time" : {
-        "start" : 1725279123079,
-        "stop" : 1725279123108,
-        "duration" : 29
+        "start" : 1725291717881,
+        "stop" : 1725291717912,
+        "duration" : 31
       },
       "status" : "passed",
       "steps" : [ ],
@@ -197,9 +197,9 @@
     }, {
       "name" : "Verify saved current address",
       "time" : {
-        "start" : 1725279123108,
-        "stop" : 1725279123132,
-        "duration" : 24
+        "start" : 1725291717912,
+        "stop" : 1725291717938,
+        "duration" : 26
       },
       "status" : "passed",
       "steps" : [ ],
@@ -212,9 +212,9 @@
     }, {
       "name" : "Verify saved permanent address",
       "time" : {
-        "start" : 1725279123132,
-        "stop" : 1725279123156,
-        "duration" : 24
+        "start" : 1725291717938,
+        "stop" : 1725291717963,
+        "duration" : 25
       },
       "status" : "passed",
       "steps" : [ ],
@@ -226,11 +226,11 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "ab217d253ba2691",
+      "uid" : "a93205b3792cffe1",
       "name" : "ScreenShot",
-      "source" : "ab217d253ba2691.png",
+      "source" : "a93205b3792cffe1.png",
       "type" : "image/png",
-      "size" : 386731
+      "size" : 388873
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
@@ -241,9 +241,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1725279123380,
-      "stop" : 1725279123467,
-      "duration" : 87
+      "start" : 1725291718197,
+      "stop" : 1725291718290,
+      "duration" : 93
     },
     "status" : "passed",
     "steps" : [ ],
@@ -268,7 +268,7 @@
     "value" : "TestTextBox"
   }, {
     "name" : "host",
-    "value" : "5defed46b331"
+    "value" : "b74ed67260b3"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -293,8 +293,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "69ae1e2980ebdd7d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725279115760,
+          "stop" : 1725279123379,
+          "duration" : 7619
+        }
+      } ]
+    },
     "tags" : [ ]
   },
-  "source" : "69ae1e2980ebdd7d.json",
+  "source" : "67be336b5efd897b.json",
   "parameterValues" : [ ]
 }
