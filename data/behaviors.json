@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Elements - Text Box",
+    "children" : [ {
+      "name" : "Completing the text box fields",
+      "uid" : "69ae1e2980ebdd7d",
+      "parentUid" : "c01ccb949c3954d6a5a1cb634dfeec6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725279115760,
+        "stop" : 1725279123379,
+        "duration" : 7619
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c01ccb949c3954d6a5a1cb634dfeec6c"
+  } ],
+  "name" : "behaviors"
+}

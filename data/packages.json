@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "tests.test_text_box",
+    "children" : [ {
+      "name" : "Completing the text box fields",
+      "uid" : "69ae1e2980ebdd7d",
+      "parentUid" : "a296da0f6cca0789f7c3581c1666debd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725279115760,
+        "stop" : 1725279123379,
+        "duration" : 7619
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.test_text_box"
+  } ],
+  "name" : "packages"
+}

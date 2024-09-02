@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "test_text_box",
+      "children" : [ {
+        "name" : "TestTextBox",
+        "children" : [ {
+          "name" : "Completing the text box fields",
+          "uid" : "69ae1e2980ebdd7d",
+          "parentUid" : "de9c24f523fcf9ede2b505df492b4c81",
+          "status" : "passed",
+          "time" : {
+            "start" : 1725279115760,
+            "stop" : 1725279123379,
+            "duration" : 7619
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "de9c24f523fcf9ede2b505df492b4c81"
+      } ],
+      "uid" : "d736e6a3711f21b6a0aa6b09361110b9"
+    } ],
+    "uid" : "e387fa4bb326b54ea8c19c2822aba374"
+  } ],
+  "name" : "suites"
+}

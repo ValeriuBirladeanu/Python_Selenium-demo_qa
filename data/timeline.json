@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "5defed46b331",
+    "children" : [ {
+      "name" : "1-MainThread",
+      "children" : [ {
+        "name" : "Completing the text box fields",
+        "uid" : "69ae1e2980ebdd7d",
+        "parentUid" : "30491b34399ec0b226f6c85a949a1118",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725279115760,
+          "stop" : 1725279123379,
+          "duration" : 7619
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "30491b34399ec0b226f6c85a949a1118"
+    } ],
+    "uid" : "fcddd1298ec172d43d19b9a377b89396"
+  } ],
+  "name" : "timeline"
+}
