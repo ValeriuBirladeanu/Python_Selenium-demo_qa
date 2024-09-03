@@ -25,9 +25,9 @@ class BasePage:
             element = target
         self.driver.execute_script("arguments[0].scrollIntoView(true);", element)
 
-    def make_screenshot(self, screenshot_name):
+    def make_screenshot(self):
         allure.attach(
             body=self.driver.get_screenshot_as_png(),
-            name=screenshot_name,
+            name="Screenshot",
             attachment_type=AttachmentType.PNG
         )

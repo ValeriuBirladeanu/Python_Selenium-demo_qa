@@ -19,4 +19,4 @@ class TestTextBox(BaseTest):
         self.text_box.is_saved_email()
         self.text_box.is_saved_current_address()
         self.text_box.is_saved_permanent_address()
-        self.text_box.make_screenshot("ScreenShot")
+        self.text_box.make_screenshot()
