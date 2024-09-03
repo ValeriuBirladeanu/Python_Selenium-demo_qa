@@ -15,7 +15,7 @@ class BasePage:
             self.driver.get(self.PAGE_URL)  # Opening the web page
 
     def is_opened(self):
-        with allure.step(f"Open {self.PAGE_URL} is opened"):
+        with allure.step(f"Page {self.PAGE_URL} is opened"):
             self.wait.until(EC.url_to_be(self.PAGE_URL))  # Checking if the web page has been opened
 
     def scroll_to(self, target):
