@@ -1,26 +1,26 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "7b84a61af142",
+    "name" : "7aaf6b50d283",
     "children" : [ {
       "name" : "1-MainThread",
       "children" : [ {
         "name" : "Completing the text box fields",
-        "uid" : "6c22f4f22ece97ec",
-        "parentUid" : "fd22a26e26445d78a08554d20712bd6f",
+        "uid" : "b8ce8c020f3eb41b",
+        "parentUid" : "ed0362b85e4019ee5a2eaff4cbed12fd",
         "status" : "passed",
         "time" : {
-          "start" : 1725354700091,
-          "stop" : 1725354703464,
-          "duration" : 3373
+          "start" : 1725355656376,
+          "stop" : 1725355659979,
+          "duration" : 3603
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "fd22a26e26445d78a08554d20712bd6f"
+      "uid" : "ed0362b85e4019ee5a2eaff4cbed12fd"
     } ],
-    "uid" : "a0f3aef2578d1c385ca0118e34d476dc"
+    "uid" : "454b4fc2f2cacf9b64cd705168081db3"
   } ],
   "name" : "timeline"
 }
