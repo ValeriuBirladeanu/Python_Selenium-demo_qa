@@ -8,13 +8,13 @@
         "name" : "TestTextBox",
         "children" : [ {
           "name" : "Completing the text box fields",
-          "uid" : "b8ce8c020f3eb41b",
+          "uid" : "c3a92f637cebe286",
           "parentUid" : "de9c24f523fcf9ede2b505df492b4c81",
           "status" : "passed",
           "time" : {
-            "start" : 1725355656376,
-            "stop" : 1725355659979,
-            "duration" : 3603
+            "start" : 1725368198879,
+            "stop" : 1725368206662,
+            "duration" : 7783
           },
           "flaky" : false,
           "newFailed" : false,

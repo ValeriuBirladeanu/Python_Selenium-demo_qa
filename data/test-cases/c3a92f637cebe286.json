@@ -1,37 +1,22 @@
 {
-  "uid" : "b8ce8c020f3eb41b",
+  "uid" : "c3a92f637cebe286",
   "name" : "Completing the text box fields",
   "fullName" : "tests.test_text_box.TestTextBox#test_complete_text_box",
   "historyId" : "3003eea26cf009c4e05a5883424b3803",
   "time" : {
-    "start" : 1725355656376,
-    "stop" : 1725355659979,
-    "duration" : 3603
+    "start" : 1725368198879,
+    "stop" : 1725368206662,
+    "duration" : 7783
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "_session_faker",
-    "time" : {
-      "start" : 1725355655837,
-      "stop" : 1725355655920,
-      "duration" : 83
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
     "name" : "driver",
     "time" : {
-      "start" : 1725355655920,
-      "stop" : 1725355656352,
-      "duration" : 432
+      "start" : 1725368198455,
+      "stop" : 1725368198855,
+      "duration" : 400
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,9 +29,24 @@
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1725355656352,
-      "stop" : 1725355656376,
-      "duration" : 24
+      "start" : 1725368198855,
+      "stop" : 1725368198878,
+      "duration" : 23
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1725368198368,
+      "stop" : 1725368198454,
+      "duration" : 86
     },
     "status" : "passed",
     "steps" : [ ],
@@ -62,9 +62,9 @@
     "steps" : [ {
       "name" : "Open https://demoqa.com/text-box page",
       "time" : {
-        "start" : 1725355656376,
-        "stop" : 1725355658907,
-        "duration" : 2531
+        "start" : 1725368198879,
+        "stop" : 1725368205796,
+        "duration" : 6917
       },
       "status" : "passed",
       "steps" : [ ],
@@ -75,11 +75,11 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Open https://demoqa.com/text-box is opened",
+      "name" : "Page https://demoqa.com/text-box is opened",
       "time" : {
-        "start" : 1725355658907,
-        "stop" : 1725355658913,
-        "duration" : 6
+        "start" : 1725368205796,
+        "stop" : 1725368205799,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,9 +92,9 @@
     }, {
       "name" : "Enter full name",
       "time" : {
-        "start" : 1725355658913,
-        "stop" : 1725355659003,
-        "duration" : 90
+        "start" : 1725368205799,
+        "stop" : 1725368205870,
+        "duration" : 71
       },
       "status" : "passed",
       "steps" : [ ],
@@ -107,9 +107,9 @@
     }, {
       "name" : "Enter email",
       "time" : {
-        "start" : 1725355659003,
-        "stop" : 1725355659129,
-        "duration" : 126
+        "start" : 1725368205870,
+        "stop" : 1725368205956,
+        "duration" : 86
       },
       "status" : "passed",
       "steps" : [ ],
@@ -122,9 +122,9 @@
     }, {
       "name" : "Enter current address",
       "time" : {
-        "start" : 1725355659129,
-        "stop" : 1725355659331,
-        "duration" : 202
+        "start" : 1725368205956,
+        "stop" : 1725368206133,
+        "duration" : 177
       },
       "status" : "passed",
       "steps" : [ ],
@@ -137,9 +137,9 @@
     }, {
       "name" : "Enter permanent address",
       "time" : {
-        "start" : 1725355659331,
-        "stop" : 1725355659528,
-        "duration" : 197
+        "start" : 1725368206133,
+        "stop" : 1725368206247,
+        "duration" : 114
       },
       "status" : "passed",
       "steps" : [ ],
@@ -152,9 +152,9 @@
     }, {
       "name" : "Click submit button",
       "time" : {
-        "start" : 1725355659529,
-        "stop" : 1725355659605,
-        "duration" : 76
+        "start" : 1725368206247,
+        "stop" : 1725368206314,
+        "duration" : 67
       },
       "status" : "passed",
       "steps" : [ ],
@@ -167,9 +167,9 @@
     }, {
       "name" : "Verify saved full name",
       "time" : {
-        "start" : 1725355659605,
-        "stop" : 1725355659641,
-        "duration" : 36
+        "start" : 1725368206314,
+        "stop" : 1725368206345,
+        "duration" : 31
       },
       "status" : "passed",
       "steps" : [ ],
@@ -182,8 +182,8 @@
     }, {
       "name" : "Verify saved email",
       "time" : {
-        "start" : 1725355659641,
-        "stop" : 1725355659671,
+        "start" : 1725368206346,
+        "stop" : 1725368206376,
         "duration" : 30
       },
       "status" : "passed",
@@ -197,9 +197,9 @@
     }, {
       "name" : "Verify saved current address",
       "time" : {
-        "start" : 1725355659671,
-        "stop" : 1725355659702,
-        "duration" : 31
+        "start" : 1725368206376,
+        "stop" : 1725368206406,
+        "duration" : 30
       },
       "status" : "passed",
       "steps" : [ ],
@@ -212,8 +212,8 @@
     }, {
       "name" : "Verify saved permanent address",
       "time" : {
-        "start" : 1725355659702,
-        "stop" : 1725355659731,
+        "start" : 1725368206406,
+        "stop" : 1725368206435,
         "duration" : 29
       },
       "status" : "passed",
@@ -226,11 +226,11 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "16ec1ed4568e1e4f",
+      "uid" : "24d3c4ae93a88ed7",
       "name" : "Screenshot",
-      "source" : "16ec1ed4568e1e4f.png",
+      "source" : "24d3c4ae93a88ed7.png",
       "type" : "image/png",
-      "size" : 354397
+      "size" : 305583
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
@@ -241,9 +241,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1725355659980,
-      "stop" : 1725355660068,
-      "duration" : 88
+      "start" : 1725368206663,
+      "stop" : 1725368206756,
+      "duration" : 93
     },
     "status" : "passed",
     "steps" : [ ],
@@ -271,7 +271,7 @@
     "value" : "TestTextBox"
   }, {
     "name" : "host",
-    "value" : "7aaf6b50d283"
+    "value" : "da5bc085644c"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -301,11 +301,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 5,
+        "passed" : 6,
         "unknown" : 0,
-        "total" : 5
+        "total" : 6
       },
       "items" : [ {
+        "uid" : "b8ce8c020f3eb41b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725355656376,
+          "stop" : 1725355659979,
+          "duration" : 3603
+        }
+      }, {
         "uid" : "6c22f4f22ece97ec",
         "status" : "passed",
         "time" : {
@@ -341,6 +349,6 @@
     },
     "tags" : [ "smoke" ]
   },
-  "source" : "b8ce8c020f3eb41b.json",
+  "source" : "c3a92f637cebe286.json",
   "parameterValues" : [ ]
 }
