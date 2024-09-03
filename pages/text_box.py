@@ -44,7 +44,7 @@ class TextBox(BasePage):
 
     @allure.step("Click submit button")
     def click_submit(self):
-        self.scroll_to_element(self.SUBMIT_BUTTON)
+        self.scroll_to(self.SUBMIT_BUTTON)
         self.wait.until(EC.element_to_be_clickable(self.SUBMIT_BUTTON)).click()
 
     @allure.step("Verify saved full name")
