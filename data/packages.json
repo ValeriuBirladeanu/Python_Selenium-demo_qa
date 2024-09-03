@@ -1,22 +1,43 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "children" : [ {
-    "name" : "tests.test_text_box",
+    "name" : "tests",
     "children" : [ {
-      "name" : "Completing the text box fields",
-      "uid" : "c3a92f637cebe286",
-      "parentUid" : "a296da0f6cca0789f7c3581c1666debd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1725368198879,
-        "stop" : 1725368206662,
-        "duration" : 7783
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
+      "name" : "test_check_box",
+      "children" : [ {
+        "name" : "Click on the checkboxes",
+        "uid" : "30944525bfa2e6fc",
+        "parentUid" : "af5793ed23373e4f0c5b59cc1a94ebd4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725368598286,
+          "stop" : 1725368606907,
+          "duration" : 8621
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "af5793ed23373e4f0c5b59cc1a94ebd4"
+    }, {
+      "name" : "test_text_box",
+      "children" : [ {
+        "name" : "Completing the text box fields",
+        "uid" : "28eac101a546e593",
+        "parentUid" : "a296da0f6cca0789f7c3581c1666debd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725368607354,
+          "stop" : 1725368611185,
+          "duration" : 3831
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a296da0f6cca0789f7c3581c1666debd"
     } ],
-    "uid" : "tests.test_text_box"
+    "uid" : "bf49149a3821e34f7608bb6885d52868"
   } ],
   "name" : "packages"
 }

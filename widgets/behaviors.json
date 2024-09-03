@@ -1,6 +1,17 @@
 {
-  "total" : 1,
+  "total" : 2,
   "items" : [ {
+    "uid" : "16a2b6b6b9e5e61199a22ee012d02b7c",
+    "name" : "Elements - Check Box",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
     "uid" : "c01ccb949c3954d6a5a1cb634dfeec6c",
     "name" : "Elements - Text Box",
     "statistic" : {

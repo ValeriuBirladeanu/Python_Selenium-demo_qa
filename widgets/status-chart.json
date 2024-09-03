@@ -1,10 +1,20 @@
 [ {
-  "uid" : "c3a92f637cebe286",
+  "uid" : "30944525bfa2e6fc",
+  "name" : "Click on the checkboxes",
+  "time" : {
+    "start" : 1725368598286,
+    "stop" : 1725368606907,
+    "duration" : 8621
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28eac101a546e593",
   "name" : "Completing the text box fields",
   "time" : {
-    "start" : 1725368198879,
-    "stop" : 1725368206662,
-    "duration" : 7783
+    "start" : 1725368607354,
+    "stop" : 1725368611185,
+    "duration" : 3831
   },
   "status" : "passed",
   "severity" : "normal"

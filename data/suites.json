@@ -3,18 +3,39 @@
   "children" : [ {
     "name" : "tests",
     "children" : [ {
+      "name" : "test_check_box",
+      "children" : [ {
+        "name" : "TestCheckBox",
+        "children" : [ {
+          "name" : "Click on the checkboxes",
+          "uid" : "30944525bfa2e6fc",
+          "parentUid" : "a022fc5a0c494a5ff44c7cdbb105a87b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1725368598286,
+            "stop" : 1725368606907,
+            "duration" : 8621
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a022fc5a0c494a5ff44c7cdbb105a87b"
+      } ],
+      "uid" : "1c1eb6bc1c5412f627f96bdddaaea9c9"
+    }, {
       "name" : "test_text_box",
       "children" : [ {
         "name" : "TestTextBox",
         "children" : [ {
           "name" : "Completing the text box fields",
-          "uid" : "c3a92f637cebe286",
+          "uid" : "28eac101a546e593",
           "parentUid" : "de9c24f523fcf9ede2b505df492b4c81",
           "status" : "passed",
           "time" : {
-            "start" : 1725368198879,
-            "stop" : 1725368206662,
-            "duration" : 7783
+            "start" : 1725368607354,
+            "stop" : 1725368611185,
+            "duration" : 3831
           },
           "flaky" : false,
           "newFailed" : false,
