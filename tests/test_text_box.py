@@ -6,7 +6,7 @@ from base.base_test import BaseTest
 class TestTextBox(BaseTest):
 
     @allure.title("Completing the text box fields")
-    # @pytest.mark.smoke
+    @pytest.mark.smoke
     def test_complete_text_box(self):
         self.text_box.open()
         self.text_box.is_opened()

@@ -24,27 +24,23 @@ class TextBox(BasePage):
 
     @allure.step("Enter full name")
     def enter_full_name(self):
-        full_name = self.data_generator.generate_full_name()
-        self.wait.until(EC.element_to_be_clickable(self.FULL_NAME_FIELD)).send_keys(full_name)
-        self.full_name = full_name
+        self.full_name = self.data_generator.generate_full_name()
+        self.wait.until(EC.element_to_be_clickable(self.FULL_NAME_FIELD)).send_keys(self.full_name)
 
     @allure.step("Enter email")
     def enter_email(self):
-        email = self.data_generator.generate_email()
-        self.wait.until(EC.element_to_be_clickable(self.EMAIL_FIELD)).send_keys(email)
-        self.email = email
+        self.email = self.data_generator.generate_email()
+        self.wait.until(EC.element_to_be_clickable(self.EMAIL_FIELD)).send_keys(self.email)
 
     @allure.step("Enter current address")
     def enter_current_address(self):
-        current_address = self.data_generator.generate_current_address()
-        self.wait.until(EC.element_to_be_clickable(self.CURRENT_ADDRESS_FIELD)).send_keys(current_address)
-        self.current_address = current_address
+        self.current_address = self.data_generator.generate_current_address()
+        self.wait.until(EC.element_to_be_clickable(self.CURRENT_ADDRESS_FIELD)).send_keys(self.current_address)
 
     @allure.step("Enter permanent address")
     def enter_permanent_address(self):
-        permanent_address = self.data_generator.generate_permanent_address()
-        self.wait.until(EC.element_to_be_clickable(self.PERMANENT_ADDRESS_FIELD)).send_keys(permanent_address)
-        self.permanent_address = permanent_address
+        self.permanent_address = self.data_generator.generate_permanent_address()
+        self.wait.until(EC.element_to_be_clickable(self.PERMANENT_ADDRESS_FIELD)).send_keys(self.permanent_address)
 
     @allure.step("Click submit button")
     def click_submit(self):
