@@ -1,3 +1,3 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Sep 03 13:03:18 GMT 2024","Tue Sep 03 13:03:26 GMT 2024","8621","tests","test_check_box","TestCheckBox","","","Click on the checkboxes",""
-"passed","Tue Sep 03 13:03:27 GMT 2024","Tue Sep 03 13:03:31 GMT 2024","3831","tests","test_text_box","TestTextBox","","","Completing the text box fields",""
+"passed","Wed Sep 04 09:14:00 GMT 2024","Wed Sep 04 09:14:08 GMT 2024","7875","tests","test_text_box","TestTextBox","","","Completing the text box fields",""
+"passed","Wed Sep 04 09:13:51 GMT 2024","Wed Sep 04 09:14:00 GMT 2024","8917","tests","test_check_box","TestCheckBox","","","Click on the checkboxes",""
