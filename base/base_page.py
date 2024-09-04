@@ -3,7 +3,6 @@ from allure_commons.types import AttachmentType
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-
 class BasePage:
 
     def __init__(self, driver):
@@ -30,6 +29,14 @@ class BasePage:
         with allure.step(f"Check if element located by {locator} is clickable"):
             return self.wait.until(EC.element_to_be_clickable(locator))
 
+    def element_is_selected(self, locator):
+        with allure.step(f"Check if element located by {locator} is selected"):
+            return self.wait.until(EC.element_located_to_be_selected(locator))
+
+    def element_is_presence(self, locator):
+        with allure.step(f"Check presence of element located by {locator}"):
+            return self.wait.until(EC.presence_of_element_located(locator))
+
     def elements_are_presence(self, locator):
         with allure.step(f"Check presence of elements located by {locator}"):
             return self.wait.until(EC.presence_of_all_elements_located(locator))
@@ -41,11 +48,11 @@ class BasePage:
             assert value == actual_value, f"Expected value '{value}' but got '{actual_value}'"
             return element
 
-    def wait_for_element_text(self, locator, expected_text):
+    def wait_for_element_text(self, locator, expected_text, slicing=None):
         with allure.step(f"Wait for element located by {locator} to contain text '{expected_text}'"):
             element = self.wait.until(EC.presence_of_element_located(locator))
-            actual_text = element.text.split(":")[1].strip()
-            assert expected_text in actual_text, f"Expected text '{expected_text}' but got '{actual_text}'"
+            actual_text = slicing(element.text) if slicing else element.text
+            assert expected_text in actual_text, f"Expected text '{expected_text}' in '{actual_text}' (full text: '{element.text}')"
             return element
 
     def scroll_to(self, target):
