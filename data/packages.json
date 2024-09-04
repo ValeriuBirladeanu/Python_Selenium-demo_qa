@@ -6,13 +6,13 @@
       "name" : "test_check_box",
       "children" : [ {
         "name" : "Click on the checkboxes",
-        "uid" : "bb097cd58749b3f0",
+        "uid" : "3e52bd9b7fbd9013",
         "parentUid" : "af5793ed23373e4f0c5b59cc1a94ebd4",
         "status" : "passed",
         "time" : {
-          "start" : 1725476837961,
-          "stop" : 1725476849455,
-          "duration" : 11494
+          "start" : 1725477032202,
+          "stop" : 1725477043678,
+          "duration" : 11476
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,13 +23,13 @@
       "name" : "test_text_box",
       "children" : [ {
         "name" : "Completing the text box fields",
-        "uid" : "a629d6ced9adbbc",
+        "uid" : "e5f88b03d885eb32",
         "parentUid" : "a296da0f6cca0789f7c3581c1666debd",
         "status" : "passed",
         "time" : {
-          "start" : 1725476849906,
-          "stop" : 1725476858060,
-          "duration" : 8154
+          "start" : 1725477044141,
+          "stop" : 1725477054076,
+          "duration" : 9935
         },
         "flaky" : false,
         "newFailed" : false,
