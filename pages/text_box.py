@@ -30,43 +30,39 @@ class TextBox(BasePage):
     @allure.step("Enter email")
     def enter_email(self):
         self.email = self.data_generator.generate_email()
-        self.wait.until(EC.element_to_be_clickable(self.EMAIL_FIELD)).send_keys(self.email)
+        self.element_is_clickable(self.EMAIL_FIELD).send_keys(self.email)
 
     @allure.step("Enter current address")
     def enter_current_address(self):
         self.current_address = self.data_generator.generate_current_address()
-        self.wait.until(EC.element_to_be_clickable(self.CURRENT_ADDRESS_FIELD)).send_keys(self.current_address)
+        self.element_is_clickable(self.CURRENT_ADDRESS_FIELD).send_keys(self.current_address)
 
     @allure.step("Enter permanent address")
     def enter_permanent_address(self):
         self.permanent_address = self.data_generator.generate_permanent_address()
-        self.wait.until(EC.element_to_be_clickable(self.PERMANENT_ADDRESS_FIELD)).send_keys(self.permanent_address)
+        self.element_is_clickable(self.PERMANENT_ADDRESS_FIELD).send_keys(self.permanent_address)
 
     @allure.step("Click submit button")
     def click_submit(self):
         self.scroll_to(self.SUBMIT_BUTTON)
-        self.wait.until(EC.element_to_be_clickable(self.SUBMIT_BUTTON)).click()
+        self.element_is_clickable(self.SUBMIT_BUTTON).click()
 
     @allure.step("Verify saved full name")
     def is_saved_full_name(self):
-        assert self.wait.until(EC.text_to_be_present_in_element_value(self.FULL_NAME_FIELD, self.full_name)), "Full name was not saved correctly in the input field"
-        saved_full_name = self.wait.until(EC.presence_of_element_located(self.OUTPUT_FULL_NAME)).text.split(":")[1].strip()
-        assert saved_full_name == self.full_name, f"Expected '{self.full_name}', but got '{saved_full_name}'"
+        self.wait_for_element_value(self.FULL_NAME_FIELD, self.full_name)
+        self.wait_for_element_text(self.OUTPUT_FULL_NAME, self.full_name)
 
     @allure.step("Verify saved email")
     def is_saved_email(self):
-        assert self.wait.until(EC.text_to_be_present_in_element_value(self.EMAIL_FIELD, self.email)), "Email was not saved correctly in the input field"
-        saved_email = self.wait.until(EC.presence_of_element_located(self.OUTPUT_EMAIL)).text.split(":")[1].strip()
-        assert saved_email == self.email, f"Expected '{self.email}', but got '{saved_email}'"
+        self.wait_for_element_value(self.EMAIL_FIELD, self.email),
+        self.wait_for_element_text(self.OUTPUT_EMAIL, self.email)
 
     @allure.step("Verify saved current address")
     def is_saved_current_address(self):
-        assert self.wait.until(EC.text_to_be_present_in_element_value(self.CURRENT_ADDRESS_FIELD, self.current_address)), "Current address was not saved correctly in the input field"
-        saved_current_address = self.wait.until(EC.presence_of_element_located(self.OUTPUT_CURRENT_ADDRESS)).text.split(":")[1].strip()
-        assert saved_current_address == self.current_address, f"Expected '{self.current_address}', but got '{saved_current_address}'"
+        self.wait_for_element_value(self.CURRENT_ADDRESS_FIELD, self.current_address)
+        self.wait_for_element_text(self.OUTPUT_CURRENT_ADDRESS, self.current_address)
 
     @allure.step("Verify saved permanent address")
     def is_saved_permanent_address(self):
-        assert self.wait.until(EC.text_to_be_present_in_element_value(self.PERMANENT_ADDRESS_FIELD, self.permanent_address)), "Permanent address was not saved correctly in the input field"
-        saved_permanent_address = self.wait.until(EC.presence_of_element_located(self.OUTPUT_PERMANENT_ADDRESS)).text.split(":")[1].strip()
-        assert saved_permanent_address == self.permanent_address, f"Expected '{self.permanent_address}', but got '{saved_permanent_address}'"
+        self.wait_for_element_value(self.PERMANENT_ADDRESS_FIELD, self.permanent_address)
+        self.wait_for_element_text(self.OUTPUT_PERMANENT_ADDRESS, self.permanent_address)

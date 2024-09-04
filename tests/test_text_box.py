@@ -2,6 +2,7 @@ import allure
 import pytest
 from base.base_test import BaseTest
 
+
 @allure.feature("Elements - Text Box")
 class TestTextBox(BaseTest):
 

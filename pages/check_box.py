@@ -1,10 +1,8 @@
 import random
 import allure
-from selenium.webdriver.support.wait import WebDriverWait
 from base.base_page import BasePage
 from config.links import Links
-from selenium.webdriver.support import expected_conditions as EC
-import logging
+
 
 class CheckBox(BasePage):
     PAGE_URL = Links.CHECK_BOX
@@ -15,14 +13,20 @@ class CheckBox(BasePage):
     TITLE_ITEM = ("xpath", ".//ancestor::span[@class='rct-text']")
     OUTPUT_RESULT = ("xpath", "//span[@class='text-success']")
 
-
     @allure.step("Click Expand All button")
     def click_expand_all(self):
-        self.wait.until(EC.element_to_be_clickable(self.EXPAND_ALL_BUTTON)).click()
+        self.element_is_clickable(self.EXPAND_ALL_BUTTON).click()
+
+    @allure.step("Verify checkboxes are visible and clickable")
+    def verify_checkboxes_visible_and_clickable(self):
+        checkboxes = self.elements_are_visible(self.ITEM_LIST)
+        for checkbox in checkboxes:
+            assert checkbox.is_displayed(), f"Checkbox {checkbox.text} is not visible."
+            assert checkbox.is_enabled(), f"Checkbox {checkbox.text} is not clickable."
 
     @allure.step("Click random checkbox")
     def click_random_checkbox(self):
-        item_list = self.wait.until(EC.visibility_of_all_elements_located(self.ITEM_LIST))
+        item_list = self.elements_are_visible(self.ITEM_LIST)
         count = 17
         while count != 0:
             item = item_list[random.randint(0, len(item_list) - 1)]
@@ -32,7 +36,7 @@ class CheckBox(BasePage):
 
     @allure.step("Get checked checkboxes")
     def get_checked_checkboxes(self):
-        checked_list = WebDriverWait(self.driver, 10).until(EC.presence_of_all_elements_located((self.CHECKED_ITEMS)))
+        checked_list = self.elements_are_presence(self.CHECKED_ITEMS)
         data = []
         for box in checked_list:
             title_item = box.find_element(*self.TITLE_ITEM)
@@ -42,9 +46,15 @@ class CheckBox(BasePage):
 
     @allure.step("Get output results")
     def get_output_results(self):
-        result_list = WebDriverWait(self.driver, 10).until(EC.presence_of_all_elements_located((self.OUTPUT_RESULT)))
+        result_list = self.elements_are_presence(self.OUTPUT_RESULT)
         data = []
         for item in result_list:
             data.append(item.text)
         formatted_data  = str(data).replace(" ", "").lower()
         return formatted_data
+
+    @allure.step("Verify checkbox selections are reflected in output results")
+    def verify_checkbox_selections(self):
+        input_result = self.get_checked_checkboxes()
+        output_result = self.get_output_results()
+        assert input_result == output_result, f"Mismatch between input and output results: {input_result} != {output_result}"
