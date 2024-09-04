@@ -1,39 +1,39 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "aff49e09e924",
+    "name" : "9b1811f0852a",
     "children" : [ {
       "name" : "1-MainThread",
       "children" : [ {
         "name" : "Click on the checkboxes",
-        "uid" : "5523c108c224d29e",
-        "parentUid" : "b5ea3f8d9cd1852aeaaf7818962bb072",
+        "uid" : "bb097cd58749b3f0",
+        "parentUid" : "13f72144d3fc982640382abd23eaba42",
         "status" : "passed",
         "time" : {
-          "start" : 1725441231638,
-          "stop" : 1725441240555,
-          "duration" : 8917
+          "start" : 1725476837961,
+          "stop" : 1725476849455,
+          "duration" : 11494
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Completing the text box fields",
-        "uid" : "7cce6ef3cad53736",
-        "parentUid" : "b5ea3f8d9cd1852aeaaf7818962bb072",
+        "uid" : "a629d6ced9adbbc",
+        "parentUid" : "13f72144d3fc982640382abd23eaba42",
         "status" : "passed",
         "time" : {
-          "start" : 1725441240994,
-          "stop" : 1725441248869,
-          "duration" : 7875
+          "start" : 1725476849906,
+          "stop" : 1725476858060,
+          "duration" : 8154
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "b5ea3f8d9cd1852aeaaf7818962bb072"
+      "uid" : "13f72144d3fc982640382abd23eaba42"
     } ],
-    "uid" : "b86ad02bfeb4067d3fa563833c6f3417"
+    "uid" : "1609edf198138f2d1822c2ccafa45526"
   } ],
   "name" : "timeline"
 }
