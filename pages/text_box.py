@@ -25,7 +25,7 @@ class TextBox(BasePage):
     @allure.step("Enter full name")
     def enter_full_name(self):
         self.full_name = self.data_generator.generate_full_name()
-        self.wait.until(EC.element_to_be_clickable(self.FULL_NAME_FIELD)).send_keys(self.full_name)
+        self.element_is_clickable(self.FULL_NAME_FIELD).send_keys(self.full_name)
 
     @allure.step("Enter email")
     def enter_email(self):
@@ -50,19 +50,19 @@ class TextBox(BasePage):
     @allure.step("Verify saved full name")
     def is_saved_full_name(self):
         self.wait_for_element_value(self.FULL_NAME_FIELD, self.full_name)
-        self.wait_for_element_text(self.OUTPUT_FULL_NAME, self.full_name)
+        self.wait_for_element_text(self.OUTPUT_FULL_NAME, self.full_name, lambda slicing: slicing.split(":")[1].strip())
 
     @allure.step("Verify saved email")
     def is_saved_email(self):
         self.wait_for_element_value(self.EMAIL_FIELD, self.email),
-        self.wait_for_element_text(self.OUTPUT_EMAIL, self.email)
+        self.wait_for_element_text(self.OUTPUT_EMAIL, self.email, lambda slicing: slicing.split(":")[1].strip())
 
     @allure.step("Verify saved current address")
     def is_saved_current_address(self):
         self.wait_for_element_value(self.CURRENT_ADDRESS_FIELD, self.current_address)
-        self.wait_for_element_text(self.OUTPUT_CURRENT_ADDRESS, self.current_address)
+        self.wait_for_element_text(self.OUTPUT_CURRENT_ADDRESS, self.current_address, lambda slicing: slicing.split(":")[1].strip())
 
     @allure.step("Verify saved permanent address")
     def is_saved_permanent_address(self):
         self.wait_for_element_value(self.PERMANENT_ADDRESS_FIELD, self.permanent_address)
-        self.wait_for_element_text(self.OUTPUT_PERMANENT_ADDRESS, self.permanent_address)
+        self.wait_for_element_text(self.OUTPUT_PERMANENT_ADDRESS, self.permanent_address, lambda slicing: slicing.split(":")[1].strip())
