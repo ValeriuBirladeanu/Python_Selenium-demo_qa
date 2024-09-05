@@ -8,13 +8,13 @@
         "name" : "TestCheckBox",
         "children" : [ {
           "name" : "Click on the checkboxes",
-          "uid" : "3e52bd9b7fbd9013",
+          "uid" : "801e27138eaf993e",
           "parentUid" : "a022fc5a0c494a5ff44c7cdbb105a87b",
           "status" : "passed",
           "time" : {
-            "start" : 1725477032202,
-            "stop" : 1725477043678,
-            "duration" : 11476
+            "start" : 1725528547075,
+            "stop" : 1725528550927,
+            "duration" : 3852
           },
           "flaky" : false,
           "newFailed" : false,
@@ -24,18 +24,52 @@
       } ],
       "uid" : "1c1eb6bc1c5412f627f96bdddaaea9c9"
     }, {
+      "name" : "test_radio_button",
+      "children" : [ {
+        "name" : "TestRadioButton",
+        "children" : [ {
+          "name" : "Test random radio button selection",
+          "uid" : "d1dcd6220731b72a",
+          "parentUid" : "8bd0b07b07bbdc84885236d45881ca06",
+          "status" : "passed",
+          "time" : {
+            "start" : 1725528551427,
+            "stop" : 1725528558480,
+            "duration" : 7053
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test that the 'No' radio button is disabled",
+          "uid" : "d2a9d0b86f9fd8e7",
+          "parentUid" : "8bd0b07b07bbdc84885236d45881ca06",
+          "status" : "passed",
+          "time" : {
+            "start" : 1725528558898,
+            "stop" : 1725528566250,
+            "duration" : 7352
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8bd0b07b07bbdc84885236d45881ca06"
+      } ],
+      "uid" : "828ec7ef5bb117e4d23254d788027d1c"
+    }, {
       "name" : "test_text_box",
       "children" : [ {
         "name" : "TestTextBox",
         "children" : [ {
           "name" : "Completing the text box fields",
-          "uid" : "e5f88b03d885eb32",
+          "uid" : "76219be37df202e0",
           "parentUid" : "de9c24f523fcf9ede2b505df492b4c81",
           "status" : "passed",
           "time" : {
-            "start" : 1725477044141,
-            "stop" : 1725477054076,
-            "duration" : 9935
+            "start" : 1725528566673,
+            "stop" : 1725528573880,
+            "duration" : 7207
           },
           "flaky" : false,
           "newFailed" : false,

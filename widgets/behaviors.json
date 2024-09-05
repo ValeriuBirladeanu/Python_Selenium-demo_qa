@@ -1,6 +1,17 @@
 {
-  "total" : 2,
+  "total" : 3,
   "items" : [ {
+    "uid" : "0e0cbeb8a4e8bcaf903563f3745755a9",
+    "name" : "Elements - Radio Button",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
     "uid" : "16a2b6b6b9e5e61199a22ee012d02b7c",
     "name" : "Elements - Check Box",
     "statistic" : {

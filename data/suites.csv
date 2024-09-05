@@ -1,3 +1,5 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Wed Sep 04 19:10:44 GMT 2024","Wed Sep 04 19:10:54 GMT 2024","9935","tests","test_text_box","TestTextBox","","","Completing the text box fields",""
-"passed","Wed Sep 04 19:10:32 GMT 2024","Wed Sep 04 19:10:43 GMT 2024","11476","tests","test_check_box","TestCheckBox","","","Click on the checkboxes",""
+"passed","Thu Sep 05 09:29:11 GMT 2024","Thu Sep 05 09:29:18 GMT 2024","7053","tests","test_radio_button","TestRadioButton","","","Test random radio button selection",""
+"passed","Thu Sep 05 09:29:07 GMT 2024","Thu Sep 05 09:29:10 GMT 2024","3852","tests","test_check_box","TestCheckBox","","","Click on the checkboxes",""
+"passed","Thu Sep 05 09:29:26 GMT 2024","Thu Sep 05 09:29:33 GMT 2024","7207","tests","test_text_box","TestTextBox","","","Completing the text box fields",""
+"passed","Thu Sep 05 09:29:18 GMT 2024","Thu Sep 05 09:29:26 GMT 2024","7352","tests","test_radio_button","TestRadioButton","","","Test that the 'No' radio button is disabled",""
