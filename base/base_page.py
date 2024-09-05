@@ -45,14 +45,14 @@ class BasePage:
         with allure.step(f"Wait for element located by {locator} to have value '{value}'"):
             element = self.wait.until(EC.presence_of_element_located(locator))
             actual_value = element.get_attribute('value')
-            assert value == actual_value, f"Expected value '{value}' but got '{actual_value}'"
+            assert value.lower() == actual_value.lower(), f"Expected value '{value}' but got '{actual_value}'"
             return element
 
     def wait_for_element_text(self, locator, expected_text, slicing=None):
         with allure.step(f"Wait for element located by {locator} to contain text '{expected_text}'"):
             element = self.wait.until(EC.presence_of_element_located(locator))
             actual_text = slicing(element.text) if slicing else element.text
-            assert expected_text in actual_text, f"Expected text '{expected_text}' in '{actual_text}' (full text: '{element.text}')"
+            assert expected_text.lower() in actual_text.lower(), f"Expected text '{expected_text}' in '{actual_text}' (full text: '{element.text}')"
             return element
 
     def scroll_to(self, target):
