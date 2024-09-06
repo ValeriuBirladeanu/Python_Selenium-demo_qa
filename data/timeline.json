@@ -1,65 +1,78 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "f99c3d1969eb",
+    "name" : "ee546a3c4cde",
     "children" : [ {
       "name" : "1-MainThread",
       "children" : [ {
-        "name" : "Test that the 'No' radio button is disabled",
-        "uid" : "d2a9d0b86f9fd8e7",
-        "parentUid" : "060db82be7c4eb088ebbc0d52041b1cd",
+        "name" : "Select and verify a random radio button",
+        "uid" : "5390f6462a3d350f",
+        "parentUid" : "c770a2822a6011cc174c66f5a93866db",
         "status" : "passed",
         "time" : {
-          "start" : 1725528558898,
-          "stop" : 1725528566250,
-          "duration" : 7352
+          "start" : 1725635224915,
+          "stop" : 1725635233017,
+          "duration" : 8102
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Test random radio button selection",
-        "uid" : "d1dcd6220731b72a",
-        "parentUid" : "060db82be7c4eb088ebbc0d52041b1cd",
+        "name" : "Add new person in web tables",
+        "uid" : "287ca98b2cddd188",
+        "parentUid" : "c770a2822a6011cc174c66f5a93866db",
         "status" : "passed",
         "time" : {
-          "start" : 1725528551427,
-          "stop" : 1725528558480,
-          "duration" : 7053
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Click on the checkboxes",
-        "uid" : "801e27138eaf993e",
-        "parentUid" : "060db82be7c4eb088ebbc0d52041b1cd",
-        "status" : "passed",
-        "time" : {
-          "start" : 1725528547075,
-          "stop" : 1725528550927,
-          "duration" : 3852
+          "start" : 1725635251405,
+          "stop" : 1725635256020,
+          "duration" : 4615
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Completing the text box fields",
-        "uid" : "76219be37df202e0",
-        "parentUid" : "060db82be7c4eb088ebbc0d52041b1cd",
+        "uid" : "1eea84f0416f936a",
+        "parentUid" : "c770a2822a6011cc174c66f5a93866db",
         "status" : "passed",
         "time" : {
-          "start" : 1725528566673,
-          "stop" : 1725528573880,
-          "duration" : 7207
+          "start" : 1725635241364,
+          "stop" : 1725635250947,
+          "duration" : 9583
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify 'No' radio button is disabled",
+        "uid" : "4d799bdcd838cfb3",
+        "parentUid" : "c770a2822a6011cc174c66f5a93866db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725635233467,
+          "stop" : 1725635240906,
+          "duration" : 7439
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on the checkboxes",
+        "uid" : "ffb6981be8208246",
+        "parentUid" : "c770a2822a6011cc174c66f5a93866db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725635220552,
+          "stop" : 1725635224396,
+          "duration" : 3844
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "060db82be7c4eb088ebbc0d52041b1cd"
+      "uid" : "c770a2822a6011cc174c66f5a93866db"
     } ],
-    "uid" : "c06c623b9762e5f18e40c28322d74957"
+    "uid" : "67bdc0e4819c9f260aa80396ff694e96"
   } ],
   "name" : "timeline"
 }

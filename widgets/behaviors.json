@@ -1,5 +1,5 @@
 {
-  "total" : 3,
+  "total" : 4,
   "items" : [ {
     "uid" : "0e0cbeb8a4e8bcaf903563f3745755a9",
     "name" : "Elements - Radio Button",
@@ -25,6 +25,17 @@
   }, {
     "uid" : "c01ccb949c3954d6a5a1cb634dfeec6c",
     "name" : "Elements - Text Box",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "270bae793c458e2b11b8513b36ab3713",
+    "name" : "Elements - Wev Tables",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
