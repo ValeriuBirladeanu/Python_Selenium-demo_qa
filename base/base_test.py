@@ -3,6 +3,7 @@ import pytest
 from pages.text_box import TextBox
 from pages.check_box import CheckBox
 from pages.radio_button import RadioButton
+from pages.web_tables import WebTables
 
 
 class BaseTest:
@@ -10,6 +11,7 @@ class BaseTest:
     text_box: TextBox
     check_box: CheckBox
     radio_button: RadioButton
+    web_tables: WebTables
 
 
     @pytest.fixture(autouse=True)
@@ -18,3 +20,4 @@ class BaseTest:
         request.cls.text_box = TextBox(driver)
         request.cls.check_box = CheckBox(driver)
         request.cls.radio_button = RadioButton(driver)
+        request.cls.web_tables = WebTables(driver)

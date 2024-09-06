@@ -41,19 +41,29 @@ class BasePage:
         with allure.step(f"Check presence of elements located by {locator}"):
             return self.wait.until(EC.presence_of_all_elements_located(locator))
 
-    def wait_for_element_value(self, locator, value):
+    def check_element_value(self, locator, value, slicing=None):
         with allure.step(f"Wait for element located by {locator} to have value '{value}'"):
-            element = self.wait.until(EC.presence_of_element_located(locator))
+            element = self.wait.until(EC.visibility_of_element_located(locator))
             actual_value = element.get_attribute('value')
-            assert value.lower() == actual_value.lower(), f"Expected value '{value}' but got '{actual_value}'"
+            actual_value = slicing(actual_value) if slicing else actual_value
+            assert str(value).lower() == str(actual_value).lower(), f"Expected value '{value}' but got '{actual_value}'"
             return element
 
-    def wait_for_element_text(self, locator, expected_text, slicing=None):
+    def check_element_text(self, locator, expected_text, slicing=None):
         with allure.step(f"Wait for element located by {locator} to contain text '{expected_text}'"):
             element = self.wait.until(EC.presence_of_element_located(locator))
-            actual_text = slicing(element.text) if slicing else element.text
+            actual_text = slicing(element.text) if slicing else element.text # Slicing operation on element text is expected
             assert expected_text.lower() in actual_text.lower(), f"Expected text '{expected_text}' in '{actual_text}' (full text: '{element.text}')"
             return element
+
+    def check_text_in_multiple_elements(self, locator, expected_text, slicing=None):
+        with allure.step(f"Check if text '{expected_text}' is present in multiple elements"):
+            elements = self.wait.until(EC.presence_of_all_elements_located(locator))
+            for element in elements:
+                actual_text = slicing(element.text) if slicing else element.text
+                if str(expected_text).lower() in actual_text.lower():
+                    return element
+            assert False, f"Text '{expected_text}' not found in any of the elements"
 
     def scroll_to(self, target):
         if isinstance(target, tuple):  # Check if target is a locator

@@ -57,11 +57,12 @@ class RadioButton(BasePage):
     @allure.step("Verify presence text for a radio button")
     def is_present_confirmation_text(self, button_type):
         expected_text = button_type
-        self.wait_for_element_text(self.OUTPUT_RESULT, expected_text)
+        self.check_element_text(self.OUTPUT_RESULT, expected_text)
 
-    @allure.step("Check if the 'No' radio button is disabled")
+    @allure.step("Check if 'No' radio button is disabled and not clickable")
     def check_if_no_radio_button_is_disabled(self):
         element = self.element_is_presence(self.NO_RADIO_BUTTON_CHECK)
         is_disabled = element.get_attribute("disabled") is not None
-        assert is_disabled, "'No' radio button should be disabled"
+        is_clickable = not element.is_enabled()
+        assert is_disabled and is_clickable, "'No' radio button should be disabled and not clickable."
         return is_disabled

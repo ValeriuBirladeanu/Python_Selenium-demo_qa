@@ -36,7 +36,7 @@ class CheckBox(BasePage):
 
     @allure.step("Get checked checkboxes")
     def get_checked_checkboxes(self):
-        checked_list = self.elements_are_presence(self.CHECKED_ITEMS)
+        checked_list = self.elements_are_visible(self.CHECKED_ITEMS)
         data = []
         for box in checked_list:
             title_item = box.find_element(*self.TITLE_ITEM)
@@ -46,7 +46,7 @@ class CheckBox(BasePage):
 
     @allure.step("Get output results")
     def get_output_results(self):
-        result_list = self.elements_are_presence(self.OUTPUT_RESULT)
+        result_list = self.elements_are_visible(self.OUTPUT_RESULT)
         data = []
         for item in result_list:
             data.append(item.text)

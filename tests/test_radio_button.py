@@ -6,7 +6,7 @@ from base.base_test import BaseTest
 @allure.feature("Elements - Radio Button")
 class TestRadioButton(BaseTest):
 
-    @allure.title("Test random radio button selection")
+    @allure.title("Select and verify a random radio button")
     @pytest.mark.smoke
     def test_random_radio_button(self):
         self.radio_button.open()
@@ -14,7 +14,7 @@ class TestRadioButton(BaseTest):
         self.radio_button.click_random_radio_button_and_verify()
         self.radio_button.make_screenshot()
 
-    @allure.title("Test that the 'No' radio button is disabled")
+    @allure.title("Verify 'No' radio button is disabled")
     @pytest.mark.smoke
     def test_disabled_radio_button(self):
         self.radio_button.open()
