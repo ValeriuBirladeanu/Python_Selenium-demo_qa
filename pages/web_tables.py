@@ -1,4 +1,8 @@
+import time
+
 import allure
+from faker.generator import random
+
 from base.base_page import BasePage
 from config.links import Links
 from data.data_generator import TestDataGenerator
@@ -16,9 +20,9 @@ class WebTables(BasePage):
     SALARY_INPUT = ("xpath", "//input[@id='salary']")
     DEPARTMENT_INPUT = ("xpath", "//input[@id='department']")
     SUBMIT_BUTTON = ("xpath", "//button[@id='submit']")
-
     ALL_OUTPUT_CELLS_ELEMENTS = ("xpath", "//div[@class='rt-td']")
-
+    SEARCH_INPUT = ("xpath", "//input[@id='searchBox']")
+    ROW_TABLE = ("xpath", "//div[@role='row']")
 
     def __init__(self, driver):
         super().__init__(driver)
@@ -83,3 +87,18 @@ class WebTables(BasePage):
         self.check_text_in_multiple_elements(self.ALL_OUTPUT_CELLS_ELEMENTS, self.age)
         self.check_text_in_multiple_elements(self.ALL_OUTPUT_CELLS_ELEMENTS, self.salary)
         self.check_text_in_multiple_elements(self.ALL_OUTPUT_CELLS_ELEMENTS, self.department, lambda slicing: slicing.strip())
+
+    @allure.step('Select a random person and perform a search')
+    def search_some_person(self):
+        cells = self.elements_are_visible(self.ALL_OUTPUT_CELLS_ELEMENTS)
+        cells = cells[1:]
+        self.search_input = self.get_random_element(cells).text
+        search_input_element = self.element_is_clickable(self.SEARCH_INPUT)
+        search_input_element.clear()
+        search_input_element.send_keys(self.search_input)
+        return self.search_input
+
+    @allure.step('Verify the search result contains the searched person')
+    def check_search_person(self):
+        self.check_text_in_multiple_elements(self.ALL_OUTPUT_CELLS_ELEMENTS, self.search_input)
+        return self.search_input
