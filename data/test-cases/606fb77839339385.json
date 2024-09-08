@@ -1,22 +1,37 @@
 {
-  "uid" : "1eea84f0416f936a",
+  "uid" : "606fb77839339385",
   "name" : "Completing the text box fields",
   "fullName" : "tests.test_text_box.TestTextBox#test_complete_text_box",
   "historyId" : "3003eea26cf009c4e05a5883424b3803",
   "time" : {
-    "start" : 1725635241364,
-    "stop" : 1725635250947,
-    "duration" : 9583
+    "start" : 1725805009118,
+    "stop" : 1725805017019,
+    "duration" : 7901
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1725804993204,
+      "stop" : 1725804993289,
+      "duration" : 85
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
     "name" : "driver",
     "time" : {
-      "start" : 1725635240970,
-      "stop" : 1725635241319,
-      "duration" : 349
+      "start" : 1725805008748,
+      "stop" : 1725805009074,
+      "duration" : 326
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,24 +44,9 @@
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1725635241319,
-      "stop" : 1725635241363,
+      "start" : 1725805009074,
+      "stop" : 1725805009118,
       "duration" : 44
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "_session_faker",
-    "time" : {
-      "start" : 1725635220006,
-      "stop" : 1725635220104,
-      "duration" : 98
     },
     "status" : "passed",
     "steps" : [ ],
@@ -62,9 +62,9 @@
     "steps" : [ {
       "name" : "Open https://demoqa.com/text-box page",
       "time" : {
-        "start" : 1725635241364,
-        "stop" : 1725635250078,
-        "duration" : 8714
+        "start" : 1725805009118,
+        "stop" : 1725805016246,
+        "duration" : 7128
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,9 +77,9 @@
     }, {
       "name" : "Page https://demoqa.com/text-box is opened",
       "time" : {
-        "start" : 1725635250078,
-        "stop" : 1725635250082,
-        "duration" : 4
+        "start" : 1725805016246,
+        "stop" : 1725805016249,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,17 +92,17 @@
     }, {
       "name" : "Enter full name",
       "time" : {
-        "start" : 1725635250082,
-        "stop" : 1725635250163,
-        "duration" : 81
+        "start" : 1725805016249,
+        "stop" : 1725805016312,
+        "duration" : 63
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check if element located by ('xpath', \"//input[@id='userName']\") is clickable",
         "time" : {
-          "start" : 1725635250082,
-          "stop" : 1725635250103,
-          "duration" : 21
+          "start" : 1725805016249,
+          "stop" : 1725805016269,
+          "duration" : 20
         },
         "status" : "passed",
         "steps" : [ ],
@@ -122,17 +122,17 @@
     }, {
       "name" : "Enter email",
       "time" : {
-        "start" : 1725635250163,
-        "stop" : 1725635250339,
-        "duration" : 176
+        "start" : 1725805016312,
+        "stop" : 1725805016483,
+        "duration" : 171
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check if element located by ('xpath', \"//input[@id='userEmail']\") is clickable",
         "time" : {
-          "start" : 1725635250163,
-          "stop" : 1725635250246,
-          "duration" : 83
+          "start" : 1725805016313,
+          "stop" : 1725805016385,
+          "duration" : 72
         },
         "status" : "passed",
         "steps" : [ ],
@@ -152,17 +152,17 @@
     }, {
       "name" : "Enter current address",
       "time" : {
-        "start" : 1725635250339,
-        "stop" : 1725635250422,
-        "duration" : 83
+        "start" : 1725805016483,
+        "stop" : 1725805016554,
+        "duration" : 71
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check if element located by ('xpath', \"//textarea[@id='currentAddress']\") is clickable",
         "time" : {
-          "start" : 1725635250339,
-          "stop" : 1725635250362,
-          "duration" : 23
+          "start" : 1725805016484,
+          "stop" : 1725805016502,
+          "duration" : 18
         },
         "status" : "passed",
         "steps" : [ ],
@@ -182,17 +182,17 @@
     }, {
       "name" : "Enter permanent address",
       "time" : {
-        "start" : 1725635250422,
-        "stop" : 1725635250498,
-        "duration" : 76
+        "start" : 1725805016554,
+        "stop" : 1725805016618,
+        "duration" : 64
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check if element located by ('xpath', \"//textarea[@id='permanentAddress']\") is clickable",
         "time" : {
-          "start" : 1725635250422,
-          "stop" : 1725635250445,
-          "duration" : 23
+          "start" : 1725805016555,
+          "stop" : 1725805016575,
+          "duration" : 20
         },
         "status" : "passed",
         "steps" : [ ],
@@ -212,17 +212,17 @@
     }, {
       "name" : "Click submit button",
       "time" : {
-        "start" : 1725635250498,
-        "stop" : 1725635250567,
-        "duration" : 69
+        "start" : 1725805016619,
+        "stop" : 1725805016677,
+        "duration" : 58
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check if element located by ('xpath', \"//button[@id='submit']\") is clickable",
         "time" : {
-          "start" : 1725635250512,
-          "stop" : 1725635250535,
-          "duration" : 23
+          "start" : 1725805016629,
+          "stop" : 1725805016650,
+          "duration" : 21
         },
         "status" : "passed",
         "steps" : [ ],
@@ -242,17 +242,17 @@
     }, {
       "name" : "Verify saved full name",
       "time" : {
-        "start" : 1725635250567,
-        "stop" : 1725635250604,
-        "duration" : 37
+        "start" : 1725805016677,
+        "stop" : 1725805016708,
+        "duration" : 31
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Wait for element located by ('xpath', \"//input[@id='userName']\") to have value 'David Russell'",
+        "name" : "Wait for element located by ('xpath', \"//input[@id='userName']\") to have value 'Cynthia Shaw'",
         "time" : {
-          "start" : 1725635250567,
-          "stop" : 1725635250583,
-          "duration" : 16
+          "start" : 1725805016677,
+          "stop" : 1725805016691,
+          "duration" : 14
         },
         "status" : "passed",
         "steps" : [ ],
@@ -263,11 +263,11 @@
         "stepsCount" : 0,
         "hasContent" : false
       }, {
-        "name" : "Wait for element located by ('xpath', \"//p[@id='name']\") to contain text 'David Russell'",
+        "name" : "Wait for element located by ('xpath', \"//p[@id='name']\") to contain text 'Cynthia Shaw'",
         "time" : {
-          "start" : 1725635250583,
-          "stop" : 1725635250604,
-          "duration" : 21
+          "start" : 1725805016691,
+          "stop" : 1725805016708,
+          "duration" : 17
         },
         "status" : "passed",
         "steps" : [ ],
@@ -287,17 +287,17 @@
     }, {
       "name" : "Verify saved email",
       "time" : {
-        "start" : 1725635250604,
-        "stop" : 1725635250637,
-        "duration" : 33
+        "start" : 1725805016708,
+        "stop" : 1725805016738,
+        "duration" : 30
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Wait for element located by ('xpath', \"//input[@id='userEmail']\") to have value 'angela59@example.net'",
+        "name" : "Wait for element located by ('xpath', \"//input[@id='userEmail']\") to have value 'ronaldanderson@example.org'",
         "time" : {
-          "start" : 1725635250604,
-          "stop" : 1725635250618,
-          "duration" : 14
+          "start" : 1725805016708,
+          "stop" : 1725805016721,
+          "duration" : 13
         },
         "status" : "passed",
         "steps" : [ ],
@@ -308,11 +308,11 @@
         "stepsCount" : 0,
         "hasContent" : false
       }, {
-        "name" : "Wait for element located by ('xpath', \"//p[@id='email']\") to contain text 'angela59@example.net'",
+        "name" : "Wait for element located by ('xpath', \"//p[@id='email']\") to contain text 'ronaldanderson@example.org'",
         "time" : {
-          "start" : 1725635250618,
-          "stop" : 1725635250637,
-          "duration" : 19
+          "start" : 1725805016721,
+          "stop" : 1725805016738,
+          "duration" : 17
         },
         "status" : "passed",
         "steps" : [ ],
@@ -332,17 +332,17 @@
     }, {
       "name" : "Verify saved current address",
       "time" : {
-        "start" : 1725635250637,
-        "stop" : 1725635250682,
-        "duration" : 45
+        "start" : 1725805016738,
+        "stop" : 1725805016767,
+        "duration" : 29
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Wait for element located by ('xpath', \"//textarea[@id='currentAddress']\") to have value '12559 Stephanie Trail Apt. 371'",
+        "name" : "Wait for element located by ('xpath', \"//textarea[@id='currentAddress']\") to have value '31590 Norton Shore Apt. 453'",
         "time" : {
-          "start" : 1725635250637,
-          "stop" : 1725635250650,
-          "duration" : 13
+          "start" : 1725805016738,
+          "stop" : 1725805016750,
+          "duration" : 12
         },
         "status" : "passed",
         "steps" : [ ],
@@ -353,11 +353,11 @@
         "stepsCount" : 0,
         "hasContent" : false
       }, {
-        "name" : "Wait for element located by ('xpath', \"//p[@id='currentAddress']\") to contain text '12559 Stephanie Trail Apt. 371'",
+        "name" : "Wait for element located by ('xpath', \"//p[@id='currentAddress']\") to contain text '31590 Norton Shore Apt. 453'",
         "time" : {
-          "start" : 1725635250650,
-          "stop" : 1725635250682,
-          "duration" : 32
+          "start" : 1725805016750,
+          "stop" : 1725805016767,
+          "duration" : 17
         },
         "status" : "passed",
         "steps" : [ ],
@@ -377,17 +377,17 @@
     }, {
       "name" : "Verify saved permanent address",
       "time" : {
-        "start" : 1725635250682,
-        "stop" : 1725635250727,
-        "duration" : 45
+        "start" : 1725805016767,
+        "stop" : 1725805016795,
+        "duration" : 28
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Wait for element located by ('xpath', \"//textarea[@id='permanentAddress']\") to have value '2221 Megan Ports Suite 504'",
+        "name" : "Wait for element located by ('xpath', \"//textarea[@id='permanentAddress']\") to have value '39454 Mcintyre Hills'",
         "time" : {
-          "start" : 1725635250682,
-          "stop" : 1725635250709,
-          "duration" : 27
+          "start" : 1725805016767,
+          "stop" : 1725805016778,
+          "duration" : 11
         },
         "status" : "passed",
         "steps" : [ ],
@@ -398,11 +398,11 @@
         "stepsCount" : 0,
         "hasContent" : false
       }, {
-        "name" : "Wait for element located by ('xpath', \"//p[@id='permanentAddress']\") to contain text '2221 Megan Ports Suite 504'",
+        "name" : "Wait for element located by ('xpath', \"//p[@id='permanentAddress']\") to contain text '39454 Mcintyre Hills'",
         "time" : {
-          "start" : 1725635250709,
-          "stop" : 1725635250727,
-          "duration" : 18
+          "start" : 1725805016778,
+          "stop" : 1725805016795,
+          "duration" : 17
         },
         "status" : "passed",
         "steps" : [ ],
@@ -421,11 +421,11 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "46a582c98ae5661c",
+      "uid" : "1d064dea0824838a",
       "name" : "Screenshot",
-      "source" : "46a582c98ae5661c.png",
+      "source" : "1d064dea0824838a.png",
       "type" : "image/png",
-      "size" : 322236
+      "size" : 356063
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
@@ -436,9 +436,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1725635250947,
-      "stop" : 1725635251010,
-      "duration" : 63
+      "start" : 1725805017020,
+      "stop" : 1725805017081,
+      "duration" : 61
     },
     "status" : "passed",
     "steps" : [ ],
@@ -466,7 +466,7 @@
     "value" : "TestTextBox"
   }, {
     "name" : "host",
-    "value" : "ee546a3c4cde"
+    "value" : "e3b4760d3bf9"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -496,11 +496,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 12,
+        "passed" : 13,
         "unknown" : 0,
-        "total" : 12
+        "total" : 13
       },
       "items" : [ {
+        "uid" : "1eea84f0416f936a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725635241364,
+          "stop" : 1725635250947,
+          "duration" : 9583
+        }
+      }, {
         "uid" : "76219be37df202e0",
         "status" : "passed",
         "time" : {
@@ -592,6 +600,6 @@
     },
     "tags" : [ "smoke" ]
   },
-  "source" : "1eea84f0416f936a.json",
+  "source" : "606fb77839339385.json",
   "parameterValues" : [ ]
 }

@@ -8,13 +8,13 @@
         "name" : "TestCheckBox",
         "children" : [ {
           "name" : "Click on the checkboxes",
-          "uid" : "ffb6981be8208246",
+          "uid" : "c4711fec16b062f2",
           "parentUid" : "a022fc5a0c494a5ff44c7cdbb105a87b",
           "status" : "passed",
           "time" : {
-            "start" : 1725635220552,
-            "stop" : 1725635224396,
-            "duration" : 3844
+            "start" : 1725804993729,
+            "stop" : 1725805003232,
+            "duration" : 9503
           },
           "flaky" : false,
           "newFailed" : false,
@@ -29,26 +29,26 @@
         "name" : "TestRadioButton",
         "children" : [ {
           "name" : "Select and verify a random radio button",
-          "uid" : "5390f6462a3d350f",
+          "uid" : "4baba1c649e954a1",
           "parentUid" : "8bd0b07b07bbdc84885236d45881ca06",
           "status" : "passed",
           "time" : {
-            "start" : 1725635224915,
-            "stop" : 1725635233017,
-            "duration" : 8102
+            "start" : 1725805003695,
+            "stop" : 1725805006158,
+            "duration" : 2463
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Verify 'No' radio button is disabled",
-          "uid" : "4d799bdcd838cfb3",
+          "uid" : "8c0fa70f5342823a",
           "parentUid" : "8bd0b07b07bbdc84885236d45881ca06",
           "status" : "passed",
           "time" : {
-            "start" : 1725635233467,
-            "stop" : 1725635240906,
-            "duration" : 7439
+            "start" : 1725805006593,
+            "stop" : 1725805008686,
+            "duration" : 2093
           },
           "flaky" : false,
           "newFailed" : false,
@@ -63,13 +63,13 @@
         "name" : "TestTextBox",
         "children" : [ {
           "name" : "Completing the text box fields",
-          "uid" : "1eea84f0416f936a",
+          "uid" : "606fb77839339385",
           "parentUid" : "de9c24f523fcf9ede2b505df492b4c81",
           "status" : "passed",
           "time" : {
-            "start" : 1725635241364,
-            "stop" : 1725635250947,
-            "duration" : 9583
+            "start" : 1725805009118,
+            "stop" : 1725805017019,
+            "duration" : 7901
           },
           "flaky" : false,
           "newFailed" : false,
@@ -84,13 +84,26 @@
         "name" : "TestTextBox",
         "children" : [ {
           "name" : "Add new person in web tables",
-          "uid" : "287ca98b2cddd188",
+          "uid" : "cf6f8045233feba1",
           "parentUid" : "dfe55abd8b67420aa5fb9d5550f4e180",
           "status" : "passed",
           "time" : {
-            "start" : 1725635251405,
-            "stop" : 1725635256020,
-            "duration" : 4615
+            "start" : 1725805017450,
+            "stop" : 1725805021835,
+            "duration" : 4385
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Search person in web tables",
+          "uid" : "856086a438ef036e",
+          "parentUid" : "dfe55abd8b67420aa5fb9d5550f4e180",
+          "status" : "passed",
+          "time" : {
+            "start" : 1725805022270,
+            "stop" : 1725805031402,
+            "duration" : 9132
           },
           "flaky" : false,
           "newFailed" : false,

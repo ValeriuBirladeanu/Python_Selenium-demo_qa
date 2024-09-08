@@ -1,22 +1,22 @@
 {
-  "uid" : "ffb6981be8208246",
+  "uid" : "c4711fec16b062f2",
   "name" : "Click on the checkboxes",
   "fullName" : "tests.test_check_box.TestCheckBox#test_click_check_box",
   "historyId" : "ac46f10f1fffab8a28c9e0f981a7ac87",
   "time" : {
-    "start" : 1725635220552,
-    "stop" : 1725635224396,
-    "duration" : 3844
+    "start" : 1725804993729,
+    "stop" : 1725805003232,
+    "duration" : 9503
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "setup",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1725635220504,
-      "stop" : 1725635220551,
-      "duration" : 47
+      "start" : 1725804993204,
+      "stop" : 1725804993289,
+      "duration" : 85
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,9 +29,9 @@
   }, {
     "name" : "driver",
     "time" : {
-      "start" : 1725635220104,
-      "stop" : 1725635220503,
-      "duration" : 399
+      "start" : 1725804993289,
+      "stop" : 1725804993686,
+      "duration" : 397
     },
     "status" : "passed",
     "steps" : [ ],
@@ -42,11 +42,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "_session_faker",
+    "name" : "setup",
     "time" : {
-      "start" : 1725635220006,
-      "stop" : 1725635220104,
-      "duration" : 98
+      "start" : 1725804993686,
+      "stop" : 1725804993729,
+      "duration" : 43
     },
     "status" : "passed",
     "steps" : [ ],
@@ -62,9 +62,9 @@
     "steps" : [ {
       "name" : "Open https://demoqa.com/checkbox page",
       "time" : {
-        "start" : 1725635220552,
-        "stop" : 1725635222275,
-        "duration" : 1723
+        "start" : 1725804993729,
+        "stop" : 1725805001537,
+        "duration" : 7808
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,9 +77,9 @@
     }, {
       "name" : "Page https://demoqa.com/checkbox is opened",
       "time" : {
-        "start" : 1725635222275,
-        "stop" : 1725635222285,
-        "duration" : 10
+        "start" : 1725805001537,
+        "stop" : 1725805001540,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,17 +92,17 @@
     }, {
       "name" : "Click Expand All button",
       "time" : {
-        "start" : 1725635222285,
-        "stop" : 1725635222402,
-        "duration" : 117
+        "start" : 1725805001540,
+        "stop" : 1725805001595,
+        "duration" : 55
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check if element located by ('xpath', \"//button[@title='Expand all']\") is clickable",
         "time" : {
-          "start" : 1725635222285,
-          "stop" : 1725635222332,
-          "duration" : 47
+          "start" : 1725805001540,
+          "stop" : 1725805001559,
+          "duration" : 19
         },
         "status" : "passed",
         "steps" : [ ],
@@ -122,17 +122,17 @@
     }, {
       "name" : "Verify checkboxes are visible and clickable",
       "time" : {
-        "start" : 1725635222403,
-        "stop" : 1725635223133,
-        "duration" : 730
+        "start" : 1725805001595,
+        "stop" : 1725805001969,
+        "duration" : 374
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check visibility of elements located by ('xpath', \"//span[@class='rct-title']\")",
         "time" : {
-          "start" : 1725635222403,
-          "stop" : 1725635222825,
-          "duration" : 422
+          "start" : 1725805001595,
+          "stop" : 1725805001813,
+          "duration" : 218
         },
         "status" : "passed",
         "steps" : [ ],
@@ -152,17 +152,17 @@
     }, {
       "name" : "Click random checkbox",
       "time" : {
-        "start" : 1725635223134,
-        "stop" : 1725635223831,
-        "duration" : 697
+        "start" : 1725805001969,
+        "stop" : 1725805002545,
+        "duration" : 576
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check visibility of elements located by ('xpath', \"//span[@class='rct-title']\")",
         "time" : {
-          "start" : 1725635223134,
-          "stop" : 1725635223224,
-          "duration" : 90
+          "start" : 1725805001969,
+          "stop" : 1725805002035,
+          "duration" : 66
         },
         "status" : "passed",
         "steps" : [ ],
@@ -182,24 +182,24 @@
     }, {
       "name" : "Verify checkbox selections are reflected in output results",
       "time" : {
-        "start" : 1725635223831,
-        "stop" : 1725635224219,
-        "duration" : 388
+        "start" : 1725805002546,
+        "stop" : 1725805003033,
+        "duration" : 487
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Get checked checkboxes",
         "time" : {
-          "start" : 1725635223831,
-          "stop" : 1725635224076,
-          "duration" : 245
+          "start" : 1725805002546,
+          "stop" : 1725805002826,
+          "duration" : 280
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check visibility of elements located by ('css selector', 'svg.rct-icon.rct-icon-check')",
           "time" : {
-            "start" : 1725635223831,
-            "stop" : 1725635223894,
+            "start" : 1725805002546,
+            "stop" : 1725805002609,
             "duration" : 63
           },
           "status" : "passed",
@@ -220,17 +220,17 @@
       }, {
         "name" : "Get output results",
         "time" : {
-          "start" : 1725635224076,
-          "stop" : 1725635224219,
-          "duration" : 143
+          "start" : 1725805002826,
+          "stop" : 1725805003033,
+          "duration" : 207
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check visibility of elements located by ('xpath', \"//span[@class='text-success']\")",
           "time" : {
-            "start" : 1725635224076,
-            "stop" : 1725635224137,
-            "duration" : 61
+            "start" : 1725805002826,
+            "stop" : 1725805002891,
+            "duration" : 65
           },
           "status" : "passed",
           "steps" : [ ],
@@ -256,11 +256,11 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "4f403dd605074ea8",
+      "uid" : "e3503c87a78fcd79",
       "name" : "Screenshot",
-      "source" : "4f403dd605074ea8.png",
+      "source" : "e3503c87a78fcd79.png",
       "type" : "image/png",
-      "size" : 278056
+      "size" : 356175
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
@@ -271,9 +271,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1725635224397,
-      "stop" : 1725635224491,
-      "duration" : 94
+      "start" : 1725805003233,
+      "stop" : 1725805003324,
+      "duration" : 91
     },
     "status" : "passed",
     "steps" : [ ],
@@ -301,7 +301,7 @@
     "value" : "TestCheckBox"
   }, {
     "name" : "host",
-    "value" : "ee546a3c4cde"
+    "value" : "e3b4760d3bf9"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -331,11 +331,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 6,
+        "passed" : 7,
         "unknown" : 0,
-        "total" : 6
+        "total" : 7
       },
       "items" : [ {
+        "uid" : "ffb6981be8208246",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725635220552,
+          "stop" : 1725635224396,
+          "duration" : 3844
+        }
+      }, {
         "uid" : "801e27138eaf993e",
         "status" : "passed",
         "time" : {
@@ -379,6 +387,6 @@
     },
     "tags" : [ "smoke" ]
   },
-  "source" : "ffb6981be8208246.json",
+  "source" : "c4711fec16b062f2.json",
   "parameterValues" : [ ]
 }

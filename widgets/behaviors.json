@@ -12,6 +12,17 @@
       "total" : 2
     }
   }, {
+    "uid" : "270bae793c458e2b11b8513b36ab3713",
+    "name" : "Elements - Wev Tables",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
     "uid" : "16a2b6b6b9e5e61199a22ee012d02b7c",
     "name" : "Elements - Check Box",
     "statistic" : {
@@ -25,17 +36,6 @@
   }, {
     "uid" : "c01ccb949c3954d6a5a1cb634dfeec6c",
     "name" : "Elements - Text Box",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "270bae793c458e2b11b8513b36ab3713",
-    "name" : "Elements - Wev Tables",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

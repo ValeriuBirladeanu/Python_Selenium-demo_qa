@@ -1,0 +1,258 @@
+{
+  "uid" : "856086a438ef036e",
+  "name" : "Search person in web tables",
+  "fullName" : "tests.test_web_tables.TestTextBox#test_search_some_person",
+  "historyId" : "f13b9f00879ad43cb83da285efb1fcf2",
+  "time" : {
+    "start" : 1725805022270,
+    "stop" : 1725805031402,
+    "duration" : 9132
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1725804993204,
+      "stop" : 1725804993289,
+      "duration" : 85
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1725805022225,
+      "stop" : 1725805022270,
+      "duration" : 45
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1725805021899,
+      "stop" : 1725805022225,
+      "duration" : 326
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open https://demoqa.com/webtables page",
+      "time" : {
+        "start" : 1725805022270,
+        "stop" : 1725805029644,
+        "duration" : 7374
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://demoqa.com/webtables is opened",
+      "time" : {
+        "start" : 1725805029644,
+        "stop" : 1725805029647,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Select a random person and perform a search",
+      "time" : {
+        "start" : 1725805029647,
+        "stop" : 1725805031100,
+        "duration" : 1453
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check visibility of elements located by ('xpath', \"//div[@class='rt-td']\")",
+        "time" : {
+          "start" : 1725805029648,
+          "stop" : 1725805030130,
+          "duration" : 482
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Get a random element from the list",
+        "time" : {
+          "start" : 1725805030130,
+          "stop" : 1725805030975,
+          "duration" : 845
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check if element located by ('xpath', \"//input[@id='searchBox']\") is clickable",
+        "time" : {
+          "start" : 1725805030979,
+          "stop" : 1725805031001,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Verify the search result contains the searched person",
+      "time" : {
+        "start" : 1725805031100,
+        "stop" : 1725805031149,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check if text '12000' is present in multiple elements",
+        "time" : {
+          "start" : 1725805031100,
+          "stop" : 1725805031149,
+          "duration" : 49
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "f0c8063c11828b38",
+      "name" : "Screenshot",
+      "source" : "f0c8063c11828b38.png",
+      "type" : "image/png",
+      "size" : 437063
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1725805031403,
+      "stop" : 1725805031466,
+      "duration" : 63
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Elements - Wev Tables"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_web_tables"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTextBox"
+  }, {
+    "name" : "host",
+    "value" : "e3b4760d3bf9"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_web_tables"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "856086a438ef036e.json",
+  "parameterValues" : [ ]
+}

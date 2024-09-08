@@ -6,13 +6,13 @@
       "name" : "test_check_box",
       "children" : [ {
         "name" : "Click on the checkboxes",
-        "uid" : "ffb6981be8208246",
+        "uid" : "c4711fec16b062f2",
         "parentUid" : "af5793ed23373e4f0c5b59cc1a94ebd4",
         "status" : "passed",
         "time" : {
-          "start" : 1725635220552,
-          "stop" : 1725635224396,
-          "duration" : 3844
+          "start" : 1725804993729,
+          "stop" : 1725805003232,
+          "duration" : 9503
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,26 +23,26 @@
       "name" : "test_radio_button",
       "children" : [ {
         "name" : "Select and verify a random radio button",
-        "uid" : "5390f6462a3d350f",
+        "uid" : "4baba1c649e954a1",
         "parentUid" : "c26c95efb2f01236c7d493395d898647",
         "status" : "passed",
         "time" : {
-          "start" : 1725635224915,
-          "stop" : 1725635233017,
-          "duration" : 8102
+          "start" : 1725805003695,
+          "stop" : 1725805006158,
+          "duration" : 2463
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Verify 'No' radio button is disabled",
-        "uid" : "4d799bdcd838cfb3",
+        "uid" : "8c0fa70f5342823a",
         "parentUid" : "c26c95efb2f01236c7d493395d898647",
         "status" : "passed",
         "time" : {
-          "start" : 1725635233467,
-          "stop" : 1725635240906,
-          "duration" : 7439
+          "start" : 1725805006593,
+          "stop" : 1725805008686,
+          "duration" : 2093
         },
         "flaky" : false,
         "newFailed" : false,
@@ -53,13 +53,13 @@
       "name" : "test_text_box",
       "children" : [ {
         "name" : "Completing the text box fields",
-        "uid" : "1eea84f0416f936a",
+        "uid" : "606fb77839339385",
         "parentUid" : "a296da0f6cca0789f7c3581c1666debd",
         "status" : "passed",
         "time" : {
-          "start" : 1725635241364,
-          "stop" : 1725635250947,
-          "duration" : 9583
+          "start" : 1725805009118,
+          "stop" : 1725805017019,
+          "duration" : 7901
         },
         "flaky" : false,
         "newFailed" : false,
@@ -70,13 +70,26 @@
       "name" : "test_web_tables",
       "children" : [ {
         "name" : "Add new person in web tables",
-        "uid" : "287ca98b2cddd188",
+        "uid" : "cf6f8045233feba1",
         "parentUid" : "ffa66aa28e8b95e51c8678536a2ce16a",
         "status" : "passed",
         "time" : {
-          "start" : 1725635251405,
-          "stop" : 1725635256020,
-          "duration" : 4615
+          "start" : 1725805017450,
+          "stop" : 1725805021835,
+          "duration" : 4385
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search person in web tables",
+        "uid" : "856086a438ef036e",
+        "parentUid" : "ffa66aa28e8b95e51c8678536a2ce16a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725805022270,
+          "stop" : 1725805031402,
+          "duration" : 9132
         },
         "flaky" : false,
         "newFailed" : false,

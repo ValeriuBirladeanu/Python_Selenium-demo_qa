@@ -1,37 +1,22 @@
 {
-  "uid" : "5390f6462a3d350f",
+  "uid" : "4baba1c649e954a1",
   "name" : "Select and verify a random radio button",
   "fullName" : "tests.test_radio_button.TestRadioButton#test_random_radio_button",
   "historyId" : "5c0a7aed3709908479f7d51ec7f394fc",
   "time" : {
-    "start" : 1725635224915,
-    "stop" : 1725635233017,
-    "duration" : 8102
+    "start" : 1725805003695,
+    "stop" : 1725805006158,
+    "duration" : 2463
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "setup",
-    "time" : {
-      "start" : 1725635224869,
-      "stop" : 1725635224915,
-      "duration" : 46
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
     "name" : "driver",
     "time" : {
-      "start" : 1725635224493,
-      "stop" : 1725635224869,
-      "duration" : 376
+      "start" : 1725805003326,
+      "stop" : 1725805003651,
+      "duration" : 325
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,9 +29,24 @@
   }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1725635220006,
-      "stop" : 1725635220104,
-      "duration" : 98
+      "start" : 1725804993204,
+      "stop" : 1725804993289,
+      "duration" : 85
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1725805003651,
+      "stop" : 1725805003694,
+      "duration" : 43
     },
     "status" : "passed",
     "steps" : [ ],
@@ -62,9 +62,9 @@
     "steps" : [ {
       "name" : "Open https://demoqa.com/radio-button page",
       "time" : {
-        "start" : 1725635224915,
-        "stop" : 1725635232502,
-        "duration" : 7587
+        "start" : 1725805003695,
+        "stop" : 1725805005140,
+        "duration" : 1445
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,9 +77,9 @@
     }, {
       "name" : "Page https://demoqa.com/radio-button is opened",
       "time" : {
-        "start" : 1725635232502,
-        "stop" : 1725635232505,
-        "duration" : 3
+        "start" : 1725805005141,
+        "stop" : 1725805005149,
+        "duration" : 8
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,124 +92,25 @@
     }, {
       "name" : "Click a random radio button and verify selection",
       "time" : {
-        "start" : 1725635232505,
-        "stop" : 1725635232791,
-        "duration" : 286
+        "start" : 1725805005150,
+        "stop" : 1725805005887,
+        "duration" : 737
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Click on a radio button",
         "time" : {
-          "start" : 1725635232505,
-          "stop" : 1725635232575,
-          "duration" : 70
-        },
-        "status" : "passed",
-        "steps" : [ {
-          "name" : "Check if element located by ('xpath', \"//label[@for='yesRadio']\") is clickable",
-          "time" : {
-            "start" : 1725635232506,
-            "stop" : 1725635232528,
-            "duration" : 22
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false,
-          "stepsCount" : 0,
-          "hasContent" : false
-        } ],
-        "attachments" : [ ],
-        "parameters" : [ {
-          "name" : "button_type",
-          "value" : "'yes'"
-        } ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "stepsCount" : 1,
-        "hasContent" : true
-      }, {
-        "name" : "Check if the radio button is selected",
-        "time" : {
-          "start" : 1725635232575,
-          "stop" : 1725635232637,
-          "duration" : 62
-        },
-        "status" : "passed",
-        "steps" : [ {
-          "name" : "Check presence of element located by ('xpath', \"//input[@id='yesRadio']\")",
-          "time" : {
-            "start" : 1725635232575,
-            "stop" : 1725635232624,
-            "duration" : 49
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false,
-          "stepsCount" : 0,
-          "hasContent" : false
-        } ],
-        "attachments" : [ ],
-        "parameters" : [ {
-          "name" : "button_type",
-          "value" : "'yes'"
-        } ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "stepsCount" : 1,
-        "hasContent" : true
-      }, {
-        "name" : "Verify presence text for a radio button",
-        "time" : {
-          "start" : 1725635232637,
-          "stop" : 1725635232678,
-          "duration" : 41
-        },
-        "status" : "passed",
-        "steps" : [ {
-          "name" : "Wait for element located by ('xpath', \"//span[@class='text-success']\") to contain text 'yes'",
-          "time" : {
-            "start" : 1725635232638,
-            "stop" : 1725635232678,
-            "duration" : 40
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false,
-          "stepsCount" : 0,
-          "hasContent" : false
-        } ],
-        "attachments" : [ ],
-        "parameters" : [ {
-          "name" : "button_type",
-          "value" : "'yes'"
-        } ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "stepsCount" : 1,
-        "hasContent" : true
-      }, {
-        "name" : "Click on a radio button",
-        "time" : {
-          "start" : 1725635232678,
-          "stop" : 1725635232757,
-          "duration" : 79
+          "start" : 1725805005150,
+          "stop" : 1725805005271,
+          "duration" : 121
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check if element located by ('xpath', \"//label[@for='impressiveRadio']\") is clickable",
           "time" : {
-            "start" : 1725635232678,
-            "stop" : 1725635232731,
-            "duration" : 53
+            "start" : 1725805005150,
+            "stop" : 1725805005226,
+            "duration" : 76
           },
           "status" : "passed",
           "steps" : [ ],
@@ -232,49 +133,16 @@
       }, {
         "name" : "Check if the radio button is selected",
         "time" : {
-          "start" : 1725635232757,
-          "stop" : 1725635232772,
-          "duration" : 15
+          "start" : 1725805005272,
+          "stop" : 1725805005325,
+          "duration" : 53
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check presence of element located by ('xpath', \"//input[@id='impressiveRadio']\")",
           "time" : {
-            "start" : 1725635232757,
-            "stop" : 1725635232766,
-            "duration" : 9
-          },
-          "status" : "passed",
-          "steps" : [ ],
-          "attachments" : [ ],
-          "parameters" : [ ],
-          "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false,
-          "stepsCount" : 0,
-          "hasContent" : false
-        } ],
-        "attachments" : [ ],
-        "parameters" : [ {
-          "name" : "button_type",
-          "value" : "'impressive'"
-        } ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "stepsCount" : 1,
-        "hasContent" : true
-      }, {
-        "name" : "Verify presence text for a radio button",
-        "time" : {
-          "start" : 1725635232772,
-          "stop" : 1725635232783,
-          "duration" : 11
-        },
-        "status" : "passed",
-        "steps" : [ {
-          "name" : "Wait for element located by ('xpath', \"//span[@class='text-success']\") to contain text 'impressive'",
-          "time" : {
-            "start" : 1725635232772,
-            "stop" : 1725635232783,
+            "start" : 1725805005272,
+            "stop" : 1725805005283,
             "duration" : 11
           },
           "status" : "passed",
@@ -296,19 +164,52 @@
         "stepsCount" : 1,
         "hasContent" : true
       }, {
-        "name" : "Check if the radio button is not selected",
+        "name" : "Verify presence text for a radio button",
         "time" : {
-          "start" : 1725635232783,
-          "stop" : 1725635232791,
-          "duration" : 8
+          "start" : 1725805005325,
+          "stop" : 1725805005509,
+          "duration" : 184
         },
         "status" : "passed",
         "steps" : [ {
-          "name" : "Check presence of element located by ('xpath', \"//input[@id='yesRadio']\")",
+          "name" : "Wait for element located by ('xpath', \"//span[@class='text-success']\") to contain text 'impressive'",
           "time" : {
-            "start" : 1725635232783,
-            "stop" : 1725635232787,
-            "duration" : 4
+            "start" : 1725805005325,
+            "stop" : 1725805005509,
+            "duration" : 184
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "button_type",
+          "value" : "'impressive'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "Click on a radio button",
+        "time" : {
+          "start" : 1725805005510,
+          "stop" : 1725805005842,
+          "duration" : 332
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check if element located by ('xpath', \"//label[@for='yesRadio']\") is clickable",
+          "time" : {
+            "start" : 1725805005510,
+            "stop" : 1725805005726,
+            "duration" : 216
           },
           "status" : "passed",
           "steps" : [ ],
@@ -328,6 +229,105 @@
         "shouldDisplayMessage" : false,
         "stepsCount" : 1,
         "hasContent" : true
+      }, {
+        "name" : "Check if the radio button is selected",
+        "time" : {
+          "start" : 1725805005842,
+          "stop" : 1725805005866,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check presence of element located by ('xpath', \"//input[@id='yesRadio']\")",
+          "time" : {
+            "start" : 1725805005842,
+            "stop" : 1725805005856,
+            "duration" : 14
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "button_type",
+          "value" : "'yes'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "Verify presence text for a radio button",
+        "time" : {
+          "start" : 1725805005866,
+          "stop" : 1725805005876,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Wait for element located by ('xpath', \"//span[@class='text-success']\") to contain text 'yes'",
+          "time" : {
+            "start" : 1725805005866,
+            "stop" : 1725805005876,
+            "duration" : 10
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "button_type",
+          "value" : "'yes'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "Check if the radio button is not selected",
+        "time" : {
+          "start" : 1725805005876,
+          "stop" : 1725805005887,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check presence of element located by ('xpath', \"//input[@id='impressiveRadio']\")",
+          "time" : {
+            "start" : 1725805005876,
+            "stop" : 1725805005882,
+            "duration" : 6
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "button_type",
+          "value" : "'impressive'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
@@ -337,11 +337,11 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "aaf956dcc332ef72",
+      "uid" : "3e565698d8719f49",
       "name" : "Screenshot",
-      "source" : "aaf956dcc332ef72.png",
+      "source" : "3e565698d8719f49.png",
       "type" : "image/png",
-      "size" : 371238
+      "size" : 425303
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
@@ -352,9 +352,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1725635233018,
-      "stop" : 1725635233080,
-      "duration" : 62
+      "start" : 1725805006159,
+      "stop" : 1725805006220,
+      "duration" : 61
     },
     "status" : "passed",
     "steps" : [ ],
@@ -382,7 +382,7 @@
     "value" : "TestRadioButton"
   }, {
     "name" : "host",
-    "value" : "ee546a3c4cde"
+    "value" : "e3b4760d3bf9"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -412,11 +412,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 2,
+        "passed" : 3,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
+        "uid" : "5390f6462a3d350f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725635224915,
+          "stop" : 1725635233017,
+          "duration" : 8102
+        }
+      }, {
         "uid" : "d1dcd6220731b72a",
         "status" : "passed",
         "time" : {
@@ -428,6 +436,6 @@
     },
     "tags" : [ "smoke" ]
   },
-  "source" : "5390f6462a3d350f.json",
+  "source" : "4baba1c649e954a1.json",
   "parameterValues" : [ ]
 }
