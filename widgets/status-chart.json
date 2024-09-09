@@ -1,61 +1,61 @@
 [ {
-  "uid" : "dd1f47dcdcf9a26b",
-  "name" : "Completing the text box fields",
-  "time" : {
-    "start" : 1725877114461,
-    "stop" : 1725877114461,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "d32fe0ed1a7b2ffe",
+  "uid" : "469b8f673427ebca",
   "name" : "Select and verify a random radio button",
   "time" : {
-    "start" : 1725877113821,
-    "stop" : 1725877113821,
-    "duration" : 0
+    "start" : 1725877372094,
+    "stop" : 1725877374689,
+    "duration" : 2595
   },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "bb8ca88ca37a6466",
+  "uid" : "20431ffdc213ce44",
+  "name" : "Completing the text box fields",
+  "time" : {
+    "start" : 1725877377712,
+    "stop" : 1725877380371,
+    "duration" : 2659
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef0df22645801e6a",
   "name" : "Verify 'No' radio button is disabled",
   "time" : {
-    "start" : 1725877114142,
-    "stop" : 1725877114142,
-    "duration" : 0
+    "start" : 1725877375118,
+    "stop" : 1725877377281,
+    "duration" : 2163
   },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "67b4c0ab06355ecd",
-  "name" : "Add new person in web tables",
-  "time" : {
-    "start" : 1725877114781,
-    "stop" : 1725877114781,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "289a5d6b68c9eb41",
+  "uid" : "e302de5da0fd0e52",
   "name" : "Click on the checkboxes",
   "time" : {
-    "start" : 1725877113299,
-    "stop" : 1725877113299,
-    "duration" : 0
+    "start" : 1725877358265,
+    "stop" : 1725877371633,
+    "duration" : 13368
   },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "dfbcdb90f04ca0c5",
+  "uid" : "d24e8bea55d357df",
+  "name" : "Add new person in web tables",
+  "time" : {
+    "start" : 1725877380805,
+    "stop" : 1725877385367,
+    "duration" : 4562
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3154b3ea9fb55dab",
   "name" : "Search person in web tables",
   "time" : {
-    "start" : 1725877115105,
-    "stop" : 1725877115105,
-    "duration" : 0
+    "start" : 1725877385853,
+    "stop" : 1725877390078,
+    "duration" : 4225
   },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
 } ]
