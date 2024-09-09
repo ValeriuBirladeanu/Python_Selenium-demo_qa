@@ -1,22 +1,22 @@
 {
-  "uid" : "20431ffdc213ce44",
+  "uid" : "20700094cd35a168",
   "name" : "Completing the text box fields",
   "fullName" : "tests.test_text_box.TestTextBox#test_complete_text_box",
   "historyId" : "3003eea26cf009c4e05a5883424b3803",
   "time" : {
-    "start" : 1725877377712,
-    "stop" : 1725877380371,
-    "duration" : 2659
+    "start" : 1725877932825,
+    "stop" : 1725877945024,
+    "duration" : 12199
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "setup",
+    "name" : "_session_faker",
     "time" : {
-      "start" : 1725877377667,
-      "stop" : 1725877377712,
-      "duration" : 45
+      "start" : 1725877912388,
+      "stop" : 1725877912472,
+      "duration" : 84
     },
     "status" : "passed",
     "steps" : [ ],
@@ -27,11 +27,11 @@
     "stepsCount" : 0,
     "hasContent" : false
   }, {
-    "name" : "_session_faker",
+    "name" : "setup",
     "time" : {
-      "start" : 1725877357750,
-      "stop" : 1725877357830,
-      "duration" : 80
+      "start" : 1725877932781,
+      "stop" : 1725877932824,
+      "duration" : 43
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,9 +44,9 @@
   }, {
     "name" : "driver",
     "time" : {
-      "start" : 1725877377343,
-      "stop" : 1725877377667,
-      "duration" : 324
+      "start" : 1725877932454,
+      "stop" : 1725877932781,
+      "duration" : 327
     },
     "status" : "passed",
     "steps" : [ ],
@@ -62,9 +62,9 @@
     "steps" : [ {
       "name" : "Open https://demoqa.com/text-box page",
       "time" : {
-        "start" : 1725877377712,
-        "stop" : 1725877379119,
-        "duration" : 1407
+        "start" : 1725877932825,
+        "stop" : 1725877944202,
+        "duration" : 11377
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,9 +77,9 @@
     }, {
       "name" : "Page https://demoqa.com/text-box is opened",
       "time" : {
-        "start" : 1725877379119,
-        "stop" : 1725877379123,
-        "duration" : 4
+        "start" : 1725877944202,
+        "stop" : 1725877944205,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,17 +92,17 @@
     }, {
       "name" : "Enter full name",
       "time" : {
-        "start" : 1725877379123,
-        "stop" : 1725877379192,
-        "duration" : 69
+        "start" : 1725877944205,
+        "stop" : 1725877944284,
+        "duration" : 79
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check if element located by ('xpath', \"//input[@id='userName']\") is clickable",
         "time" : {
-          "start" : 1725877379123,
-          "stop" : 1725877379146,
-          "duration" : 23
+          "start" : 1725877944206,
+          "stop" : 1725877944226,
+          "duration" : 20
         },
         "status" : "passed",
         "steps" : [ ],
@@ -122,17 +122,17 @@
     }, {
       "name" : "Enter email",
       "time" : {
-        "start" : 1725877379193,
-        "stop" : 1725877379418,
-        "duration" : 225
+        "start" : 1725877944284,
+        "stop" : 1725877944459,
+        "duration" : 175
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check if element located by ('xpath', \"//input[@id='userEmail']\") is clickable",
         "time" : {
-          "start" : 1725877379193,
-          "stop" : 1725877379266,
-          "duration" : 73
+          "start" : 1725877944284,
+          "stop" : 1725877944371,
+          "duration" : 87
         },
         "status" : "passed",
         "steps" : [ ],
@@ -152,16 +152,16 @@
     }, {
       "name" : "Enter current address",
       "time" : {
-        "start" : 1725877379418,
-        "stop" : 1725877379496,
-        "duration" : 78
+        "start" : 1725877944459,
+        "stop" : 1725877944526,
+        "duration" : 67
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check if element located by ('xpath', \"//textarea[@id='currentAddress']\") is clickable",
         "time" : {
-          "start" : 1725877379418,
-          "stop" : 1725877379437,
+          "start" : 1725877944459,
+          "stop" : 1725877944478,
           "duration" : 19
         },
         "status" : "passed",
@@ -182,17 +182,17 @@
     }, {
       "name" : "Enter permanent address",
       "time" : {
-        "start" : 1725877379496,
-        "stop" : 1725877379750,
-        "duration" : 254
+        "start" : 1725877944526,
+        "stop" : 1725877944596,
+        "duration" : 70
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check if element located by ('xpath', \"//textarea[@id='permanentAddress']\") is clickable",
         "time" : {
-          "start" : 1725877379496,
-          "stop" : 1725877379657,
-          "duration" : 161
+          "start" : 1725877944526,
+          "stop" : 1725877944545,
+          "duration" : 19
         },
         "status" : "passed",
         "steps" : [ ],
@@ -212,17 +212,17 @@
     }, {
       "name" : "Click submit button",
       "time" : {
-        "start" : 1725877379750,
-        "stop" : 1725877379940,
-        "duration" : 190
+        "start" : 1725877944596,
+        "stop" : 1725877944657,
+        "duration" : 61
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check if element located by ('xpath', \"//button[@id='submit']\") is clickable",
         "time" : {
-          "start" : 1725877379815,
-          "stop" : 1725877379904,
-          "duration" : 89
+          "start" : 1725877944609,
+          "stop" : 1725877944629,
+          "duration" : 20
         },
         "status" : "passed",
         "steps" : [ ],
@@ -242,17 +242,17 @@
     }, {
       "name" : "Verify saved full name",
       "time" : {
-        "start" : 1725877379940,
-        "stop" : 1725877379978,
-        "duration" : 38
+        "start" : 1725877944657,
+        "stop" : 1725877944689,
+        "duration" : 32
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Wait for element located by ('xpath', \"//input[@id='userName']\") to have value 'Cindy Perry'",
+        "name" : "Wait for element located by ('xpath', \"//input[@id='userName']\") to have value 'Melinda Alvarez'",
         "time" : {
-          "start" : 1725877379940,
-          "stop" : 1725877379957,
-          "duration" : 17
+          "start" : 1725877944657,
+          "stop" : 1725877944671,
+          "duration" : 14
         },
         "status" : "passed",
         "steps" : [ ],
@@ -263,11 +263,11 @@
         "stepsCount" : 0,
         "hasContent" : false
       }, {
-        "name" : "Wait for element located by ('xpath', \"//p[@id='name']\") to contain text 'Cindy Perry'",
+        "name" : "Wait for element located by ('xpath', \"//p[@id='name']\") to contain text 'Melinda Alvarez'",
         "time" : {
-          "start" : 1725877379958,
-          "stop" : 1725877379978,
-          "duration" : 20
+          "start" : 1725877944671,
+          "stop" : 1725877944689,
+          "duration" : 18
         },
         "status" : "passed",
         "steps" : [ ],
@@ -287,17 +287,17 @@
     }, {
       "name" : "Verify saved email",
       "time" : {
-        "start" : 1725877379979,
-        "stop" : 1725877380013,
-        "duration" : 34
+        "start" : 1725877944689,
+        "stop" : 1725877944720,
+        "duration" : 31
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Wait for element located by ('xpath', \"//input[@id='userEmail']\") to have value 'gomeztamara@example.org'",
+        "name" : "Wait for element located by ('xpath', \"//input[@id='userEmail']\") to have value 'esmith@example.com'",
         "time" : {
-          "start" : 1725877379979,
-          "stop" : 1725877379992,
-          "duration" : 13
+          "start" : 1725877944690,
+          "stop" : 1725877944702,
+          "duration" : 12
         },
         "status" : "passed",
         "steps" : [ ],
@@ -308,11 +308,11 @@
         "stepsCount" : 0,
         "hasContent" : false
       }, {
-        "name" : "Wait for element located by ('xpath', \"//p[@id='email']\") to contain text 'gomeztamara@example.org'",
+        "name" : "Wait for element located by ('xpath', \"//p[@id='email']\") to contain text 'esmith@example.com'",
         "time" : {
-          "start" : 1725877379993,
-          "stop" : 1725877380013,
-          "duration" : 20
+          "start" : 1725877944703,
+          "stop" : 1725877944720,
+          "duration" : 17
         },
         "status" : "passed",
         "steps" : [ ],
@@ -332,17 +332,17 @@
     }, {
       "name" : "Verify saved current address",
       "time" : {
-        "start" : 1725877380014,
-        "stop" : 1725877380045,
-        "duration" : 31
+        "start" : 1725877944720,
+        "stop" : 1725877944750,
+        "duration" : 30
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Wait for element located by ('xpath', \"//textarea[@id='currentAddress']\") to have value '43234 Atkinson Circles Apt. 949'",
+        "name" : "Wait for element located by ('xpath', \"//textarea[@id='currentAddress']\") to have value '7092 Jeremiah Centers'",
         "time" : {
-          "start" : 1725877380014,
-          "stop" : 1725877380026,
-          "duration" : 12
+          "start" : 1725877944720,
+          "stop" : 1725877944730,
+          "duration" : 10
         },
         "status" : "passed",
         "steps" : [ ],
@@ -353,11 +353,11 @@
         "stepsCount" : 0,
         "hasContent" : false
       }, {
-        "name" : "Wait for element located by ('xpath', \"//p[@id='currentAddress']\") to contain text '43234 Atkinson Circles Apt. 949'",
+        "name" : "Wait for element located by ('xpath', \"//p[@id='currentAddress']\") to contain text '7092 Jeremiah Centers'",
         "time" : {
-          "start" : 1725877380026,
-          "stop" : 1725877380045,
-          "duration" : 19
+          "start" : 1725877944730,
+          "stop" : 1725877944750,
+          "duration" : 20
         },
         "status" : "passed",
         "steps" : [ ],
@@ -377,17 +377,17 @@
     }, {
       "name" : "Verify saved permanent address",
       "time" : {
-        "start" : 1725877380045,
-        "stop" : 1725877380085,
-        "duration" : 40
+        "start" : 1725877944750,
+        "stop" : 1725877944778,
+        "duration" : 28
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Wait for element located by ('xpath', \"//textarea[@id='permanentAddress']\") to have value '8937 Peters Fields Suite 172'",
+        "name" : "Wait for element located by ('xpath', \"//textarea[@id='permanentAddress']\") to have value '376 Carpenter Street Apt. 578'",
         "time" : {
-          "start" : 1725877380045,
-          "stop" : 1725877380062,
-          "duration" : 17
+          "start" : 1725877944750,
+          "stop" : 1725877944760,
+          "duration" : 10
         },
         "status" : "passed",
         "steps" : [ ],
@@ -398,11 +398,11 @@
         "stepsCount" : 0,
         "hasContent" : false
       }, {
-        "name" : "Wait for element located by ('xpath', \"//p[@id='permanentAddress']\") to contain text '8937 Peters Fields Suite 172'",
+        "name" : "Wait for element located by ('xpath', \"//p[@id='permanentAddress']\") to contain text '376 Carpenter Street Apt. 578'",
         "time" : {
-          "start" : 1725877380062,
-          "stop" : 1725877380085,
-          "duration" : 23
+          "start" : 1725877944761,
+          "stop" : 1725877944778,
+          "duration" : 17
         },
         "status" : "passed",
         "steps" : [ ],
@@ -421,11 +421,11 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "39083f0301eeb640",
+      "uid" : "2eb5d542139b2259",
       "name" : "Screenshot",
-      "source" : "39083f0301eeb640.png",
+      "source" : "2eb5d542139b2259.png",
       "type" : "image/png",
-      "size" : 408530
+      "size" : 461265
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
@@ -436,9 +436,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1725877380371,
-      "stop" : 1725877380432,
-      "duration" : 61
+      "start" : 1725877945024,
+      "stop" : 1725877945086,
+      "duration" : 62
     },
     "status" : "passed",
     "steps" : [ ],
@@ -466,7 +466,7 @@
     "value" : "TestTextBox"
   }, {
     "name" : "host",
-    "value" : "87d3a2de6b9c"
+    "value" : "afd7f23911c4"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -496,11 +496,19 @@
         "failed" : 0,
         "broken" : 1,
         "skipped" : 0,
-        "passed" : 14,
+        "passed" : 15,
         "unknown" : 0,
-        "total" : 15
+        "total" : 16
       },
       "items" : [ {
+        "uid" : "20431ffdc213ce44",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725877377712,
+          "stop" : 1725877380371,
+          "duration" : 2659
+        }
+      }, {
         "uid" : "dd1f47dcdcf9a26b",
         "status" : "broken",
         "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/chromium-browser is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
@@ -617,6 +625,6 @@
     },
     "tags" : [ "smoke" ]
   },
-  "source" : "20431ffdc213ce44.json",
+  "source" : "20700094cd35a168.json",
   "parameterValues" : [ ]
 }

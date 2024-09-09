@@ -1,37 +1,22 @@
 {
-  "uid" : "ef0df22645801e6a",
+  "uid" : "bd66e5da4f086f97",
   "name" : "Verify 'No' radio button is disabled",
   "fullName" : "tests.test_radio_button.TestRadioButton#test_disabled_radio_button",
   "historyId" : "f137a712c16d3781d6ffcce1c3287f41",
   "time" : {
-    "start" : 1725877375118,
-    "stop" : 1725877377281,
-    "duration" : 2163
+    "start" : 1725877925096,
+    "stop" : 1725877932391,
+    "duration" : 7295
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "driver",
-    "time" : {
-      "start" : 1725877374752,
-      "stop" : 1725877375073,
-      "duration" : 321
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
-  }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1725877357750,
-      "stop" : 1725877357830,
-      "duration" : 80
+      "start" : 1725877912388,
+      "stop" : 1725877912472,
+      "duration" : 84
     },
     "status" : "passed",
     "steps" : [ ],
@@ -44,9 +29,24 @@
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1725877375073,
-      "stop" : 1725877375118,
-      "duration" : 45
+      "start" : 1725877925051,
+      "stop" : 1725877925095,
+      "duration" : 44
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1725877924685,
+      "stop" : 1725877925051,
+      "duration" : 366
     },
     "status" : "passed",
     "steps" : [ ],
@@ -62,9 +62,9 @@
     "steps" : [ {
       "name" : "Open https://demoqa.com/radio-button page",
       "time" : {
-        "start" : 1725877375118,
-        "stop" : 1725877376916,
-        "duration" : 1798
+        "start" : 1725877925096,
+        "stop" : 1725877932133,
+        "duration" : 7037
       },
       "status" : "passed",
       "steps" : [ ],
@@ -77,9 +77,9 @@
     }, {
       "name" : "Page https://demoqa.com/radio-button is opened",
       "time" : {
-        "start" : 1725877376916,
-        "stop" : 1725877376923,
-        "duration" : 7
+        "start" : 1725877932133,
+        "stop" : 1725877932136,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,17 +92,17 @@
     }, {
       "name" : "Check if 'No' radio button is disabled and not clickable",
       "time" : {
-        "start" : 1725877376923,
-        "stop" : 1725877376954,
-        "duration" : 31
+        "start" : 1725877932136,
+        "stop" : 1725877932154,
+        "duration" : 18
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check presence of element located by ('xpath', \"//input[@id='noRadio']\")",
         "time" : {
-          "start" : 1725877376923,
-          "stop" : 1725877376942,
-          "duration" : 19
+          "start" : 1725877932136,
+          "stop" : 1725877932145,
+          "duration" : 9
         },
         "status" : "passed",
         "steps" : [ ],
@@ -121,11 +121,11 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "efc34d2eb0174630",
+      "uid" : "62724d33c2a740fc",
       "name" : "Screenshot",
-      "source" : "efc34d2eb0174630.png",
+      "source" : "62724d33c2a740fc.png",
       "type" : "image/png",
-      "size" : 433727
+      "size" : 506491
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
@@ -136,9 +136,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1725877377282,
-      "stop" : 1725877377341,
-      "duration" : 59
+      "start" : 1725877932392,
+      "stop" : 1725877932453,
+      "duration" : 61
     },
     "status" : "passed",
     "steps" : [ ],
@@ -166,7 +166,7 @@
     "value" : "TestRadioButton"
   }, {
     "name" : "host",
-    "value" : "87d3a2de6b9c"
+    "value" : "afd7f23911c4"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -196,11 +196,19 @@
         "failed" : 0,
         "broken" : 1,
         "skipped" : 0,
-        "passed" : 4,
+        "passed" : 5,
         "unknown" : 0,
-        "total" : 5
+        "total" : 6
       },
       "items" : [ {
+        "uid" : "ef0df22645801e6a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725877375118,
+          "stop" : 1725877377281,
+          "duration" : 2163
+        }
+      }, {
         "uid" : "bb8ca88ca37a6466",
         "status" : "broken",
         "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/chromium-browser is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
@@ -237,6 +245,6 @@
     },
     "tags" : [ "smoke" ]
   },
-  "source" : "ef0df22645801e6a.json",
+  "source" : "bd66e5da4f086f97.json",
   "parameterValues" : [ ]
 }
