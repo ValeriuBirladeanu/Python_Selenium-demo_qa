@@ -1,91 +1,91 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "afd7f23911c4",
+    "name" : "a86d1f033631",
     "children" : [ {
       "name" : "1-MainThread",
       "children" : [ {
-        "name" : "Search person in web tables",
-        "uid" : "1ba325f2461dc969",
-        "parentUid" : "3b36fe2a8bfb8ffe903ddc85f50c8459",
-        "status" : "broken",
+        "name" : "Click on the checkboxes",
+        "uid" : "33ebe10d8785258a",
+        "parentUid" : "eb98b4c6d57379578489dafdf45bc39e",
+        "status" : "passed",
         "time" : {
-          "start" : 1725877955046,
-          "stop" : 1725878255049,
-          "duration" : 300003
+          "start" : 1725878909523,
+          "stop" : 1725878913430,
+          "duration" : 3907
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Completing the text box fields",
-        "uid" : "20700094cd35a168",
-        "parentUid" : "3b36fe2a8bfb8ffe903ddc85f50c8459",
+        "uid" : "6a655cd1332af2b4",
+        "parentUid" : "eb98b4c6d57379578489dafdf45bc39e",
         "status" : "passed",
         "time" : {
-          "start" : 1725877932825,
-          "stop" : 1725877945024,
-          "duration" : 12199
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Click on the checkboxes",
-        "uid" : "b5e5620c7e2b24c4",
-        "parentUid" : "3b36fe2a8bfb8ffe903ddc85f50c8459",
-        "status" : "passed",
-        "time" : {
-          "start" : 1725877912918,
-          "stop" : 1725877921646,
-          "duration" : 8728
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Add new person in web tables",
-        "uid" : "3dedfcbbe0ab6111",
-        "parentUid" : "3b36fe2a8bfb8ffe903ddc85f50c8459",
-        "status" : "passed",
-        "time" : {
-          "start" : 1725877945466,
-          "stop" : 1725877954598,
-          "duration" : 9132
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Verify 'No' radio button is disabled",
-        "uid" : "bd66e5da4f086f97",
-        "parentUid" : "3b36fe2a8bfb8ffe903ddc85f50c8459",
-        "status" : "passed",
-        "time" : {
-          "start" : 1725877925096,
-          "stop" : 1725877932391,
-          "duration" : 7295
+          "start" : 1725878924270,
+          "stop" : 1725878926924,
+          "duration" : 2654
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Select and verify a random radio button",
-        "uid" : "145edfe216b2d393",
-        "parentUid" : "3b36fe2a8bfb8ffe903ddc85f50c8459",
+        "uid" : "a5b4d9171303140e",
+        "parentUid" : "eb98b4c6d57379578489dafdf45bc39e",
         "status" : "passed",
         "time" : {
-          "start" : 1725877922106,
-          "stop" : 1725877924619,
-          "duration" : 2513
+          "start" : 1725878913890,
+          "stop" : 1725878916217,
+          "duration" : 2327
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add new person in web tables",
+        "uid" : "c526244a65a1998f",
+        "parentUid" : "eb98b4c6d57379578489dafdf45bc39e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725878927364,
+          "stop" : 1725878937629,
+          "duration" : 10265
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify 'No' radio button is disabled",
+        "uid" : "85f06eb22948513d",
+        "parentUid" : "eb98b4c6d57379578489dafdf45bc39e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725878916654,
+          "stop" : 1725878923837,
+          "duration" : 7183
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search person in web tables",
+        "uid" : "7103e97dd99839df",
+        "parentUid" : "eb98b4c6d57379578489dafdf45bc39e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725878938069,
+          "stop" : 1725878941774,
+          "duration" : 3705
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "3b36fe2a8bfb8ffe903ddc85f50c8459"
+      "uid" : "eb98b4c6d57379578489dafdf45bc39e"
     } ],
-    "uid" : "afd87901976b44c625e94bbc1dad5c64"
+    "uid" : "1c0b85d0495e91f08de5465d71496107"
   } ],
   "name" : "timeline"
 }

@@ -4,11 +4,19 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "c526244a65a1998f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725878927364,
+        "stop" : 1725878937629,
+        "duration" : 10265
+      }
+    }, {
       "uid" : "3dedfcbbe0ab6111",
       "status" : "passed",
       "time" : {
@@ -56,11 +64,19 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "6a655cd1332af2b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725878924270,
+        "stop" : 1725878926924,
+        "duration" : 2654
+      }
+    }, {
       "uid" : "20700094cd35a168",
       "status" : "passed",
       "time" : {
@@ -196,11 +212,19 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 10
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "33ebe10d8785258a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725878909523,
+        "stop" : 1725878913430,
+        "duration" : 3907
+      }
+    }, {
       "uid" : "b5e5620c7e2b24c4",
       "status" : "passed",
       "time" : {
@@ -288,11 +312,19 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "85f06eb22948513d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725878916654,
+        "stop" : 1725878923837,
+        "duration" : 7183
+      }
+    }, {
       "uid" : "bd66e5da4f086f97",
       "status" : "passed",
       "time" : {
@@ -348,11 +380,19 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "7103e97dd99839df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725878938069,
+        "stop" : 1725878941774,
+        "duration" : 3705
+      }
+    }, {
       "uid" : "1ba325f2461dc969",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 299.732\n  (Session info: headless chrome=112.0.5615.165)",
@@ -393,11 +433,19 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "a5b4d9171303140e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725878913890,
+        "stop" : 1725878916217,
+        "duration" : 2327
+      }
+    }, {
       "uid" : "145edfe216b2d393",
       "status" : "passed",
       "time" : {

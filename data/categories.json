@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 299.732\n  (Session info: headless chrome=112.0.5615.165)",
-      "children" : [ {
-        "name" : "Search person in web tables",
-        "uid" : "1ba325f2461dc969",
-        "parentUid" : "c3e1536bedbd69632e703d4c5dfa568e",
-        "status" : "broken",
-        "time" : {
-          "start" : 1725877955046,
-          "stop" : 1725878255049,
-          "duration" : 300003
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "c3e1536bedbd69632e703d4c5dfa568e"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
+  "children" : [ ],
   "name" : "categories"
 }
