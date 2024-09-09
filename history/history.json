@@ -1,14 +1,59 @@
 {
+  "508233de87e57871edd5a081cf5a2221" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "67b4c0ab06355ecd",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/chromium-browser is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+      "time" : {
+        "start" : 1725877114781,
+        "stop" : 1725877114781,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cf6f8045233feba1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725805017450,
+        "stop" : 1725805021835,
+        "duration" : 4385
+      }
+    }, {
+      "uid" : "287ca98b2cddd188",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725635251405,
+        "stop" : 1725635256020,
+        "duration" : 4615
+      }
+    } ]
+  },
   "3003eea26cf009c4e05a5883424b3803" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 13,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "dd1f47dcdcf9a26b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/chromium-browser is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+      "time" : {
+        "start" : 1725877114461,
+        "stop" : 1725877114461,
+        "duration" : 0
+      }
+    }, {
       "uid" : "606fb77839339385",
       "status" : "passed",
       "time" : {
@@ -117,13 +162,22 @@
   "ac46f10f1fffab8a28c9e0f981a7ac87" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 7,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "289a5d6b68c9eb41",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/chromium-browser is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+      "time" : {
+        "start" : 1725877113299,
+        "stop" : 1725877113299,
+        "duration" : 0
+      }
+    }, {
       "uid" : "c4711fec16b062f2",
       "status" : "passed",
       "time" : {
@@ -181,43 +235,25 @@
       }
     } ]
   },
-  "508233de87e57871edd5a081cf5a2221" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    },
-    "items" : [ {
-      "uid" : "cf6f8045233feba1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1725805017450,
-        "stop" : 1725805021835,
-        "duration" : 4385
-      }
-    }, {
-      "uid" : "287ca98b2cddd188",
-      "status" : "passed",
-      "time" : {
-        "start" : 1725635251405,
-        "stop" : 1725635256020,
-        "duration" : 4615
-      }
-    } ]
-  },
   "f137a712c16d3781d6ffcce1c3287f41" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "bb8ca88ca37a6466",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/chromium-browser is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+      "time" : {
+        "start" : 1725877114142,
+        "stop" : 1725877114142,
+        "duration" : 0
+      }
+    }, {
       "uid" : "8c0fa70f5342823a",
       "status" : "passed",
       "time" : {
@@ -246,13 +282,22 @@
   "f13b9f00879ad43cb83da285efb1fcf2" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "dfbcdb90f04ca0c5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/chromium-browser is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+      "time" : {
+        "start" : 1725877115105,
+        "stop" : 1725877115105,
+        "duration" : 0
+      }
+    }, {
       "uid" : "856086a438ef036e",
       "status" : "passed",
       "time" : {
@@ -265,13 +310,22 @@
   "5c0a7aed3709908479f7d51ec7f394fc" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "d32fe0ed1a7b2ffe",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/chromium-browser is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+      "time" : {
+        "start" : 1725877113821,
+        "stop" : 1725877113821,
+        "duration" : 0
+      }
+    }, {
       "uid" : "4baba1c649e954a1",
       "status" : "passed",
       "time" : {

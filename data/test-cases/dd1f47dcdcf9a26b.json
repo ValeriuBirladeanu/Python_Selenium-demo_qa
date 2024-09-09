@@ -1,0 +1,215 @@
+{
+  "uid" : "dd1f47dcdcf9a26b",
+  "name" : "Completing the text box fields",
+  "fullName" : "tests.test_text_box.TestTextBox#test_complete_text_box",
+  "historyId" : "3003eea26cf009c4e05a5883424b3803",
+  "time" : {
+    "start" : 1725877114461,
+    "stop" : 1725877114461,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/chromium-browser is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+  "statusTrace" : "request = <SubRequest 'driver' for <Function test_complete_text_box>>\n\n    @pytest.fixture(scope=\"function\", autouse=True)\n    def driver(request):\n        options = Options()\n        # options.add_argument(\"--headless\")  # You can uncomment for headless running\n        options.add_argument(\"--no-sandbox\")\n        options.add_argument(\"--disable-dev-shm-usage\")\n        options.add_argument(\"--window-size=1920,1080\")\n>       driver = webdriver.Chrome(options=options)\n\nconftest.py:13: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n../local/lib/python3.12/site-packages/selenium/webdriver/chrome/webdriver.py:45: in __init__\n    super().__init__(\n../local/lib/python3.12/site-packages/selenium/webdriver/chromium/webdriver.py:66: in __init__\n    super().__init__(command_executor=executor, options=options)\n../local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py:212: in __init__\n    self.start_session(capabilities)\n../local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py:299: in start_session\n    response = self.execute(Command.NEW_SESSION, caps)[\"value\"]\n../local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py:354: in execute\n    self.error_handler.check_response(response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x7fcae66215e0>\nresponse = {'status': 500, 'value': '{\"value\":{\"error\":\"unknown error\",\"message\":\"unknown error: Chrome failed to start: exited a...r/bin/chromium-browser is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\",\"stacktrace\":\"\"}}'}\n\n    def check_response(self, response: Dict[str, Any]) -> None:\n        \"\"\"Checks that a JSON response from the WebDriver does not have an\n        error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get(\"status\", None)\n        if not status or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(\"message\", \"\")\n        screen: str = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get(\"value\", None)\n            if value_json and isinstance(value_json, str):\n                import json\n    \n                try:\n                    value = json.loads(value_json)\n                    if len(value) == 1:\n                        value = value[\"value\"]\n                    status = value.get(\"error\", None)\n                    if not status:\n                        status = value.get(\"status\", ErrorCode.UNKNOWN_ERROR)\n                        message = value.get(\"value\") or value.get(\"message\")\n                        if not isinstance(message, str):\n                            value = message\n                            message = message.get(\"message\")\n                    else:\n                        message = value.get(\"message\", None)\n                except ValueError:\n                    pass\n    \n        exception_class: Type[WebDriverException]\n        e = ErrorCode()\n        error_codes = [item for item in dir(e) if not item.startswith(\"__\")]\n        for error_code in error_codes:\n            error_info = getattr(ErrorCode, error_code)\n            if isinstance(error_info, list) and status in error_info:\n                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)\n                break\n        else:\n            exception_class = WebDriverException\n    \n        if not value:\n            value = response[\"value\"]\n        if isinstance(value, str):\n            raise exception_class(value)\n        if message == \"\" and \"message\" in value:\n            message = value[\"message\"]\n    \n        screen = None  # type: ignore[assignment]\n        if \"screen\" in value:\n            screen = value[\"screen\"]\n    \n        stacktrace = None\n        st_value = value.get(\"stackTrace\") or value.get(\"stacktrace\")\n        if st_value:\n            if isinstance(st_value, str):\n                stacktrace = st_value.split(\"\\n\")\n            else:\n                stacktrace = []\n                try:\n                    for frame in st_value:\n                        line = frame.get(\"lineNumber\", \"\")\n                        file = frame.get(\"fileName\", \"<anonymous>\")\n                        if line:\n                            file = f\"{file}:{line}\"\n                        meth = frame.get(\"methodName\", \"<anonymous>\")\n                        if \"className\" in frame:\n                            meth = f\"{frame['className']}.{meth}\"\n                        msg = \"    at %s (%s)\"\n                        msg = msg % (meth, file)\n                        stacktrace.append(msg)\n                except TypeError:\n                    pass\n        if exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if \"data\" in value:\n                alert_text = value[\"data\"].get(\"text\")\n            elif \"alert\" in value:\n                alert_text = value[\"alert\"].get(\"text\")\n            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here\n>       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\nE         (unknown error: DevToolsActivePort file doesn't exist)\nE         (The process started from chrome location /usr/bin/chromium-browser is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n\n../local/lib/python3.12/site-packages/selenium/webdriver/remote/errorhandler.py:229: WebDriverException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1725877113300,
+      "stop" : 1725877113387,
+      "duration" : 87
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1725877114462,
+      "stop" : 1725877114753,
+      "duration" : 291
+    },
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/chromium-browser is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n\n",
+    "statusTrace" : "  File \"/usr/local/lib/python3.12/site-packages/pluggy/_callers.py\", line 167, in _multicall\n    teardown.throw(outcome._exception)\n  File \"/usr/local/lib/python3.12/site-packages/_pytest/setuponly.py\", line 36, in pytest_fixture_setup\n    return (yield)\n            ^^^^^\n  File \"/usr/local/lib/python3.12/site-packages/pluggy/_callers.py\", line 103, in _multicall\n    res = hook_impl.function(*args)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/site-packages/_pytest/fixtures.py\", line 1139, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/site-packages/_pytest/fixtures.py\", line 890, in call_fixture_func\n    fixture_result = next(generator)\n                     ^^^^^^^^^^^^^^^\n  File \"/usr/workspace/conftest.py\", line 13, in driver\n    driver = webdriver.Chrome(options=options)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/site-packages/selenium/webdriver/chrome/webdriver.py\", line 45, in __init__\n    super().__init__(\n  File \"/usr/local/lib/python3.12/site-packages/selenium/webdriver/chromium/webdriver.py\", line 66, in __init__\n    super().__init__(command_executor=executor, options=options)\n  File \"/usr/local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py\", line 212, in __init__\n    self.start_session(capabilities)\n  File \"/usr/local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py\", line 299, in start_session\n    response = self.execute(Command.NEW_SESSION, caps)[\"value\"]\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py\", line 354, in execute\n    self.error_handler.check_response(response)\n  File \"/usr/local/lib/python3.12/site-packages/selenium/webdriver/remote/errorhandler.py\", line 229, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Elements - Text Box"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_text_box"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTextBox"
+  }, {
+    "name" : "host",
+    "value" : "820f0fb63b39"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_text_box"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 13,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "606fb77839339385",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725805009118,
+          "stop" : 1725805017019,
+          "duration" : 7901
+        }
+      }, {
+        "uid" : "1eea84f0416f936a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725635241364,
+          "stop" : 1725635250947,
+          "duration" : 9583
+        }
+      }, {
+        "uid" : "76219be37df202e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725528566673,
+          "stop" : 1725528573880,
+          "duration" : 7207
+        }
+      }, {
+        "uid" : "e5f88b03d885eb32",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725477044141,
+          "stop" : 1725477054076,
+          "duration" : 9935
+        }
+      }, {
+        "uid" : "a629d6ced9adbbc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725476849906,
+          "stop" : 1725476858060,
+          "duration" : 8154
+        }
+      }, {
+        "uid" : "7cce6ef3cad53736",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725441240994,
+          "stop" : 1725441248869,
+          "duration" : 7875
+        }
+      }, {
+        "uid" : "28eac101a546e593",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725368607354,
+          "stop" : 1725368611185,
+          "duration" : 3831
+        }
+      }, {
+        "uid" : "c3a92f637cebe286",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725368198879,
+          "stop" : 1725368206662,
+          "duration" : 7783
+        }
+      }, {
+        "uid" : "b8ce8c020f3eb41b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725355656376,
+          "stop" : 1725355659979,
+          "duration" : 3603
+        }
+      }, {
+        "uid" : "6c22f4f22ece97ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725354700091,
+          "stop" : 1725354703464,
+          "duration" : 3373
+        }
+      }, {
+        "uid" : "27e3a40086b237c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725348695718,
+          "stop" : 1725348703737,
+          "duration" : 8019
+        }
+      }, {
+        "uid" : "67be336b5efd897b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725291710152,
+          "stop" : 1725291718197,
+          "duration" : 8045
+        }
+      }, {
+        "uid" : "69ae1e2980ebdd7d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725279115760,
+          "stop" : 1725279123379,
+          "duration" : 7619
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "dd1f47dcdcf9a26b.json",
+  "parameterValues" : [ ]
+}

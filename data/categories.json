@@ -1,5 +1,91 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/chromium-browser is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+      "children" : [ {
+        "name" : "Click on the checkboxes",
+        "uid" : "289a5d6b68c9eb41",
+        "parentUid" : "6a28f92c5c8a4cadb904435561a27c65",
+        "status" : "broken",
+        "time" : {
+          "start" : 1725877113299,
+          "stop" : 1725877113299,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Select and verify a random radio button",
+        "uid" : "d32fe0ed1a7b2ffe",
+        "parentUid" : "6a28f92c5c8a4cadb904435561a27c65",
+        "status" : "broken",
+        "time" : {
+          "start" : 1725877113821,
+          "stop" : 1725877113821,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify 'No' radio button is disabled",
+        "uid" : "bb8ca88ca37a6466",
+        "parentUid" : "6a28f92c5c8a4cadb904435561a27c65",
+        "status" : "broken",
+        "time" : {
+          "start" : 1725877114142,
+          "stop" : 1725877114142,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Completing the text box fields",
+        "uid" : "dd1f47dcdcf9a26b",
+        "parentUid" : "6a28f92c5c8a4cadb904435561a27c65",
+        "status" : "broken",
+        "time" : {
+          "start" : 1725877114461,
+          "stop" : 1725877114461,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add new person in web tables",
+        "uid" : "67b4c0ab06355ecd",
+        "parentUid" : "6a28f92c5c8a4cadb904435561a27c65",
+        "status" : "broken",
+        "time" : {
+          "start" : 1725877114781,
+          "stop" : 1725877114781,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search person in web tables",
+        "uid" : "dfbcdb90f04ca0c5",
+        "parentUid" : "6a28f92c5c8a4cadb904435561a27c65",
+        "status" : "broken",
+        "time" : {
+          "start" : 1725877115105,
+          "stop" : 1725877115105,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6a28f92c5c8a4cadb904435561a27c65"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
   "name" : "categories"
 }
