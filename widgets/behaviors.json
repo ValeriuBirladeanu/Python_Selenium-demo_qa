@@ -1,19 +1,19 @@
 {
   "total" : 4,
   "items" : [ {
-    "uid" : "0e0cbeb8a4e8bcaf903563f3745755a9",
-    "name" : "Elements - Radio Button",
+    "uid" : "270bae793c458e2b11b8513b36ab3713",
+    "name" : "Elements - Wev Tables",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     }
   }, {
-    "uid" : "270bae793c458e2b11b8513b36ab3713",
-    "name" : "Elements - Wev Tables",
+    "uid" : "0e0cbeb8a4e8bcaf903563f3745755a9",
+    "name" : "Elements - Radio Button",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

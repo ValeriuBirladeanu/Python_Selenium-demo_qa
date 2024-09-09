@@ -1,60 +1,70 @@
 [ {
-  "uid" : "85f06eb22948513d",
-  "name" : "Verify 'No' radio button is disabled",
-  "time" : {
-    "start" : 1725878916654,
-    "stop" : 1725878923837,
-    "duration" : 7183
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c526244a65a1998f",
-  "name" : "Add new person in web tables",
-  "time" : {
-    "start" : 1725878927364,
-    "stop" : 1725878937629,
-    "duration" : 10265
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7103e97dd99839df",
+  "uid" : "19842514efce74e8",
   "name" : "Search person in web tables",
   "time" : {
-    "start" : 1725878938069,
-    "stop" : 1725878941774,
-    "duration" : 3705
+    "start" : 1725906142832,
+    "stop" : 1725906146522,
+    "duration" : 3690
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "33ebe10d8785258a",
-  "name" : "Click on the checkboxes",
+  "uid" : "52c63d0d4d0f83d2",
+  "name" : "Add new person in web tables",
   "time" : {
-    "start" : 1725878909523,
-    "stop" : 1725878913430,
-    "duration" : 3907
+    "start" : 1725906137873,
+    "stop" : 1725906142358,
+    "duration" : 4485
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6a655cd1332af2b4",
-  "name" : "Completing the text box fields",
+  "uid" : "50f35429c7c991de",
+  "name" : "Edit person in web tables",
   "time" : {
-    "start" : 1725878924270,
-    "stop" : 1725878926924,
-    "duration" : 2654
+    "start" : 1725906146954,
+    "stop" : 1725906156792,
+    "duration" : 9838
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a5b4d9171303140e",
+  "uid" : "aafa983510812697",
   "name" : "Select and verify a random radio button",
   "time" : {
-    "start" : 1725878913890,
-    "stop" : 1725878916217,
-    "duration" : 2327
+    "start" : 1725906129779,
+    "stop" : 1725906132234,
+    "duration" : 2455
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bcd60a83d3bc842e",
+  "name" : "Completing the text box fields",
+  "time" : {
+    "start" : 1725906134751,
+    "stop" : 1725906137432,
+    "duration" : 2681
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c8906f0610c2696",
+  "name" : "Verify 'No' radio button is disabled",
+  "time" : {
+    "start" : 1725906132675,
+    "stop" : 1725906134313,
+    "duration" : 1638
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3e84ff336820eac",
+  "name" : "Click on the checkboxes",
+  "time" : {
+    "start" : 1725906126287,
+    "stop" : 1725906129313,
+    "duration" : 3026
   },
   "status" : "passed",
   "severity" : "normal"

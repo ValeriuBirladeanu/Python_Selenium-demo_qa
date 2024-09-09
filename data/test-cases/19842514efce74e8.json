@@ -1,12 +1,12 @@
 {
-  "uid" : "7103e97dd99839df",
+  "uid" : "19842514efce74e8",
   "name" : "Search person in web tables",
   "fullName" : "tests.test_web_tables.TestTextBox#test_search_some_person",
   "historyId" : "f13b9f00879ad43cb83da285efb1fcf2",
   "time" : {
-    "start" : 1725878938069,
-    "stop" : 1725878941774,
-    "duration" : 3705
+    "start" : 1725906142832,
+    "stop" : 1725906146522,
+    "duration" : 3690
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,200 +14,200 @@
   "beforeStages" : [ {
     "name" : "driver",
     "time" : {
-      "start" : 1725878937694,
-      "stop" : 1725878938023,
-      "duration" : 329
+      "start" : 1725906142423,
+      "stop" : 1725906142787,
+      "duration" : 364
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
-  }, {
-    "name" : "_session_faker",
-    "time" : {
-      "start" : 1725878909006,
-      "stop" : 1725878909089,
-      "duration" : 83
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
+    "hasContent" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
+    "shouldDisplayMessage" : false
   }, {
     "name" : "setup",
     "time" : {
-      "start" : 1725878938023,
-      "stop" : 1725878938069,
-      "duration" : 46
+      "start" : 1725906142787,
+      "stop" : 1725906142832,
+      "duration" : 45
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1725906125769,
+      "stop" : 1725906125853,
+      "duration" : 84
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "Open https://demoqa.com/webtables page",
       "time" : {
-        "start" : 1725878938069,
-        "stop" : 1725878939718,
-        "duration" : 1649
+        "start" : 1725906142832,
+        "stop" : 1725906144258,
+        "duration" : 1426
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Page https://demoqa.com/webtables is opened",
       "time" : {
-        "start" : 1725878939719,
-        "stop" : 1725878939729,
-        "duration" : 10
+        "start" : 1725906144258,
+        "stop" : 1725906144261,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Select a random person and perform a search",
       "time" : {
-        "start" : 1725878939730,
-        "stop" : 1725878941474,
-        "duration" : 1744
+        "start" : 1725906144261,
+        "stop" : 1725906146284,
+        "duration" : 2023
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check visibility of elements located by ('xpath', \"//div[@class='rt-td']\")",
         "time" : {
-          "start" : 1725878939730,
-          "stop" : 1725878940497,
-          "duration" : 767
+          "start" : 1725906144262,
+          "stop" : 1725906145150,
+          "duration" : 888
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Get a random element from the list",
         "time" : {
-          "start" : 1725878940497,
-          "stop" : 1725878941378,
-          "duration" : 881
+          "start" : 1725906145150,
+          "stop" : 1725906146157,
+          "duration" : 1007
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Check if element located by ('xpath', \"//input[@id='searchBox']\") is clickable",
         "time" : {
-          "start" : 1725878941382,
-          "stop" : 1725878941402,
-          "duration" : 20
+          "start" : 1725906146162,
+          "stop" : 1725906146183,
+          "duration" : 21
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 3,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Verify the search result contains the searched person",
       "time" : {
-        "start" : 1725878941475,
-        "stop" : 1725878941509,
-        "duration" : 34
+        "start" : 1725906146284,
+        "stop" : 1725906146308,
+        "duration" : 24
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Check if text '45' is present in multiple elements",
+        "name" : "Check if text 'Alden' is present in multiple elements",
         "time" : {
-          "start" : 1725878941475,
-          "stop" : 1725878941509,
-          "duration" : 34
+          "start" : 1725906146284,
+          "stop" : 1725906146308,
+          "duration" : 24
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 1,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ {
-      "uid" : "423d700d043c97b2",
+      "uid" : "c54d5973baac69d9",
       "name" : "Screenshot",
-      "source" : "423d700d043c97b2.png",
+      "source" : "c54d5973baac69d9.png",
       "type" : "image/png",
-      "size" : 402253
+      "size" : 305427
     } ],
     "parameters" : [ ],
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 8,
-    "hasContent" : true
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1725878941774,
-      "stop" : 1725878941836,
-      "duration" : 62
+      "start" : 1725906146523,
+      "stop" : 1725906146582,
+      "duration" : 59
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
     "name" : "feature",
@@ -226,7 +226,7 @@
     "value" : "TestTextBox"
   }, {
     "name" : "host",
-    "value" : "a86d1f033631"
+    "value" : "7b638646d060"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -256,11 +256,19 @@
         "failed" : 0,
         "broken" : 2,
         "skipped" : 0,
-        "passed" : 3,
+        "passed" : 4,
         "unknown" : 0,
-        "total" : 5
+        "total" : 6
       },
       "items" : [ {
+        "uid" : "7103e97dd99839df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725878938069,
+          "stop" : 1725878941774,
+          "duration" : 3705
+        }
+      }, {
         "uid" : "1ba325f2461dc969",
         "status" : "broken",
         "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 299.732\n  (Session info: headless chrome=112.0.5615.165)",
@@ -298,6 +306,6 @@
     },
     "tags" : [ "smoke" ]
   },
-  "source" : "7103e97dd99839df.json",
+  "source" : "19842514efce74e8.json",
   "parameterValues" : [ ]
 }

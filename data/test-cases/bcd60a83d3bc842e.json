@@ -1,453 +1,453 @@
 {
-  "uid" : "6a655cd1332af2b4",
+  "uid" : "bcd60a83d3bc842e",
   "name" : "Completing the text box fields",
   "fullName" : "tests.test_text_box.TestTextBox#test_complete_text_box",
   "historyId" : "3003eea26cf009c4e05a5883424b3803",
   "time" : {
-    "start" : 1725878924270,
-    "stop" : 1725878926924,
-    "duration" : 2654
+    "start" : 1725906134751,
+    "stop" : 1725906137432,
+    "duration" : 2681
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "driver",
+    "name" : "setup",
     "time" : {
-      "start" : 1725878923900,
-      "stop" : 1725878924226,
-      "duration" : 326
+      "start" : 1725906134706,
+      "stop" : 1725906134751,
+      "duration" : 45
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1725878909006,
-      "stop" : 1725878909089,
-      "duration" : 83
+      "start" : 1725906125769,
+      "stop" : 1725906125853,
+      "duration" : 84
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   }, {
-    "name" : "setup",
+    "name" : "driver",
     "time" : {
-      "start" : 1725878924226,
-      "stop" : 1725878924270,
-      "duration" : 44
+      "start" : 1725906134374,
+      "stop" : 1725906134706,
+      "duration" : 332
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "Open https://demoqa.com/text-box page",
       "time" : {
-        "start" : 1725878924270,
-        "stop" : 1725878925844,
-        "duration" : 1574
+        "start" : 1725906134751,
+        "stop" : 1725906136344,
+        "duration" : 1593
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Page https://demoqa.com/text-box is opened",
       "time" : {
-        "start" : 1725878925844,
-        "stop" : 1725878925865,
-        "duration" : 21
+        "start" : 1725906136344,
+        "stop" : 1725906136353,
+        "duration" : 9
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Enter full name",
       "time" : {
-        "start" : 1725878925865,
-        "stop" : 1725878926136,
-        "duration" : 271
+        "start" : 1725906136353,
+        "stop" : 1725906136600,
+        "duration" : 247
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check if element located by ('xpath', \"//input[@id='userName']\") is clickable",
         "time" : {
-          "start" : 1725878925866,
-          "stop" : 1725878926002,
-          "duration" : 136
+          "start" : 1725906136354,
+          "stop" : 1725906136383,
+          "duration" : 29
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 1,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Enter email",
       "time" : {
-        "start" : 1725878926136,
-        "stop" : 1725878926309,
-        "duration" : 173
+        "start" : 1725906136600,
+        "stop" : 1725906136803,
+        "duration" : 203
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check if element located by ('xpath', \"//input[@id='userEmail']\") is clickable",
         "time" : {
-          "start" : 1725878926137,
-          "stop" : 1725878926219,
-          "duration" : 82
+          "start" : 1725906136601,
+          "stop" : 1725906136689,
+          "duration" : 88
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 1,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Enter current address",
       "time" : {
-        "start" : 1725878926309,
-        "stop" : 1725878926402,
-        "duration" : 93
+        "start" : 1725906136803,
+        "stop" : 1725906136891,
+        "duration" : 88
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check if element located by ('xpath', \"//textarea[@id='currentAddress']\") is clickable",
         "time" : {
-          "start" : 1725878926310,
-          "stop" : 1725878926351,
-          "duration" : 41
+          "start" : 1725906136803,
+          "stop" : 1725906136829,
+          "duration" : 26
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 1,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Enter permanent address",
       "time" : {
-        "start" : 1725878926402,
-        "stop" : 1725878926484,
-        "duration" : 82
+        "start" : 1725906136891,
+        "stop" : 1725906136987,
+        "duration" : 96
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check if element located by ('xpath', \"//textarea[@id='permanentAddress']\") is clickable",
         "time" : {
-          "start" : 1725878926402,
-          "stop" : 1725878926434,
-          "duration" : 32
+          "start" : 1725906136891,
+          "stop" : 1725906136922,
+          "duration" : 31
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 1,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Click submit button",
       "time" : {
-        "start" : 1725878926484,
-        "stop" : 1725878926544,
-        "duration" : 60
+        "start" : 1725906136987,
+        "stop" : 1725906137050,
+        "duration" : 63
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check if element located by ('xpath', \"//button[@id='submit']\") is clickable",
         "time" : {
-          "start" : 1725878926496,
-          "stop" : 1725878926515,
+          "start" : 1725906137001,
+          "stop" : 1725906137020,
           "duration" : 19
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 1,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Verify saved full name",
       "time" : {
-        "start" : 1725878926544,
-        "stop" : 1725878926580,
+        "start" : 1725906137051,
+        "stop" : 1725906137087,
         "duration" : 36
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Wait for element located by ('xpath', \"//input[@id='userName']\") to have value 'Sarah Oconnor'",
+        "name" : "Wait for element located by ('xpath', \"//input[@id='userName']\") to change new value 'Christina Cole'",
         "time" : {
-          "start" : 1725878926544,
-          "stop" : 1725878926561,
-          "duration" : 17
+          "start" : 1725906137051,
+          "stop" : 1725906137067,
+          "duration" : 16
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
-        "name" : "Wait for element located by ('xpath', \"//p[@id='name']\") to contain text 'Sarah Oconnor'",
+        "name" : "Wait for element located by ('xpath', \"//p[@id='name']\") to contain text 'Christina Cole'",
         "time" : {
-          "start" : 1725878926561,
-          "stop" : 1725878926580,
-          "duration" : 19
+          "start" : 1725906137067,
+          "stop" : 1725906137087,
+          "duration" : 20
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 2,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Verify saved email",
       "time" : {
-        "start" : 1725878926581,
-        "stop" : 1725878926612,
-        "duration" : 31
-      },
-      "status" : "passed",
-      "steps" : [ {
-        "name" : "Wait for element located by ('xpath', \"//input[@id='userEmail']\") to have value 'louis46@example.com'",
-        "time" : {
-          "start" : 1725878926581,
-          "stop" : 1725878926593,
-          "duration" : 12
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "stepsCount" : 0,
-        "hasContent" : false
-      }, {
-        "name" : "Wait for element located by ('xpath', \"//p[@id='email']\") to contain text 'louis46@example.com'",
-        "time" : {
-          "start" : 1725878926593,
-          "stop" : 1725878926612,
-          "duration" : 19
-        },
-        "status" : "passed",
-        "steps" : [ ],
-        "attachments" : [ ],
-        "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "stepsCount" : 0,
-        "hasContent" : false
-      } ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "stepsCount" : 2,
-      "hasContent" : true
-    }, {
-      "name" : "Verify saved current address",
-      "time" : {
-        "start" : 1725878926612,
-        "stop" : 1725878926646,
+        "start" : 1725906137087,
+        "stop" : 1725906137121,
         "duration" : 34
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Wait for element located by ('xpath', \"//textarea[@id='currentAddress']\") to have value '079 Thomas Center'",
+        "name" : "Wait for element located by ('xpath', \"//input[@id='userEmail']\") to change new value 'conradjoseph@example.org'",
         "time" : {
-          "start" : 1725878926612,
-          "stop" : 1725878926625,
-          "duration" : 13
+          "start" : 1725906137087,
+          "stop" : 1725906137102,
+          "duration" : 15
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
-        "name" : "Wait for element located by ('xpath', \"//p[@id='currentAddress']\") to contain text '079 Thomas Center'",
+        "name" : "Wait for element located by ('xpath', \"//p[@id='email']\") to contain text 'conradjoseph@example.org'",
         "time" : {
-          "start" : 1725878926625,
-          "stop" : 1725878926646,
-          "duration" : 21
+          "start" : 1725906137102,
+          "stop" : 1725906137121,
+          "duration" : 19
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 2,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
-      "name" : "Verify saved permanent address",
+      "name" : "Verify saved current address",
       "time" : {
-        "start" : 1725878926646,
-        "stop" : 1725878926676,
-        "duration" : 30
+        "start" : 1725906137121,
+        "stop" : 1725906137155,
+        "duration" : 34
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Wait for element located by ('xpath', \"//textarea[@id='permanentAddress']\") to have value '794 Jerry Isle Apt. 476'",
+        "name" : "Wait for element located by ('xpath', \"//textarea[@id='currentAddress']\") to change new value '9802 Sutton Unions'",
         "time" : {
-          "start" : 1725878926646,
-          "stop" : 1725878926658,
-          "duration" : 12
+          "start" : 1725906137121,
+          "stop" : 1725906137137,
+          "duration" : 16
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
-        "name" : "Wait for element located by ('xpath', \"//p[@id='permanentAddress']\") to contain text '794 Jerry Isle Apt. 476'",
+        "name" : "Wait for element located by ('xpath', \"//p[@id='currentAddress']\") to contain text '9802 Sutton Unions'",
         "time" : {
-          "start" : 1725878926658,
-          "stop" : 1725878926676,
+          "start" : 1725906137137,
+          "stop" : 1725906137155,
           "duration" : 18
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
       "stepsCount" : 2,
-      "hasContent" : true
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify saved permanent address",
+      "time" : {
+        "start" : 1725906137155,
+        "stop" : 1725906137186,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Wait for element located by ('xpath', \"//textarea[@id='permanentAddress']\") to change new value '42706 Byrd Station'",
+        "time" : {
+          "start" : 1725906137155,
+          "stop" : 1725906137168,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Wait for element located by ('xpath', \"//p[@id='permanentAddress']\") to contain text '42706 Byrd Station'",
+        "time" : {
+          "start" : 1725906137168,
+          "stop" : 1725906137186,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ {
-      "uid" : "b0c307ad732bb80f",
+      "uid" : "19075c81db629099",
       "name" : "Screenshot",
-      "source" : "b0c307ad732bb80f.png",
+      "source" : "19075c81db629099.png",
       "type" : "image/png",
-      "size" : 391180
+      "size" : 438765
     } ],
     "parameters" : [ ],
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 24,
-    "hasContent" : true
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1725878926924,
-      "stop" : 1725878926987,
-      "duration" : 63
+      "start" : 1725906137432,
+      "stop" : 1725906137494,
+      "duration" : 62
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
     "name" : "feature",
@@ -466,7 +466,7 @@
     "value" : "TestTextBox"
   }, {
     "name" : "host",
-    "value" : "a86d1f033631"
+    "value" : "7b638646d060"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -496,11 +496,19 @@
         "failed" : 0,
         "broken" : 1,
         "skipped" : 0,
-        "passed" : 16,
+        "passed" : 17,
         "unknown" : 0,
-        "total" : 17
+        "total" : 18
       },
       "items" : [ {
+        "uid" : "6a655cd1332af2b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725878924270,
+          "stop" : 1725878926924,
+          "duration" : 2654
+        }
+      }, {
         "uid" : "20700094cd35a168",
         "status" : "passed",
         "time" : {
@@ -633,6 +641,6 @@
     },
     "tags" : [ "smoke" ]
   },
-  "source" : "6a655cd1332af2b4.json",
+  "source" : "bcd60a83d3bc842e.json",
   "parameterValues" : [ ]
 }
