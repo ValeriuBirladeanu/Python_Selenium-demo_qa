@@ -33,3 +33,12 @@ class TestTextBox(BaseTest):
         self.web_tables.search_some_person()
         self.web_tables.check_search_person()
         self.web_tables.make_screenshot()
+
+    @allure.title("Edit person in web tables")
+    @pytest.mark.smoke
+    def test_edit_some_person(self):
+        self.web_tables.open()
+        self.web_tables.is_opened()
+        self.web_tables.make_screenshot()
+        self.web_tables.edit_some_person()
+        self.web_tables.make_screenshot()

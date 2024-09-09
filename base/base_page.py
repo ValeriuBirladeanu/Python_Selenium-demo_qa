@@ -4,6 +4,7 @@ from allure_commons.types import AttachmentType
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+
 class BasePage:
 
     def __init__(self, driver):
@@ -62,13 +63,12 @@ class BasePage:
             elements = self.wait.until(EC.presence_of_all_elements_located(locator))
             for element in elements:
                 actual_text = slicing(element.text) if slicing else element.text
-                if str(expected_text).lower() in actual_text.lower():
-                    print(expected_text)
-                    print(actual_text)
+                if str(expected_text).lower().strip() in actual_text.lower().strip():
                     return element
             assert False, f"Text '{expected_text}' not found in any of the elements"
 
-    def get_random_text_element(self, elements):
+    @staticmethod
+    def get_random_text_element(elements):
         with allure.step("Get a random element from the list"):
             valid_elements = [element for element in elements if element.text.strip()]
             if not valid_elements:
@@ -76,6 +76,14 @@ class BasePage:
             random_element = random.choice(valid_elements)
             allure.step(f"Selected element with text: '{random_element.text.strip()}'")
             return random_element
+
+    @staticmethod
+    def get_random_element(elements):
+        with allure.step("Get all elements from the list"):
+            valid_elements = [element for element in elements]
+            if not valid_elements:
+                raise ValueError("No valid elements found")
+            return random.choice(valid_elements)
 
     def scroll_to(self, target):
         if isinstance(target, tuple):  # Check if target is a locator
