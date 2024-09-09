@@ -3,3 +3,4 @@
 *.iml
 allure-results
 report
+__pycache__/
