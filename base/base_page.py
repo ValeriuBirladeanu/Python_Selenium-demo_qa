@@ -1,5 +1,4 @@
 import random
-
 import allure
 from allure_commons.types import AttachmentType
 from selenium.webdriver.support.ui import WebDriverWait
@@ -43,19 +42,19 @@ class BasePage:
         with allure.step(f"Check presence of elements located by {locator}"):
             return self.wait.until(EC.presence_of_all_elements_located(locator))
 
-    def check_element_value(self, locator, value, slicing=None):
-        with allure.step(f"Wait for element located by {locator} to have value '{value}'"):
+    def check_element_value(self, locator, new_value, slicing=None):
+        with allure.step(f"Wait for element located by {locator} to change new value '{new_value}'"):
             element = self.wait.until(EC.visibility_of_element_located(locator))
             actual_value = element.get_attribute('value')
             actual_value = slicing(actual_value) if slicing else actual_value
-            assert str(value).lower() == str(actual_value).lower(), f"Expected value '{value}' but got '{actual_value}'"
+            assert str(new_value).lower().strip() == str(actual_value).lower().strip(), f"Expected value '{new_value}' but got '{actual_value}'"
             return element
 
     def check_element_text(self, locator, expected_text, slicing=None):
         with allure.step(f"Wait for element located by {locator} to contain text '{expected_text}'"):
             element = self.wait.until(EC.presence_of_element_located(locator))
             actual_text = slicing(element.text) if slicing else element.text # Slicing operation on element text is expected
-            assert expected_text.lower() in actual_text.lower(), f"Expected text '{expected_text}' in '{actual_text}' (full text: '{element.text}')"
+            assert expected_text.lower().strip() in actual_text.lower().strip(), f"Expected text '{expected_text}' in '{actual_text}' (full text: '{element.text}')"
             return element
 
     def check_text_in_multiple_elements(self, locator, expected_text, slicing=None):
@@ -64,10 +63,12 @@ class BasePage:
             for element in elements:
                 actual_text = slicing(element.text) if slicing else element.text
                 if str(expected_text).lower() in actual_text.lower():
+                    print(expected_text)
+                    print(actual_text)
                     return element
             assert False, f"Text '{expected_text}' not found in any of the elements"
 
-    def get_random_element(self, elements):
+    def get_random_text_element(self, elements):
         with allure.step("Get a random element from the list"):
             valid_elements = [element for element in elements if element.text.strip()]
             if not valid_elements:

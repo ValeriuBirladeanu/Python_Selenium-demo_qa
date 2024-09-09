@@ -49,19 +49,19 @@ class TextBox(BasePage):
     @allure.step("Verify saved full name")
     def is_saved_full_name(self):
         self.check_element_value(self.FULL_NAME_FIELD, self.full_name)
-        self.check_element_text(self.OUTPUT_FULL_NAME, self.full_name, lambda slicing: slicing.split(":")[1].strip())
+        self.check_element_text(self.OUTPUT_FULL_NAME, self.full_name, lambda slicing: slicing.split(":")[1])
 
     @allure.step("Verify saved email")
     def is_saved_email(self):
         self.check_element_value(self.EMAIL_FIELD, self.email),
-        self.check_element_text(self.OUTPUT_EMAIL, self.email, lambda slicing: slicing.split(":")[1].strip())
+        self.check_element_text(self.OUTPUT_EMAIL, self.email, lambda slicing: slicing.split(":")[1])
 
     @allure.step("Verify saved current address")
     def is_saved_current_address(self):
         self.check_element_value(self.CURRENT_ADDRESS_FIELD, self.current_address)
-        self.check_element_text(self.OUTPUT_CURRENT_ADDRESS, self.current_address, lambda slicing: slicing.split(":")[1].strip())
+        self.check_element_text(self.OUTPUT_CURRENT_ADDRESS, self.current_address, lambda slicing: slicing.split(":")[1])
 
     @allure.step("Verify saved permanent address")
     def is_saved_permanent_address(self):
         self.check_element_value(self.PERMANENT_ADDRESS_FIELD, self.permanent_address)
-        self.check_element_text(self.OUTPUT_PERMANENT_ADDRESS, self.permanent_address, lambda slicing: slicing.split(":")[1].strip())
+        self.check_element_text(self.OUTPUT_PERMANENT_ADDRESS, self.permanent_address, lambda slicing: slicing.split(":")[1])
