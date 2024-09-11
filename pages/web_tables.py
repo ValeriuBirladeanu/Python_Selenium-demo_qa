@@ -1,4 +1,5 @@
 import allure
+from selenium.webdriver import Keys
 from base.base_page import BasePage
 from config.links import Links
 from data.data_generator import TestDataGenerator
@@ -17,9 +18,11 @@ class WebTables(BasePage):
     DEPARTMENT_INPUT = ("xpath", "//input[@id='department']")
     SUBMIT_BUTTON = ("xpath", "//button[@id='submit']")
     ALL_CELLS_TABLE_ELEMENTS = ("xpath", "//div[@class='rt-td']")
-    All_ROWS_TABLE_ELEMENTS = ("xpath", "//div[@role='row']")
+    ALL_ROWS_TABLE_ELEMENTS = ("xpath", "//div[@role='row']")
     SEARCH_INPUT = ("xpath", "//input[@id='searchBox']")
     ALL_EDIT_BUTTONS = ("xpath", "//span[@title='Edit']")
+    ALL_DELETE_BUTTONS = ("xpath", "//span[@title='Delete']")
+    NOT_ROWS_FOUND = ("xpath", "//div[@class='rt-noData']")
 
     def __init__(self, driver):
         super().__init__(driver)
@@ -88,8 +91,9 @@ class WebTables(BasePage):
     @allure.step('Select a random person and perform a search')
     def search_some_person(self):
         cells = self.elements_are_visible(self.ALL_CELLS_TABLE_ELEMENTS)
-        cells = cells[1:]
-        self.search_input = WebTables.get_random_text_element(cells).text
+        cells = cells[1:]  # Exclude header if necessary
+        selected_element = WebTables.get_random_text_element(cells)
+        self.search_input = selected_element.text
         search_input_element = self.element_is_clickable(self.SEARCH_INPUT)
         search_input_element.clear()
         search_input_element.send_keys(self.search_input)
@@ -101,7 +105,7 @@ class WebTables(BasePage):
         return self.search_input
 
     @allure.step('Select a random row from the table')
-    def select_random_row(self):
+    def select_random_row_for_edit(self):
         edit_buttons = self.elements_are_visible(self.ALL_EDIT_BUTTONS)
         random_edit_button = WebTables.get_random_element(edit_buttons)
         self.element_is_clickable(random_edit_button).click()
@@ -148,9 +152,26 @@ class WebTables(BasePage):
 
     @allure.step('Edit some person details randomly')
     def edit_some_person(self):
-        self.select_random_row()
+        self.select_random_row_for_edit()
         field_to_edit = self.select_random_field()
         field_input = self.element_is_visible(field_to_edit['locator'])
         new_value = self.generate_new_value(field_to_edit['type'])
         self.modify_field(field_input, new_value)
         self.verify_text_in_table(new_value)
+
+    @allure.step('Delete a person from the table')
+    def delete_person_from_table(self):
+        self.search_some_person()
+        delete_buttons = self.elements_are_visible(self.ALL_DELETE_BUTTONS)
+        delete_button = WebTables.get_random_element(delete_buttons)
+        self.element_is_clickable(delete_button).click()
+        self.element_is_visible(self.NOT_ROWS_FOUND)
+
+    @allure.step("Check that the deleted person isn't present in the table")
+    def verify_deleted_person_from_table(self):
+        search_input_element = self.element_is_clickable(self.SEARCH_INPUT)
+        search_input_element.send_keys(Keys.CONTROL, 'a')
+        search_input_element.send_keys(Keys.BACKSPACE)
+        remaining_rows = self.elements_are_visible(self.ALL_ROWS_TABLE_ELEMENTS)
+        remaining_rows = remaining_rows[1:]  # Exclude header if necessary
+        self.verify_text_not_in_elements(remaining_rows, self.search_input)

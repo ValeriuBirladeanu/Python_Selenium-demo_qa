@@ -4,7 +4,7 @@ from base.base_test import BaseTest
 
 
 @allure.feature("Elements - Wev Tables")
-class TestTextBox(BaseTest):
+class TestWebTables(BaseTest):
 
     @allure.title("Add new person in web tables")
     @pytest.mark.smoke
@@ -34,11 +34,21 @@ class TestTextBox(BaseTest):
         self.web_tables.check_search_person()
         self.web_tables.make_screenshot()
 
-    @allure.title("Edit person in web tables")
+    @allure.title("Edit person from web tables")
     @pytest.mark.smoke
     def test_edit_some_person(self):
         self.web_tables.open()
         self.web_tables.is_opened()
         self.web_tables.make_screenshot()
         self.web_tables.edit_some_person()
+        self.web_tables.make_screenshot()
+
+    @allure.title("Delete a random person and verify deletion")
+    @pytest.mark.smoke
+    def test_delete_person(self):
+        self.web_tables.open()
+        self.web_tables.is_opened()
+        self.web_tables.make_screenshot()
+        self.web_tables.delete_person_from_table()
+        self.web_tables.verify_deleted_person_from_table()
         self.web_tables.make_screenshot()

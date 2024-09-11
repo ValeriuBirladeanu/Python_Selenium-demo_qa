@@ -85,6 +85,11 @@ class BasePage:
                 raise ValueError("No valid elements found")
             return random.choice(valid_elements)
 
+    def verify_text_not_in_elements(self, elements, text_to_check):
+        with allure.step(f"Verify that '{text_to_check}' is not present in the provided elements"):
+            for element in elements:
+                assert text_to_check not in element.text, f"Text '{text_to_check}' is still present in one of the elements."
+
     def scroll_to(self, target):
         if isinstance(target, tuple):  # Check if target is a locator
             element = self.driver.find_element(*target)
