@@ -6,13 +6,13 @@
       "name" : "test_check_box",
       "children" : [ {
         "name" : "Click on the checkboxes",
-        "uid" : "e3e84ff336820eac",
+        "uid" : "fd2e375439bb42bf",
         "parentUid" : "af5793ed23373e4f0c5b59cc1a94ebd4",
         "status" : "passed",
         "time" : {
-          "start" : 1725906126287,
-          "stop" : 1725906129313,
-          "duration" : 3026
+          "start" : 1726040790060,
+          "stop" : 1726040794705,
+          "duration" : 4645
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,26 +23,26 @@
       "name" : "test_radio_button",
       "children" : [ {
         "name" : "Select and verify a random radio button",
-        "uid" : "aafa983510812697",
+        "uid" : "96fb00d07f358b15",
         "parentUid" : "c26c95efb2f01236c7d493395d898647",
         "status" : "passed",
         "time" : {
-          "start" : 1725906129779,
-          "stop" : 1725906132234,
-          "duration" : 2455
+          "start" : 1726040795223,
+          "stop" : 1726040802742,
+          "duration" : 7519
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Verify 'No' radio button is disabled",
-        "uid" : "4c8906f0610c2696",
+        "uid" : "4476e751876af877",
         "parentUid" : "c26c95efb2f01236c7d493395d898647",
         "status" : "passed",
         "time" : {
-          "start" : 1725906132675,
-          "stop" : 1725906134313,
-          "duration" : 1638
+          "start" : 1726040803236,
+          "stop" : 1726040810637,
+          "duration" : 7401
         },
         "flaky" : false,
         "newFailed" : false,
@@ -53,13 +53,13 @@
       "name" : "test_text_box",
       "children" : [ {
         "name" : "Completing the text box fields",
-        "uid" : "bcd60a83d3bc842e",
+        "uid" : "9165e4d31d684d37",
         "parentUid" : "a296da0f6cca0789f7c3581c1666debd",
         "status" : "passed",
         "time" : {
-          "start" : 1725906134751,
-          "stop" : 1725906137432,
-          "duration" : 2681
+          "start" : 1726040811140,
+          "stop" : 1726040819354,
+          "duration" : 8214
         },
         "flaky" : false,
         "newFailed" : false,
@@ -70,39 +70,52 @@
       "name" : "test_web_tables",
       "children" : [ {
         "name" : "Add new person in web tables",
-        "uid" : "52c63d0d4d0f83d2",
+        "uid" : "b9b5b85f35f8dbfb",
         "parentUid" : "ffa66aa28e8b95e51c8678536a2ce16a",
         "status" : "passed",
         "time" : {
-          "start" : 1725906137873,
-          "stop" : 1725906142358,
-          "duration" : 4485
+          "start" : 1726040819849,
+          "stop" : 1726040829939,
+          "duration" : 10090
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Search person in web tables",
-        "uid" : "19842514efce74e8",
+        "uid" : "a3d15b421c6b0a0a",
         "parentUid" : "ffa66aa28e8b95e51c8678536a2ce16a",
         "status" : "passed",
         "time" : {
-          "start" : 1725906142832,
-          "stop" : 1725906146522,
-          "duration" : 3690
+          "start" : 1726040830425,
+          "stop" : 1726040835242,
+          "duration" : 4817
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Edit person in web tables",
-        "uid" : "50f35429c7c991de",
+        "name" : "Edit person from web tables",
+        "uid" : "a35fcf9f25228ce3",
         "parentUid" : "ffa66aa28e8b95e51c8678536a2ce16a",
         "status" : "passed",
         "time" : {
-          "start" : 1725906146954,
-          "stop" : 1725906156792,
-          "duration" : 9838
+          "start" : 1726040835740,
+          "stop" : 1726040843904,
+          "duration" : 8164
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Delete a random person and verify deletion",
+        "uid" : "f365695428db8deb",
+        "parentUid" : "ffa66aa28e8b95e51c8678536a2ce16a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726040844394,
+          "stop" : 1726040856311,
+          "duration" : 11917
         },
         "flaky" : false,
         "newFailed" : false,

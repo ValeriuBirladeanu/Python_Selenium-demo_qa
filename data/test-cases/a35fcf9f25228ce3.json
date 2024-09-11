@@ -1,212 +1,212 @@
 {
-  "uid" : "50f35429c7c991de",
-  "name" : "Edit person in web tables",
-  "fullName" : "tests.test_web_tables.TestTextBox#test_edit_some_person",
-  "historyId" : "6116627d5a2cff1eb04f153b332d72b4",
+  "uid" : "a35fcf9f25228ce3",
+  "name" : "Edit person from web tables",
+  "fullName" : "tests.test_web_tables.TestWebTables#test_edit_some_person",
+  "historyId" : "6d6ef89c80909ad77e4237c4c7a7993f",
   "time" : {
-    "start" : 1725906146954,
-    "stop" : 1725906156792,
-    "duration" : 9838
+    "start" : 1726040835740,
+    "stop" : 1726040843904,
+    "duration" : 8164
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
-    "name" : "setup",
-    "time" : {
-      "start" : 1725906146911,
-      "stop" : 1725906146954,
-      "duration" : 43
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
-  }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1725906125769,
-      "stop" : 1725906125853,
-      "duration" : 84
+      "start" : 1726040789453,
+      "stop" : 1726040789579,
+      "duration" : 126
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1726040835693,
+      "stop" : 1726040835739,
+      "duration" : 46
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
   }, {
     "name" : "driver",
     "time" : {
-      "start" : 1725906146583,
-      "stop" : 1725906146910,
-      "duration" : 327
+      "start" : 1726040835313,
+      "stop" : 1726040835692,
+      "duration" : 379
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "Open https://demoqa.com/webtables page",
       "time" : {
-        "start" : 1725906146954,
-        "stop" : 1725906155865,
-        "duration" : 8911
+        "start" : 1726040835740,
+        "stop" : 1726040842850,
+        "duration" : 7110
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Page https://demoqa.com/webtables is opened",
       "time" : {
-        "start" : 1725906155865,
-        "stop" : 1725906155868,
-        "duration" : 3
+        "start" : 1726040842850,
+        "stop" : 1726040842859,
+        "duration" : 9
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Edit some person details randomly",
       "time" : {
-        "start" : 1725906156081,
-        "stop" : 1725906156569,
-        "duration" : 488
+        "start" : 1726040843100,
+        "stop" : 1726040843641,
+        "duration" : 541
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Select a random row from the table",
         "time" : {
-          "start" : 1725906156081,
-          "stop" : 1725906156269,
-          "duration" : 188
+          "start" : 1726040843100,
+          "stop" : 1726040843319,
+          "duration" : 219
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check visibility of elements located by ('xpath', \"//span[@title='Edit']\")",
           "time" : {
-            "start" : 1725906156081,
-            "stop" : 1725906156159,
-            "duration" : 78
+            "start" : 1726040843100,
+            "stop" : 1726040843212,
+            "duration" : 112
           },
           "status" : "passed",
           "steps" : [ ],
           "attachments" : [ ],
           "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
           "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
         }, {
           "name" : "Get all elements from the list",
           "time" : {
-            "start" : 1725906156159,
-            "stop" : 1725906156159,
+            "start" : 1726040843212,
+            "stop" : 1726040843212,
             "duration" : 0
           },
           "status" : "passed",
           "steps" : [ ],
           "attachments" : [ ],
           "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
           "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
         }, {
-          "name" : "Check if element located by <selenium.webdriver.remote.webelement.WebElement (session=\"f810d65818830a49b6b2250558d59692\", element=\"d64e1fd5-1cff-4659-ac2c-57520f223a4c\")> is clickable",
+          "name" : "Check if element located by <selenium.webdriver.remote.webelement.WebElement (session=\"4625ce39639027f51d26b6154292b08e\", element=\"913116f6-1b25-4abd-b8fd-07a3195aac0f\")> is clickable",
           "time" : {
-            "start" : 1725906156159,
-            "stop" : 1725906156178,
-            "duration" : 19
+            "start" : 1726040843212,
+            "stop" : 1726040843237,
+            "duration" : 25
           },
           "status" : "passed",
           "steps" : [ ],
           "attachments" : [ ],
           "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
           "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
         } ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 3,
-        "hasContent" : true,
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 3,
+        "hasContent" : true
       }, {
         "name" : "Select a random field to edit",
         "time" : {
-          "start" : 1725906156269,
-          "stop" : 1725906156269,
+          "start" : 1726040843319,
+          "stop" : 1726040843319,
           "duration" : 0
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Get all elements from the list",
           "time" : {
-            "start" : 1725906156269,
-            "stop" : 1725906156269,
+            "start" : 1726040843319,
+            "stop" : 1726040843319,
             "duration" : 0
           },
           "status" : "passed",
           "steps" : [ ],
           "attachments" : [ ],
           "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
           "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
         } ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 1,
-        "hasContent" : true,
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
       }, {
-        "name" : "Check visibility of element located by ('xpath', \"//input[@id='age']\")",
+        "name" : "Check visibility of element located by ('xpath', \"//input[@id='userEmail']\")",
         "time" : {
-          "start" : 1725906156269,
-          "stop" : 1725906156283,
-          "duration" : 14
+          "start" : 1726040843319,
+          "stop" : 1726040843340,
+          "duration" : 21
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
       }, {
-        "name" : "Generate a new value for the field of type 'age'",
+        "name" : "Generate a new value for the field of type 'email'",
         "time" : {
-          "start" : 1725906156283,
-          "stop" : 1725906156283,
+          "start" : 1726040843340,
+          "stop" : 1726040843340,
           "duration" : 0
         },
         "status" : "passed",
@@ -214,123 +214,123 @@
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "field_type",
-          "value" : "'age'"
+          "value" : "'email'"
         } ],
-        "stepsCount" : 0,
-        "hasContent" : true,
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
       }, {
         "name" : "Modify the field with the new value",
         "time" : {
-          "start" : 1725906156283,
-          "stop" : 1725906156440,
-          "duration" : 157
+          "start" : 1726040843340,
+          "stop" : 1726040843537,
+          "duration" : 197
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Check if element located by ('xpath', \"//button[@id='submit']\") is clickable",
           "time" : {
-            "start" : 1725906156347,
-            "stop" : 1725906156398,
-            "duration" : 51
+            "start" : 1726040843467,
+            "stop" : 1726040843496,
+            "duration" : 29
           },
           "status" : "passed",
           "steps" : [ ],
           "attachments" : [ ],
           "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
           "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
         } ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "input_element",
-          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"f810d65818830a49b6b2250558d59692\", element=\"01589c6b-e3c7-4e61-a99f-12920afd8f70\")>"
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"4625ce39639027f51d26b6154292b08e\", element=\"f85a81d0-df2e-40aa-9013-8aa1d826ccc3\")>"
         }, {
           "name" : "new_value",
-          "value" : "38"
+          "value" : "'jsullivan@example.net'"
         } ],
-        "stepsCount" : 1,
-        "hasContent" : true,
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
       }, {
         "name" : "Verify the new text in the table",
         "time" : {
-          "start" : 1725906156440,
-          "stop" : 1725906156569,
-          "duration" : 129
+          "start" : 1726040843537,
+          "stop" : 1726040843641,
+          "duration" : 104
         },
         "status" : "passed",
         "steps" : [ {
-          "name" : "Check if text '38' is present in multiple elements",
+          "name" : "Check if text 'jsullivan@example.net' is present in multiple elements",
           "time" : {
-            "start" : 1725906156440,
-            "stop" : 1725906156569,
-            "duration" : 129
+            "start" : 1726040843538,
+            "stop" : 1726040843641,
+            "duration" : 103
           },
           "status" : "passed",
           "steps" : [ ],
           "attachments" : [ ],
           "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
           "attachmentsCount" : 0,
-          "shouldDisplayMessage" : false
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
         } ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "expected_text",
-          "value" : "38"
+          "value" : "'jsullivan@example.net'"
         } ],
-        "stepsCount" : 1,
-        "hasContent" : true,
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 12,
-      "hasContent" : true,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 12,
+      "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "73fcfea79e2f21cd",
+      "uid" : "4df12d1ec563489a",
       "name" : "Screenshot",
-      "source" : "73fcfea79e2f21cd.png",
+      "source" : "4df12d1ec563489a.png",
       "type" : "image/png",
-      "size" : 412122
+      "size" : 430734
     }, {
-      "uid" : "8fca196f1ce5e98a",
+      "uid" : "1e2937870b9a0d02",
       "name" : "Screenshot",
-      "source" : "8fca196f1ce5e98a.png",
+      "source" : "1e2937870b9a0d02.png",
       "type" : "image/png",
-      "size" : 412282
+      "size" : 430749
     } ],
     "parameters" : [ ],
-    "stepsCount" : 15,
-    "hasContent" : true,
     "attachmentsCount" : 2,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 15,
+    "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1725906156793,
-      "stop" : 1725906156854,
-      "duration" : 61
+      "start" : 1726040843904,
+      "stop" : 1726040843968,
+      "duration" : 64
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "labels" : [ {
     "name" : "feature",
@@ -346,10 +346,10 @@
     "value" : "test_web_tables"
   }, {
     "name" : "subSuite",
-    "value" : "TestTextBox"
+    "value" : "TestWebTables"
   }, {
     "name" : "host",
-    "value" : "7b638646d060"
+    "value" : "bb4419e8121b"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -376,6 +376,6 @@
     "categories" : [ ],
     "tags" : [ "smoke" ]
   },
-  "source" : "50f35429c7c991de.json",
+  "source" : "a35fcf9f25228ce3.json",
   "parameterValues" : [ ]
 }

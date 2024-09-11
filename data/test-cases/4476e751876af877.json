@@ -1,12 +1,12 @@
 {
-  "uid" : "4c8906f0610c2696",
+  "uid" : "4476e751876af877",
   "name" : "Verify 'No' radio button is disabled",
   "fullName" : "tests.test_radio_button.TestRadioButton#test_disabled_radio_button",
   "historyId" : "f137a712c16d3781d6ffcce1c3287f41",
   "time" : {
-    "start" : 1725906132675,
-    "stop" : 1725906134313,
-    "duration" : 1638
+    "start" : 1726040803236,
+    "stop" : 1726040810637,
+    "duration" : 7401
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,140 +14,140 @@
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1725906132632,
-      "stop" : 1725906132675,
-      "duration" : 43
+      "start" : 1726040803187,
+      "stop" : 1726040803236,
+      "duration" : 49
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
   }, {
     "name" : "_session_faker",
     "time" : {
-      "start" : 1725906125769,
-      "stop" : 1725906125853,
-      "duration" : 84
+      "start" : 1726040789453,
+      "stop" : 1726040789579,
+      "duration" : 126
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
   }, {
     "name" : "driver",
     "time" : {
-      "start" : 1725906132297,
-      "stop" : 1725906132631,
-      "duration" : 334
+      "start" : 1726040802812,
+      "stop" : 1726040803187,
+      "duration" : 375
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "Open https://demoqa.com/radio-button page",
       "time" : {
-        "start" : 1725906132676,
-        "stop" : 1725906134062,
-        "duration" : 1386
+        "start" : 1726040803237,
+        "stop" : 1726040810333,
+        "duration" : 7096
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Page https://demoqa.com/radio-button is opened",
       "time" : {
-        "start" : 1725906134062,
-        "stop" : 1725906134065,
-        "duration" : 3
+        "start" : 1726040810333,
+        "stop" : 1726040810339,
+        "duration" : 6
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "Check if 'No' radio button is disabled and not clickable",
       "time" : {
-        "start" : 1725906134065,
-        "stop" : 1725906134082,
-        "duration" : 17
+        "start" : 1726040810339,
+        "stop" : 1726040810363,
+        "duration" : 24
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Check presence of element located by ('xpath', \"//input[@id='noRadio']\")",
         "time" : {
-          "start" : 1725906134065,
-          "stop" : 1725906134073,
+          "start" : 1726040810339,
+          "stop" : 1726040810347,
           "duration" : 8
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "attachmentsCount" : 0,
-        "shouldDisplayMessage" : false
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 1,
-      "hasContent" : true,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "aad4df7592a14c23",
+      "uid" : "b5bc2ef5e2e2b834",
       "name" : "Screenshot",
-      "source" : "aad4df7592a14c23.png",
+      "source" : "b5bc2ef5e2e2b834.png",
       "type" : "image/png",
-      "size" : 239507
+      "size" : 446979
     } ],
     "parameters" : [ ],
-    "stepsCount" : 4,
-    "hasContent" : true,
     "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1725906134314,
-      "stop" : 1725906134372,
-      "duration" : 58
+      "start" : 1726040810638,
+      "stop" : 1726040810700,
+      "duration" : 62
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "labels" : [ {
     "name" : "feature",
@@ -166,7 +166,7 @@
     "value" : "TestRadioButton"
   }, {
     "name" : "host",
-    "value" : "7b638646d060"
+    "value" : "bb4419e8121b"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -196,11 +196,19 @@
         "failed" : 0,
         "broken" : 1,
         "skipped" : 0,
-        "passed" : 7,
+        "passed" : 8,
         "unknown" : 0,
-        "total" : 8
+        "total" : 9
       },
       "items" : [ {
+        "uid" : "4c8906f0610c2696",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725906132675,
+          "stop" : 1725906134313,
+          "duration" : 1638
+        }
+      }, {
         "uid" : "85f06eb22948513d",
         "status" : "passed",
         "time" : {
@@ -261,6 +269,6 @@
     },
     "tags" : [ "smoke" ]
   },
-  "source" : "4c8906f0610c2696.json",
+  "source" : "4476e751876af877.json",
   "parameterValues" : [ ]
 }
