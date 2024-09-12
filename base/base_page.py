@@ -1,6 +1,7 @@
 import random
 import allure
 from allure_commons.types import AttachmentType
+from selenium.webdriver import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
@@ -103,6 +104,19 @@ class BasePage:
         with allure.step(f"Verify that '{text_to_check}' is not present in the provided elements"):
             for element in elements:
                 assert text_to_check not in element.text, f"Text '{text_to_check}' is still present in one of the elements."
+
+    # Performs a double-click action on the given element
+    def action_double_click(self, locator):
+        with allure.step(f"Perform double-click action on the element located by {locator}"):
+            action = ActionChains(self.driver)
+            action.double_click(locator)
+            action.perform()
+    # Performs a right-click action on the given element
+    def action_right_click(self, locator):
+        with allure.step(f"Perform right-click action on the element located by {locator}"):
+            action = ActionChains(self.driver)
+            action.context_click(locator)
+            action.perform()
 
     # Scrolls the page to a target element
     def scroll_to(self, target):
