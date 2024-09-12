@@ -4,11 +4,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "55c1da6d9615089",
+      "status" : "passed",
+      "time" : {
+        "start" : 1726146074109,
+        "stop" : 1726146077448,
+        "duration" : 3339
+      }
+    }, {
       "uid" : "a35fcf9f25228ce3",
       "status" : "passed",
       "time" : {
@@ -18,35 +26,24 @@
       }
     } ]
   },
-  "bfc0574189b331f0620ea85d156ea14a" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "a3d15b421c6b0a0a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1726040830425,
-        "stop" : 1726040835242,
-        "duration" : 4817
-      }
-    } ]
-  },
   "f3d458352b69315ab5facf51e62137fd" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "1c09513023209fa9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1726146056355,
+        "stop" : 1726146069387,
+        "duration" : 13032
+      }
+    }, {
       "uid" : "b9b5b85f35f8dbfb",
       "status" : "passed",
       "time" : {
@@ -129,11 +126,19 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 19
+      "total" : 20
     },
     "items" : [ {
+      "uid" : "b2778cc77b485425",
+      "status" : "passed",
+      "time" : {
+        "start" : 1726146053032,
+        "stop" : 1726146055913,
+        "duration" : 2881
+      }
+    }, {
       "uid" : "9165e4d31d684d37",
       "status" : "passed",
       "time" : {
@@ -288,7 +293,7 @@
       }
     } ]
   },
-  "e2458824731e0f3557a4ca96ca3aeec7" : {
+  "2d87d4ec6bd27533695dca401c9ff527" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -298,128 +303,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f365695428db8deb",
+      "uid" : "e6c95eafd5f1c5f4",
       "status" : "passed",
       "time" : {
-        "start" : 1726040844394,
-        "stop" : 1726040856311,
-        "duration" : 11917
-      }
-    } ]
-  },
-  "ac46f10f1fffab8a28c9e0f981a7ac87" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 12,
-      "unknown" : 0,
-      "total" : 13
-    },
-    "items" : [ {
-      "uid" : "fd2e375439bb42bf",
-      "status" : "passed",
-      "time" : {
-        "start" : 1726040790060,
-        "stop" : 1726040794705,
-        "duration" : 4645
-      }
-    }, {
-      "uid" : "e3e84ff336820eac",
-      "status" : "passed",
-      "time" : {
-        "start" : 1725906126287,
-        "stop" : 1725906129313,
-        "duration" : 3026
-      }
-    }, {
-      "uid" : "33ebe10d8785258a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1725878909523,
-        "stop" : 1725878913430,
-        "duration" : 3907
-      }
-    }, {
-      "uid" : "b5e5620c7e2b24c4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1725877912918,
-        "stop" : 1725877921646,
-        "duration" : 8728
-      }
-    }, {
-      "uid" : "e302de5da0fd0e52",
-      "status" : "passed",
-      "time" : {
-        "start" : 1725877358265,
-        "stop" : 1725877371633,
-        "duration" : 13368
-      }
-    }, {
-      "uid" : "289a5d6b68c9eb41",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/chromium-browser is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
-      "time" : {
-        "start" : 1725877113299,
-        "stop" : 1725877113299,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "c4711fec16b062f2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1725804993729,
-        "stop" : 1725805003232,
-        "duration" : 9503
-      }
-    }, {
-      "uid" : "ffb6981be8208246",
-      "status" : "passed",
-      "time" : {
-        "start" : 1725635220552,
-        "stop" : 1725635224396,
-        "duration" : 3844
-      }
-    }, {
-      "uid" : "801e27138eaf993e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1725528547075,
-        "stop" : 1725528550927,
-        "duration" : 3852
-      }
-    }, {
-      "uid" : "3e52bd9b7fbd9013",
-      "status" : "passed",
-      "time" : {
-        "start" : 1725477032202,
-        "stop" : 1725477043678,
-        "duration" : 11476
-      }
-    }, {
-      "uid" : "bb097cd58749b3f0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1725476837961,
-        "stop" : 1725476849455,
-        "duration" : 11494
-      }
-    }, {
-      "uid" : "5523c108c224d29e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1725441231638,
-        "stop" : 1725441240555,
-        "duration" : 8917
-      }
-    }, {
-      "uid" : "30944525bfa2e6fc",
-      "status" : "passed",
-      "time" : {
-        "start" : 1725368598286,
-        "stop" : 1725368606907,
-        "duration" : 8621
+        "start" : 1726146015941,
+        "stop" : 1726146018185,
+        "duration" : 2244
       }
     } ]
   },
@@ -428,11 +317,19 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "bc78b0ecd5f20ff8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1726146040022,
+        "stop" : 1726146052590,
+        "duration" : 12568
+      }
+    }, {
       "uid" : "4476e751876af877",
       "status" : "passed",
       "time" : {
@@ -587,16 +484,240 @@
       }
     } ]
   },
+  "bfc0574189b331f0620ea85d156ea14a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "40dc8ff9470d8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1726146069828,
+        "stop" : 1726146073670,
+        "duration" : 3842
+      }
+    }, {
+      "uid" : "a3d15b421c6b0a0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1726040830425,
+        "stop" : 1726040835242,
+        "duration" : 4817
+      }
+    } ]
+  },
+  "3fb596999614004c5b9074cb9566fdbe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e625b1bf2dc48015",
+      "status" : "passed",
+      "time" : {
+        "start" : 1726146004337,
+        "stop" : 1726146015471,
+        "duration" : 11134
+      }
+    } ]
+  },
+  "ebdb25f36711577e39bac23b3da2e50f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ee0e0efb039237a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1726146018623,
+        "stop" : 1726146020383,
+        "duration" : 1760
+      }
+    } ]
+  },
+  "e2458824731e0f3557a4ca96ca3aeec7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "cbd1b5d98007c9be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1726146077900,
+        "stop" : 1726146082401,
+        "duration" : 4501
+      }
+    }, {
+      "uid" : "f365695428db8deb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1726040844394,
+        "stop" : 1726040856311,
+        "duration" : 11917
+      }
+    } ]
+  },
+  "ac46f10f1fffab8a28c9e0f981a7ac87" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 13,
+      "unknown" : 0,
+      "total" : 14
+    },
+    "items" : [ {
+      "uid" : "5db869438f157447",
+      "status" : "passed",
+      "time" : {
+        "start" : 1726146020823,
+        "stop" : 1726146030461,
+        "duration" : 9638
+      }
+    }, {
+      "uid" : "fd2e375439bb42bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1726040790060,
+        "stop" : 1726040794705,
+        "duration" : 4645
+      }
+    }, {
+      "uid" : "e3e84ff336820eac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725906126287,
+        "stop" : 1725906129313,
+        "duration" : 3026
+      }
+    }, {
+      "uid" : "33ebe10d8785258a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725878909523,
+        "stop" : 1725878913430,
+        "duration" : 3907
+      }
+    }, {
+      "uid" : "b5e5620c7e2b24c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725877912918,
+        "stop" : 1725877921646,
+        "duration" : 8728
+      }
+    }, {
+      "uid" : "e302de5da0fd0e52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725877358265,
+        "stop" : 1725877371633,
+        "duration" : 13368
+      }
+    }, {
+      "uid" : "289a5d6b68c9eb41",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/chromium-browser is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+      "time" : {
+        "start" : 1725877113299,
+        "stop" : 1725877113299,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c4711fec16b062f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725804993729,
+        "stop" : 1725805003232,
+        "duration" : 9503
+      }
+    }, {
+      "uid" : "ffb6981be8208246",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725635220552,
+        "stop" : 1725635224396,
+        "duration" : 3844
+      }
+    }, {
+      "uid" : "801e27138eaf993e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725528547075,
+        "stop" : 1725528550927,
+        "duration" : 3852
+      }
+    }, {
+      "uid" : "3e52bd9b7fbd9013",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725477032202,
+        "stop" : 1725477043678,
+        "duration" : 11476
+      }
+    }, {
+      "uid" : "bb097cd58749b3f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725476837961,
+        "stop" : 1725476849455,
+        "duration" : 11494
+      }
+    }, {
+      "uid" : "5523c108c224d29e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725441231638,
+        "stop" : 1725441240555,
+        "duration" : 8917
+      }
+    }, {
+      "uid" : "30944525bfa2e6fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725368598286,
+        "stop" : 1725368606907,
+        "duration" : 8621
+      }
+    } ]
+  },
   "5c0a7aed3709908479f7d51ec7f394fc" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "d4d95b086e70ab2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1726146030900,
+        "stop" : 1726146039578,
+        "duration" : 8678
+      }
+    }, {
       "uid" : "96fb00d07f358b15",
       "status" : "passed",
       "time" : {

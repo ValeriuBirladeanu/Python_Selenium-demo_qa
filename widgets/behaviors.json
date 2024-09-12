@@ -1,5 +1,5 @@
 {
-  "total" : 4,
+  "total" : 5,
   "items" : [ {
     "uid" : "270bae793c458e2b11b8513b36ab3713",
     "name" : "Elements - Wev Tables",
@@ -10,6 +10,17 @@
       "passed" : 4,
       "unknown" : 0,
       "total" : 4
+    }
+  }, {
+    "uid" : "7b2fa5ed373194af40e4b346cdd1ac53",
+    "name" : "Elements - Buttons",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
     }
   }, {
     "uid" : "0e0cbeb8a4e8bcaf903563f3745755a9",
