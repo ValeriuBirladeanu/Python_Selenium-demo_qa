@@ -3,6 +3,15 @@
     "failed" : 0,
     "broken" : 0,
     "skipped" : 0,
+    "passed" : 19,
+    "unknown" : 0,
+    "total" : 19
+  }
+}, {
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
     "passed" : 11,
     "unknown" : 0,
     "total" : 11
@@ -123,15 +132,6 @@
     "passed" : 2,
     "unknown" : 0,
     "total" : 2
-  }
-}, {
-  "data" : {
-    "failed" : 0,
-    "broken" : 0,
-    "skipped" : 0,
-    "passed" : 1,
-    "unknown" : 0,
-    "total" : 1
   }
 }, {
   "data" : {
