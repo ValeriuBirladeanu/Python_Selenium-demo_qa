@@ -1,10 +1,10 @@
 import allure
 from base.base_page import BasePage
-from config.links import Links
+from config.urls import Urls
 
 
 class Buttons(BasePage):
-    PAGE_URL = Links.BUTTONS
+    PAGE_URL = Urls.BUTTONS
 
     DOUBLE_CLICK_BUTTON = ("xpath", "//button[@id='doubleClickBtn']")
     RIGHT_CLICK_BUTTON = ("css selector", "button[id='rightClickBtn']")

@@ -1,11 +1,11 @@
 from random import choice
 import allure
 from base.base_page import BasePage
-from config.links import Links
+from config.urls import Urls
 
 
 class RadioButton(BasePage):
-    PAGE_URL = Links.RADIO_BUTTON
+    PAGE_URL = Urls.RADIO_BUTTON
 
     RADIO_BUTTON_ACTION = {
         "yes": ("xpath", "//label[@for='yesRadio']"),

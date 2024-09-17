@@ -1,12 +1,12 @@
 import allure
 from selenium.webdriver import Keys
 from base.base_page import BasePage
-from config.links import Links
+from config.urls import Urls
 from data.data_generator import TestDataGenerator
 
 
 class WebTables(BasePage):
-    PAGE_URL = Links.WEB_TABLES
+    PAGE_URL = Urls.WEB_TABLES
 
     ADD_BUTTON = ("xpath", "//button[@id='addNewRecordButton']")
     REGISTRATION_FORM  = ("xpath", "//form[@id='userForm']")

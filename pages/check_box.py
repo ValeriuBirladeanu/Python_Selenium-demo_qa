@@ -1,11 +1,11 @@
 import random
 import allure
 from base.base_page import BasePage
-from config.links import Links
+from config.urls import Urls
 
 
 class CheckBox(BasePage):
-    PAGE_URL = Links.CHECK_BOX
+    PAGE_URL = Urls.CHECK_BOX
 
     EXPAND_ALL_BUTTON = ("xpath", "//button[@title='Expand all']")
     ITEM_LIST = ("xpath", "//span[@class='rct-title']")

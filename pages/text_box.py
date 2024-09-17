@@ -1,10 +1,10 @@
 import allure
 from base.base_page import BasePage
-from config.links import Links
+from config.urls import Urls
 from data.data_generator import TestDataGenerator
 
 class TextBox(BasePage):
-    PAGE_URL = Links.TEXT_BOX
+    PAGE_URL = Urls.TEXT_BOX
 
     FULL_NAME_FIELD = ("xpath", "//input[@id='userName']")
     EMAIL_FIELD = ("xpath", "//input[@id='userEmail']")

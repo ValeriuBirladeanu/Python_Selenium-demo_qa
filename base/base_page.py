@@ -118,6 +118,11 @@ class BasePage:
             action.context_click(locator)
             action.perform()
 
+    # Check when another tab opens
+    def wait_for_new_tab(self):
+        with allure.step("Wait for a new browser tab to be opened"):
+            return self.wait.until(lambda d: len(d.window_handles) > 1)
+
     # Scrolls the page to a target element
     def scroll_to(self, target):
         if isinstance(target, tuple):  # Check if target is a locator
