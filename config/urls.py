@@ -8,4 +8,5 @@ class Urls:
     RADIO_BUTTON = f"{HOST}/radio-button"
     WEB_TABLES = f"{HOST}/webtables"
     BUTTONS = f"{HOST}/buttons"
-    Links = f"{HOST}/links"
+    LINKS = f"{HOST}/links"
+    BROKEN_LINKS_IMAGES = f"{HOST}/broken"

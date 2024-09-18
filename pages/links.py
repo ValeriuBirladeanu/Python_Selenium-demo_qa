@@ -5,7 +5,7 @@ from config.urls import Urls
 
 
 class Links(BasePage):
-    PAGE_URL = Urls.Links
+    PAGE_URL = Urls.LINKS
 
     SIMPLE_LINK = ("xpath", "//a[@id='simpleLink']")
     CARDS_CATEGORY = ("xpath", "//div[@class='category-cards']")
