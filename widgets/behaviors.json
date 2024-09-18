@@ -4,12 +4,12 @@
     "uid" : "69cbf3118e2882907e7e3e486b0c9ea7",
     "name" : "Elements - Links",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 8
+      "total" : 12
     }
   }, {
     "uid" : "270bae793c458e2b11b8513b36ab3713",
