@@ -3,33 +3,16 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "AssertionError: URL-ul așteptat https://demoqa.com/, dar a fost https://demoqa.com/broken#google_vignette",
-      "children" : [ {
-        "name" : "Verify opening valid link",
-        "uid" : "15a1ccd53a700560",
-        "parentUid" : "5cc8d02216a073856c4309bd14abf0ee",
-        "status" : "failed",
-        "time" : {
-          "start" : 1726686191023,
-          "stop" : 1726686198452,
-          "duration" : 7429
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "5cc8d02216a073856c4309bd14abf0ee"
-    }, {
       "name" : "AssertionError: URL-ul așteptat https://the-internet.herokuapp.com/status_codes/500, dar a fost http://the-internet.herokuapp.com/status_codes/500",
       "children" : [ {
         "name" : "Verify opening broken link",
-        "uid" : "b8367ec814d5f6e4",
+        "uid" : "2871298a08a5e284",
         "parentUid" : "5c5c0c765173bde5bf08a375877eff6d",
         "status" : "failed",
         "time" : {
-          "start" : 1726686198943,
-          "stop" : 1726686200604,
-          "duration" : 1661
+          "start" : 1726734054617,
+          "stop" : 1726734062071,
+          "duration" : 7454
         },
         "flaky" : false,
         "newFailed" : false,
