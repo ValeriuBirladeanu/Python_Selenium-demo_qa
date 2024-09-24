@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "AssertionError: URL-ul așteptat https://the-internet.herokuapp.com/status_codes/500, dar a fost http://the-internet.herokuapp.com/status_codes/500",
-      "children" : [ {
-        "name" : "Verify opening broken link",
-        "uid" : "237f1da6b9f11865",
-        "parentUid" : "5c5c0c765173bde5bf08a375877eff6d",
-        "status" : "failed",
-        "time" : {
-          "start" : 1726735571636,
-          "stop" : 1726735574990,
-          "duration" : 3354
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "5c5c0c765173bde5bf08a375877eff6d"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ],
+  "children" : [ ],
   "name" : "categories"
 }
