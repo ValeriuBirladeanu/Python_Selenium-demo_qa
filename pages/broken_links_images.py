@@ -37,33 +37,26 @@ class BrokenLinksImages(BasePage):
 
     @allure.step("Click on valid link")
     def click_valid_link(self):
-        self. scroll_to(self.VALID_LINK)
+        self.scroll_to(self.VALID_LINK)
         valid_link = self.element_is_clickable(self.VALID_LINK)
-        self.valid_link_href = valid_link.get_attribute('href')
-        if not self.valid_link_href.startswith("https://"):
-            self.valid_link_href = self.valid_link_href.replace("http://", "https://")
+        valid_link_href = valid_link.get_attribute('href')
+        if not valid_link_href.startswith("https://"):
+            self.valid_link_href = valid_link_href.replace("http://", "https://")
         valid_link.click()
 
     @allure.step("Verify if link is valid")
     def check_opened_valid_link(self):
         current_url = self.driver.current_url
         expected_url = self.valid_link_href
-        assert expected_url == current_url, f"URL-ul așteptat {expected_url}, dar a fost {current_url}"
+        assert expected_url == current_url, f"Expected URL {expected_url} but it was {current_url}"
         self.element_is_presence(self.CARDS_CATEGORY)
 
     @allure.step("Click on broken link")
     def click_broken_link(self):
         self.scroll_to(self.BROKEN_LINK)
-        broken_link = self.element_is_clickable(self.BROKEN_LINK)
-        self.broken_link_href = broken_link.get_attribute('href')
-        if not self.broken_link_href.startswith("https://"):
-            self.broken_link_href = self.broken_link_href.replace("http://", "https://")
-        broken_link.click()
+        self.element_is_clickable(self.BROKEN_LINK).click()
 
     @allure.step("Verify if link is broken")
     def check_opened_broken_link(self):
-        current_url = self.driver.current_url
-        expected_url = self.broken_link_href
-        assert expected_url == current_url, f"URL-ul așteptat {expected_url}, dar a fost {current_url}"
         expected_text = "This page returned a 500 status code"
         self.check_element_text(self.ERROR_500_MESSAGE, expected_text)

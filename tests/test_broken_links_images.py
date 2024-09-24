@@ -3,7 +3,7 @@ import pytest
 from base.base_test import BaseTest
 
 
-@allure.feature("Elements - Links")
+@allure.feature("Elements - Broken_Links_Images")
 class TestBrokenLinksImages(BaseTest):
 
     @allure.title("Test valid image is displayed correctly")
