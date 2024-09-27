@@ -1,5 +1,47 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "Double click",
+        "uid" : "7ec5dedb91dc40a9",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1727433753760,
+          "stop" : 1727433785845,
+          "duration" : 32085
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: Text 'Garment/textile technologist' not found in any of the elements",
+      "children" : [ {
+        "name" : "Edit person from web tables",
+        "uid" : "7eb79a490e4cd58f",
+        "parentUid" : "e552c01c01a46bf5ca8548ac71a00fb8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1727433932985,
+          "stop" : 1727433936547,
+          "duration" : 3562
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e552c01c01a46bf5ca8548ac71a00fb8"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
   "name" : "categories"
 }

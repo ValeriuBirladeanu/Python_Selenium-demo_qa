@@ -1,0 +1,241 @@
+{
+  "uid" : "65d7a7f3e17885cd",
+  "name" : "Test valid image is displayed correctly",
+  "fullName" : "tests.test_broken_links_images.TestBrokenLinksImages#test_valid_image",
+  "historyId" : "f751c52b25392414d7e5e7d4942f9562",
+  "time" : {
+    "start" : 1727433736483,
+    "stop" : 1727433739118,
+    "duration" : 2635
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1727433736003,
+      "stop" : 1727433736419,
+      "duration" : 416
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1727433735927,
+      "stop" : 1727433736003,
+      "duration" : 76
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1727433736419,
+      "stop" : 1727433736483,
+      "duration" : 64
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open https://demoqa.com/broken page",
+      "time" : {
+        "start" : 1727433736483,
+        "stop" : 1727433738380,
+        "duration" : 1897
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://demoqa.com/broken is opened",
+      "time" : {
+        "start" : 1727433738380,
+        "stop" : 1727433738448,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Verify if image is valid",
+      "time" : {
+        "start" : 1727433738448,
+        "stop" : 1727433738847,
+        "duration" : 399
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check presence of element located by ('xpath', \"//p[text()='Valid image']/following-sibling::img[@src='/images/Toolsqa.jpg']\")",
+        "time" : {
+          "start" : 1727433738448,
+          "stop" : 1727433738485,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "1255746a6829ad6b",
+      "name" : "Screenshot",
+      "source" : "1255746a6829ad6b.png",
+      "type" : "image/png",
+      "size" : 462303
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1727433739119,
+      "stop" : 1727433739203,
+      "duration" : 84
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Elements - Broken_Links_Images"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_broken_links_images"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBrokenLinksImages"
+  }, {
+    "name" : "host",
+    "value" : "3eeff5267294"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_broken_links_images"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "7d503edda4148c6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727167065231,
+          "stop" : 1727167067928,
+          "duration" : 2697
+        }
+      }, {
+        "uid" : "489f595bb2156a91",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726735554870,
+          "stop" : 1726735557811,
+          "duration" : 2941
+        }
+      }, {
+        "uid" : "e2fb36bc6f4d478b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726734034643,
+          "stop" : 1726734037165,
+          "duration" : 2522
+        }
+      }, {
+        "uid" : "fe8b04aabab5fd35",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726686180367,
+          "stop" : 1726686182568,
+          "duration" : 2201
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "65d7a7f3e17885cd.json",
+  "parameterValues" : [ ]
+}
