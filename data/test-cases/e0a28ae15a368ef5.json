@@ -1,0 +1,293 @@
+{
+  "uid" : "e0a28ae15a368ef5",
+  "name" : "Verify moved link",
+  "fullName" : "tests.test_links.TestLinks#test_moved_link",
+  "historyId" : "dabe9e22e104eed8f518fcef84da711d",
+  "time" : {
+    "start" : 1727439899433,
+    "stop" : 1727439906819,
+    "duration" : 7386
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1727439899368,
+      "stop" : 1727439899433,
+      "duration" : 65
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1727439825196,
+      "stop" : 1727439825275,
+      "duration" : 79
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1727439899045,
+      "stop" : 1727439899368,
+      "duration" : 323
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open https://demoqa.com/links page",
+      "time" : {
+        "start" : 1727439899433,
+        "stop" : 1727439901026,
+        "duration" : 1593
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://demoqa.com/links is opened",
+      "time" : {
+        "start" : 1727439901026,
+        "stop" : 1727439901030,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on the link",
+      "time" : {
+        "start" : 1727439901030,
+        "stop" : 1727439906354,
+        "duration" : 5324
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check if element located by ('xpath', \"//a[@id='moved']\") is clickable",
+        "time" : {
+          "start" : 1727439901048,
+          "stop" : 1727439901076,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "link_key",
+        "value" : "'moved'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Verify link response and text",
+      "time" : {
+        "start" : 1727439906355,
+        "stop" : 1727439906606,
+        "duration" : 251
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Wait for element located by ('xpath', \"//p[@id='linkResponse']\") to contain text 'Link has responded with staus 301 and status text Moved Permanently'",
+        "time" : {
+          "start" : 1727439906587,
+          "stop" : 1727439906606,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "link_key",
+        "value" : "'moved'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "ef39439e5257200f",
+      "name" : "Screenshot",
+      "source" : "ef39439e5257200f.png",
+      "type" : "image/png",
+      "size" : 389650
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1727439906819,
+      "stop" : 1727439906872,
+      "duration" : 53
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Elements - Links"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_links"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLinks"
+  }, {
+    "name" : "host",
+    "value" : "0f887f3812b9"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_links"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "487fc7794fa660bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727433836554,
+          "stop" : 1727433844284,
+          "duration" : 7730
+        }
+      }, {
+        "uid" : "354a54ac5d881dbc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727167146882,
+          "stop" : 1727167148921,
+          "duration" : 2039
+        }
+      }, {
+        "uid" : "6ff6617577792471",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726735628045,
+          "stop" : 1726735636482,
+          "duration" : 8437
+        }
+      }, {
+        "uid" : "a43ee26608f97f50",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726734110656,
+          "stop" : 1726734112859,
+          "duration" : 2203
+        }
+      }, {
+        "uid" : "7f7c2ffd3d1d456f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726686563211,
+          "stop" : 1726686571129,
+          "duration" : 7918
+        }
+      }, {
+        "uid" : "b405979ee8295a9d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726564544195,
+          "stop" : 1726564551827,
+          "duration" : 7632
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "e0a28ae15a368ef5.json",
+  "parameterValues" : [ ]
+}
