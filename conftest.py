@@ -6,7 +6,9 @@ from selenium.webdriver.chrome.options import Options
 @pytest.fixture(scope="function", autouse=True)
 def driver(request):
     options = Options()
-    options.add_argument("--headless")  # Descomentează pentru rulare headless
+    options.add_argument("--headless")  # Uncomment for headless running
+    options.add_argument("--disable-gpu")
+    options.add_argument("--disable-software-rasterizer")
     options.add_argument("--no-sandbox")
     options.add_argument("--incognito")
     options.add_argument("--disable-dev-shm-usage")

@@ -52,6 +52,19 @@ class BasePage:
         with allure.step(f"Check presence of elements located by {locator}"):
             return self.wait.until(EC.presence_of_all_elements_located(locator))
 
+    # Checks if an element is invisibility in the DOM
+    def element_is_invisibility(self, locator):
+        with allure.step(f"Check invisibility of element located by {locator}"):
+            return self.wait.until(EC.invisibility_of_element_located(locator))
+
+    # Retrieve the color of the specified element
+    def get_element_color(self, element):
+        with allure.step(f"Retrieve the color of the specified element: {element}"):
+            color = element.value_of_css_property('color')
+            allure.attach(f"Element: {element}", name="Element")
+            allure.attach(color, name="Element Color")
+            return color
+
     # Checks if the value of an element changes to a new value
     def check_element_value(self, locator, new_value, slicing=None):
         with allure.step(f"Wait for element located by {locator} to change new value '{new_value}'"):

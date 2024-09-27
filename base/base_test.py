@@ -7,6 +7,7 @@ from pages.buttons import Buttons
 from pages.links import Links
 from pages.broken_links_images import BrokenLinksImages
 from pages.upload_files import UploadFiles
+from pages.dynamic_properties import DynamicProperties
 
 
 class BaseTest:
@@ -19,6 +20,7 @@ class BaseTest:
     links: Links
     broken_links_images: BrokenLinksImages
     upload_files: UploadFiles
+    dynamic_properties: DynamicProperties
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
@@ -31,3 +33,4 @@ class BaseTest:
         request.cls.links = Links(driver)
         request.cls.broken_links_images = BrokenLinksImages(driver)
         request.cls.upload_files = UploadFiles(driver)
+        request.cls.dynamic_properties = DynamicProperties(driver)
