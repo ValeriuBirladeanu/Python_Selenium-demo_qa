@@ -6,6 +6,7 @@ from pages.web_tables import WebTables
 from pages.buttons import Buttons
 from pages.links import Links
 from pages.broken_links_images import BrokenLinksImages
+from pages.upload_files import UploadFiles
 
 
 class BaseTest:
@@ -17,6 +18,7 @@ class BaseTest:
     buttons: Buttons
     links: Links
     broken_links_images: BrokenLinksImages
+    upload_files: UploadFiles
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
@@ -28,3 +30,4 @@ class BaseTest:
         request.cls.buttons = Buttons(driver)
         request.cls.links = Links(driver)
         request.cls.broken_links_images = BrokenLinksImages(driver)
+        request.cls.upload_files = UploadFiles(driver)

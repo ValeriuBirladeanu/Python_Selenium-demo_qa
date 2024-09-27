@@ -1,5 +1,6 @@
 from faker import Faker
 
+
 class TestDataGenerator:
     def __init__(self):
         self.fake = Faker()
@@ -30,3 +31,9 @@ class TestDataGenerator:
 
     def generate_department(self):
         return self.fake.job()
+
+    def generate_text(self):
+        return self.fake.text()
+
+    def generate_png_fail_name(self):
+        return self.fake.file_name(extension='png')

@@ -10,7 +10,7 @@ class BasePage:
 
     def __init__(self, driver):
         self.driver = driver
-        self.wait = WebDriverWait(driver, 10)
+        self.wait = WebDriverWait(driver, 30)
 
     # Opening the web page
     def open(self):
@@ -111,6 +111,7 @@ class BasePage:
             action = ActionChains(self.driver)
             action.double_click(locator)
             action.perform()
+
     # Performs a right-click action on the given element
     def action_right_click(self, locator):
         with allure.step(f"Perform right-click action on the element located by {locator}"):

@@ -10,3 +10,4 @@ class Urls:
     BUTTONS = f"{HOST}/buttons"
     LINKS = f"{HOST}/links"
     BROKEN_LINKS_IMAGES = f"{HOST}/broken"
+    UPLOAD_FILES = f"{HOST}/upload-download"
