@@ -35,5 +35,8 @@ class TestDataGenerator:
     def generate_text(self):
         return self.fake.text()
 
+    def generate_mobile_number(self):
+        return self.fake.phone_number()
+
     def generate_png_fail_name(self):
         return self.fake.file_name(extension='png')

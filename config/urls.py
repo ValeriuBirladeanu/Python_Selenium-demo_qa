@@ -12,3 +12,4 @@ class Urls:
     BROKEN_LINKS_IMAGES = f"{HOST}/broken"
     UPLOAD_FILES = f"{HOST}/upload-download"
     DYNAMIC_PROPERTIES = f"{HOST}/dynamic-properties"
+    PRACTICE_FORM = f"{HOST}/automation-practice-form"
