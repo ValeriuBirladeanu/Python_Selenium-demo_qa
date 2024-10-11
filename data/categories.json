@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"react-datepicker__day react-datepicker__day--00... react-datepicker__day--outside-month\" tabindex=\"-1\" aria-label=\"Choose Thursday, August 3rd, 1911\" role=\"option\" aria-disabled=\"false\">3</div> is not clickable at point (887, 1045). Other element would receive the click: <iframe id=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250_1\" name=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250_1\" title=\"3rd party ad content\" width=\"1005\" height=\"124\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" aria-label=\"Advertisement\" tabindex=\"0\" data-load-complete=\"true\" data-google-container-id=\"7\" style=\"border: 0px; vertical-align: bottom; max-height: 30vh !important; overflow: hidden !important; display: block; margin: 0px auto;\"></iframe>\n  (Session info: headless chrome=112.0.5615.165)",
+      "children" : [ {
+        "name" : "Complete practice form",
+        "uid" : "fc7bdae9eb83dbb0",
+        "parentUid" : "38ef08a74345406879ed2db553eed8cb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1728654564045,
+          "stop" : 1728654568356,
+          "duration" : 4311
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "38ef08a74345406879ed2db553eed8cb"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
   "name" : "categories"
 }

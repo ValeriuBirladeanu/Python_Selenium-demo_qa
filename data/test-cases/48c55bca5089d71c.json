@@ -1,0 +1,465 @@
+{
+  "uid" : "48c55bca5089d71c",
+  "name" : "Edit person from web tables",
+  "fullName" : "tests.test_web_tables.TestWebTables#test_edit_some_person",
+  "historyId" : "6d6ef89c80909ad77e4237c4c7a7993f",
+  "time" : {
+    "start" : 1728654614394,
+    "stop" : 1728654617756,
+    "duration" : 3362
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1728654614305,
+      "stop" : 1728654614394,
+      "duration" : 89
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1728654407411,
+      "stop" : 1728654407490,
+      "duration" : 79
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1728654613978,
+      "stop" : 1728654614305,
+      "duration" : 327
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open https://demoqa.com/webtables page",
+      "time" : {
+        "start" : 1728654614394,
+        "stop" : 1728654616520,
+        "duration" : 2126
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://demoqa.com/webtables is opened",
+      "time" : {
+        "start" : 1728654616520,
+        "stop" : 1728654616565,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Edit some person details randomly",
+      "time" : {
+        "start" : 1728654616860,
+        "stop" : 1728654617486,
+        "duration" : 626
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Select a random row from the table",
+        "time" : {
+          "start" : 1728654616861,
+          "stop" : 1728654617240,
+          "duration" : 379
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check visibility of elements located by ('xpath', \"//span[@title='Edit']\")",
+          "time" : {
+            "start" : 1728654616861,
+            "stop" : 1728654617006,
+            "duration" : 145
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Get all elements from the list",
+          "time" : {
+            "start" : 1728654617006,
+            "stop" : 1728654617006,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Check if element located by <selenium.webdriver.remote.webelement.WebElement (session=\"45faedfd9d77772f7eaf85508e7e406f\", element=\"e37a1b0d-64f0-4f93-a9a3-b10653b8ec15\")> is clickable",
+          "time" : {
+            "start" : 1728654617006,
+            "stop" : 1728654617159,
+            "duration" : 153
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 3,
+        "hasContent" : true
+      }, {
+        "name" : "Select a random field to edit",
+        "time" : {
+          "start" : 1728654617240,
+          "stop" : 1728654617240,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Get all elements from the list",
+          "time" : {
+            "start" : 1728654617240,
+            "stop" : 1728654617240,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "Check visibility of element located by ('xpath', \"//input[@id='lastName']\")",
+        "time" : {
+          "start" : 1728654617240,
+          "stop" : 1728654617267,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Generate a new value for the field of type 'last_name'",
+        "time" : {
+          "start" : 1728654617267,
+          "stop" : 1728654617267,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "field_type",
+          "value" : "'last_name'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Modify the field with the new value",
+        "time" : {
+          "start" : 1728654617267,
+          "stop" : 1728654617439,
+          "duration" : 172
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check if element located by ('xpath', \"//button[@id='submit']\") is clickable",
+          "time" : {
+            "start" : 1728654617358,
+            "stop" : 1728654617383,
+            "duration" : 25
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "input_element",
+          "value" : "<selenium.webdriver.remote.webelement.WebElement (session=\"45faedfd9d77772f7eaf85508e7e406f\", element=\"6b332246-b12d-4095-a4a9-3909128ab4aa\")>"
+        }, {
+          "name" : "new_value",
+          "value" : "'Ramirez'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "Verify the new text in the table",
+        "time" : {
+          "start" : 1728654617439,
+          "stop" : 1728654617486,
+          "duration" : 47
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check if text 'Ramirez' is present in multiple elements",
+          "time" : {
+            "start" : 1728654617439,
+            "stop" : 1728654617486,
+            "duration" : 47
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "expected_text",
+          "value" : "'Ramirez'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 12,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "6e0e272676a5a43c",
+      "name" : "Screenshot",
+      "source" : "6e0e272676a5a43c.png",
+      "type" : "image/png",
+      "size" : 393415
+    }, {
+      "uid" : "1298207f5c727938",
+      "name" : "Screenshot",
+      "source" : "1298207f5c727938.png",
+      "type" : "image/png",
+      "size" : 468515
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 15,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1728654617757,
+      "stop" : 1728654617811,
+      "duration" : 54
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Elements - Wev Tables"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_web_tables"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWebTables"
+  }, {
+    "name" : "host",
+    "value" : "d243cfbaf8bd"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_web_tables"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "ea380370b3b59806",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727439981370,
+          "stop" : 1727439989259,
+          "duration" : 7889
+        }
+      }, {
+        "uid" : "7eb79a490e4cd58f",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Text 'Garment/textile technologist' not found in any of the elements",
+        "time" : {
+          "start" : 1727433932985,
+          "stop" : 1727433936547,
+          "duration" : 3562
+        }
+      }, {
+        "uid" : "beaf4bbd615a6e49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727167219673,
+          "stop" : 1727167227628,
+          "duration" : 7955
+        }
+      }, {
+        "uid" : "e693ccd4510991c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726735702406,
+          "stop" : 1726735711014,
+          "duration" : 8608
+        }
+      }, {
+        "uid" : "21370101489ec3da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726734183013,
+          "stop" : 1726734191230,
+          "duration" : 8217
+        }
+      }, {
+        "uid" : "5974315b38e7cbb4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726686645781,
+          "stop" : 1726686657687,
+          "duration" : 11906
+        }
+      }, {
+        "uid" : "88ef8b7f3a262b1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726564622722,
+          "stop" : 1726564625664,
+          "duration" : 2942
+        }
+      }, {
+        "uid" : "55c1da6d9615089",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726146074109,
+          "stop" : 1726146077448,
+          "duration" : 3339
+        }
+      }, {
+        "uid" : "a35fcf9f25228ce3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726040835740,
+          "stop" : 1726040843904,
+          "duration" : 8164
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "48c55bca5089d71c.json",
+  "parameterValues" : [ ]
+}
