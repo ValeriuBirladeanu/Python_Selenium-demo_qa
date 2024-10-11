@@ -35,6 +35,8 @@ class PracticeForm(BasePage):
     CITY_FIELD = ("xpath", "//div[@id='city']")
     SUBMIT_BUTTON = ("xpath", "//button[@id='submit']")
 
+    TABLE_VALUES = ("xpath", "//div[@class='table-responsive']//td[2]")
+
     def __init__(self, driver):
         super().__init__(driver)
         self.data_generator = TestDataGenerator()
@@ -55,9 +57,9 @@ class PracticeForm(BasePage):
         self.element_is_clickable(self.EMAIL_FIELD).send_keys(self.email)
 
     @allure.step("Click radio button")
-    def click_random_radio_button(self):
-        random_gender = random.choice(list(self.GENDER_RADIO_BUTTON.keys()))
-        locator = self.GENDER_RADIO_BUTTON[random_gender]
+    def choose_random_radio_button_gender(self):
+        self.random_gender = random.choice(list(self.GENDER_RADIO_BUTTON.keys()))
+        locator = self.GENDER_RADIO_BUTTON[self.random_gender]
         self.element_is_clickable(locator).click()
 
     @allure.step("Enter Mobile")
@@ -86,19 +88,17 @@ class PracticeForm(BasePage):
         random_day.click()
 
     @allure.step("Select subjects")
-    def select_subjects(self):
+    def choose_subjects(self):
         self.element_is_clickable(self.SUBJECTS_FIELD).click()
-        input_field = self.element_is_presence(self.SUBJECTS_FIELD)
-        for _ in range(3, 7):
-            random_letter = random.choice('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
-            input_field.send_keys(random_letter)
-            input_field.send_keys(Keys.TAB)
+        self.subjects = self.element_is_presence(self.SUBJECTS_FIELD)
+        list(map(lambda _: self.subjects.send_keys(random.choice('ABCDEFGHIJKLMNOPQRSTUVWXYZ')), range(3, 7)))
+        self.subjects.send_keys(Keys.TAB)
 
     @allure.step("Click on a random number of hobbies checkboxes")
-    def click_random_checkboxes_hobbies(self):
-        for locator in random.sample(list(self.HOBBIES_FIELD.values()), random.randint(1, len(self.HOBBIES_FIELD))):
-            self.scroll_to(locator)
-            self.element_is_clickable(locator).click()
+    def choose_random_checkboxes_hobbies(self):
+        self.random_hobbies = random.sample(list(self.HOBBIES_FIELD.values()), random.randint(1, len(self.HOBBIES_FIELD)))
+        list(map(lambda locator: (self.scroll_to(locator), self.element_is_clickable(locator).click()),
+                 self.random_hobbies))
 
     @allure.step("Enter current address")
     def enter_current_address(self):
@@ -109,17 +109,38 @@ class PracticeForm(BasePage):
     def select_state(self):
         self.element_is_presence(self.STATE_FIELD).click()
         dropdown_items = self.elements_are_presence(self.SELECTED_ITEMS)
-        random_item = random.choice(dropdown_items)
-        random_item.click()
+        self.random_state = random.choice(dropdown_items)
+        self.random_state.click()
 
     @allure.step("Select city")
     def select_city(self):
         self.element_is_presence(self.CITY_FIELD).click()
         dropdown_items = self.elements_are_presence(self.SELECTED_ITEMS)
-        random_item = random.choice(dropdown_items)
-        random_item.click()
+        self.random_city = random.choice(dropdown_items)
+        self.random_city.click()
 
     @allure.step("Click submit button")
     def click_submit(self):
         self.scroll_to(self.SUBMIT_BUTTON)
         self.element_is_clickable(self.SUBMIT_BUTTON).click()
+
+    @allure.step("Taking received value")
+    def taking_received_values(self):
+        result_value_list = self.elements_are_visible(self.TABLE_VALUES)
+        data_values = []
+        for i in result_value_list:
+            self.scroll_to(i)
+            data_values.append(i.text)
+        return data_values
+
+    @allure.step("Check presents elements")
+    def check_present_corrected_data_in_table(self):
+        values = self.taking_received_values()
+        assert self.first_name + ' ' + self.last_name in values, f"Full name '{self.first_name} {self.last_name}' was not found in values: {values}"
+        assert self.email in values, f"Email '{self.email}' was not found in values: {values}"
+        assert self.random_gender in values, f"Gender '{self.random_gender}' was not found in values: {values}"
+        assert self.mobile_number in values, f"Mobile number '{self.mobile_number}' was not found in values: {values}"
+        assert self.current_address in values, f"Address '{self.current_address}' was not found in values: {values}"
+        self.random_state = self.element_is_presence(self.STATE_FIELD).text
+        self.random_city = self.element_is_presence(self.CITY_FIELD).text
+        assert self.random_state + ' ' + self.random_city in values, f"Combination '{self.random_state} {self.random_city}' was not found in values: {values}"

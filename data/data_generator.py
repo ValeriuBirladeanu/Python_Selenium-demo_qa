@@ -36,7 +36,7 @@ class TestDataGenerator:
         return self.fake.text()
 
     def generate_mobile_number(self):
-        return self.fake.phone_number()
+        return f'07{self.fake.random_number(digits=8, fix_len=True)}'
 
     def generate_png_fail_name(self):
         return self.fake.file_name(extension='png')
