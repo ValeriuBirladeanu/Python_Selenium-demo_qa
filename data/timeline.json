@@ -1,377 +1,377 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "d243cfbaf8bd",
+    "name" : "b20db9ead388",
     "children" : [ {
       "name" : "1-MainThread",
       "children" : [ {
-        "name" : "Verify opening valid link",
-        "uid" : "1e2239040e63360e",
-        "parentUid" : "37491ddf37cf557975cbc810bf9614ca",
+        "name" : "Double click",
+        "uid" : "681445944d2503c7",
+        "parentUid" : "55e1b272199663c3abd33e9b5e77bc21",
         "status" : "passed",
         "time" : {
-          "start" : 1728654424471,
-          "stop" : 1728654433141,
-          "duration" : 8670
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Edit person from web tables",
-        "uid" : "48c55bca5089d71c",
-        "parentUid" : "37491ddf37cf557975cbc810bf9614ca",
-        "status" : "passed",
-        "time" : {
-          "start" : 1728654614394,
-          "stop" : 1728654617756,
-          "duration" : 3362
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Verify unauthorized link",
-        "uid" : "2706fd0bd7b4d058",
-        "parentUid" : "37491ddf37cf557975cbc810bf9614ca",
-        "status" : "passed",
-        "time" : {
-          "start" : 1728654543680,
-          "stop" : 1728654551284,
-          "duration" : 7604
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Add new person in web tables",
-        "uid" : "77a33f0cc18842eb",
-        "parentUid" : "37491ddf37cf557975cbc810bf9614ca",
-        "status" : "passed",
-        "time" : {
-          "start" : 1728654595556,
-          "stop" : 1728654604662,
-          "duration" : 9106
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Test uploaded file",
-        "uid" : "5fb655ce1fdba6e4",
-        "parentUid" : "37491ddf37cf557975cbc810bf9614ca",
-        "status" : "passed",
-        "time" : {
-          "start" : 1728654583329,
-          "stop" : 1728654595086,
-          "duration" : 11757
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Test valid image is displayed correctly",
-        "uid" : "4382510aca11e6fa",
-        "parentUid" : "37491ddf37cf557975cbc810bf9614ca",
-        "status" : "passed",
-        "time" : {
-          "start" : 1728654407965,
-          "stop" : 1728654415866,
-          "duration" : 7901
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Search person in web tables",
-        "uid" : "cc50b2b94830035f",
-        "parentUid" : "37491ddf37cf557975cbc810bf9614ca",
-        "status" : "passed",
-        "time" : {
-          "start" : 1728654605130,
-          "stop" : 1728654613922,
-          "duration" : 8792
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Verify moved link",
-        "uid" : "f6ee8ed94a58e4ae",
-        "parentUid" : "37491ddf37cf557975cbc810bf9614ca",
-        "status" : "passed",
-        "time" : {
-          "start" : 1728654526619,
-          "stop" : 1728654534247,
-          "duration" : 7628
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Test broken image is not displayed",
-        "uid" : "40aed79dbc3a8154",
-        "parentUid" : "37491ddf37cf557975cbc810bf9614ca",
-        "status" : "passed",
-        "time" : {
-          "start" : 1728654416368,
-          "stop" : 1728654424000,
-          "duration" : 7632
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Select and verify a random radio button",
-        "uid" : "374589d92bbaefed",
-        "parentUid" : "37491ddf37cf557975cbc810bf9614ca",
-        "status" : "passed",
-        "time" : {
-          "start" : 1728654568884,
-          "stop" : 1728654571932,
-          "duration" : 3048
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Verify switching to new tab",
-        "uid" : "aec3745beafc30e3",
-        "parentUid" : "37491ddf37cf557975cbc810bf9614ca",
-        "status" : "passed",
-        "time" : {
-          "start" : 1728654500177,
-          "stop" : 1728654508665,
-          "duration" : 8488
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Right click",
-        "uid" : "f412808e8d488e24",
-        "parentUid" : "37491ddf37cf557975cbc810bf9614ca",
-        "status" : "passed",
-        "time" : {
-          "start" : 1728654450662,
-          "stop" : 1728654458221,
-          "duration" : 7559
+          "start" : 1729171953405,
+          "stop" : 1729171962041,
+          "duration" : 8636
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Complete practice form",
-        "uid" : "fc7bdae9eb83dbb0",
-        "parentUid" : "37491ddf37cf557975cbc810bf9614ca",
-        "status" : "broken",
+        "uid" : "95e87e83c2bfb8d",
+        "parentUid" : "55e1b272199663c3abd33e9b5e77bc21",
+        "status" : "passed",
         "time" : {
-          "start" : 1728654564045,
-          "stop" : 1728654568356,
-          "duration" : 4311
+          "start" : 1729172108444,
+          "stop" : 1729172118112,
+          "duration" : 9668
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Verify created link",
-        "uid" : "716c6d4139e5607f",
-        "parentUid" : "37491ddf37cf557975cbc810bf9614ca",
+        "name" : "Test uploaded file",
+        "uid" : "8b6ab24b1591fd2c",
+        "parentUid" : "55e1b272199663c3abd33e9b5e77bc21",
         "status" : "passed",
         "time" : {
-          "start" : 1728654509128,
-          "stop" : 1728654516886,
-          "duration" : 7758
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Verify no content link",
-        "uid" : "3c815d54fd418193",
-        "parentUid" : "37491ddf37cf557975cbc810bf9614ca",
-        "status" : "passed",
-        "time" : {
-          "start" : 1728654517355,
-          "stop" : 1728654526152,
-          "duration" : 8797
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Completing the text box fields",
-        "uid" : "ddc94162f554b854",
-        "parentUid" : "37491ddf37cf557975cbc810bf9614ca",
-        "status" : "passed",
-        "time" : {
-          "start" : 1728654575376,
-          "stop" : 1728654582868,
-          "duration" : 7492
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Verify not found link",
-        "uid" : "fa4d5f923c2cd6c6",
-        "parentUid" : "37491ddf37cf557975cbc810bf9614ca",
-        "status" : "passed",
-        "time" : {
-          "start" : 1728654555070,
-          "stop" : 1728654563577,
-          "duration" : 8507
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Verify opening broken link",
-        "uid" : "6765dcbde7c5a721",
-        "parentUid" : "37491ddf37cf557975cbc810bf9614ca",
-        "status" : "passed",
-        "time" : {
-          "start" : 1728654433610,
-          "stop" : 1728654442380,
-          "duration" : 8770
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Verify forbidden link",
-        "uid" : "575982260f750480",
-        "parentUid" : "37491ddf37cf557975cbc810bf9614ca",
-        "status" : "passed",
-        "time" : {
-          "start" : 1728654551753,
-          "stop" : 1728654554604,
-          "duration" : 2851
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Click on the checkboxes",
-        "uid" : "ca8eb2b0333ff36a",
-        "parentUid" : "37491ddf37cf557975cbc810bf9614ca",
-        "status" : "passed",
-        "time" : {
-          "start" : 1728654466312,
-          "stop" : 1728654475859,
-          "duration" : 9547
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Test change color",
-        "uid" : "62ec9748101518e0",
-        "parentUid" : "37491ddf37cf557975cbc810bf9614ca",
-        "status" : "passed",
-        "time" : {
-          "start" : 1728654484571,
-          "stop" : 1728654491937,
-          "duration" : 7366
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Verify bad request link",
-        "uid" : "421bc3c95583cc58",
-        "parentUid" : "37491ddf37cf557975cbc810bf9614ca",
-        "status" : "passed",
-        "time" : {
-          "start" : 1728654534710,
-          "stop" : 1728654543216,
-          "duration" : 8506
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Verify 'No' radio button is disabled",
-        "uid" : "914eef30979d9351",
-        "parentUid" : "37491ddf37cf557975cbc810bf9614ca",
-        "status" : "passed",
-        "time" : {
-          "start" : 1728654572396,
-          "stop" : 1728654574909,
-          "duration" : 2513
+          "start" : 1729172139107,
+          "stop" : 1729172145473,
+          "duration" : 6366
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "A click",
-        "uid" : "93921b129c5a384b",
-        "parentUid" : "37491ddf37cf557975cbc810bf9614ca",
+        "uid" : "60784e94fa0552ef",
+        "parentUid" : "55e1b272199663c3abd33e9b5e77bc21",
         "status" : "passed",
         "time" : {
-          "start" : 1728654458691,
-          "stop" : 1728654465846,
-          "duration" : 7155
+          "start" : 1729171975306,
+          "stop" : 1729171982923,
+          "duration" : 7617
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Double click",
-        "uid" : "824fbc41af57db09",
-        "parentUid" : "37491ddf37cf557975cbc810bf9614ca",
+        "name" : "Verify unauthorized link",
+        "uid" : "917d0084ba4746a4",
+        "parentUid" : "55e1b272199663c3abd33e9b5e77bc21",
         "status" : "passed",
         "time" : {
-          "start" : 1728654442848,
-          "stop" : 1728654450191,
-          "duration" : 7343
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Test enable button",
-        "uid" : "c500764ad69c1a94",
-        "parentUid" : "37491ddf37cf557975cbc810bf9614ca",
-        "status" : "passed",
-        "time" : {
-          "start" : 1728654476323,
-          "stop" : 1728654484107,
-          "duration" : 7784
+          "start" : 1729172073358,
+          "stop" : 1729172083045,
+          "duration" : 9687
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Delete a random person and verify deletion",
-        "uid" : "661b81bcd8413688",
-        "parentUid" : "37491ddf37cf557975cbc810bf9614ca",
+        "uid" : "a8cf0858fe9c33c2",
+        "parentUid" : "55e1b272199663c3abd33e9b5e77bc21",
         "status" : "passed",
         "time" : {
-          "start" : 1728654618226,
-          "stop" : 1728654627475,
-          "duration" : 9249
+          "start" : 1729172163626,
+          "stop" : 1729172173751,
+          "duration" : 10125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test change color",
+        "uid" : "155a8dc591acb0cc",
+        "parentUid" : "55e1b272199663c3abd33e9b5e77bc21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729172003228,
+          "stop" : 1729172013332,
+          "duration" : 10104
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify moved link",
+        "uid" : "4e7ffdb6b84af3e1",
+        "parentUid" : "55e1b272199663c3abd33e9b5e77bc21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729172055391,
+          "stop" : 1729172064076,
+          "duration" : 8685
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify created link",
+        "uid" : "e20de54413437df9",
+        "parentUid" : "55e1b272199663c3abd33e9b5e77bc21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729172035367,
+          "stop" : 1729172046337,
+          "duration" : 10970
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Test appearance button",
-        "uid" : "58b0c0f0eb31fab5",
-        "parentUid" : "37491ddf37cf557975cbc810bf9614ca",
+        "uid" : "6bedbf12f1646ab6",
+        "parentUid" : "55e1b272199663c3abd33e9b5e77bc21",
         "status" : "passed",
         "time" : {
-          "start" : 1728654492410,
-          "stop" : 1728654499706,
-          "duration" : 7296
+          "start" : 1729172013793,
+          "stop" : 1729172023757,
+          "duration" : 9964
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify opening broken link",
+        "uid" : "b36d3ddfdc9e4ccc",
+        "parentUid" : "55e1b272199663c3abd33e9b5e77bc21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729171944220,
+          "stop" : 1729171952944,
+          "duration" : 8724
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify 'No' radio button is disabled",
+        "uid" : "25f8fdd5ec92ed1c",
+        "parentUid" : "55e1b272199663c3abd33e9b5e77bc21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729172121549,
+          "stop" : 1729172130073,
+          "duration" : 8524
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Select and verify a random radio button",
+        "uid" : "5ee1faa346f90f98",
+        "parentUid" : "55e1b272199663c3abd33e9b5e77bc21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729172118582,
+          "stop" : 1729172121077,
+          "duration" : 2495
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify forbidden link",
+        "uid" : "c98cd2d1e60bde9",
+        "parentUid" : "55e1b272199663c3abd33e9b5e77bc21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729172083508,
+          "stop" : 1729172091866,
+          "duration" : 8358
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Completing the text box fields",
+        "uid" : "3facacb129cc2ff0",
+        "parentUid" : "55e1b272199663c3abd33e9b5e77bc21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729172130544,
+          "stop" : 1729172138630,
+          "duration" : 8086
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify opening valid link",
+        "uid" : "fdc70c6890ded6df",
+        "parentUid" : "55e1b272199663c3abd33e9b5e77bc21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729171931620,
+          "stop" : 1729171943755,
+          "duration" : 12135
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Right click",
+        "uid" : "7b99ca3693e751b8",
+        "parentUid" : "55e1b272199663c3abd33e9b5e77bc21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729171962505,
+          "stop" : 1729171974819,
+          "duration" : 12314
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Search person in web tables",
+        "uid" : "5097fa471eb8b868",
+        "parentUid" : "55e1b272199663c3abd33e9b5e77bc21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729172156135,
+          "stop" : 1729172159924,
+          "duration" : 3789
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Edit person from web tables",
+        "uid" : "95ecdca493b8c895",
+        "parentUid" : "55e1b272199663c3abd33e9b5e77bc21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729172160385,
+          "stop" : 1729172163164,
+          "duration" : 2779
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify no content link",
+        "uid" : "a87b1ef8d8921fc",
+        "parentUid" : "55e1b272199663c3abd33e9b5e77bc21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729172046806,
+          "stop" : 1729172054921,
+          "duration" : 8115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify bad request link",
+        "uid" : "a7daa3ede8e5d0c0",
+        "parentUid" : "55e1b272199663c3abd33e9b5e77bc21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729172064540,
+          "stop" : 1729172072894,
+          "duration" : 8354
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test broken image is not displayed",
+        "uid" : "695883b99fcdbdf4",
+        "parentUid" : "55e1b272199663c3abd33e9b5e77bc21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729171923025,
+          "stop" : 1729171931159,
+          "duration" : 8134
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify switching to new tab",
+        "uid" : "d37aa7996de8d9bb",
+        "parentUid" : "55e1b272199663c3abd33e9b5e77bc21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729172024221,
+          "stop" : 1729172034904,
+          "duration" : 10683
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add new person in web tables",
+        "uid" : "7f3c03fbb2d40b87",
+        "parentUid" : "55e1b272199663c3abd33e9b5e77bc21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729172145939,
+          "stop" : 1729172155664,
+          "duration" : 9725
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test valid image is displayed correctly",
+        "uid" : "33273a327a48e457",
+        "parentUid" : "55e1b272199663c3abd33e9b5e77bc21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729171909699,
+          "stop" : 1729171922525,
+          "duration" : 12826
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test enable button",
+        "uid" : "e9e55361cde10b65",
+        "parentUid" : "55e1b272199663c3abd33e9b5e77bc21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729171994094,
+          "stop" : 1729172002766,
+          "duration" : 8672
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on the checkboxes",
+        "uid" : "5469ead438ccfdec",
+        "parentUid" : "55e1b272199663c3abd33e9b5e77bc21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729171983383,
+          "stop" : 1729171993630,
+          "duration" : 10247
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify not found link",
+        "uid" : "9afc9adc414ca71c",
+        "parentUid" : "55e1b272199663c3abd33e9b5e77bc21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729172092335,
+          "stop" : 1729172107976,
+          "duration" : 15641
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "37491ddf37cf557975cbc810bf9614ca"
+      "uid" : "55e1b272199663c3abd33e9b5e77bc21"
     } ],
-    "uid" : "bb793a40cc40958e9accfacac13b0b29"
+    "uid" : "8b7d8294a9c767095fbf872e60eeca84"
   } ],
   "name" : "timeline"
 }

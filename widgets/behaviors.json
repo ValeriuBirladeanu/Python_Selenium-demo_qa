@@ -1,17 +1,6 @@
 {
   "total" : 10,
   "items" : [ {
-    "uid" : "e2eb0652d80720daa687379dd0c66073",
-    "name" : "Forms - Practice Form",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
     "uid" : "69cbf3118e2882907e7e3e486b0c9ea7",
     "name" : "Elements - Links",
     "statistic" : {
@@ -80,6 +69,17 @@
   }, {
     "uid" : "16a2b6b6b9e5e61199a22ee012d02b7c",
     "name" : "Elements - Check Box",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "e2eb0652d80720daa687379dd0c66073",
+    "name" : "Forms - Practice Form",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
