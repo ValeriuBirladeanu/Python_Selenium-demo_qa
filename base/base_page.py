@@ -79,7 +79,9 @@ class BasePage:
         with allure.step(f"Wait for element located by {locator} to contain text '{expected_text}'"):
             element = self.wait.until(EC.presence_of_element_located(locator))
             actual_text = slicing(element.text) if slicing else element.text # Slicing operation on element text is expected
-            assert expected_text.lower().strip() in actual_text.lower().strip(), f"Expected text '{expected_text}' in '{actual_text}' (full text: '{element.text}')"
+            assert expected_text.lower().strip() == actual_text.lower().strip(), f"Expected text '{expected_text}' but got '{actual_text}'"
+            print(actual_text)
+            print(expected_text)
             return element
 
     # Checks if the expected text is present in multiple elements

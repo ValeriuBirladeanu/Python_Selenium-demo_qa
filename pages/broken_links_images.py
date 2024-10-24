@@ -58,5 +58,5 @@ class BrokenLinksImages(BasePage):
 
     @allure.step("Verify if link is broken")
     def check_opened_broken_link(self):
-        expected_text = "This page returned a 500 status code"
-        self.check_element_text(self.ERROR_500_MESSAGE, expected_text)
+        expected_text = "This page returned a 500 status code."
+        self.check_element_text(self.ERROR_500_MESSAGE, expected_text, lambda slicing: slicing.split("\n")[0].strip())
