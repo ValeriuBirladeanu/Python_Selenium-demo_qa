@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"react-datepicker__day react-datepicker__day--0...\" tabindex=\"-1\" aria-label=\"Choose Wednesday, August 19th, 2065\" role=\"option\" aria-disabled=\"false\">19</div> is not clickable at point (855, 980). Other element would receive the click: <div>...</div>\n  (Session info: headless chrome=112.0.5615.165)",
+      "children" : [ {
+        "name" : "Complete practice form",
+        "uid" : "3ec059eb2dada0eb",
+        "parentUid" : "781fbb20bf44f743ae89255b6e54d04e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1729786062309,
+          "stop" : 1729786072250,
+          "duration" : 9941
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "781fbb20bf44f743ae89255b6e54d04e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
   "name" : "categories"
 }
