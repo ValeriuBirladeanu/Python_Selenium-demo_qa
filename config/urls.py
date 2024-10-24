@@ -13,3 +13,4 @@ class Urls:
     UPLOAD_FILES = f"{HOST}/upload-download"
     DYNAMIC_PROPERTIES = f"{HOST}/dynamic-properties"
     PRACTICE_FORM = f"{HOST}/automation-practice-form"
+    BROWSER_WINDOWS = f"{HOST}/browser-windows"

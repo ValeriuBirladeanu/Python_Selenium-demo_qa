@@ -9,6 +9,7 @@ from pages.broken_links_images import BrokenLinksImages
 from pages.upload_files import UploadFiles
 from pages.dynamic_properties import DynamicProperties
 from pages.practice_form import PracticeForm
+from pages.browser_windows import BrowserWindows
 
 
 class BaseTest:
@@ -23,6 +24,7 @@ class BaseTest:
     upload_files: UploadFiles
     dynamic_properties: DynamicProperties
     practice_form : PracticeForm
+    browser_windows : BrowserWindows
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
@@ -37,3 +39,4 @@ class BaseTest:
         request.cls.upload_files = UploadFiles(driver)
         request.cls.dynamic_properties = DynamicProperties(driver)
         request.cls.practice_form = PracticeForm(driver)
+        request.cls.browser_windows = BrowserWindows(driver)
