@@ -1,290 +1,350 @@
 [ {
-  "uid" : "1c1ddbbdeedd1ddd",
+  "uid" : "50a292faf8a5711e",
   "name" : "Verify created link",
   "time" : {
-    "start" : 1729786005174,
-    "stop" : 1729786014532,
-    "duration" : 9358
+    "start" : 1730114751817,
+    "stop" : 1730114759269,
+    "duration" : 7452
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f4a6fb9832929d4a",
-  "name" : "Completing the text box fields",
-  "time" : {
-    "start" : 1729786087506,
-    "stop" : 1729786119949,
-    "duration" : 32443
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "89ca104df87cb2f9",
-  "name" : "Double click",
-  "time" : {
-    "start" : 1729785936490,
-    "stop" : 1729785946592,
-    "duration" : 10102
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "aaf5ba6e491ad98e",
-  "name" : "Verify moved link",
-  "time" : {
-    "start" : 1729786017900,
-    "stop" : 1729786027231,
-    "duration" : 9331
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "35e0febea4f0a20",
-  "name" : "Verify opening valid link",
-  "time" : {
-    "start" : 1729785904806,
-    "stop" : 1729785914511,
-    "duration" : 9705
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "26321c7aea72293c",
-  "name" : "Add new person in web tables",
-  "time" : {
-    "start" : 1729786136047,
-    "stop" : 1729786140531,
-    "duration" : 4484
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "efa7196302400941",
+  "uid" : "11f02f2359743754",
   "name" : "Click on the checkboxes",
   "time" : {
-    "start" : 1729785957550,
-    "stop" : 1729785966195,
-    "duration" : 8645
+    "start" : 1730114701303,
+    "stop" : 1730114709544,
+    "duration" : 8241
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3c0334435380170",
-  "name" : "Verify 'No' radio button is disabled",
-  "time" : {
-    "start" : 1729786080278,
-    "stop" : 1729786087041,
-    "duration" : 6763
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5e636edc85ac5bfe",
-  "name" : "Test valid image is displayed correctly",
-  "time" : {
-    "start" : 1729785885489,
-    "stop" : 1729785894535,
-    "duration" : 9046
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6593169e65475055",
-  "name" : "Edit person from web tables",
-  "time" : {
-    "start" : 1729786150893,
-    "stop" : 1729786160352,
-    "duration" : 9459
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "18d59367a39c2f79",
-  "name" : "Test change color",
-  "time" : {
-    "start" : 1729785974313,
-    "stop" : 1729785985839,
-    "duration" : 11526
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2112cf9c5b087cbf",
-  "name" : "Right click",
-  "time" : {
-    "start" : 1729785947059,
-    "stop" : 1729785949336,
-    "duration" : 2277
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7a6d58d706758b83",
-  "name" : "Test opened new window",
-  "time" : {
-    "start" : 1729785927046,
-    "stop" : 1729785936023,
-    "duration" : 8977
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "985f1c32f47a2941",
-  "name" : "Test uploaded file",
-  "time" : {
-    "start" : 1729786120419,
-    "stop" : 1729786135586,
-    "duration" : 15167
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7121b373cf56e1ba",
-  "name" : "Delete a random person and verify deletion",
-  "time" : {
-    "start" : 1729786160818,
-    "stop" : 1729786171613,
-    "duration" : 10795
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a85b9a33365204cb",
-  "name" : "Test broken image is not displayed",
-  "time" : {
-    "start" : 1729785895033,
-    "stop" : 1729785904335,
-    "duration" : 9302
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8435e5f5e91f7248",
-  "name" : "Verify not found link",
-  "time" : {
-    "start" : 1729786052912,
-    "stop" : 1729786061845,
-    "duration" : 8933
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f8c70ee5cc63854a",
-  "name" : "Search person in web tables",
-  "time" : {
-    "start" : 1729786140996,
-    "stop" : 1729786150424,
-    "duration" : 9428
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3ec059eb2dada0eb",
+  "uid" : "678364a382593bb6",
   "name" : "Complete practice form",
   "time" : {
-    "start" : 1729786062309,
-    "stop" : 1729786072250,
-    "duration" : 9941
+    "start" : 1730114807498,
+    "stop" : 1730114816524,
+    "duration" : 9026
   },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "484a1044d97f8f74",
+  "uid" : "60c61ec39ddb4cb0",
+  "name" : "Click on the alert button",
+  "time" : {
+    "start" : 1730114735039,
+    "stop" : 1730114742287,
+    "duration" : 7248
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d9d8b0991276bf1",
   "name" : "Verify unauthorized link",
   "time" : {
-    "start" : 1729786035875,
-    "stop" : 1729786043592,
-    "duration" : 7717
+    "start" : 1730114785781,
+    "stop" : 1730114795421,
+    "duration" : 9640
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "7a772424b71396a",
-  "name" : "Select and verify a random radio button",
+  "uid" : "f09bde518909e3e0",
+  "name" : "Click on confirm alert button",
   "time" : {
-    "start" : 1729786072769,
-    "stop" : 1729786079817,
-    "duration" : 7048
+    "start" : 1730114622770,
+    "stop" : 1730114629998,
+    "duration" : 7228
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "bcc1bc0b5546b44e",
-  "name" : "Test appearance button",
+  "uid" : "3ff0cb750eae2170",
+  "name" : "Click on the 5 seconds alert button",
   "time" : {
-    "start" : 1729785986309,
-    "stop" : 1729785994156,
-    "duration" : 7847
+    "start" : 1730114470157,
+    "stop" : 1730114613548,
+    "duration" : 143391
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8f16a69a5c03f59e",
-  "name" : "Verify opening broken link",
+  "uid" : "eb5fe08f3850bb50",
+  "name" : "Test change color",
   "time" : {
-    "start" : 1729785914979,
-    "stop" : 1729785926578,
-    "duration" : 11599
+    "start" : 1730114718016,
+    "stop" : 1730114726041,
+    "duration" : 8025
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "75e45bc3571aea04",
-  "name" : "Verify switching to new tab",
+  "uid" : "7f1b7e8175c24f6f",
+  "name" : "Verify moved link",
   "time" : {
-    "start" : 1729785994624,
-    "stop" : 1729786004710,
-    "duration" : 10086
+    "start" : 1730114768707,
+    "stop" : 1730114776237,
+    "duration" : 7530
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "54832c094b7dce46",
-  "name" : "Verify forbidden link",
-  "time" : {
-    "start" : 1729786044062,
-    "stop" : 1729786052450,
-    "duration" : 8388
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8884226921fb823",
+  "uid" : "7426983f53ea3c59",
   "name" : "A click",
   "time" : {
-    "start" : 1729785949808,
-    "stop" : 1729785957083,
-    "duration" : 7275
+    "start" : 1730114692712,
+    "stop" : 1730114700822,
+    "duration" : 8110
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "bbe7c12bd10387e3",
-  "name" : "Test enable button",
-  "time" : {
-    "start" : 1729785966659,
-    "stop" : 1729785973840,
-    "duration" : 7181
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8d0263a2dfd1c925",
-  "name" : "Verify no content link",
-  "time" : {
-    "start" : 1729786014998,
-    "stop" : 1729786017431,
-    "duration" : 2433
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4ec5f4f699f7f2be",
+  "uid" : "d3ed96160ac811c4",
   "name" : "Verify bad request link",
   "time" : {
-    "start" : 1729786027699,
-    "stop" : 1729786035409,
-    "duration" : 7710
+    "start" : 1730114776715,
+    "stop" : 1730114785300,
+    "duration" : 8585
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc7ff51980a26c1e",
+  "name" : "Test enable button",
+  "time" : {
+    "start" : 1730114710025,
+    "stop" : 1730114717534,
+    "duration" : 7509
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9afdfc4c03cf9013",
+  "name" : "Verify opening broken link",
+  "time" : {
+    "start" : 1730114660910,
+    "stop" : 1730114668771,
+    "duration" : 7861
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14d09abbb70d6441",
+  "name" : "Double click",
+  "time" : {
+    "start" : 1730114676897,
+    "stop" : 1730114684378,
+    "duration" : 7481
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc4ff1fd8ac82c07",
+  "name" : "Delete a random person and verify deletion",
+  "time" : {
+    "start" : 1730114877315,
+    "stop" : 1730114887397,
+    "duration" : 10082
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2726be5e060a94c",
+  "name" : "Test valid image is displayed correctly",
+  "time" : {
+    "start" : 1730114633809,
+    "stop" : 1730114642414,
+    "duration" : 8605
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b840fa3c26baaec4",
+  "name" : "Verify not found link",
+  "time" : {
+    "start" : 1730114803995,
+    "stop" : 1730114807020,
+    "duration" : 3025
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "703f27e8f12b5eab",
+  "name" : "Click on confirm alert button",
+  "time" : {
+    "start" : 1730114614025,
+    "stop" : 1730114622289,
+    "duration" : 8264
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41dceb0deab6508d",
+  "name" : "Test appearance button",
+  "time" : {
+    "start" : 1730114726522,
+    "stop" : 1730114734559,
+    "duration" : 8037
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d91c57c415177fd0",
+  "name" : "Verify 'No' radio button is disabled",
+  "time" : {
+    "start" : 1730114825749,
+    "stop" : 1730114832879,
+    "duration" : 7130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f5b0fb8a9b54e0e",
+  "name" : "Test uploaded file",
+  "time" : {
+    "start" : 1730114841306,
+    "stop" : 1730114853230,
+    "duration" : 11924
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d23ed59a433baf22",
+  "name" : "Verify no content link",
+  "time" : {
+    "start" : 1730114759749,
+    "stop" : 1730114768230,
+    "duration" : 8481
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5553ddd527025fbe",
+  "name" : "Search person in web tables",
+  "time" : {
+    "start" : 1730114864252,
+    "stop" : 1730114868665,
+    "duration" : 4413
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3fb7188e29c064aa",
+  "name" : "Add new person in web tables",
+  "time" : {
+    "start" : 1730114853709,
+    "stop" : 1730114863770,
+    "duration" : 10061
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d80957573cd3fade",
+  "name" : "Edit person from web tables",
+  "time" : {
+    "start" : 1730114869145,
+    "stop" : 1730114876835,
+    "duration" : 7690
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2de110408997ff08",
+  "name" : "Right click",
+  "time" : {
+    "start" : 1730114684855,
+    "stop" : 1730114692233,
+    "duration" : 7378
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2043d776df2b21e5",
+  "name" : "Test opened new window",
+  "time" : {
+    "start" : 1730114669250,
+    "stop" : 1730114676415,
+    "duration" : 7165
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d40357e69c03be10",
+  "name" : "Select and verify a random radio button",
+  "time" : {
+    "start" : 1730114817001,
+    "stop" : 1730114825271,
+    "duration" : 8270
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1db63a42333a9de4",
+  "name" : "Click on input alert button",
+  "time" : {
+    "start" : 1730114630476,
+    "stop" : 1730114633329,
+    "duration" : 2853
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52db4ecef3cf7e04",
+  "name" : "Click on the alert button",
+  "time" : {
+    "start" : 1730114466840,
+    "stop" : 1730114469643,
+    "duration" : 2803
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5668e6373a244283",
+  "name" : "Test broken image is not displayed",
+  "time" : {
+    "start" : 1730114642892,
+    "stop" : 1730114650269,
+    "duration" : 7377
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5f43b18338cc277",
+  "name" : "Verify opening valid link",
+  "time" : {
+    "start" : 1730114650750,
+    "stop" : 1730114660426,
+    "duration" : 9676
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a29e5d824529ad0",
+  "name" : "Verify forbidden link",
+  "time" : {
+    "start" : 1730114795899,
+    "stop" : 1730114803515,
+    "duration" : 7616
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea96e2ba97a36875",
+  "name" : "Verify switching to new tab",
+  "time" : {
+    "start" : 1730114742769,
+    "stop" : 1730114751341,
+    "duration" : 8572
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49fc77b6240c8483",
+  "name" : "Completing the text box fields",
+  "time" : {
+    "start" : 1730114833359,
+    "stop" : 1730114840832,
+    "duration" : 7473
   },
   "status" : "passed",
   "severity" : "normal"

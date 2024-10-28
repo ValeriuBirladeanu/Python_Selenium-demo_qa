@@ -1,0 +1,761 @@
+{
+  "uid" : "3fb7188e29c064aa",
+  "name" : "Add new person in web tables",
+  "fullName" : "tests.test_web_tables.TestWebTables#test_add_new_person",
+  "historyId" : "f3d458352b69315ab5facf51e62137fd",
+  "time" : {
+    "start" : 1730114853709,
+    "stop" : 1730114863770,
+    "duration" : 10061
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1730114466253,
+      "stop" : 1730114466329,
+      "duration" : 76
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1730114853603,
+      "stop" : 1730114853709,
+      "duration" : 106
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1730114853285,
+      "stop" : 1730114853603,
+      "duration" : 318
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open https://demoqa.com/webtables page",
+      "time" : {
+        "start" : 1730114853709,
+        "stop" : 1730114861647,
+        "duration" : 7938
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://demoqa.com/webtables is opened",
+      "time" : {
+        "start" : 1730114861647,
+        "stop" : 1730114861650,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click add button",
+      "time" : {
+        "start" : 1730114861650,
+        "stop" : 1730114861732,
+        "duration" : 82
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check if element located by ('xpath', \"//button[@id='addNewRecordButton']\") is clickable",
+        "time" : {
+          "start" : 1730114861650,
+          "stop" : 1730114861671,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Check modal window visibility",
+      "time" : {
+        "start" : 1730114861732,
+        "stop" : 1730114861759,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check visibility of element located by ('xpath', \"//form[@id='userForm']\")",
+        "time" : {
+          "start" : 1730114861732,
+          "stop" : 1730114861759,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Enter first name",
+      "time" : {
+        "start" : 1730114861760,
+        "stop" : 1730114861923,
+        "duration" : 163
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check if element located by ('xpath', \"//input[@id='firstName']\") is clickable",
+        "time" : {
+          "start" : 1730114861760,
+          "stop" : 1730114861833,
+          "duration" : 73
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Enter last name",
+      "time" : {
+        "start" : 1730114861923,
+        "stop" : 1730114861990,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check if element located by ('xpath', \"//input[@id='lastName']\") is clickable",
+        "time" : {
+          "start" : 1730114861924,
+          "stop" : 1730114861943,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Enter email",
+      "time" : {
+        "start" : 1730114861990,
+        "stop" : 1730114862108,
+        "duration" : 118
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check if element located by ('xpath', \"//input[@id='userEmail']\") is clickable",
+        "time" : {
+          "start" : 1730114861990,
+          "stop" : 1730114862020,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Enter age",
+      "time" : {
+        "start" : 1730114862108,
+        "stop" : 1730114862161,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check if element located by ('xpath', \"//input[@id='age']\") is clickable",
+        "time" : {
+          "start" : 1730114862108,
+          "stop" : 1730114862129,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Enter salary",
+      "time" : {
+        "start" : 1730114862162,
+        "stop" : 1730114862221,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check if element located by ('xpath', \"//input[@id='salary']\") is clickable",
+        "time" : {
+          "start" : 1730114862162,
+          "stop" : 1730114862182,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Enter department",
+      "time" : {
+        "start" : 1730114862221,
+        "stop" : 1730114862292,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check if element located by ('xpath', \"//input[@id='department']\") is clickable",
+        "time" : {
+          "start" : 1730114862221,
+          "stop" : 1730114862240,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Check values in input fields",
+      "time" : {
+        "start" : 1730114862503,
+        "stop" : 1730114862570,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Wait for element located by ('xpath', \"//input[@id='firstName']\") to change new value 'Jonathan'",
+        "time" : {
+          "start" : 1730114862503,
+          "stop" : 1730114862515,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Wait for element located by ('xpath', \"//input[@id='lastName']\") to change new value 'Franklin'",
+        "time" : {
+          "start" : 1730114862515,
+          "stop" : 1730114862526,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Wait for element located by ('xpath', \"//input[@id='userEmail']\") to change new value 'danielclark@example.com'",
+        "time" : {
+          "start" : 1730114862526,
+          "stop" : 1730114862537,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Wait for element located by ('xpath', \"//input[@id='age']\") to change new value '80'",
+        "time" : {
+          "start" : 1730114862537,
+          "stop" : 1730114862548,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Wait for element located by ('xpath', \"//input[@id='salary']\") to change new value '46129'",
+        "time" : {
+          "start" : 1730114862548,
+          "stop" : 1730114862560,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Wait for element located by ('xpath', \"//input[@id='department']\") to change new value 'Product manager'",
+        "time" : {
+          "start" : 1730114862560,
+          "stop" : 1730114862570,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 6,
+      "hasContent" : true
+    }, {
+      "name" : "Click submit button",
+      "time" : {
+        "start" : 1730114862570,
+        "stop" : 1730114862629,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check if element located by ('xpath', \"//button[@id='submit']\") is clickable",
+        "time" : {
+          "start" : 1730114862570,
+          "stop" : 1730114862587,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Verify text in table entries",
+      "time" : {
+        "start" : 1730114862869,
+        "stop" : 1730114863769,
+        "duration" : 900
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check if text 'Jonathan' is present in multiple elements",
+        "time" : {
+          "start" : 1730114862869,
+          "stop" : 1730114863116,
+          "duration" : 247
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check if text 'Franklin' is present in multiple elements",
+        "time" : {
+          "start" : 1730114863116,
+          "stop" : 1730114863234,
+          "duration" : 118
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check if text 'danielclark@example.com' is present in multiple elements",
+        "time" : {
+          "start" : 1730114863234,
+          "stop" : 1730114863376,
+          "duration" : 142
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check if text '80' is present in multiple elements",
+        "time" : {
+          "start" : 1730114863376,
+          "stop" : 1730114863497,
+          "duration" : 121
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check if text '46129' is present in multiple elements",
+        "time" : {
+          "start" : 1730114863497,
+          "stop" : 1730114863632,
+          "duration" : 135
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check if text 'Product manager' is present in multiple elements",
+        "time" : {
+          "start" : 1730114863632,
+          "stop" : 1730114863769,
+          "duration" : 137
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 6,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "537b1035d9fb0baf",
+      "name" : "Screenshot",
+      "source" : "537b1035d9fb0baf.png",
+      "type" : "image/png",
+      "size" : 334778
+    }, {
+      "uid" : "68544227f59a0ce4",
+      "name" : "Screenshot",
+      "source" : "68544227f59a0ce4.png",
+      "type" : "image/png",
+      "size" : 394131
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 34,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1730114863770,
+      "stop" : 1730114863824,
+      "duration" : 54
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Elements - Wev Tables"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_web_tables"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWebTables"
+  }, {
+    "name" : "host",
+    "value" : "b2eccbebb3ce"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_web_tables"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 13,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "26321c7aea72293c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729786136047,
+          "stop" : 1729786140531,
+          "duration" : 4484
+        }
+      }, {
+        "uid" : "7f3c03fbb2d40b87",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729172145939,
+          "stop" : 1729172155664,
+          "duration" : 9725
+        }
+      }, {
+        "uid" : "77a33f0cc18842eb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728654595556,
+          "stop" : 1728654604662,
+          "duration" : 9106
+        }
+      }, {
+        "uid" : "aee738be30aa550a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727439967242,
+          "stop" : 1727439976513,
+          "duration" : 9271
+        }
+      }, {
+        "uid" : "aad08246560a2e7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727433913758,
+          "stop" : 1727433923158,
+          "duration" : 9400
+        }
+      }, {
+        "uid" : "8c15e351d1f4cf3c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727167200414,
+          "stop" : 1727167209752,
+          "duration" : 9338
+        }
+      }, {
+        "uid" : "103e3e22a0d9eedf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726735682214,
+          "stop" : 1726735692180,
+          "duration" : 9966
+        }
+      }, {
+        "uid" : "7f988a43effe9488",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726734163927,
+          "stop" : 1726734173244,
+          "duration" : 9317
+        }
+      }, {
+        "uid" : "1e33a0153e61d698",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726686630027,
+          "stop" : 1726686634184,
+          "duration" : 4157
+        }
+      }, {
+        "uid" : "d1ed8209edf241ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726564603230,
+          "stop" : 1726564612533,
+          "duration" : 9303
+        }
+      }, {
+        "uid" : "1c09513023209fa9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726146056355,
+          "stop" : 1726146069387,
+          "duration" : 13032
+        }
+      }, {
+        "uid" : "b9b5b85f35f8dbfb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726040819849,
+          "stop" : 1726040829939,
+          "duration" : 10090
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "3fb7188e29c064aa.json",
+  "parameterValues" : [ ]
+}
