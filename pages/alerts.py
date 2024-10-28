@@ -1,5 +1,4 @@
 import allure
-import requests
 from base.base_page import BasePage
 from config.urls import Urls
 from data.data_generator import TestDataGenerator
