@@ -15,3 +15,4 @@ class Urls:
     PRACTICE_FORM = f"{HOST}/automation-practice-form"
     BROWSER_WINDOWS = f"{HOST}/browser-windows"
     ALERTS = f"{HOST}/alerts"
+    FRAMES = f"{HOST}/frames"

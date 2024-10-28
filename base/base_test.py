@@ -11,6 +11,7 @@ from pages.dynamic_properties import DynamicProperties
 from pages.practice_form import PracticeForm
 from pages.browser_windows import BrowserWindows
 from pages.alerts import Alerts
+from pages.frames import Frames
 
 
 class BaseTest:
@@ -27,6 +28,7 @@ class BaseTest:
     practice_form : PracticeForm
     browser_windows : BrowserWindows
     alerts : Alerts
+    frames : Frames
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
@@ -43,3 +45,4 @@ class BaseTest:
         request.cls.practice_form = PracticeForm(driver)
         request.cls.browser_windows = BrowserWindows(driver)
         request.cls.alerts = Alerts(driver)
+        request.cls.frames = Frames(driver)
