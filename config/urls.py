@@ -14,3 +14,4 @@ class Urls:
     DYNAMIC_PROPERTIES = f"{HOST}/dynamic-properties"
     PRACTICE_FORM = f"{HOST}/automation-practice-form"
     BROWSER_WINDOWS = f"{HOST}/browser-windows"
+    ALERTS = f"{HOST}/alerts"

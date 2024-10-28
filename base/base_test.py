@@ -10,6 +10,7 @@ from pages.upload_files import UploadFiles
 from pages.dynamic_properties import DynamicProperties
 from pages.practice_form import PracticeForm
 from pages.browser_windows import BrowserWindows
+from pages.alerts import Alerts
 
 
 class BaseTest:
@@ -25,6 +26,7 @@ class BaseTest:
     dynamic_properties: DynamicProperties
     practice_form : PracticeForm
     browser_windows : BrowserWindows
+    alerts : Alerts
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
@@ -40,3 +42,4 @@ class BaseTest:
         request.cls.dynamic_properties = DynamicProperties(driver)
         request.cls.practice_form = PracticeForm(driver)
         request.cls.browser_windows = BrowserWindows(driver)
+        request.cls.alerts = Alerts(driver)

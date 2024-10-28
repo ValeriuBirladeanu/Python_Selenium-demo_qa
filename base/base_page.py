@@ -80,9 +80,13 @@ class BasePage:
             element = self.wait.until(EC.presence_of_element_located(locator))
             actual_text = slicing(element.text) if slicing else element.text # Slicing operation on element text is expected
             assert expected_text.lower().strip() == actual_text.lower().strip(), f"Expected text '{expected_text}' but got '{actual_text}'"
-            print(actual_text)
-            print(expected_text)
             return element
+
+    # Checks if the text of an alert contains the expected text
+    def check_alert_text(self, actual_text, expected_text, slicing=None):
+        with allure.step(f"Check if alert text contains '{expected_text}'"):
+            actual_text = slicing(actual_text) if slicing else actual_text  # Slicing operation on alert text is expected
+            assert expected_text == actual_text, f"Expected alert text '{expected_text}' but got '{actual_text}'"
 
     # Checks if the expected text is present in multiple elements
     def check_text_in_multiple_elements(self, locator, expected_text, slicing=None):
@@ -146,6 +150,21 @@ class BasePage:
         else:  # Assumes target is a web element
             element = target
         self.driver.execute_script("arguments[0].scrollIntoView(true);", element)
+
+    # Checks if an alert is present within the specified timeout
+    def alert_is_present(self):
+        with allure.step("Wait for alert to be present"):
+            return self.wait.until(EC.alert_is_present())
+
+    # Switch to alert
+    def switch_to_alert(self):
+        with allure.step("Switch to alert"):
+            self.alert = self.driver.switch_to.alert
+
+    # Entering the text in the alert
+    def enter_text_to_alert(self, text):
+        with allure.step("Entering the text in the alert"):
+            self.alert.send_keys(text)
 
     # Takes a screenshot and attaches it to the Allure report
     def make_screenshot(self):
