@@ -12,10 +12,10 @@ from pages.practice_form import PracticeForm
 from pages.browser_windows import BrowserWindows
 from pages.alerts import Alerts
 from pages.frames import Frames
+from pages.accordian import Accordian
 
 
 class BaseTest:
-
     text_box: TextBox
     check_box: CheckBox
     radio_button: RadioButton
@@ -25,10 +25,11 @@ class BaseTest:
     broken_links_images: BrokenLinksImages
     upload_files: UploadFiles
     dynamic_properties: DynamicProperties
-    practice_form : PracticeForm
-    browser_windows : BrowserWindows
-    alerts : Alerts
-    frames : Frames
+    practice_form: PracticeForm
+    browser_windows: BrowserWindows
+    alerts: Alerts
+    frames: Frames
+    accordian: Accordian
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
@@ -46,3 +47,4 @@ class BaseTest:
         request.cls.browser_windows = BrowserWindows(driver)
         request.cls.alerts = Alerts(driver)
         request.cls.frames = Frames(driver)
+        request.cls.accordian = Accordian(driver)

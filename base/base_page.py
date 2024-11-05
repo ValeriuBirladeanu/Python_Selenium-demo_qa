@@ -10,7 +10,7 @@ class BasePage:
 
     def __init__(self, driver):
         self.driver = driver
-        self.wait = WebDriverWait(driver, 30)
+        self.wait = WebDriverWait(driver, 15)
 
     # Opening the web page
     def open(self):
@@ -165,6 +165,11 @@ class BasePage:
     def enter_text_to_alert(self, text):
         with allure.step("Entering the text in the alert"):
             self.alert.send_keys(text)
+
+    # Verify that the text has changed
+    def verify_change_text(self, previously_text, actual_text ):
+        with allure.step(f"The change of text {previously_text} to {actual_text} was expected"):
+            assert previously_text != actual_text, "The text has not changed"
 
     # Takes a screenshot and attaches it to the Allure report
     def make_screenshot(self):

@@ -1,7 +1,6 @@
 
 
 class Urls:
-
     HOST = "https://demoqa.com"
     TEXT_BOX = f"{HOST}/text-box"
     CHECK_BOX = f"{HOST}/checkbox"
@@ -16,3 +15,4 @@ class Urls:
     BROWSER_WINDOWS = f"{HOST}/browser-windows"
     ALERTS = f"{HOST}/alerts"
     FRAMES = f"{HOST}/frames"
+    ACCORDIAN = f"{HOST}/accordian"
