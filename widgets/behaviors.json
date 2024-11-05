@@ -1,5 +1,5 @@
 {
-  "total" : 13,
+  "total" : 14,
   "items" : [ {
     "uid" : "69cbf3118e2882907e7e3e486b0c9ea7",
     "name" : "Elements - Links",
@@ -78,6 +78,17 @@
       "total" : 2
     }
   }, {
+    "uid" : "27b1f4915960d426527dfda242cef443",
+    "name" : "Widgets",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
     "uid" : "041e4a3987b50d2f94146a22f0b44c25",
     "name" : "Alerts, Frame & Windows - Browser_Windows",
     "statistic" : {
@@ -91,17 +102,6 @@
   }, {
     "uid" : "16a2b6b6b9e5e61199a22ee012d02b7c",
     "name" : "Elements - Check Box",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "d541b9042bd98082cf690fe1cdb84a37",
-    "name" : "Alerts, Frame & Windows  - Frames",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
