@@ -16,3 +16,4 @@ class Urls:
     ALERTS = f"{HOST}/alerts"
     FRAMES = f"{HOST}/frames"
     ACCORDIAN = f"{HOST}/accordian"
+    AUTO_COMPLETE = f"{HOST}/auto-complete"

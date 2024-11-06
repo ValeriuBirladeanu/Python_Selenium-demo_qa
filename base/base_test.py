@@ -13,6 +13,7 @@ from pages.browser_windows import BrowserWindows
 from pages.alerts import Alerts
 from pages.frames import Frames
 from pages.accordian import Accordian
+from pages.auto_complete import AutoComplete
 
 
 class BaseTest:
@@ -30,6 +31,7 @@ class BaseTest:
     alerts: Alerts
     frames: Frames
     accordian: Accordian
+    auto_complete: AutoComplete
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
@@ -48,3 +50,4 @@ class BaseTest:
         request.cls.alerts = Alerts(driver)
         request.cls.frames = Frames(driver)
         request.cls.accordian = Accordian(driver)
+        request.cls.auto_complete = AutoComplete(driver)
