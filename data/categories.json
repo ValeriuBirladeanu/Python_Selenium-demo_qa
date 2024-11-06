@@ -1,5 +1,43 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "Click on confirm alert button",
+        "uid" : "5c94028085286bd",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1730874585211,
+          "stop" : 1730874600641,
+          "duration" : 15430
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    }, {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"react-datepicker__day react-datepicker__day--00... react-datepicker__day--outside-month\" tabindex=\"-1\" aria-label=\"Choose Monday, May 7th, 1923\" role=\"option\" aria-disabled=\"false\">7</div> is not clickable at point (790, 1045). Other element would receive the click: <iframe frameborder=\"0\" src=\"https://fa204b8079bc3a5f7659406d8804879e.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html\" id=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250_1\" title=\"3rd party ad content\" name=\"\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" width=\"728\" height=\"90\" data-is-safeframe=\"true\" sandbox=\"allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation\" aria-label=\"Advertisement\" tabindex=\"0\" data-google-container-id=\"7\" style=\"border: 0px; vertical-align: bottom; max-height: 30vh !important; overflow: hidden !important; display: block; margin: 0px auto;\" data-load-complete=\"true\"></iframe>\n  (Session info: headless chrome=112.0.5615.165)",
+      "children" : [ {
+        "name" : "Complete practice form",
+        "uid" : "89b16d6066dcd899",
+        "parentUid" : "2e24c26ec1f52d8938a61365f3d3f936",
+        "status" : "broken",
+        "time" : {
+          "start" : 1730874812820,
+          "stop" : 1730874821174,
+          "duration" : 8354
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2e24c26ec1f52d8938a61365f3d3f936"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
   "name" : "categories"
 }
