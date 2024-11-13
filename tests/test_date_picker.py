@@ -12,3 +12,11 @@ class TestDatePicker(BaseTest):
         self.date_picker.is_opened()
         self.date_picker.select_date()
         self.date_picker.verify_date()
+
+    @allure.title("Test select date and time in calendar")
+    @pytest.mark.smoke
+    def test_select_date_and_ti(self):
+        self.date_picker.open()
+        self.date_picker.is_opened()
+        self.date_picker.select_date_and_time()
+        self.date_picker.verify_date_and_time()

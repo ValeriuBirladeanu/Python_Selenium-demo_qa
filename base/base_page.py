@@ -74,6 +74,10 @@ class BasePage:
             assert str(new_value).lower().strip() == str(actual_value).lower().strip(), f"Expected value '{new_value}' but got '{actual_value}'"
             return element
 
+    def get_updated_value(self, locator):
+        element = self.wait.until(EC.visibility_of_element_located(locator))
+        return element.get_attribute('value')
+
     # Checks if the text of an element contains the expected text
     def check_element_text(self, locator, expected_text, slicing=None):
         with allure.step(f"Wait for element located by {locator} to contain text '{expected_text}'"):
