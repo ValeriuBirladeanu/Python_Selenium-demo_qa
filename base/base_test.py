@@ -14,6 +14,7 @@ from pages.alerts import Alerts
 from pages.frames import Frames
 from pages.accordian import Accordian
 from pages.auto_complete import AutoComplete
+from pages.date_picker import DatePicker
 
 
 class BaseTest:
@@ -32,6 +33,7 @@ class BaseTest:
     frames: Frames
     accordian: Accordian
     auto_complete: AutoComplete
+    date_picker: DatePicker
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
@@ -51,3 +53,4 @@ class BaseTest:
         request.cls.frames = Frames(driver)
         request.cls.accordian = Accordian(driver)
         request.cls.auto_complete = AutoComplete(driver)
+        request.cls.date_picker = DatePicker(driver)

@@ -17,3 +17,4 @@ class Urls:
     FRAMES = f"{HOST}/frames"
     ACCORDIAN = f"{HOST}/accordian"
     AUTO_COMPLETE = f"{HOST}/auto-complete"
+    DATE_PICKER = f"{HOST}/date-picker"
