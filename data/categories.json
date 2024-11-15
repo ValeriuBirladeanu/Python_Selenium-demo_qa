@@ -1,43 +1,43 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
-    "name" : "Test defects",
+    "name" : "Product defects",
     "children" : [ {
-      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "name" : "AssertionError: Expected value '06/08/2055' but got '07/08/2055'",
       "children" : [ {
-        "name" : "Click on confirm alert button",
-        "uid" : "5c94028085286bd",
-        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
-        "status" : "broken",
+        "name" : "Test select date in calendar",
+        "uid" : "96781d36e8c836d2",
+        "parentUid" : "b43c70d9d320df8f770f2e50aeb86ac3",
+        "status" : "failed",
         "time" : {
-          "start" : 1730874585211,
-          "stop" : 1730874600641,
-          "duration" : 15430
+          "start" : 1731657590476,
+          "stop" : 1731657729628,
+          "duration" : 139152
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+      "uid" : "b43c70d9d320df8f770f2e50aeb86ac3"
     }, {
-      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"react-datepicker__day react-datepicker__day--00... react-datepicker__day--outside-month\" tabindex=\"-1\" aria-label=\"Choose Monday, May 7th, 1923\" role=\"option\" aria-disabled=\"false\">7</div> is not clickable at point (790, 1045). Other element would receive the click: <iframe frameborder=\"0\" src=\"https://fa204b8079bc3a5f7659406d8804879e.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html\" id=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250_1\" title=\"3rd party ad content\" name=\"\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" width=\"728\" height=\"90\" data-is-safeframe=\"true\" sandbox=\"allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation\" aria-label=\"Advertisement\" tabindex=\"0\" data-google-container-id=\"7\" style=\"border: 0px; vertical-align: bottom; max-height: 30vh !important; overflow: hidden !important; display: block; margin: 0px auto;\" data-load-complete=\"true\"></iframe>\n  (Session info: headless chrome=112.0.5615.165)",
+      "name" : "AssertionError: Expected value 'May 18, 2019 ' but got 'May 18, 2019 3:15 PM'",
       "children" : [ {
-        "name" : "Complete practice form",
-        "uid" : "89b16d6066dcd899",
-        "parentUid" : "2e24c26ec1f52d8938a61365f3d3f936",
-        "status" : "broken",
+        "name" : "Test select date and time in calendar",
+        "uid" : "2fe9b6642128a843",
+        "parentUid" : "b9f0dd678bbced4611a7e9c94acaf071",
+        "status" : "failed",
         "time" : {
-          "start" : 1730874812820,
-          "stop" : 1730874821174,
-          "duration" : 8354
+          "start" : 1731657730155,
+          "stop" : 1731657734247,
+          "duration" : 4092
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "2e24c26ec1f52d8938a61365f3d3f936"
+      "uid" : "b9f0dd678bbced4611a7e9c94acaf071"
     } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
   "name" : "categories"
 }

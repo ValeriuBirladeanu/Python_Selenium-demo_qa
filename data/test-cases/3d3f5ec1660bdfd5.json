@@ -1,0 +1,335 @@
+{
+  "uid" : "3d3f5ec1660bdfd5",
+  "name" : "Click on the alert button",
+  "fullName" : "tests.test_frames.TestFrames#test_iframe",
+  "historyId" : "d6acf6a6fe39802ea1cf8dd7193d186d",
+  "time" : {
+    "start" : 1731657758248,
+    "stop" : 1731657765357,
+    "duration" : 7109
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1731657757812,
+      "stop" : 1731657758141,
+      "duration" : 329
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1731657292603,
+      "stop" : 1731657292684,
+      "duration" : 81
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1731657758141,
+      "stop" : 1731657758248,
+      "duration" : 107
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open https://demoqa.com/frames page",
+      "time" : {
+        "start" : 1731657758249,
+        "stop" : 1731657764931,
+        "duration" : 6682
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Page https://demoqa.com/frames is opened",
+      "time" : {
+        "start" : 1731657764931,
+        "stop" : 1731657764934,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Switch to frame",
+      "time" : {
+        "start" : 1731657764934,
+        "stop" : 1731657764986,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check presence of element located by ('xpath', \"//iframe[@id='frame1']\")",
+        "time" : {
+          "start" : 1731657764934,
+          "stop" : 1731657764942,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Check presence of element located by ('css selector', 'h1[id=\"sampleHeading\"]')",
+        "time" : {
+          "start" : 1731657764962,
+          "stop" : 1731657764970,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "frame_num",
+        "value" : "('xpath', \"//iframe[@id='frame1']\")"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Check frame",
+      "time" : {
+        "start" : 1731657764986,
+        "stop" : 1731657764987,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expected_text",
+        "value" : "['This is a sample page', '500px', '350px']"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Switch to frame",
+      "time" : {
+        "start" : 1731657764987,
+        "stop" : 1731657765084,
+        "duration" : 97
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check presence of element located by ('xpath', \"//iframe[@id='frame2']\")",
+        "time" : {
+          "start" : 1731657764987,
+          "stop" : 1731657764994,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Check presence of element located by ('css selector', 'h1[id=\"sampleHeading\"]')",
+        "time" : {
+          "start" : 1731657765024,
+          "stop" : 1731657765051,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "frame_num",
+        "value" : "('xpath', \"//iframe[@id='frame2']\")"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Check frame",
+      "time" : {
+        "start" : 1731657765084,
+        "stop" : 1731657765085,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "expected_text",
+        "value" : "['This is a sample page', '100px', '100px']"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "16173987004f362d",
+      "name" : "Screenshot",
+      "source" : "16173987004f362d.png",
+      "type" : "image/png",
+      "size" : 508254
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 10
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1731657765358,
+      "stop" : 1731657765411,
+      "duration" : 53
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Alerts, Frame & Windows  - Frames"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_frames"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFrames"
+  }, {
+    "name" : "host",
+    "value" : "67b56db1afcf"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_frames"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "7ea61dbf93825009",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730874711100,
+          "stop" : 1730874713604,
+          "duration" : 2504
+        }
+      }, {
+        "uid" : "5e147e84fd2a764b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730835796702,
+          "stop" : 1730835815187,
+          "duration" : 18485
+        }
+      }, {
+        "uid" : "60c61ec39ddb4cb0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730114735039,
+          "stop" : 1730114742287,
+          "duration" : 7248
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "3d3f5ec1660bdfd5.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,800 @@
+{
+  "uid" : "f4c3433830fd9385",
+  "name" : "Complete practice form",
+  "fullName" : "tests.test_practice_form.TestPracticeForm#test_complete_form",
+  "historyId" : "9268f64470c0ece14b6046e29282ccd0",
+  "time" : {
+    "start" : 1731657834839,
+    "stop" : 1731657843785,
+    "duration" : 8946
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1731657834733,
+      "stop" : 1731657834838,
+      "duration" : 105
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1731657292603,
+      "stop" : 1731657292684,
+      "duration" : 81
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1731657834403,
+      "stop" : 1731657834733,
+      "duration" : 330
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open https://demoqa.com/automation-practice-form page",
+      "time" : {
+        "start" : 1731657834839,
+        "stop" : 1731657841523,
+        "duration" : 6684
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Page https://demoqa.com/automation-practice-form is opened",
+      "time" : {
+        "start" : 1731657841523,
+        "stop" : 1731657841527,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Enter first name",
+      "time" : {
+        "start" : 1731657841527,
+        "stop" : 1731657841589,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check if element located by ('xpath', \"//input[@id='firstName']\") is clickable",
+        "time" : {
+          "start" : 1731657841527,
+          "stop" : 1731657841548,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Enter last name",
+      "time" : {
+        "start" : 1731657841589,
+        "stop" : 1731657841721,
+        "duration" : 132
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check if element located by ('xpath', \"//input[@id='lastName']\") is clickable",
+        "time" : {
+          "start" : 1731657841589,
+          "stop" : 1731657841620,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Enter email",
+      "time" : {
+        "start" : 1731657841721,
+        "stop" : 1731657841828,
+        "duration" : 107
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check if element located by ('xpath', \"//input[@id='userEmail']\") is clickable",
+        "time" : {
+          "start" : 1731657841721,
+          "stop" : 1731657841772,
+          "duration" : 51
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Click radio button",
+      "time" : {
+        "start" : 1731657841828,
+        "stop" : 1731657841886,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check if element located by ('xpath', \"//label[@for='gender-radio-3']\") is clickable",
+        "time" : {
+          "start" : 1731657841828,
+          "stop" : 1731657841848,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Enter Mobile",
+      "time" : {
+        "start" : 1731657841886,
+        "stop" : 1731657841947,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check if element located by ('xpath', \"//input[@id='userNumber']\") is clickable",
+        "time" : {
+          "start" : 1731657841887,
+          "stop" : 1731657841908,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Complete calendar Mobile",
+      "time" : {
+        "start" : 1731657841948,
+        "stop" : 1731657842195,
+        "duration" : 247
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check if element located by ('xpath', \"//input[@id='dateOfBirthInput']\") is clickable",
+        "time" : {
+          "start" : 1731657841948,
+          "stop" : 1731657841969,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Check presence of element located by ('xpath', \"//select[@class='react-datepicker__year-select']\")",
+        "time" : {
+          "start" : 1731657842043,
+          "stop" : 1731657842053,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Check presence of element located by ('xpath', \"//select[@class='react-datepicker__month-select']\")",
+        "time" : {
+          "start" : 1731657842115,
+          "stop" : 1731657842124,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Check presence of elements located by ('xpath', \"//div[@role='option']\")",
+        "time" : {
+          "start" : 1731657842154,
+          "stop" : 1731657842163,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Get all elements from the list",
+        "time" : {
+          "start" : 1731657842163,
+          "stop" : 1731657842163,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 5
+    }, {
+      "name" : "Select subjects",
+      "time" : {
+        "start" : 1731657842195,
+        "stop" : 1731657842354,
+        "duration" : 159
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check if element located by ('xpath', \"//input[@id='subjectsInput']\") is clickable",
+        "time" : {
+          "start" : 1731657842195,
+          "stop" : 1731657842214,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Check presence of element located by ('xpath', \"//input[@id='subjectsInput']\")",
+        "time" : {
+          "start" : 1731657842246,
+          "stop" : 1731657842252,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Click on a random number of hobbies checkboxes",
+      "time" : {
+        "start" : 1731657842354,
+        "stop" : 1731657842528,
+        "duration" : 174
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check if element located by ('xpath', \"//label[@for='hobbies-checkbox-3']\") is clickable",
+        "time" : {
+          "start" : 1731657842365,
+          "stop" : 1731657842390,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Check if element located by ('xpath', \"//label[@for='hobbies-checkbox-2']\") is clickable",
+        "time" : {
+          "start" : 1731657842430,
+          "stop" : 1731657842445,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Check if element located by ('xpath', \"//label[@for='hobbies-checkbox-1']\") is clickable",
+        "time" : {
+          "start" : 1731657842485,
+          "stop" : 1731657842500,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 3
+    }, {
+      "name" : "Enter current address",
+      "time" : {
+        "start" : 1731657842529,
+        "stop" : 1731657842603,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check if element located by ('xpath', \"//textarea[@id='currentAddress']\") is clickable",
+        "time" : {
+          "start" : 1731657842529,
+          "stop" : 1731657842548,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Select state",
+      "time" : {
+        "start" : 1731657842603,
+        "stop" : 1731657842699,
+        "duration" : 96
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check presence of element located by ('xpath', \"//div[@id='state']\")",
+        "time" : {
+          "start" : 1731657842603,
+          "stop" : 1731657842611,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Check presence of elements located by ('xpath', \"//div[@tabindex='-1']\")",
+        "time" : {
+          "start" : 1731657842643,
+          "stop" : 1731657842653,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Select city",
+      "time" : {
+        "start" : 1731657842699,
+        "stop" : 1731657842787,
+        "duration" : 88
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check presence of element located by ('xpath', \"//div[@id='city']\")",
+        "time" : {
+          "start" : 1731657842699,
+          "stop" : 1731657842722,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Check presence of elements located by ('xpath', \"//div[@tabindex='-1']\")",
+        "time" : {
+          "start" : 1731657842752,
+          "stop" : 1731657842757,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Click submit button",
+      "time" : {
+        "start" : 1731657842788,
+        "stop" : 1731657842862,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check if element located by ('xpath', \"//button[@id='submit']\") is clickable",
+        "time" : {
+          "start" : 1731657842798,
+          "stop" : 1731657842815,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Check presents elements",
+      "time" : {
+        "start" : 1731657842862,
+        "stop" : 1731657843585,
+        "duration" : 723
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Taking received value",
+        "time" : {
+          "start" : 1731657842862,
+          "stop" : 1731657843551,
+          "duration" : 689
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check visibility of elements located by ('xpath', \"//div[@class='table-responsive']//td[2]\")",
+          "time" : {
+            "start" : 1731657842862,
+            "stop" : 1731657843433,
+            "duration" : 571
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 1
+      }, {
+        "name" : "Check presence of element located by ('xpath', \"//div[@id='state']\")",
+        "time" : {
+          "start" : 1731657843551,
+          "stop" : 1731657843555,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Check presence of element located by ('xpath', \"//div[@id='city']\")",
+        "time" : {
+          "start" : 1731657843568,
+          "stop" : 1731657843572,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 4
+    } ],
+    "attachments" : [ {
+      "uid" : "512cfce4336dd507",
+      "name" : "Screenshot",
+      "source" : "512cfce4336dd507.png",
+      "type" : "image/png",
+      "size" : 370366
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 40
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1731657843786,
+      "stop" : 1731657843839,
+      "duration" : 53
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Forms - Practice Form"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_practice_form"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPracticeForm"
+  }, {
+    "name" : "host",
+    "value" : "67b56db1afcf"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_practice_form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "89b16d6066dcd899",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"react-datepicker__day react-datepicker__day--00... react-datepicker__day--outside-month\" tabindex=\"-1\" aria-label=\"Choose Monday, May 7th, 1923\" role=\"option\" aria-disabled=\"false\">7</div> is not clickable at point (790, 1045). Other element would receive the click: <iframe frameborder=\"0\" src=\"https://fa204b8079bc3a5f7659406d8804879e.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html\" id=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250_1\" title=\"3rd party ad content\" name=\"\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" width=\"728\" height=\"90\" data-is-safeframe=\"true\" sandbox=\"allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation\" aria-label=\"Advertisement\" tabindex=\"0\" data-google-container-id=\"7\" style=\"border: 0px; vertical-align: bottom; max-height: 30vh !important; overflow: hidden !important; display: block; margin: 0px auto;\" data-load-complete=\"true\"></iframe>\n  (Session info: headless chrome=112.0.5615.165)",
+        "time" : {
+          "start" : 1730874812820,
+          "stop" : 1730874821174,
+          "duration" : 8354
+        }
+      }, {
+        "uid" : "b6e92610c14ee346",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730835978727,
+          "stop" : 1730835990159,
+          "duration" : 11432
+        }
+      }, {
+        "uid" : "678364a382593bb6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730114807498,
+          "stop" : 1730114816524,
+          "duration" : 9026
+        }
+      }, {
+        "uid" : "3ec059eb2dada0eb",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"react-datepicker__day react-datepicker__day--0...\" tabindex=\"-1\" aria-label=\"Choose Wednesday, August 19th, 2065\" role=\"option\" aria-disabled=\"false\">19</div> is not clickable at point (855, 980). Other element would receive the click: <div>...</div>\n  (Session info: headless chrome=112.0.5615.165)",
+        "time" : {
+          "start" : 1729786062309,
+          "stop" : 1729786072250,
+          "duration" : 9941
+        }
+      }, {
+        "uid" : "95e87e83c2bfb8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729172108444,
+          "stop" : 1729172118112,
+          "duration" : 9668
+        }
+      }, {
+        "uid" : "fc7bdae9eb83dbb0",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"react-datepicker__day react-datepicker__day--00... react-datepicker__day--outside-month\" tabindex=\"-1\" aria-label=\"Choose Thursday, August 3rd, 1911\" role=\"option\" aria-disabled=\"false\">3</div> is not clickable at point (887, 1045). Other element would receive the click: <iframe id=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250_1\" name=\"google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250_1\" title=\"3rd party ad content\" width=\"1005\" height=\"124\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" aria-label=\"Advertisement\" tabindex=\"0\" data-load-complete=\"true\" data-google-container-id=\"7\" style=\"border: 0px; vertical-align: bottom; max-height: 30vh !important; overflow: hidden !important; display: block; margin: 0px auto;\"></iframe>\n  (Session info: headless chrome=112.0.5615.165)",
+        "time" : {
+          "start" : 1728654564045,
+          "stop" : 1728654568356,
+          "duration" : 4311
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "f4c3433830fd9385.json",
+  "parameterValues" : [ ]
+}
