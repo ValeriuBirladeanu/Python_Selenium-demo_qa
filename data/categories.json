@@ -1,43 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
-    "name" : "Product defects",
+    "name" : "Test defects",
     "children" : [ {
-      "name" : "AssertionError: Expected value '06/08/2055' but got '07/08/2055'",
-      "children" : [ {
-        "name" : "Test select date in calendar",
-        "uid" : "96781d36e8c836d2",
-        "parentUid" : "b43c70d9d320df8f770f2e50aeb86ac3",
-        "status" : "failed",
-        "time" : {
-          "start" : 1731657590476,
-          "stop" : 1731657729628,
-          "duration" : 139152
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "b43c70d9d320df8f770f2e50aeb86ac3"
-    }, {
-      "name" : "AssertionError: Expected value 'May 18, 2019 ' but got 'May 18, 2019 3:15 PM'",
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"react-datepicker__month-dropdown-container react-datepicker__month-dropdown-container--scroll\">...</div> is not clickable at point (820, 369). Other element would receive the click: <div class=\"react-datepicker__year-option\">...</div>\n  (Session info: headless chrome=112.0.5615.165)",
       "children" : [ {
         "name" : "Test select date and time in calendar",
-        "uid" : "2fe9b6642128a843",
-        "parentUid" : "b9f0dd678bbced4611a7e9c94acaf071",
-        "status" : "failed",
+        "uid" : "f5d6151eb400ab9b",
+        "parentUid" : "ca5668073d54bce97a1ee6fa153dd01d",
+        "status" : "broken",
         "time" : {
-          "start" : 1731657730155,
-          "stop" : 1731657734247,
-          "duration" : 4092
+          "start" : 1738075528549,
+          "stop" : 1738075532457,
+          "duration" : 3908
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "b9f0dd678bbced4611a7e9c94acaf071"
+      "uid" : "ca5668073d54bce97a1ee6fa153dd01d"
     } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
   "name" : "categories"
 }

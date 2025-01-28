@@ -1,0 +1,265 @@
+{
+  "uid" : "c8d24e8dd06598a8",
+  "name" : "Test enable button",
+  "fullName" : "tests.test_dynamic_properties.TestDynamicProperties#test_enable_button",
+  "historyId" : "39b0a322832334fb05e4abb1103a7a0d",
+  "time" : {
+    "start" : 1738075532970,
+    "stop" : 1738075541058,
+    "duration" : 8088
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1738075532869,
+      "stop" : 1738075532969,
+      "duration" : 100
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1738075532569,
+      "stop" : 1738075532868,
+      "duration" : 299
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1738075421066,
+      "stop" : 1738075421143,
+      "duration" : 77
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open https://demoqa.com/dynamic-properties page",
+      "time" : {
+        "start" : 1738075532970,
+        "stop" : 1738075540818,
+        "duration" : 7848
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://demoqa.com/dynamic-properties is opened",
+      "time" : {
+        "start" : 1738075540818,
+        "stop" : 1738075540820,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check enable button",
+      "time" : {
+        "start" : 1738075540821,
+        "stop" : 1738075540840,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check if element located by ('xpath', \"//button[@id='enableAfter']\") is clickable",
+        "time" : {
+          "start" : 1738075540821,
+          "stop" : 1738075540840,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "6f643eaaea61e1c8",
+      "name" : "Screenshot",
+      "source" : "6f643eaaea61e1c8.png",
+      "type" : "image/png",
+      "size" : 455828
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1738075541059,
+      "stop" : 1738075541113,
+      "duration" : 54
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Elements - Dynamic Properties"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_dynamic_properties"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDynamicProperties"
+  }, {
+    "name" : "host",
+    "value" : "d236ba9111da"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_dynamic_properties"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "140d32f3afc79f31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1731657734745,
+          "stop" : 1731657742137,
+          "duration" : 7392
+        }
+      }, {
+        "uid" : "92b88b2c0c39ae19",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730874688439,
+          "stop" : 1730874695876,
+          "duration" : 7437
+        }
+      }, {
+        "uid" : "fc73802da485caa4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730835634121,
+          "stop" : 1730835646143,
+          "duration" : 12022
+        }
+      }, {
+        "uid" : "fc7ff51980a26c1e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730114710025,
+          "stop" : 1730114717534,
+          "duration" : 7509
+        }
+      }, {
+        "uid" : "bbe7c12bd10387e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729785966659,
+          "stop" : 1729785973840,
+          "duration" : 7181
+        }
+      }, {
+        "uid" : "e9e55361cde10b65",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729171994094,
+          "stop" : 1729172002766,
+          "duration" : 8672
+        }
+      }, {
+        "uid" : "c500764ad69c1a94",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728654476323,
+          "stop" : 1728654484107,
+          "duration" : 7784
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "c8d24e8dd06598a8.json",
+  "parameterValues" : [ ]
+}

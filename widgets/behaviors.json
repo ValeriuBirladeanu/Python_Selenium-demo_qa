@@ -4,10 +4,10 @@
     "uid" : "27b1f4915960d426527dfda242cef443",
     "name" : "Widgets",
     "statistic" : {
-      "failed" : 2,
-      "broken" : 0,
+      "failed" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
       "total" : 5
     }
