@@ -1,0 +1,354 @@
+{
+  "uid" : "73e4b9fb1f0fbaf1",
+  "name" : "Verify opening broken link",
+  "fullName" : "tests.test_broken_links_images.TestBrokenLinksImages#test_open_broken_link",
+  "historyId" : "8dfce3cd830ca00bc5a5a3149ffa9fb6",
+  "time" : {
+    "start" : 1738147183757,
+    "stop" : 1738147186124,
+    "duration" : 2367
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1738147183345,
+      "stop" : 1738147183653,
+      "duration" : 308
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1738147183653,
+      "stop" : 1738147183757,
+      "duration" : 104
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1738147100176,
+      "stop" : 1738147100252,
+      "duration" : 76
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open https://demoqa.com/broken page",
+      "time" : {
+        "start" : 1738147183757,
+        "stop" : 1738147185123,
+        "duration" : 1366
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://demoqa.com/broken is opened",
+      "time" : {
+        "start" : 1738147185123,
+        "stop" : 1738147185127,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on broken link",
+      "time" : {
+        "start" : 1738147185127,
+        "stop" : 1738147185956,
+        "duration" : 829
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check if element located by ('xpath', \"//a[text()='Click Here for Broken Link']\") is clickable",
+        "time" : {
+          "start" : 1738147185197,
+          "stop" : 1738147185498,
+          "duration" : 301
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Verify if link is broken",
+      "time" : {
+        "start" : 1738147185956,
+        "stop" : 1738147185974,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Wait for element located by ('xpath', \"//p[contains(text(), 'This page returned a 500 status code')]\") to contain text 'This page returned a 500 status code.'",
+        "time" : {
+          "start" : 1738147185956,
+          "stop" : 1738147185974,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4f7c96478978d2ab",
+      "name" : "Screenshot",
+      "source" : "4f7c96478978d2ab.png",
+      "type" : "image/png",
+      "size" : 39355
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1738147186124,
+      "stop" : 1738147186177,
+      "duration" : 53
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Elements - Broken_Links_Images"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_broken_links_images"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBrokenLinksImages"
+  }, {
+    "name" : "host",
+    "value" : "8711ca93d77b"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_broken_links_images"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 12,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "c227604a580ad838",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738075491683,
+          "stop" : 1738075494984,
+          "duration" : 3301
+        }
+      }, {
+        "uid" : "bbfa64784c175f49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1731657410809,
+          "stop" : 1731657549496,
+          "duration" : 138687
+        }
+      }, {
+        "uid" : "a591c7c1fb5570d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730874638907,
+          "stop" : 1730874646113,
+          "duration" : 7206
+        }
+      }, {
+        "uid" : "6568820542450754",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730835360935,
+          "stop" : 1730835370120,
+          "duration" : 9185
+        }
+      }, {
+        "uid" : "9afdfc4c03cf9013",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730114660910,
+          "stop" : 1730114668771,
+          "duration" : 7861
+        }
+      }, {
+        "uid" : "8f16a69a5c03f59e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729785914979,
+          "stop" : 1729785926578,
+          "duration" : 11599
+        }
+      }, {
+        "uid" : "b36d3ddfdc9e4ccc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729171944220,
+          "stop" : 1729171952944,
+          "duration" : 8724
+        }
+      }, {
+        "uid" : "6765dcbde7c5a721",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728654433610,
+          "stop" : 1728654442380,
+          "duration" : 8770
+        }
+      }, {
+        "uid" : "3be7f1a4e9e6c42e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727439844871,
+          "stop" : 1727439847036,
+          "duration" : 2165
+        }
+      }, {
+        "uid" : "c046de6d926e3a0a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727433750833,
+          "stop" : 1727433753324,
+          "duration" : 2491
+        }
+      }, {
+        "uid" : "8d6b091556e3162f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727167080013,
+          "stop" : 1727167087705,
+          "duration" : 7692
+        }
+      }, {
+        "uid" : "237f1da6b9f11865",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: URL-ul așteptat https://the-internet.herokuapp.com/status_codes/500, dar a fost http://the-internet.herokuapp.com/status_codes/500",
+        "time" : {
+          "start" : 1726735571636,
+          "stop" : 1726735574990,
+          "duration" : 3354
+        }
+      }, {
+        "uid" : "2871298a08a5e284",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: URL-ul așteptat https://the-internet.herokuapp.com/status_codes/500, dar a fost http://the-internet.herokuapp.com/status_codes/500",
+        "time" : {
+          "start" : 1726734054617,
+          "stop" : 1726734062071,
+          "duration" : 7454
+        }
+      }, {
+        "uid" : "b8367ec814d5f6e4",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: URL-ul așteptat https://the-internet.herokuapp.com/status_codes/500, dar a fost http://the-internet.herokuapp.com/status_codes/500",
+        "time" : {
+          "start" : 1726686198943,
+          "stop" : 1726686200604,
+          "duration" : 1661
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "73e4b9fb1f0fbaf1.json",
+  "parameterValues" : [ ]
+}

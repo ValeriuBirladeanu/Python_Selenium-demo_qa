@@ -1,24 +1,62 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
-    "name" : "Test defects",
+    "name" : "Product defects",
     "children" : [ {
-      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"react-datepicker__month-dropdown-container react-datepicker__month-dropdown-container--scroll\">...</div> is not clickable at point (820, 369). Other element would receive the click: <div class=\"react-datepicker__year-option\">...</div>\n  (Session info: headless chrome=112.0.5615.165)",
+      "name" : "AssertionError: Expected value '12/03/1903' but got '01/03/1904'",
+      "children" : [ {
+        "name" : "Test select date in calendar",
+        "uid" : "8265b876e4d40ab",
+        "parentUid" : "d6096e62a41443fbbf687f5e75fccce5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1738147227063,
+          "stop" : 1738147230181,
+          "duration" : 3118
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d6096e62a41443fbbf687f5e75fccce5"
+    }, {
+      "name" : "AssertionError: Expected value 'August 16, 2023 ' but got 'August 16, 2023 3:30 PM'",
       "children" : [ {
         "name" : "Test select date and time in calendar",
-        "uid" : "f5d6151eb400ab9b",
-        "parentUid" : "ca5668073d54bce97a1ee6fa153dd01d",
-        "status" : "broken",
+        "uid" : "5814512a388c0959",
+        "parentUid" : "d38c21693628438f2ba610cf812fff56",
+        "status" : "failed",
         "time" : {
-          "start" : 1738075528549,
-          "stop" : 1738075532457,
-          "duration" : 3908
+          "start" : 1738147230702,
+          "stop" : 1738147238794,
+          "duration" : 8092
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "ca5668073d54bce97a1ee6fa153dd01d"
+      "uid" : "d38c21693628438f2ba610cf812fff56"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 299.707\n  (Session info: headless chrome=112.0.5615.165)",
+      "children" : [ {
+        "name" : "Complete practice form",
+        "uid" : "9a23ed680cb80dad",
+        "parentUid" : "de4ba06d21e5d2abc496ebb28a22536b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1738147329439,
+          "stop" : 1738147629442,
+          "duration" : 300003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "de4ba06d21e5d2abc496ebb28a22536b"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],

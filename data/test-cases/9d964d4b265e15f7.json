@@ -1,0 +1,369 @@
+{
+  "uid" : "9d964d4b265e15f7",
+  "name" : "Verify 'No' radio button is disabled",
+  "fullName" : "tests.test_radio_button.TestRadioButton#test_disabled_radio_button",
+  "historyId" : "f137a712c16d3781d6ffcce1c3287f41",
+  "time" : {
+    "start" : 1738147632960,
+    "stop" : 1738147649439,
+    "duration" : 16479
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1738147632859,
+      "stop" : 1738147632960,
+      "duration" : 101
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1738147632552,
+      "stop" : 1738147632859,
+      "duration" : 307
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1738147100176,
+      "stop" : 1738147100252,
+      "duration" : 76
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open https://demoqa.com/radio-button page",
+      "time" : {
+        "start" : 1738147632960,
+        "stop" : 1738147649174,
+        "duration" : 16214
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://demoqa.com/radio-button is opened",
+      "time" : {
+        "start" : 1738147649174,
+        "stop" : 1738147649179,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check if 'No' radio button is disabled and not clickable",
+      "time" : {
+        "start" : 1738147649179,
+        "stop" : 1738147649205,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check presence of element located by ('xpath', \"//input[@id='noRadio']\")",
+        "time" : {
+          "start" : 1738147649179,
+          "stop" : 1738147649191,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d74a9a45cfe069d9",
+      "name" : "Screenshot",
+      "source" : "d74a9a45cfe069d9.png",
+      "type" : "image/png",
+      "size" : 450625
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1738147649440,
+      "stop" : 1738147649493,
+      "duration" : 53
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Elements - Radio Button"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_radio_button"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRadioButton"
+  }, {
+    "name" : "host",
+    "value" : "8711ca93d77b"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_radio_button"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 25,
+        "unknown" : 0,
+        "total" : 26
+      },
+      "items" : [ {
+        "uid" : "f34b9cfcc732d637",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738075668448,
+          "stop" : 1738075686679,
+          "duration" : 18231
+        }
+      }, {
+        "uid" : "383a9a0b3c9a4e85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1731657981654,
+          "stop" : 1731657988809,
+          "duration" : 7155
+        }
+      }, {
+        "uid" : "5f0303bdedba2fdc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730874824472,
+          "stop" : 1730874831541,
+          "duration" : 7069
+        }
+      }, {
+        "uid" : "54414a7feb9a3fa0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730835993507,
+          "stop" : 1730836026675,
+          "duration" : 33168
+        }
+      }, {
+        "uid" : "d91c57c415177fd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730114825749,
+          "stop" : 1730114832879,
+          "duration" : 7130
+        }
+      }, {
+        "uid" : "3c0334435380170",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729786080278,
+          "stop" : 1729786087041,
+          "duration" : 6763
+        }
+      }, {
+        "uid" : "25f8fdd5ec92ed1c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729172121549,
+          "stop" : 1729172130073,
+          "duration" : 8524
+        }
+      }, {
+        "uid" : "914eef30979d9351",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728654572396,
+          "stop" : 1728654574909,
+          "duration" : 2513
+        }
+      }, {
+        "uid" : "f427e2bcb6228c03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727439949785,
+          "stop" : 1727439951323,
+          "duration" : 1538
+        }
+      }, {
+        "uid" : "2244f4460f9886d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727433885137,
+          "stop" : 1727433892464,
+          "duration" : 7327
+        }
+      }, {
+        "uid" : "cbbf6d70cfb60e5c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727167189780,
+          "stop" : 1727167191569,
+          "duration" : 1789
+        }
+      }, {
+        "uid" : "713fb60b4f2446b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726735670100,
+          "stop" : 1726735677980,
+          "duration" : 7880
+        }
+      }, {
+        "uid" : "5e18ea26309e656e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726734153542,
+          "stop" : 1726734155265,
+          "duration" : 1723
+        }
+      }, {
+        "uid" : "206cef2d2bdabea4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726686618857,
+          "stop" : 1726686626483,
+          "duration" : 7626
+        }
+      }, {
+        "uid" : "d7c173247d442893",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726564592938,
+          "stop" : 1726564594586,
+          "duration" : 1648
+        }
+      }, {
+        "uid" : "bc78b0ecd5f20ff8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726146040022,
+          "stop" : 1726146052590,
+          "duration" : 12568
+        }
+      }, {
+        "uid" : "4476e751876af877",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726040803236,
+          "stop" : 1726040810637,
+          "duration" : 7401
+        }
+      }, {
+        "uid" : "4c8906f0610c2696",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725906132675,
+          "stop" : 1725906134313,
+          "duration" : 1638
+        }
+      }, {
+        "uid" : "85f06eb22948513d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725878916654,
+          "stop" : 1725878923837,
+          "duration" : 7183
+        }
+      }, {
+        "uid" : "bd66e5da4f086f97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1725877925096,
+          "stop" : 1725877932391,
+          "duration" : 7295
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "9d964d4b265e15f7.json",
+  "parameterValues" : [ ]
+}

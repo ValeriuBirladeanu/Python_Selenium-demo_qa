@@ -1,0 +1,321 @@
+{
+  "uid" : "5d3eb1cdc19c416b",
+  "name" : "Test broken image is not displayed",
+  "fullName" : "tests.test_broken_links_images.TestBrokenLinksImages#test_broken_image",
+  "historyId" : "8dd40e204b3a6dfb5937f644fff18e49",
+  "time" : {
+    "start" : 1738147172493,
+    "stop" : 1738147174484,
+    "duration" : 1991
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1738147172079,
+      "stop" : 1738147172389,
+      "duration" : 310
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1738147172389,
+      "stop" : 1738147172492,
+      "duration" : 103
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1738147100176,
+      "stop" : 1738147100252,
+      "duration" : 76
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open https://demoqa.com/broken page",
+      "time" : {
+        "start" : 1738147172493,
+        "stop" : 1738147173932,
+        "duration" : 1439
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://demoqa.com/broken is opened",
+      "time" : {
+        "start" : 1738147173932,
+        "stop" : 1738147173935,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Verify if image is broken",
+      "time" : {
+        "start" : 1738147173935,
+        "stop" : 1738147174235,
+        "duration" : 300
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check presence of element located by ('xpath', \"//img[@src='/images/Toolsqa_1.jpg']\")",
+        "time" : {
+          "start" : 1738147173935,
+          "stop" : 1738147173945,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7557b3d3df9ba6de",
+      "name" : "Screenshot",
+      "source" : "7557b3d3df9ba6de.png",
+      "type" : "image/png",
+      "size" : 372324
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1738147174485,
+      "stop" : 1738147174539,
+      "duration" : 54
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Elements - Broken_Links_Images"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_broken_links_images"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBrokenLinksImages"
+  }, {
+    "name" : "host",
+    "value" : "8711ca93d77b"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_broken_links_images"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 15,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "74f9b20dc9ef90b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738075472684,
+          "stop" : 1738075481144,
+          "duration" : 8460
+        }
+      }, {
+        "uid" : "b11aec60c99d6eb2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1731657392587,
+          "stop" : 1731657400103,
+          "duration" : 7516
+        }
+      }, {
+        "uid" : "8201b557cb05042c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730874622815,
+          "stop" : 1730874630307,
+          "duration" : 7492
+        }
+      }, {
+        "uid" : "9cc2a88815240760",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730835102171,
+          "stop" : 1730835344904,
+          "duration" : 242733
+        }
+      }, {
+        "uid" : "5668e6373a244283",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730114642892,
+          "stop" : 1730114650269,
+          "duration" : 7377
+        }
+      }, {
+        "uid" : "a85b9a33365204cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729785895033,
+          "stop" : 1729785904335,
+          "duration" : 9302
+        }
+      }, {
+        "uid" : "695883b99fcdbdf4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729171923025,
+          "stop" : 1729171931159,
+          "duration" : 8134
+        }
+      }, {
+        "uid" : "40aed79dbc3a8154",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728654416368,
+          "stop" : 1728654424000,
+          "duration" : 7632
+        }
+      }, {
+        "uid" : "40c673c7028dedfb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727439833779,
+          "stop" : 1727439835928,
+          "duration" : 2149
+        }
+      }, {
+        "uid" : "cf0077443852f3f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727433739584,
+          "stop" : 1727433741576,
+          "duration" : 1992
+        }
+      }, {
+        "uid" : "c2bfe2bf056e9651",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727167068385,
+          "stop" : 1727167075824,
+          "duration" : 7439
+        }
+      }, {
+        "uid" : "aaa69557913de662",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726735558265,
+          "stop" : 1726735561249,
+          "duration" : 2984
+        }
+      }, {
+        "uid" : "747a3562d8752a2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726734037619,
+          "stop" : 1726734045172,
+          "duration" : 7553
+        }
+      }, {
+        "uid" : "82aaddea6baaf59b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726686183027,
+          "stop" : 1726686190584,
+          "duration" : 7557
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "5d3eb1cdc19c416b.json",
+  "parameterValues" : [ ]
+}
