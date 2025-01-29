@@ -1,0 +1,338 @@
+{
+  "uid" : "57bd273d6c98b762",
+  "name" : "Test multiple names input",
+  "fullName" : "tests.test_auto_complete.TestAutoComplete#test_multiple_names_input",
+  "historyId" : "3d2974b4b6a345050777c61a6ef4ccf7",
+  "time" : {
+    "start" : 1738161610408,
+    "stop" : 1738161613149,
+    "duration" : 2741
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1738161610257,
+      "stop" : 1738161610408,
+      "duration" : 151
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1738161609792,
+      "stop" : 1738161610256,
+      "duration" : 464
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1738161544546,
+      "stop" : 1738161544633,
+      "duration" : 87
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open https://demoqa.com/auto-complete page",
+      "time" : {
+        "start" : 1738161610409,
+        "stop" : 1738161612201,
+        "duration" : 1792
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://demoqa.com/auto-complete is opened",
+      "time" : {
+        "start" : 1738161612201,
+        "stop" : 1738161612480,
+        "duration" : 279
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Select multiple names input",
+      "time" : {
+        "start" : 1738161612481,
+        "stop" : 1738161612948,
+        "duration" : 467
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check if element located by ('css selector', \"[id='autoCompleteMultipleInput']\") is clickable",
+        "time" : {
+          "start" : 1738161612481,
+          "stop" : 1738161612554,
+          "duration" : 73
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check visibility of element located by ('css selector', \"div[class*='auto-complete__menu-list--is-multi css-11unzgr']\")",
+        "time" : {
+          "start" : 1738161612704,
+          "stop" : 1738161612732,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check presence of element located by ('css selector', \"div[class*='auto-complete__value-container--is-multi']\")",
+        "time" : {
+          "start" : 1738161612767,
+          "stop" : 1738161612778,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check visibility of element located by ('css selector', \"div[class*='auto-complete__menu-list--is-multi css-11unzgr']\")",
+        "time" : {
+          "start" : 1738161612812,
+          "stop" : 1738161612829,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check presence of element located by ('css selector', \"div[class*='auto-complete__value-container--is-multi']\")",
+        "time" : {
+          "start" : 1738161612857,
+          "stop" : 1738161612864,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check visibility of element located by ('css selector', \"div[class*='auto-complete__menu-list--is-multi css-11unzgr']\")",
+        "time" : {
+          "start" : 1738161612895,
+          "stop" : 1738161612911,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check presence of element located by ('css selector', \"div[class*='auto-complete__value-container--is-multi']\")",
+        "time" : {
+          "start" : 1738161612936,
+          "stop" : 1738161612943,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 7,
+      "hasContent" : true
+    }, {
+      "name" : "Check selected multiple names input",
+      "time" : {
+        "start" : 1738161612948,
+        "stop" : 1738161612948,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "4719eb91bb0539e0",
+      "name" : "Screenshot",
+      "source" : "4719eb91bb0539e0.png",
+      "type" : "image/png",
+      "size" : 390439
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 11,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1738161613150,
+      "stop" : 1738161613212,
+      "duration" : 62
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Widgets"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_auto_complete"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAutoComplete"
+  }, {
+    "name" : "host",
+    "value" : "e0c2c50e1abc"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_auto_complete"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "7976671b57239658",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738147148326,
+          "stop" : 1738147155960,
+          "duration" : 7634
+        }
+      }, {
+        "uid" : "41c28d2b51bbc763",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738075446701,
+          "stop" : 1738075449855,
+          "duration" : 3154
+        }
+      }, {
+        "uid" : "780eeaf08ba64133",
+        "status" : "passed",
+        "time" : {
+          "start" : 1731657373393,
+          "stop" : 1731657380595,
+          "duration" : 7202
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "57bd273d6c98b762.json",
+  "parameterValues" : [ ]
+}

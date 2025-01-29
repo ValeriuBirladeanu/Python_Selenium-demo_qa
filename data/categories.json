@@ -3,62 +3,24 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "AssertionError: Expected value '12/03/1903' but got '01/03/1904'",
-      "children" : [ {
-        "name" : "Test select date in calendar",
-        "uid" : "8265b876e4d40ab",
-        "parentUid" : "d6096e62a41443fbbf687f5e75fccce5",
-        "status" : "failed",
-        "time" : {
-          "start" : 1738147227063,
-          "stop" : 1738147230181,
-          "duration" : 3118
-        },
-        "flaky" : true,
-        "newFailed" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "d6096e62a41443fbbf687f5e75fccce5"
-    }, {
-      "name" : "AssertionError: Expected value 'August 16, 2023 ' but got 'August 16, 2023 3:30 PM'",
+      "name" : "AssertionError: Expected value 'December 20, 2022 ' but got 'December 20, 2022 9:15 PM'",
       "children" : [ {
         "name" : "Test select date and time in calendar",
-        "uid" : "5814512a388c0959",
-        "parentUid" : "d38c21693628438f2ba610cf812fff56",
+        "uid" : "d84dd7cc864bc894",
+        "parentUid" : "05d34d474a95648abb622a36e7491364",
         "status" : "failed",
         "time" : {
-          "start" : 1738147230702,
-          "stop" : 1738147238794,
-          "duration" : 8092
+          "start" : 1738161752591,
+          "stop" : 1738161765882,
+          "duration" : 13291
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "d38c21693628438f2ba610cf812fff56"
+      "uid" : "05d34d474a95648abb622a36e7491364"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 299.707\n  (Session info: headless chrome=112.0.5615.165)",
-      "children" : [ {
-        "name" : "Complete practice form",
-        "uid" : "9a23ed680cb80dad",
-        "parentUid" : "de4ba06d21e5d2abc496ebb28a22536b",
-        "status" : "broken",
-        "time" : {
-          "start" : 1738147329439,
-          "stop" : 1738147629442,
-          "duration" : 300003
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "de4ba06d21e5d2abc496ebb28a22536b"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
   "name" : "categories"
 }

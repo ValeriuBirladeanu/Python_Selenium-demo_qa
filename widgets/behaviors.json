@@ -4,23 +4,12 @@
     "uid" : "27b1f4915960d426527dfda242cef443",
     "name" : "Widgets",
     "statistic" : {
-      "failed" : 2,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 4,
       "unknown" : 0,
       "total" : 5
-    }
-  }, {
-    "uid" : "e2eb0652d80720daa687379dd0c66073",
-    "name" : "Forms - Practice Form",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
     }
   }, {
     "uid" : "69cbf3118e2882907e7e3e486b0c9ea7",
@@ -102,6 +91,17 @@
   }, {
     "uid" : "041e4a3987b50d2f94146a22f0b44c25",
     "name" : "Alerts, Frame & Windows - Browser_Windows",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "16a2b6b6b9e5e61199a22ee012d02b7c",
+    "name" : "Elements - Check Box",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
