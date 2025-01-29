@@ -49,8 +49,6 @@ class AutoComplete(BasePage):
         input_value_element = self.element_is_presence(self.SINGLE_NAME_VALUE)
         input_value = input_value_element.get_attribute('innerText')
         self.selected_value = [input_value]
-        print(input_value)
-        print(len(self.selected_value))
 
     @allure.step("Check selected single name input")
     def check_completed_single_name_input(self):
