@@ -1,0 +1,332 @@
+{
+  "uid" : "393aec07260af5dd",
+  "name" : "Click on the 5 seconds alert button",
+  "fullName" : "tests.test_alerts.TestAlerts#test_click_five_seconds_alert_button",
+  "historyId" : "7113e9724bfe4d9719522c70fb1a0475",
+  "time" : {
+    "start" : 1738161688977,
+    "stop" : 1738161697112,
+    "duration" : 8135
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1738161659320,
+      "stop" : 1738161659409,
+      "duration" : 89
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1738161688829,
+      "stop" : 1738161688977,
+      "duration" : 148
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1738161688380,
+      "stop" : 1738161688829,
+      "duration" : 449
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open https://demoqa.com/alerts page",
+      "time" : {
+        "start" : 1738161688977,
+        "stop" : 1738161691473,
+        "duration" : 2496
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Page https://demoqa.com/alerts is opened",
+      "time" : {
+        "start" : 1738161691473,
+        "stop" : 1738161691479,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Click on five_second_alert_button",
+      "time" : {
+        "start" : 1738161691479,
+        "stop" : 1738161691877,
+        "duration" : 398
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check if element located by ('xpath', \"//button[@id='timerAlertButton']\") is clickable",
+        "time" : {
+          "start" : 1738161691479,
+          "stop" : 1738161691763,
+          "duration" : 284
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Check if five_second_alert_button alert opened after 5 seconds",
+      "time" : {
+        "start" : 1738161691877,
+        "stop" : 1738161696904,
+        "duration" : 5027
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Wait for alert to be present",
+        "time" : {
+          "start" : 1738161691877,
+          "stop" : 1738161696903,
+          "duration" : 5026
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Switch to alert",
+        "time" : {
+          "start" : 1738161696903,
+          "stop" : 1738161696903,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Check if alert text contains 'This alert appeared after 5 seconds'",
+        "time" : {
+          "start" : 1738161696904,
+          "stop" : 1738161696904,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 3
+    }, {
+      "name" : "Accept alert",
+      "time" : {
+        "start" : 1738161696904,
+        "stop" : 1738161696907,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "4d3e180528f30bdc",
+      "name" : "Screenshot",
+      "source" : "4d3e180528f30bdc.png",
+      "type" : "image/png",
+      "size" : 422576
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 9
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1738161697113,
+      "stop" : 1738161697174,
+      "duration" : 61
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Alerts, Frame & Windows  - Alerts"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_alerts"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAlerts"
+  }, {
+    "name" : "host",
+    "value" : "748f07639e20"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_alerts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "1a06f07f1925822f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738147112006,
+          "stop" : 1738147124413,
+          "duration" : 12407
+        }
+      }, {
+        "uid" : "4b867792bc2bd82b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738075428818,
+          "stop" : 1738075436475,
+          "duration" : 7657
+        }
+      }, {
+        "uid" : "26a1e2bd8b813e81",
+        "status" : "passed",
+        "time" : {
+          "start" : 1731657311420,
+          "stop" : 1731657349850,
+          "duration" : 38430
+        }
+      }, {
+        "uid" : "ffff0ad4451dab1b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730874572641,
+          "stop" : 1730874584727,
+          "duration" : 12086
+        }
+      }, {
+        "uid" : "7b888ce989f1d11a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730834118794,
+          "stop" : 1730834125641,
+          "duration" : 6847
+        }
+      }, {
+        "uid" : "3ff0cb750eae2170",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730114470157,
+          "stop" : 1730114613548,
+          "duration" : 143391
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "393aec07260af5dd.json",
+  "parameterValues" : [ ]
+}

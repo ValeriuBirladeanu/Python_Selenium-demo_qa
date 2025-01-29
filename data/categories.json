@@ -1,24 +1,45 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
-    "name" : "Product defects",
+    "name" : "Test defects",
     "children" : [ {
-      "name" : "AssertionError: Expected value 'December 20, 2022 ' but got 'December 20, 2022 9:15 PM'",
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
       "children" : [ {
-        "name" : "Test select date and time in calendar",
-        "uid" : "d84dd7cc864bc894",
-        "parentUid" : "05d34d474a95648abb622a36e7491364",
-        "status" : "failed",
+        "name" : "Click on confirm alert button",
+        "uid" : "d5f56b9727526187",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
         "time" : {
-          "start" : 1738161752591,
-          "stop" : 1738161765882,
-          "duration" : 13291
+          "start" : 1738161697772,
+          "stop" : 1738161725783,
+          "duration" : 28011
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "05d34d474a95648abb622a36e7491364"
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: Expected value 'June 27, 2024 ' but got 'June 27, 2024 6:00 AM'",
+      "children" : [ {
+        "name" : "Test select date and time in calendar",
+        "uid" : "d427ceac1a97dfc1",
+        "parentUid" : "9011321b46894d1d57f97173acf4baed",
+        "status" : "failed",
+        "time" : {
+          "start" : 1738161875099,
+          "stop" : 1738161892025,
+          "duration" : 16926
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9011321b46894d1d57f97173acf4baed"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],

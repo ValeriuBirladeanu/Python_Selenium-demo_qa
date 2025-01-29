@@ -1,0 +1,422 @@
+{
+  "uid" : "d427ceac1a97dfc1",
+  "name" : "Test select date and time in calendar",
+  "fullName" : "tests.test_date_picker.TestDatePicker#test_select_date_and_ti",
+  "historyId" : "4ceefaf7e6501ad4b3a55d68cb68176a",
+  "time" : {
+    "start" : 1738161875099,
+    "stop" : 1738161892025,
+    "duration" : 16926
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Expected value 'June 27, 2024 ' but got 'June 27, 2024 6:00 AM'",
+  "statusTrace" : "self = <test_date_picker.TestDatePicker object at 0x7f0a819e2ad0>\n\n    @allure.title(\"Test select date and time in calendar\")\n    @pytest.mark.smoke\n    def test_select_date_and_ti(self):\n        self.date_picker.open()\n        self.date_picker.is_opened()\n        self.date_picker.select_date_and_time()\n>       self.date_picker.verify_date_and_time()\n\ntests/test_date_picker.py:22: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/date_picker.py:99: in verify_date_and_time\n    self.check_element_value(self.DATE_AND_TIME_CALENDAR, actual_date)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <pages.date_picker.DatePicker object at 0x7f0a7c7e9510>\nlocator = ('xpath', \"//input[@id='dateAndTimePickerInput']\")\nnew_value = 'June 27, 2024 ', slicing = None\n\n    def check_element_value(self, locator, new_value, slicing=None):\n        with allure.step(f\"Wait for element located by {locator} to change new value '{new_value}'\"):\n            element = self.wait.until(EC.visibility_of_element_located(locator))\n            actual_value = element.get_attribute('value')\n            actual_value = slicing(actual_value) if slicing else actual_value\n>           assert str(new_value).lower().strip() == str(actual_value).lower().strip(), f\"Expected value '{new_value}' but got '{actual_value}'\"\nE           AssertionError: Expected value 'June 27, 2024 ' but got 'June 27, 2024 6:00 AM'\n\nbase/base_page.py:74: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1738161874494,
+      "stop" : 1738161874951,
+      "duration" : 457
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1738161659320,
+      "stop" : 1738161659409,
+      "duration" : 89
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1738161874952,
+      "stop" : 1738161875098,
+      "duration" : 146
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Expected value 'June 27, 2024 ' but got 'June 27, 2024 6:00 AM'",
+    "statusTrace" : "self = <test_date_picker.TestDatePicker object at 0x7f0a819e2ad0>\n\n    @allure.title(\"Test select date and time in calendar\")\n    @pytest.mark.smoke\n    def test_select_date_and_ti(self):\n        self.date_picker.open()\n        self.date_picker.is_opened()\n        self.date_picker.select_date_and_time()\n>       self.date_picker.verify_date_and_time()\n\ntests/test_date_picker.py:22: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/date_picker.py:99: in verify_date_and_time\n    self.check_element_value(self.DATE_AND_TIME_CALENDAR, actual_date)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <pages.date_picker.DatePicker object at 0x7f0a7c7e9510>\nlocator = ('xpath', \"//input[@id='dateAndTimePickerInput']\")\nnew_value = 'June 27, 2024 ', slicing = None\n\n    def check_element_value(self, locator, new_value, slicing=None):\n        with allure.step(f\"Wait for element located by {locator} to change new value '{new_value}'\"):\n            element = self.wait.until(EC.visibility_of_element_located(locator))\n            actual_value = element.get_attribute('value')\n            actual_value = slicing(actual_value) if slicing else actual_value\n>           assert str(new_value).lower().strip() == str(actual_value).lower().strip(), f\"Expected value '{new_value}' but got '{actual_value}'\"\nE           AssertionError: Expected value 'June 27, 2024 ' but got 'June 27, 2024 6:00 AM'\n\nbase/base_page.py:74: AssertionError",
+    "steps" : [ {
+      "name" : "Open https://demoqa.com/date-picker page",
+      "time" : {
+        "start" : 1738161875099,
+        "stop" : 1738161890749,
+        "duration" : 15650
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Page https://demoqa.com/date-picker is opened",
+      "time" : {
+        "start" : 1738161890749,
+        "stop" : 1738161890753,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Select date and time in calendar",
+      "time" : {
+        "start" : 1738161890753,
+        "stop" : 1738161891982,
+        "duration" : 1229
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check if element located by ('xpath', \"//input[@id='dateAndTimePickerInput']\") is clickable",
+        "time" : {
+          "start" : 1738161890753,
+          "stop" : 1738161890785,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Check if element located by ('xpath', \"//div[contains(@class, 'year-dropdown-container--scroll')]\") is clickable",
+        "time" : {
+          "start" : 1738161891012,
+          "stop" : 1738161891049,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Check visibility of elements located by ('xpath', \"//div[contains(@class, 'year-option')]\")",
+        "time" : {
+          "start" : 1738161891118,
+          "stop" : 1738161891209,
+          "duration" : 91
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Get all elements from the list",
+        "time" : {
+          "start" : 1738161891209,
+          "stop" : 1738161891209,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Check if element located by ('xpath', \"//div[contains(@class, 'month-dropdown-container--scroll')]\") is clickable",
+        "time" : {
+          "start" : 1738161891290,
+          "stop" : 1738161891306,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Check visibility of elements located by ('xpath', \"//div[contains(@class, 'month-option')]\")",
+        "time" : {
+          "start" : 1738161891360,
+          "stop" : 1738161891431,
+          "duration" : 71
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Get all elements from the list",
+        "time" : {
+          "start" : 1738161891431,
+          "stop" : 1738161891431,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Check presence of elements located by ('xpath', \"//div[contains(@class, 'day react-datepicker')]\")",
+        "time" : {
+          "start" : 1738161891515,
+          "stop" : 1738161891528,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Get all elements from the list",
+        "time" : {
+          "start" : 1738161891803,
+          "stop" : 1738161891803,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Check presence of elements located by ('xpath', \"//li[contains(@class, 'time-list-item ')]\")",
+        "time" : {
+          "start" : 1738161891887,
+          "stop" : 1738161891913,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Get all elements from the list",
+        "time" : {
+          "start" : 1738161891914,
+          "stop" : 1738161891914,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 11
+    }, {
+      "name" : "Verify date and time",
+      "time" : {
+        "start" : 1738161891982,
+        "stop" : 1738161892024,
+        "duration" : 42
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: Expected value 'June 27, 2024 ' but got 'June 27, 2024 6:00 AM'\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.10/site-packages/allure_commons/_allure.py\", line 192, in impl\n    return func(*a, **kw)\n  File \"/usr/workspace/pages/date_picker.py\", line 99, in verify_date_and_time\n    self.check_element_value(self.DATE_AND_TIME_CALENDAR, actual_date)\n  File \"/usr/workspace/base/base_page.py\", line 74, in check_element_value\n    assert str(new_value).lower().strip() == str(actual_value).lower().strip(), f\"Expected value '{new_value}' but got '{actual_value}'\"\n",
+      "steps" : [ {
+        "name" : "Wait for element located by ('xpath', \"//input[@id='dateAndTimePickerInput']\") to change new value 'June 27, 2024 '",
+        "time" : {
+          "start" : 1738161892009,
+          "stop" : 1738161892024,
+          "duration" : 15
+        },
+        "status" : "failed",
+        "statusMessage" : "AssertionError: Expected value 'June 27, 2024 ' but got 'June 27, 2024 6:00 AM'\n",
+        "statusTrace" : "  File \"/usr/workspace/base/base_page.py\", line 74, in check_element_value\n    assert str(new_value).lower().strip() == str(actual_value).lower().strip(), f\"Expected value '{new_value}' but got '{actual_value}'\"\n",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 16
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1738161892034,
+      "stop" : 1738161892095,
+      "duration" : 61
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Widgets"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_date_picker"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDatePicker"
+  }, {
+    "name" : "host",
+    "value" : "748f07639e20"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_date_picker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "5814512a388c0959",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Expected value 'August 16, 2023 ' but got 'August 16, 2023 3:30 PM'",
+        "time" : {
+          "start" : 1738147230702,
+          "stop" : 1738147238794,
+          "duration" : 8092
+        }
+      }, {
+        "uid" : "f5d6151eb400ab9b",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"react-datepicker__month-dropdown-container react-datepicker__month-dropdown-container--scroll\">...</div> is not clickable at point (820, 369). Other element would receive the click: <div class=\"react-datepicker__year-option\">...</div>\n  (Session info: headless chrome=112.0.5615.165)",
+        "time" : {
+          "start" : 1738075528549,
+          "stop" : 1738075532457,
+          "duration" : 3908
+        }
+      }, {
+        "uid" : "2fe9b6642128a843",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Expected value 'May 18, 2019 ' but got 'May 18, 2019 3:15 PM'",
+        "time" : {
+          "start" : 1731657730155,
+          "stop" : 1731657734247,
+          "duration" : 4092
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "d427ceac1a97dfc1.json",
+  "parameterValues" : [ ]
+}
