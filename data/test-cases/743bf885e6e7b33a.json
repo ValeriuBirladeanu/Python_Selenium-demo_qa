@@ -1,0 +1,307 @@
+{
+  "uid" : "743bf885e6e7b33a",
+  "name" : "Test change color",
+  "fullName" : "tests.test_dynamic_properties.TestDynamicProperties#test_change_button_color_change",
+  "historyId" : "c55818d7abb467bb5314957565409758",
+  "time" : {
+    "start" : 1738400810146,
+    "stop" : 1738400822416,
+    "duration" : 12270
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1738400809549,
+      "stop" : 1738400809997,
+      "duration" : 448
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1738400809997,
+      "stop" : 1738400810146,
+      "duration" : 149
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1738400513755,
+      "stop" : 1738400513843,
+      "duration" : 88
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open https://demoqa.com/dynamic-properties page",
+      "time" : {
+        "start" : 1738400810146,
+        "stop" : 1738400822378,
+        "duration" : 12232
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://demoqa.com/dynamic-properties is opened",
+      "time" : {
+        "start" : 1738400822378,
+        "stop" : 1738400822384,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check button color change by class",
+      "time" : {
+        "start" : 1738400822384,
+        "stop" : 1738400822415,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check invisibility of element located by ('xpath', \"//button[@id='colorChange'][@class='mt-4 btn btn-primary']\")",
+        "time" : {
+          "start" : 1738400822384,
+          "stop" : 1738400822397,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check visibility of element located by ('xpath', \"//button[@id='colorChange'][@class='mt-4 text-danger btn btn-primary']\")",
+        "time" : {
+          "start" : 1738400822397,
+          "stop" : 1738400822415,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "14af0adfa01fc2a9",
+      "name" : "screenshots/test_change_button_color_change_2025-02-01_11-07-02.png",
+      "source" : "14af0adfa01fc2a9.attach",
+      "type" : "image/png",
+      "size" : 332541
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1738400822855,
+      "stop" : 1738400822916,
+      "duration" : 61
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Elements - Dynamic Properties"
+  }, {
+    "name" : "tag",
+    "value" : "screenshot"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_dynamic_properties"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDynamicProperties"
+  }, {
+    "name" : "host",
+    "value" : "cc1ea9ba9da2"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_dynamic_properties"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "690a5a7118494d99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738161906413,
+          "stop" : 1738161913904,
+          "duration" : 7491
+        }
+      }, {
+        "uid" : "49b870a971c02f7c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738147246872,
+          "stop" : 1738147253638,
+          "duration" : 6766
+        }
+      }, {
+        "uid" : "c1b37c95072f3710",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738075541521,
+          "stop" : 1738075548563,
+          "duration" : 7042
+        }
+      }, {
+        "uid" : "402310061f12f68d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1731657742626,
+          "stop" : 1731657749827,
+          "duration" : 7201
+        }
+      }, {
+        "uid" : "c7543bafc9350f52",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730874696359,
+          "stop" : 1730874703117,
+          "duration" : 6758
+        }
+      }, {
+        "uid" : "480e3d5c900ce301",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730835646622,
+          "stop" : 1730835788984,
+          "duration" : 142362
+        }
+      }, {
+        "uid" : "eb5fe08f3850bb50",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730114718016,
+          "stop" : 1730114726041,
+          "duration" : 8025
+        }
+      }, {
+        "uid" : "18d59367a39c2f79",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729785974313,
+          "stop" : 1729785985839,
+          "duration" : 11526
+        }
+      }, {
+        "uid" : "155a8dc591acb0cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729172003228,
+          "stop" : 1729172013332,
+          "duration" : 10104
+        }
+      }, {
+        "uid" : "62ec9748101518e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728654484571,
+          "stop" : 1728654491937,
+          "duration" : 7366
+        }
+      } ]
+    },
+    "tags" : [ "smoke", "screenshot" ]
+  },
+  "source" : "743bf885e6e7b33a.json",
+  "parameterValues" : [ ]
+}

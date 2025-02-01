@@ -5,14 +5,27 @@
     "children" : [ {
       "name" : "selenium.common.exceptions.TimeoutException: Message:",
       "children" : [ {
-        "name" : "Click on confirm alert button",
-        "uid" : "d5f56b9727526187",
+        "name" : "Click on the alert button",
+        "uid" : "9da015a7b086f338",
         "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1738161697772,
-          "stop" : 1738161725783,
-          "duration" : 28011
+          "start" : 1738400529183,
+          "stop" : 1738400555997,
+          "duration" : 26814
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Click on confirm alert button",
+        "uid" : "41c514c15258278a",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1738400575686,
+          "stop" : 1738400603246,
+          "duration" : 27560
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,22 +37,22 @@
   }, {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "AssertionError: Expected value 'June 27, 2024 ' but got 'June 27, 2024 6:00 AM'",
+      "name" : "AssertionError: Expected value 'June 1, 2021 ' but got 'July 1, 2021 7:00 AM'",
       "children" : [ {
         "name" : "Test select date and time in calendar",
-        "uid" : "d427ceac1a97dfc1",
-        "parentUid" : "9011321b46894d1d57f97173acf4baed",
+        "uid" : "b1d74d64ce461913",
+        "parentUid" : "fcd3c0a9e788f6bf8bbc3c1803740a5a",
         "status" : "failed",
         "time" : {
-          "start" : 1738161875099,
-          "stop" : 1738161892025,
-          "duration" : 16926
+          "start" : 1738400783810,
+          "stop" : 1738400796511,
+          "duration" : 12701
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "9011321b46894d1d57f97173acf4baed"
+      "uid" : "fcd3c0a9e788f6bf8bbc3c1803740a5a"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],

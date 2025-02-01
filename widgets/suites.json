@@ -5,9 +5,9 @@
     "name" : "tests",
     "statistic" : {
       "failed" : 1,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 38,
+      "passed" : 37,
       "unknown" : 0,
       "total" : 40
     }
