@@ -1,6 +1,5 @@
 import random
 import allure
-from allure_commons.types import AttachmentType
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -174,11 +173,3 @@ class BasePage:
     def verify_change_text(self, previously_text, actual_text ):
         with allure.step(f"The change of text {previously_text} to {actual_text} was expected"):
             assert previously_text != actual_text, "The text has not changed"
-
-    # Takes a screenshot and attaches it to the Allure report
-    def make_screenshot(self):
-        allure.attach(
-            body=self.driver.get_screenshot_as_png(),
-            name="Screenshot",
-            attachment_type=AttachmentType.PNG
-        )

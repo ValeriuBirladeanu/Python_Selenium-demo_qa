@@ -8,6 +8,7 @@ class TestPracticeForm(BaseTest):
 
     @allure.title("Complete practice form")
     @pytest.mark.smoke
+    @pytest.mark.screenshot
     def test_complete_form(self):
         self.practice_form.open()
         self.practice_form.is_opened()
@@ -24,4 +25,3 @@ class TestPracticeForm(BaseTest):
         self.practice_form.select_city()
         self.practice_form.click_submit()
         self.practice_form.check_present_corrected_data_in_table()
-        self.practice_form.make_screenshot()

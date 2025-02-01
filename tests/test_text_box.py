@@ -8,6 +8,7 @@ class TestTextBox(BaseTest):
 
     @allure.title("Completing the text box fields")
     @pytest.mark.smoke
+    @pytest.mark.screenshot
     def test_complete_text_box(self):
         self.text_box.open()
         self.text_box.is_opened()
@@ -20,4 +21,3 @@ class TestTextBox(BaseTest):
         self.text_box.is_saved_email()
         self.text_box.is_saved_current_address()
         self.text_box.is_saved_permanent_address()
-        self.text_box.make_screenshot()

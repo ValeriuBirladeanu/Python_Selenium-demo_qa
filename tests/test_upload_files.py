@@ -8,6 +8,7 @@ class TestUploadFiles(BaseTest):
 
     @allure.title("Test uploaded file")
     @pytest.mark.smoke
+    @pytest.mark.screenshot
     def test_uploaded_file(self):
         self.upload_files.open()
         self.upload_files.is_opened()
