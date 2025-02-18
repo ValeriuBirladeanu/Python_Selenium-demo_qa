@@ -1,5 +1,4 @@
 import random
-
 import allure
 from base.base_page import BasePage
 from config.urls import Urls
@@ -20,6 +19,6 @@ class Slider(BasePage):
         self.value_after = self.element_is_presence(self.VALUE_SLIDER).get_attribute('value')
         print(self.value_after)
 
-    @allure.step("Check opened new accordian(")
+    @allure.step("Check the value change after applying the slider")
     def check_slider_value_change(self):
         self.verify_value_change(self.value_before, self.value_after)
