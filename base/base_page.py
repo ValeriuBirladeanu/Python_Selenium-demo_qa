@@ -141,6 +141,13 @@ class BasePage:
             action.context_click(locator)
             action.perform()
 
+    # Performs a drag & drop action on the given element
+    def action_drag_and_drop_by_offset(self, locator, x, y):
+        with allure.step(f"Perform drag & drop by offset action on the element located by {locator}"):
+            action = ActionChains(self.driver)
+            action.drag_and_drop_by_offset(locator, x, y)
+            action.perform()
+
     # Check when another tab opens
     def wait_for_new_tab(self):
         with allure.step("Wait for a new browser tab to be opened"):
@@ -173,3 +180,7 @@ class BasePage:
     def verify_change_text(self, previously_text, actual_text ):
         with allure.step(f"The change of text {previously_text} to {actual_text} was expected"):
             assert previously_text != actual_text, "The text has not changed"
+
+    def verify_value_change(self, previous_value, actual_value):
+        with allure.step(f"Verify that the value has changed from '{previous_value}' to '{actual_value}'"):
+            assert previous_value != actual_value, f"Value has not changed. Still '{actual_value}'"
