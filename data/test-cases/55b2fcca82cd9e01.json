@@ -1,0 +1,321 @@
+{
+  "uid" : "55b2fcca82cd9e01",
+  "name" : "Verify moved link",
+  "fullName" : "tests.test_links.TestLinks#test_moved_link",
+  "historyId" : "dabe9e22e104eed8f518fcef84da711d",
+  "time" : {
+    "start" : 1740067249791,
+    "stop" : 1740067549797,
+    "duration" : 300006
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: -0.000\n  (Session info: chrome=132.0.6834.83)",
+  "statusTrace" : "self = <test_links.TestLinks object at 0x7f2f877e6b30>\n\n    @allure.title(\"Verify moved link\")\n    @pytest.mark.smoke\n    @pytest.mark.screenshot\n    def test_moved_link(self):\n>       self.links.open()\n\ntests/test_links.py:40: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nbase/base_page.py:17: in open\n    self.driver.get(self.PAGE_URL)\n../local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py:363: in get\n    self.execute(Command.GET, {\"url\": url})\n../local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py:354: in execute\n    self.error_handler.check_response(response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x7f2f8635e170>\nresponse = {'status': 500, 'value': '{\"value\":{\"error\":\"timeout\",\"message\":\"timeout: Timed out receiving message from renderer: -0.000\\\\n  (Session info: chrome=132.0.6834.83)\",\"stacktrace\":\"\"}}'}\n\n    def check_response(self, response: Dict[str, Any]) -> None:\n        \"\"\"Checks that a JSON response from the WebDriver does not have an\n        error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get(\"status\", None)\n        if not status or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(\"message\", \"\")\n        screen: str = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get(\"value\", None)\n            if value_json and isinstance(value_json, str):\n                import json\n    \n                try:\n                    value = json.loads(value_json)\n                    if len(value) == 1:\n                        value = value[\"value\"]\n                    status = value.get(\"error\", None)\n                    if not status:\n                        status = value.get(\"status\", ErrorCode.UNKNOWN_ERROR)\n                        message = value.get(\"value\") or value.get(\"message\")\n                        if not isinstance(message, str):\n                            value = message\n                            message = message.get(\"message\")\n                    else:\n                        message = value.get(\"message\", None)\n                except ValueError:\n                    pass\n    \n        exception_class: Type[WebDriverException]\n        e = ErrorCode()\n        error_codes = [item for item in dir(e) if not item.startswith(\"__\")]\n        for error_code in error_codes:\n            error_info = getattr(ErrorCode, error_code)\n            if isinstance(error_info, list) and status in error_info:\n                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)\n                break\n        else:\n            exception_class = WebDriverException\n    \n        if not value:\n            value = response[\"value\"]\n        if isinstance(value, str):\n            raise exception_class(value)\n        if message == \"\" and \"message\" in value:\n            message = value[\"message\"]\n    \n        screen = None  # type: ignore[assignment]\n        if \"screen\" in value:\n            screen = value[\"screen\"]\n    \n        stacktrace = None\n        st_value = value.get(\"stackTrace\") or value.get(\"stacktrace\")\n        if st_value:\n            if isinstance(st_value, str):\n                stacktrace = st_value.split(\"\\n\")\n            else:\n                stacktrace = []\n                try:\n                    for frame in st_value:\n                        line = frame.get(\"lineNumber\", \"\")\n                        file = frame.get(\"fileName\", \"<anonymous>\")\n                        if line:\n                            file = f\"{file}:{line}\"\n                        meth = frame.get(\"methodName\", \"<anonymous>\")\n                        if \"className\" in frame:\n                            meth = f\"{frame['className']}.{meth}\"\n                        msg = \"    at %s (%s)\"\n                        msg = msg % (meth, file)\n                        stacktrace.append(msg)\n                except TypeError:\n                    pass\n        if exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if \"data\" in value:\n                alert_text = value[\"data\"].get(\"text\")\n            elif \"alert\" in value:\n                alert_text = value[\"alert\"].get(\"text\")\n            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here\n>       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: -0.000\nE         (Session info: chrome=132.0.6834.83)\n\n../local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py:229: TimeoutException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1740067249649,
+      "stop" : 1740067249790,
+      "duration" : 141
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1740059423564,
+      "stop" : 1740059423652,
+      "duration" : 88
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1740067249174,
+      "stop" : 1740067249649,
+      "duration" : 475
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: -0.000\n  (Session info: chrome=132.0.6834.83)",
+    "statusTrace" : "self = <test_links.TestLinks object at 0x7f2f877e6b30>\n\n    @allure.title(\"Verify moved link\")\n    @pytest.mark.smoke\n    @pytest.mark.screenshot\n    def test_moved_link(self):\n>       self.links.open()\n\ntests/test_links.py:40: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nbase/base_page.py:17: in open\n    self.driver.get(self.PAGE_URL)\n../local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py:363: in get\n    self.execute(Command.GET, {\"url\": url})\n../local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py:354: in execute\n    self.error_handler.check_response(response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x7f2f8635e170>\nresponse = {'status': 500, 'value': '{\"value\":{\"error\":\"timeout\",\"message\":\"timeout: Timed out receiving message from renderer: -0.000\\\\n  (Session info: chrome=132.0.6834.83)\",\"stacktrace\":\"\"}}'}\n\n    def check_response(self, response: Dict[str, Any]) -> None:\n        \"\"\"Checks that a JSON response from the WebDriver does not have an\n        error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get(\"status\", None)\n        if not status or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(\"message\", \"\")\n        screen: str = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get(\"value\", None)\n            if value_json and isinstance(value_json, str):\n                import json\n    \n                try:\n                    value = json.loads(value_json)\n                    if len(value) == 1:\n                        value = value[\"value\"]\n                    status = value.get(\"error\", None)\n                    if not status:\n                        status = value.get(\"status\", ErrorCode.UNKNOWN_ERROR)\n                        message = value.get(\"value\") or value.get(\"message\")\n                        if not isinstance(message, str):\n                            value = message\n                            message = message.get(\"message\")\n                    else:\n                        message = value.get(\"message\", None)\n                except ValueError:\n                    pass\n    \n        exception_class: Type[WebDriverException]\n        e = ErrorCode()\n        error_codes = [item for item in dir(e) if not item.startswith(\"__\")]\n        for error_code in error_codes:\n            error_info = getattr(ErrorCode, error_code)\n            if isinstance(error_info, list) and status in error_info:\n                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)\n                break\n        else:\n            exception_class = WebDriverException\n    \n        if not value:\n            value = response[\"value\"]\n        if isinstance(value, str):\n            raise exception_class(value)\n        if message == \"\" and \"message\" in value:\n            message = value[\"message\"]\n    \n        screen = None  # type: ignore[assignment]\n        if \"screen\" in value:\n            screen = value[\"screen\"]\n    \n        stacktrace = None\n        st_value = value.get(\"stackTrace\") or value.get(\"stacktrace\")\n        if st_value:\n            if isinstance(st_value, str):\n                stacktrace = st_value.split(\"\\n\")\n            else:\n                stacktrace = []\n                try:\n                    for frame in st_value:\n                        line = frame.get(\"lineNumber\", \"\")\n                        file = frame.get(\"fileName\", \"<anonymous>\")\n                        if line:\n                            file = f\"{file}:{line}\"\n                        meth = frame.get(\"methodName\", \"<anonymous>\")\n                        if \"className\" in frame:\n                            meth = f\"{frame['className']}.{meth}\"\n                        msg = \"    at %s (%s)\"\n                        msg = msg % (meth, file)\n                        stacktrace.append(msg)\n                except TypeError:\n                    pass\n        if exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if \"data\" in value:\n                alert_text = value[\"data\"].get(\"text\")\n            elif \"alert\" in value:\n                alert_text = value[\"alert\"].get(\"text\")\n            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here\n>       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: -0.000\nE         (Session info: chrome=132.0.6834.83)\n\n../local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py:229: TimeoutException",
+    "steps" : [ {
+      "name" : "Open https://demoqa.com/links page",
+      "time" : {
+        "start" : 1740067249791,
+        "stop" : 1740067549796,
+        "duration" : 300005
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: -0.000\n  (Session info: chrome=132.0.6834.83)\n\n",
+      "statusTrace" : "  File \"/usr/workspace/base/base_page.py\", line 17, in open\n    self.driver.get(self.PAGE_URL)\n  File \"/usr/local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 363, in get\n    self.execute(Command.GET, {\"url\": url})\n  File \"/usr/local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 354, in execute\n    self.error_handler.check_response(response)\n  File \"/usr/local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 229, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "324f1c2a09a38e62",
+      "name" : "screenshots/test_moved_link_2025-02-20_18-05-49.png",
+      "source" : "324f1c2a09a38e62.attach",
+      "type" : "image/png",
+      "size" : 29108
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1740067550097,
+      "stop" : 1740067550176,
+      "duration" : 79
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Elements - Links"
+  }, {
+    "name" : "tag",
+    "value" : "screenshot"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_links"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLinks"
+  }, {
+    "name" : "host",
+    "value" : "5d8118277ff0"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_links"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 18,
+        "unknown" : 0,
+        "total" : 19
+      },
+      "items" : [ {
+        "uid" : "b6fd4a688498b523",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738400890401,
+          "stop" : 1738400902400,
+          "duration" : 11999
+        }
+      }, {
+        "uid" : "6be741ba6f3f9624",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738161959786,
+          "stop" : 1738161963000,
+          "duration" : 3214
+        }
+      }, {
+        "uid" : "a75ecf90367acab9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738147288711,
+          "stop" : 1738147296827,
+          "duration" : 8116
+        }
+      }, {
+        "uid" : "195e21770029a12c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738075615926,
+          "stop" : 1738075619221,
+          "duration" : 3295
+        }
+      }, {
+        "uid" : "72c2e9439bd2dc02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1731657790937,
+          "stop" : 1731657799505,
+          "duration" : 8568
+        }
+      }, {
+        "uid" : "f72caeeb22463446",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730874765703,
+          "stop" : 1730874773483,
+          "duration" : 7780
+        }
+      }, {
+        "uid" : "5dc956f158c42876",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730835874799,
+          "stop" : 1730835889704,
+          "duration" : 14905
+        }
+      }, {
+        "uid" : "7f1b7e8175c24f6f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730114768707,
+          "stop" : 1730114776237,
+          "duration" : 7530
+        }
+      }, {
+        "uid" : "aaf5ba6e491ad98e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729786017900,
+          "stop" : 1729786027231,
+          "duration" : 9331
+        }
+      }, {
+        "uid" : "4e7ffdb6b84af3e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729172055391,
+          "stop" : 1729172064076,
+          "duration" : 8685
+        }
+      }, {
+        "uid" : "f6ee8ed94a58e4ae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728654526619,
+          "stop" : 1728654534247,
+          "duration" : 7628
+        }
+      }, {
+        "uid" : "e0a28ae15a368ef5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727439899433,
+          "stop" : 1727439906819,
+          "duration" : 7386
+        }
+      }, {
+        "uid" : "487fc7794fa660bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727433836554,
+          "stop" : 1727433844284,
+          "duration" : 7730
+        }
+      }, {
+        "uid" : "354a54ac5d881dbc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727167146882,
+          "stop" : 1727167148921,
+          "duration" : 2039
+        }
+      }, {
+        "uid" : "6ff6617577792471",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726735628045,
+          "stop" : 1726735636482,
+          "duration" : 8437
+        }
+      }, {
+        "uid" : "a43ee26608f97f50",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726734110656,
+          "stop" : 1726734112859,
+          "duration" : 2203
+        }
+      }, {
+        "uid" : "7f7c2ffd3d1d456f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726686563211,
+          "stop" : 1726686571129,
+          "duration" : 7918
+        }
+      }, {
+        "uid" : "b405979ee8295a9d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726564544195,
+          "stop" : 1726564551827,
+          "duration" : 7632
+        }
+      } ]
+    },
+    "tags" : [ "smoke", "screenshot" ]
+  },
+  "source" : "55b2fcca82cd9e01.json",
+  "parameterValues" : [ ]
+}

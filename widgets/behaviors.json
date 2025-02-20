@@ -1,46 +1,46 @@
 {
   "total" : 14,
   "items" : [ {
+    "uid" : "69cbf3118e2882907e7e3e486b0c9ea7",
+    "name" : "Elements - Links",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 8,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 8
+    }
+  }, {
     "uid" : "27b1f4915960d426527dfda242cef443",
     "name" : "Widgets",
     "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
+      "failed" : 0,
+      "broken" : 6,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     }
   }, {
     "uid" : "8e452ddc7f70719785dd3a72ba1ea47e",
     "name" : "Alerts, Frame & Windows  - Alerts",
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 5,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 5
-    }
-  }, {
-    "uid" : "69cbf3118e2882907e7e3e486b0c9ea7",
-    "name" : "Elements - Links",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 8,
-      "unknown" : 0,
-      "total" : 8
     }
   }, {
     "uid" : "76cc824ecb2f3d696a015f21de439337",
     "name" : "Elements - Broken_Links_Images",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 4,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 4
     }
@@ -49,9 +49,9 @@
     "name" : "Elements - Wev Tables",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 4,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 4
     }
@@ -60,9 +60,9 @@
     "name" : "Elements - Buttons",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 3,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 3
     }
@@ -71,9 +71,9 @@
     "name" : "Elements - Dynamic Properties",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 3,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 3
     }
@@ -82,9 +82,9 @@
     "name" : "Elements - Radio Button",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 2
     }
@@ -93,9 +93,9 @@
     "name" : "Alerts, Frame & Windows - Browser_Windows",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     }
@@ -104,9 +104,9 @@
     "name" : "Elements - Check Box",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     }
