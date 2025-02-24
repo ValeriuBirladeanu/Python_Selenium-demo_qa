@@ -16,6 +16,7 @@ from pages.accordian import Accordian
 from pages.auto_complete import AutoComplete
 from pages.date_picker import DatePicker
 from pages.slider import Slider
+from pages.progress_bar import Progress_Bar
 
 
 class BaseTest:
@@ -36,6 +37,7 @@ class BaseTest:
     auto_complete: AutoComplete
     date_picker: DatePicker
     slider: Slider
+    progress_bar: Progress_Bar
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
@@ -57,3 +59,4 @@ class BaseTest:
         request.cls.auto_complete = AutoComplete(driver)
         request.cls.date_picker = DatePicker(driver)
         request.cls.slider = Slider(driver)
+        request.cls.progress_bar = Progress_Bar(driver)

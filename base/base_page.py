@@ -1,8 +1,9 @@
-import random
 import allure
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import random
+import time
 
 
 class BasePage:
@@ -176,11 +177,18 @@ class BasePage:
         with allure.step("Entering the text in the alert"):
             self.alert.send_keys(text)
 
-    # Verify that the text has changed
+    # Verifies that the text has changed between the previously expected and actual text
     def verify_change_text(self, previously_text, actual_text ):
         with allure.step(f"The change of text {previously_text} to {actual_text} was expected"):
             assert previously_text != actual_text, "The text has not changed"
 
+    # Verifies that the value has changed between the previous and actual values
     def verify_value_change(self, previous_value, actual_value):
         with allure.step(f"Verify that the value has changed from '{previous_value}' to '{actual_value}'"):
             assert previous_value != actual_value, f"Value has not changed. Still '{actual_value}'"
+
+    # Waits for a random amount of time within the specified range
+    def wait_for_random_time(self, min_time, max_time):
+        with allure.step(f"Waiting for a random time between {min_time} and {max_time} seconds"):
+            random_wait_time = random.uniform(min_time, max_time)
+            time.sleep(random_wait_time)
