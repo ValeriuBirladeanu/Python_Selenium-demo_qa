@@ -1,0 +1,419 @@
+{
+  "uid" : "424546389b586754",
+  "name" : "Double click",
+  "fullName" : "tests.test_buttons.TestButtons#test_click_double_button",
+  "historyId" : "3fb596999614004c5b9074cb9566fdbe",
+  "time" : {
+    "start" : 1740845469601,
+    "stop" : 1740845471843,
+    "duration" : 2242
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1740845469446,
+      "stop" : 1740845469600,
+      "duration" : 154
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1740845319022,
+      "stop" : 1740845319110,
+      "duration" : 88
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1740845468972,
+      "stop" : 1740845469446,
+      "duration" : 474
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open https://demoqa.com/buttons page",
+      "time" : {
+        "start" : 1740845469601,
+        "stop" : 1740845471239,
+        "duration" : 1638
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://demoqa.com/buttons is opened",
+      "time" : {
+        "start" : 1740845471240,
+        "stop" : 1740845471244,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Perform double click on the button",
+      "time" : {
+        "start" : 1740845471244,
+        "stop" : 1740845471774,
+        "duration" : 530
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check if element located by ('xpath', \"//button[@id='doubleClickBtn']\") is clickable",
+        "time" : {
+          "start" : 1740845471244,
+          "stop" : 1740845471281,
+          "duration" : 37
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Perform double-click action on the element located by <selenium.webdriver.remote.webelement.WebElement (session=\"6d76e7676a9112bd2016fa76d41f7464\", element=\"f.672D0F310CB5D2CBE8404DF90A264A7B.d.B9AFE0E463529759B913BF6AC88D0849.e.22\")>",
+        "time" : {
+          "start" : 1740845471281,
+          "stop" : 1740845471774,
+          "duration" : 493
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Check if double click message is displayed",
+      "time" : {
+        "start" : 1740845471774,
+        "stop" : 1740845471843,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Wait for element located by ('xpath', \"//p[@id='doubleClickMessage']\") to contain text 'You have done a double click'",
+        "time" : {
+          "start" : 1740845471774,
+          "stop" : 1740845471843,
+          "duration" : 69
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4ee44255d5952725",
+      "name" : "screenshots/test_click_double_button_2025-03-01_18-11-11.png",
+      "source" : "4ee44255d5952725.attach",
+      "type" : "image/png",
+      "size" : 279918
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1740845472339,
+      "stop" : 1740845472399,
+      "duration" : 60
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Elements - Buttons"
+  }, {
+    "name" : "tag",
+    "value" : "screenshot"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_buttons"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestButtons"
+  }, {
+    "name" : "host",
+    "value" : "cd3cee9dbd7e"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_buttons"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 19,
+        "unknown" : 0,
+        "total" : 21
+      },
+      "items" : [ {
+        "uid" : "66629d1507b5a9c0",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: -0.000\n  (Session info: chrome=132.0.6834.83)",
+        "time" : {
+          "start" : 1740063337106,
+          "stop" : 1740063637113,
+          "duration" : 300007
+        }
+      }, {
+        "uid" : "c0e275562c2c8fb3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738400715711,
+          "stop" : 1738400728338,
+          "duration" : 12627
+        }
+      }, {
+        "uid" : "9ae8de7e97f6ab9a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738161823468,
+          "stop" : 1738161826559,
+          "duration" : 3091
+        }
+      }, {
+        "uid" : "6ad36836cf8e231c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738147194218,
+          "stop" : 1738147201702,
+          "duration" : 7484
+        }
+      }, {
+        "uid" : "deb3696bf509edfe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738075498591,
+          "stop" : 1738075501474,
+          "duration" : 2883
+        }
+      }, {
+        "uid" : "6a5bf7ed21d71586",
+        "status" : "passed",
+        "time" : {
+          "start" : 1731657557591,
+          "stop" : 1731657564810,
+          "duration" : 7219
+        }
+      }, {
+        "uid" : "26d5436fdfdbe8a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730874653945,
+          "stop" : 1730874661330,
+          "duration" : 7385
+        }
+      }, {
+        "uid" : "a26dfa0b978e7142",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730835403631,
+          "stop" : 1730835450971,
+          "duration" : 47340
+        }
+      }, {
+        "uid" : "14d09abbb70d6441",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730114676897,
+          "stop" : 1730114684378,
+          "duration" : 7481
+        }
+      }, {
+        "uid" : "89ca104df87cb2f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729785936490,
+          "stop" : 1729785946592,
+          "duration" : 10102
+        }
+      }, {
+        "uid" : "681445944d2503c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729171953405,
+          "stop" : 1729171962041,
+          "duration" : 8636
+        }
+      }, {
+        "uid" : "824fbc41af57db09",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728654442848,
+          "stop" : 1728654450191,
+          "duration" : 7343
+        }
+      }, {
+        "uid" : "b220d4ca520336dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727439847471,
+          "stop" : 1727439854971,
+          "duration" : 7500
+        }
+      }, {
+        "uid" : "7ec5dedb91dc40a9",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1727433753760,
+          "stop" : 1727433785845,
+          "duration" : 32085
+        }
+      }, {
+        "uid" : "36a14654e6218986",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727167088136,
+          "stop" : 1727167095894,
+          "duration" : 7758
+        }
+      }, {
+        "uid" : "6d35e1addc008222",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726735575446,
+          "stop" : 1726735578633,
+          "duration" : 3187
+        }
+      }, {
+        "uid" : "2060aeb5f6587dce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726734062537,
+          "stop" : 1726734070238,
+          "duration" : 7701
+        }
+      }, {
+        "uid" : "df3bd965eacdbbf0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726686201043,
+          "stop" : 1726686212059,
+          "duration" : 11016
+        }
+      }, {
+        "uid" : "b85f6d007c6ffe38",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726564494665,
+          "stop" : 1726564498250,
+          "duration" : 3585
+        }
+      }, {
+        "uid" : "e625b1bf2dc48015",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726146004337,
+          "stop" : 1726146015471,
+          "duration" : 11134
+        }
+      } ]
+    },
+    "tags" : [ "smoke", "screenshot" ]
+  },
+  "source" : "424546389b586754.json",
+  "parameterValues" : [ ]
+}
