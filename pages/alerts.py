@@ -29,7 +29,7 @@ class Alerts(BasePage):
         self.alert_is_present()
         self.switch_to_alert()
         expected_text = "You clicked a button"
-        self.check_alert_text(self.alert.text, expected_text)
+        self.check_if_text_matches(self.alert.text, expected_text)
 
     @allure.step("Accept alert")
     def accept_alert(self):
@@ -49,7 +49,7 @@ class Alerts(BasePage):
         self.alert_is_present()
         self.switch_to_alert()
         expected_text = "This alert appeared after 5 seconds"
-        self.check_alert_text(self.alert.text, expected_text)
+        self.check_if_text_matches(self.alert.text, expected_text)
 
     """CONFIRM_ALERT_BUTTON"""
     @allure.step("Click on confirm_alert_button")
@@ -61,7 +61,7 @@ class Alerts(BasePage):
         self.alert_is_present()
         self.switch_to_alert()
         expected_text = "Do you confirm action?"
-        self.check_alert_text(self.alert.text, expected_text)
+        self.check_if_text_matches(self.alert.text, expected_text)
 
     @allure.step("Check confirmed text in alert result")
     def check_confirmed_text(self, expected_text):
@@ -77,7 +77,7 @@ class Alerts(BasePage):
         self.alert_is_present()
         self.switch_to_alert()
         expected_text = "Please enter your name"
-        self.check_alert_text(self.alert.text, expected_text)
+        self.check_if_text_matches(self.alert.text, expected_text)
 
     @allure.step("Enter text in input_alert_button alert")
     def enter_text_in_input_alert_button(self):

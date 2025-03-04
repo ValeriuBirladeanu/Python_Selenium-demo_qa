@@ -86,11 +86,12 @@ class BasePage:
             assert expected_text.lower().strip() == actual_text.lower().strip(), f"Expected text '{expected_text}' but got '{actual_text}'"
             return element
 
-    # Checks if the text of an alert contains the expected text
-    def check_alert_text(self, actual_text, expected_text, slicing=None):
+    # Check if the received text is the expected one
+    def check_if_text_matches(self, actual_text, expected_text, slicing=None):
         with allure.step(f"Check if alert text contains '{expected_text}'"):
-            actual_text = slicing(actual_text) if slicing else actual_text  # Slicing operation on alert text is expected
+            actual_text = slicing(actual_text) if slicing else actual_text  # Slicing operation on text is expected
             assert expected_text == actual_text, f"Expected alert text '{expected_text}' but got '{actual_text}'"
+
 
     # Checks if the expected text is present in multiple elements
     def check_text_in_multiple_elements(self, locator, expected_text, slicing=None):
