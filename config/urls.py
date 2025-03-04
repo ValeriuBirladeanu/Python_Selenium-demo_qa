@@ -20,3 +20,4 @@ class Urls:
     DATE_PICKER = f"{HOST}/date-picker"
     SLIDER = f"{HOST}/slider"
     PROGRESS_BAR = f"{HOST}/progress-bar"
+    TABS = f"{HOST}/tabs"

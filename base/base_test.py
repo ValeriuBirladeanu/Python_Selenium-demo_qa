@@ -17,6 +17,7 @@ from pages.auto_complete import AutoComplete
 from pages.date_picker import DatePicker
 from pages.slider import Slider
 from pages.progress_bar import Progress_Bar
+from pages.tabs import Tabs
 
 
 class BaseTest:
@@ -38,6 +39,7 @@ class BaseTest:
     date_picker: DatePicker
     slider: Slider
     progress_bar: Progress_Bar
+    tabs: Tabs
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
@@ -60,3 +62,4 @@ class BaseTest:
         request.cls.date_picker = DatePicker(driver)
         request.cls.slider = Slider(driver)
         request.cls.progress_bar = Progress_Bar(driver)
+        request.cls.tabs = Tabs(driver)
