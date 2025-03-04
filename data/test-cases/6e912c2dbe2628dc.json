@@ -1,0 +1,336 @@
+{
+  "uid" : "6e912c2dbe2628dc",
+  "name" : "Test Menu",
+  "fullName" : "tests.test_menu.TestMenu#test_menu",
+  "historyId" : "057ab07bc67e85233dc6ee6b692fc324",
+  "time" : {
+    "start" : 1741106161811,
+    "stop" : 1741106165957,
+    "duration" : 4146
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1741106161659,
+      "stop" : 1741106161810,
+      "duration" : 151
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1741105928637,
+      "stop" : 1741105928724,
+      "duration" : 87
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1741106161209,
+      "stop" : 1741106161659,
+      "duration" : 450
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open https://demoqa.com/menu page",
+      "time" : {
+        "start" : 1741106161811,
+        "stop" : 1741106163712,
+        "duration" : 1901
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://demoqa.com/menu is opened",
+      "time" : {
+        "start" : 1741106163712,
+        "stop" : 1741106163719,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Receiving the names of all menus",
+      "time" : {
+        "start" : 1741106163719,
+        "stop" : 1741106165956,
+        "duration" : 2237
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check presence of elements located by ('css selector', 'ul[id=\"nav\"] li a')",
+        "time" : {
+          "start" : 1741106163719,
+          "stop" : 1741106163735,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Perform move to element action on the element located by <selenium.webdriver.remote.webelement.WebElement (session=\"88875a760d12e63819447f5562c32d3c\", element=\"f.830C436F7C0BFE4B4A37D2EB194644D9.d.26BFD64CB1FDF4B7905C2716DACC82CB.e.26\")>",
+        "time" : {
+          "start" : 1741106163735,
+          "stop" : 1741106164063,
+          "duration" : 328
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Perform move to element action on the element located by <selenium.webdriver.remote.webelement.WebElement (session=\"88875a760d12e63819447f5562c32d3c\", element=\"f.830C436F7C0BFE4B4A37D2EB194644D9.d.26BFD64CB1FDF4B7905C2716DACC82CB.e.27\")>",
+        "time" : {
+          "start" : 1741106164080,
+          "stop" : 1741106164358,
+          "duration" : 278
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Perform move to element action on the element located by <selenium.webdriver.remote.webelement.WebElement (session=\"88875a760d12e63819447f5562c32d3c\", element=\"f.830C436F7C0BFE4B4A37D2EB194644D9.d.26BFD64CB1FDF4B7905C2716DACC82CB.e.28\")>",
+        "time" : {
+          "start" : 1741106164365,
+          "stop" : 1741106164624,
+          "duration" : 259
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Perform move to element action on the element located by <selenium.webdriver.remote.webelement.WebElement (session=\"88875a760d12e63819447f5562c32d3c\", element=\"f.830C436F7C0BFE4B4A37D2EB194644D9.d.26BFD64CB1FDF4B7905C2716DACC82CB.e.29\")>",
+        "time" : {
+          "start" : 1741106164630,
+          "stop" : 1741106164890,
+          "duration" : 260
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Perform move to element action on the element located by <selenium.webdriver.remote.webelement.WebElement (session=\"88875a760d12e63819447f5562c32d3c\", element=\"f.830C436F7C0BFE4B4A37D2EB194644D9.d.26BFD64CB1FDF4B7905C2716DACC82CB.e.30\")>",
+        "time" : {
+          "start" : 1741106164897,
+          "stop" : 1741106165155,
+          "duration" : 258
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Perform move to element action on the element located by <selenium.webdriver.remote.webelement.WebElement (session=\"88875a760d12e63819447f5562c32d3c\", element=\"f.830C436F7C0BFE4B4A37D2EB194644D9.d.26BFD64CB1FDF4B7905C2716DACC82CB.e.31\")>",
+        "time" : {
+          "start" : 1741106165162,
+          "stop" : 1741106165420,
+          "duration" : 258
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Perform move to element action on the element located by <selenium.webdriver.remote.webelement.WebElement (session=\"88875a760d12e63819447f5562c32d3c\", element=\"f.830C436F7C0BFE4B4A37D2EB194644D9.d.26BFD64CB1FDF4B7905C2716DACC82CB.e.32\")>",
+        "time" : {
+          "start" : 1741106165427,
+          "stop" : 1741106165685,
+          "duration" : 258
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Perform move to element action on the element located by <selenium.webdriver.remote.webelement.WebElement (session=\"88875a760d12e63819447f5562c32d3c\", element=\"f.830C436F7C0BFE4B4A37D2EB194644D9.d.26BFD64CB1FDF4B7905C2716DACC82CB.e.33\")>",
+        "time" : {
+          "start" : 1741106165692,
+          "stop" : 1741106165950,
+          "duration" : 258
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 9,
+      "hasContent" : true
+    }, {
+      "name" : "Check menu names",
+      "time" : {
+        "start" : 1741106165956,
+        "stop" : 1741106165956,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "41b801c36643bbdd",
+      "name" : "screenshots/test_menu_2025-03-04_18-36-05.png",
+      "source" : "41b801c36643bbdd.attach",
+      "type" : "image/png",
+      "size" : 343117
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 13,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1741106166320,
+      "stop" : 1741106166381,
+      "duration" : 61
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Widgets"
+  }, {
+    "name" : "tag",
+    "value" : "screenshot"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_menu"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMenu"
+  }, {
+    "name" : "host",
+    "value" : "39ab52e7fffc"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_menu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "smoke", "screenshot" ]
+  },
+  "source" : "6e912c2dbe2628dc.json",
+  "parameterValues" : [ ]
+}

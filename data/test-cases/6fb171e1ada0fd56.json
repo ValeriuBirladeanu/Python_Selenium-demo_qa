@@ -1,0 +1,332 @@
+{
+  "uid" : "6fb171e1ada0fd56",
+  "name" : "Test change color",
+  "fullName" : "tests.test_dynamic_properties.TestDynamicProperties#test_change_button_color_change",
+  "historyId" : "c55818d7abb467bb5314957565409758",
+  "time" : {
+    "start" : 1741106079459,
+    "stop" : 1741106091807,
+    "duration" : 12348
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1741105928637,
+      "stop" : 1741105928724,
+      "duration" : 87
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1741106078849,
+      "stop" : 1741106079312,
+      "duration" : 463
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1741106079312,
+      "stop" : 1741106079458,
+      "duration" : 146
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open https://demoqa.com/dynamic-properties page",
+      "time" : {
+        "start" : 1741106079459,
+        "stop" : 1741106091768,
+        "duration" : 12309
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://demoqa.com/dynamic-properties is opened",
+      "time" : {
+        "start" : 1741106091768,
+        "stop" : 1741106091774,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check button color change by class",
+      "time" : {
+        "start" : 1741106091774,
+        "stop" : 1741106091807,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check invisibility of element located by ('xpath', \"//button[@id='colorChange'][@class='mt-4 btn btn-primary']\")",
+        "time" : {
+          "start" : 1741106091774,
+          "stop" : 1741106091788,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check visibility of element located by ('xpath', \"//button[@id='colorChange'][@class='mt-4 text-danger btn btn-primary']\")",
+        "time" : {
+          "start" : 1741106091788,
+          "stop" : 1741106091807,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "24c94a088802ef65",
+      "name" : "screenshots/test_change_button_color_change_2025-03-04_18-34-51.png",
+      "source" : "24c94a088802ef65.attach",
+      "type" : "image/png",
+      "size" : 347442
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1741106092205,
+      "stop" : 1741106092265,
+      "duration" : 60
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Elements - Dynamic Properties"
+  }, {
+    "name" : "tag",
+    "value" : "screenshot"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_dynamic_properties"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDynamicProperties"
+  }, {
+    "name" : "host",
+    "value" : "39ab52e7fffc"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_dynamic_properties"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 13,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "1215b9a90a8c302e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1740845549934,
+          "stop" : 1740845568580,
+          "duration" : 18646
+        }
+      }, {
+        "uid" : "d3c72b277d73c2be",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: -0.000\n  (Session info: chrome=132.0.6834.83)",
+        "time" : {
+          "start" : 1740065443867,
+          "stop" : 1740065743873,
+          "duration" : 300006
+        }
+      }, {
+        "uid" : "743bf885e6e7b33a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738400810146,
+          "stop" : 1738400822416,
+          "duration" : 12270
+        }
+      }, {
+        "uid" : "690a5a7118494d99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738161906413,
+          "stop" : 1738161913904,
+          "duration" : 7491
+        }
+      }, {
+        "uid" : "49b870a971c02f7c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738147246872,
+          "stop" : 1738147253638,
+          "duration" : 6766
+        }
+      }, {
+        "uid" : "c1b37c95072f3710",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738075541521,
+          "stop" : 1738075548563,
+          "duration" : 7042
+        }
+      }, {
+        "uid" : "402310061f12f68d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1731657742626,
+          "stop" : 1731657749827,
+          "duration" : 7201
+        }
+      }, {
+        "uid" : "c7543bafc9350f52",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730874696359,
+          "stop" : 1730874703117,
+          "duration" : 6758
+        }
+      }, {
+        "uid" : "480e3d5c900ce301",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730835646622,
+          "stop" : 1730835788984,
+          "duration" : 142362
+        }
+      }, {
+        "uid" : "eb5fe08f3850bb50",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730114718016,
+          "stop" : 1730114726041,
+          "duration" : 8025
+        }
+      }, {
+        "uid" : "18d59367a39c2f79",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729785974313,
+          "stop" : 1729785985839,
+          "duration" : 11526
+        }
+      }, {
+        "uid" : "155a8dc591acb0cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729172003228,
+          "stop" : 1729172013332,
+          "duration" : 10104
+        }
+      }, {
+        "uid" : "62ec9748101518e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728654484571,
+          "stop" : 1728654491937,
+          "duration" : 7366
+        }
+      } ]
+    },
+    "tags" : [ "smoke", "screenshot" ]
+  },
+  "source" : "6fb171e1ada0fd56.json",
+  "parameterValues" : [ ]
+}
