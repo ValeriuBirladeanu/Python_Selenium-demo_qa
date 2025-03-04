@@ -90,8 +90,7 @@ class BasePage:
     def check_if_text_matches(self, actual_text, expected_text, slicing=None):
         with allure.step(f"Check if alert text contains '{expected_text}'"):
             actual_text = slicing(actual_text) if slicing else actual_text  # Slicing operation on text is expected
-            assert expected_text == actual_text, f"Expected alert text '{expected_text}' but got '{actual_text}'"
-
+            assert expected_text == actual_text, f"Expected text '{expected_text}' but got '{actual_text}'"
 
     # Checks if the expected text is present in multiple elements
     def check_text_in_multiple_elements(self, locator, expected_text, slicing=None):
@@ -150,6 +149,13 @@ class BasePage:
             action.drag_and_drop_by_offset(locator, x, y)
             action.perform()
 
+    # Performs a move to element
+    def action_move_to_element(self, locator):
+        with allure.step(f"Perform move to element action on the element located by {locator}"):
+            action = ActionChains(self.driver)
+            action.move_to_element(locator)
+            action.perform()
+
     # Check when another tab opens
     def wait_for_new_tab(self):
         with allure.step("Wait for a new browser tab to be opened"):
@@ -193,3 +199,11 @@ class BasePage:
         with allure.step(f"Waiting for a random time between {min_time} and {max_time} seconds"):
             random_wait_time = random.uniform(min_time, max_time)
             time.sleep(random_wait_time)
+
+    # Get text from tooltips
+    def get_text_from_tooltips(self, hover_element, wait_element):
+        with allure.step("Hover over the specified element and wait for the tooltip to appear"):
+            element = self.element_is_visible(hover_element)
+            self.action_move_to_element(element)
+            tooltip_text = self.element_is_visible(wait_element).text
+            return tooltip_text

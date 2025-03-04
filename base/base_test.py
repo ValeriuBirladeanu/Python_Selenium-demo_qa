@@ -18,6 +18,7 @@ from pages.date_picker import DatePicker
 from pages.slider import Slider
 from pages.progress_bar import Progress_Bar
 from pages.tabs import Tabs
+from pages.tool_tips import ToolTips
 
 
 class BaseTest:
@@ -40,6 +41,7 @@ class BaseTest:
     slider: Slider
     progress_bar: Progress_Bar
     tabs: Tabs
+    tool_tips: ToolTips
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
@@ -63,3 +65,4 @@ class BaseTest:
         request.cls.slider = Slider(driver)
         request.cls.progress_bar = Progress_Bar(driver)
         request.cls.tabs = Tabs(driver)
+        request.cls.tool_tips = ToolTips(driver)
