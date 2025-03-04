@@ -19,6 +19,7 @@ from pages.slider import Slider
 from pages.progress_bar import Progress_Bar
 from pages.tabs import Tabs
 from pages.tool_tips import ToolTips
+from pages.menu import Menu
 
 
 class BaseTest:
@@ -42,6 +43,7 @@ class BaseTest:
     progress_bar: Progress_Bar
     tabs: Tabs
     tool_tips: ToolTips
+    menu: Menu
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
@@ -66,3 +68,4 @@ class BaseTest:
         request.cls.progress_bar = Progress_Bar(driver)
         request.cls.tabs = Tabs(driver)
         request.cls.tool_tips = ToolTips(driver)
+        request.cls.menu = Menu(driver)
