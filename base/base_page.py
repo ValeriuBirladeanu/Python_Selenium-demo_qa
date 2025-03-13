@@ -225,10 +225,12 @@ class BasePage:
             dropdown_items = self.elements_are_presence(options_locator)
             item = self.get_random_element(dropdown_items)
             self.scroll_to(item)
+            item_text = item.text
             item.click()
+            return item_text
 
     # "Select a random option from SELECT dropdown"
-    def select_random_option_from_select(self, dropdown_locator):
+    def select_option_from_select(self, dropdown_locator):
         with allure.step("Select a random option from SELECT dropdown"):
             self.scroll_to(dropdown_locator)
             dropdown = self.element_is_presence(dropdown_locator)
@@ -238,6 +240,7 @@ class BasePage:
                 raise ValueError("No valid options found in dropdown")
             random_option = random.choice(options)
             select.select_by_visible_text(random_option)
+            return random_option
 
     def select_multiple_options_from_div(self, dropdown_locator, options_locator, min_selections=1):
         with allure.step("Select multiple random options from dropdown in DIV"):
@@ -248,9 +251,12 @@ class BasePage:
                 raise ValueError("No options found in the dropdown")
             num_options = random.randint(min_selections, len(dropdown_items))
             selected_options = random.sample(dropdown_items, num_options)
+            selected_options_text = []
             for item in selected_options:
                 self.scroll_to(item)
+                selected_options_text.append(item.text)
                 item.click()
+            return selected_options_text
 
     def select_multiple_options_from_select(self, dropdown_locator, min_selections=1):
         with allure.step("Select multiple random options from dropdown in SELECT"):
@@ -262,5 +268,17 @@ class BasePage:
                 raise ValueError("No options found in the dropdown")
             num_options = random.randint(min_selections, len(options))
             selected_options = random.sample(options, num_options)
+            selected_options_text = []
             for option in selected_options:
+                self.scroll_to(option)
                 select.select_by_visible_text(option.text)
+                selected_options_text.append(option.text)
+            return selected_options_text
+
+    def get_selected_option_text_from_select(self, dropdown_locator):
+        with allure.step("Returns the text of the selected option in a SELECT type dropdown"):
+            self.scroll_to(dropdown_locator)
+            dropdown = self.element_is_visible(dropdown_locator)
+            select = Select(dropdown)
+            selected_option = select.first_selected_option
+            return selected_option.text
