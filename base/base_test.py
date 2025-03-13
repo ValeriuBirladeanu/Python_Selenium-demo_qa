@@ -20,6 +20,7 @@ from pages.progress_bar import Progress_Bar
 from pages.tabs import Tabs
 from pages.tool_tips import ToolTips
 from pages.menu import Menu
+from pages.select_menu import SelectMenu
 
 
 class BaseTest:
@@ -44,6 +45,7 @@ class BaseTest:
     tabs: Tabs
     tool_tips: ToolTips
     menu: Menu
+    select_menu: SelectMenu
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
@@ -69,3 +71,4 @@ class BaseTest:
         request.cls.tabs = Tabs(driver)
         request.cls.tool_tips = ToolTips(driver)
         request.cls.menu = Menu(driver)
+        request.cls.select_menu = SelectMenu(driver)

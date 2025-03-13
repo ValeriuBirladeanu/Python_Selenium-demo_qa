@@ -2,6 +2,7 @@ import allure
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.select import Select
 import random
 import time
 
@@ -207,3 +208,59 @@ class BasePage:
             self.action_move_to_element(element)
             tooltip_text = self.element_is_visible(wait_element).text
             return tooltip_text
+
+    def select_by_text(self, locator, text):
+        with allure.step(f"Select option '{text}' from dropdown"):
+            dropdown = self.element_is_presence(locator)
+            select = Select(dropdown)
+            options = select.options
+            random_option = random.choice(options)
+            select.select_by_visible_text(random_option.text)
+
+    # Select option from dropdown in DIV
+    def select_dropdown_option_from_div(self, dropdown_locator, options_locator):
+        with allure.step("Select option from dropdown in DIV"):
+            self.scroll_to(dropdown_locator)
+            self.element_is_presence(dropdown_locator).click()
+            dropdown_items = self.elements_are_presence(options_locator)
+            item = self.get_random_element(dropdown_items)
+            self.scroll_to(item)
+            item.click()
+
+    # "Select a random option from SELECT dropdown"
+    def select_random_option_from_select(self, dropdown_locator):
+        with allure.step("Select a random option from SELECT dropdown"):
+            self.scroll_to(dropdown_locator)
+            dropdown = self.element_is_presence(dropdown_locator)
+            select = Select(dropdown)
+            options = [opt.text for opt in select.options if opt.text.strip()]
+            if not options:
+                raise ValueError("No valid options found in dropdown")
+            random_option = random.choice(options)
+            select.select_by_visible_text(random_option)
+
+    def select_multiple_options_from_div(self, dropdown_locator, options_locator, min_selections=1):
+        with allure.step("Select multiple random options from dropdown in DIV"):
+            self.scroll_to(dropdown_locator)
+            self.element_is_presence(dropdown_locator).click()
+            dropdown_items = self.elements_are_presence(options_locator)
+            if not dropdown_items:
+                raise ValueError("No options found in the dropdown")
+            num_options = random.randint(min_selections, len(dropdown_items))
+            selected_options = random.sample(dropdown_items, num_options)
+            for item in selected_options:
+                self.scroll_to(item)
+                item.click()
+
+    def select_multiple_options_from_select(self, dropdown_locator, min_selections=1):
+        with allure.step("Select multiple random options from dropdown in SELECT"):
+            self.scroll_to(dropdown_locator)
+            dropdown_element = self.element_is_presence(dropdown_locator)
+            select = Select(dropdown_element)
+            options = select.options
+            if not options:
+                raise ValueError("No options found in the dropdown")
+            num_options = random.randint(min_selections, len(options))
+            selected_options = random.sample(options, num_options)
+            for option in selected_options:
+                select.select_by_visible_text(option.text)
