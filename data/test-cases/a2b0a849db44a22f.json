@@ -1,0 +1,550 @@
+{
+  "uid" : "a2b0a849db44a22f",
+  "name" : "Test tool tips",
+  "fullName" : "tests.test_tool_tips.TestToolTips#test_tool_tips",
+  "historyId" : "1c38498ceeb644ec2a9293263798dfb5",
+  "time" : {
+    "start" : 1743519345611,
+    "stop" : 1743519354264,
+    "duration" : 8653
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1743519236093,
+      "stop" : 1743519236221,
+      "duration" : 128
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1743519344021,
+      "stop" : 1743519345285,
+      "duration" : 1264
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1743519345286,
+      "stop" : 1743519345609,
+      "duration" : 323
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open https://demoqa.com/tool-tips page",
+      "time" : {
+        "start" : 1743519345611,
+        "stop" : 1743519351819,
+        "duration" : 6208
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://demoqa.com/tool-tips is opened",
+      "time" : {
+        "start" : 1743519351819,
+        "stop" : 1743519351843,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Check tooltip - button",
+      "time" : {
+        "start" : 1743519351843,
+        "stop" : 1743519352839,
+        "duration" : 996
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Hover over the specified element and wait for the tooltip to appear",
+        "time" : {
+          "start" : 1743519351843,
+          "stop" : 1743519352839,
+          "duration" : 996
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check visibility of element located by ('xpath', '//button[@id=\"toolTipButton\"]')",
+          "time" : {
+            "start" : 1743519351843,
+            "stop" : 1743519352252,
+            "duration" : 409
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Perform move to element action on the element located by <selenium.webdriver.remote.webelement.WebElement (session=\"ed08e8578afa54810b656858746acd53\", element=\"f.8BE2D54AD8DCB59DF4C8CE11AEE00565.d.C72A6E7B6CA4C1ECA49C89702FE6C924.e.14\")>",
+          "time" : {
+            "start" : 1743519352253,
+            "stop" : 1743519352582,
+            "duration" : 329
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Check visibility of element located by ('xpath', '//div[@class=\"tooltip-inner\" and text()=\"You hovered over the Button\"]')",
+          "time" : {
+            "start" : 1743519352582,
+            "stop" : 1743519352720,
+            "duration" : 138
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 3,
+        "hasContent" : true
+      }, {
+        "name" : "Check if alert text contains 'You hovered over the Button'",
+        "time" : {
+          "start" : 1743519352839,
+          "stop" : 1743519352839,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 5,
+      "hasContent" : true
+    }, {
+      "name" : "Check tooltip - input",
+      "time" : {
+        "start" : 1743519352839,
+        "stop" : 1743519353302,
+        "duration" : 463
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Hover over the specified element and wait for the tooltip to appear",
+        "time" : {
+          "start" : 1743519352839,
+          "stop" : 1743519353302,
+          "duration" : 463
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check visibility of element located by ('xpath', '//div[@id=\"texFieldToolTopContainer\"]')",
+          "time" : {
+            "start" : 1743519352839,
+            "stop" : 1743519352928,
+            "duration" : 89
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Perform move to element action on the element located by <selenium.webdriver.remote.webelement.WebElement (session=\"ed08e8578afa54810b656858746acd53\", element=\"f.8BE2D54AD8DCB59DF4C8CE11AEE00565.d.C72A6E7B6CA4C1ECA49C89702FE6C924.e.32\")>",
+          "time" : {
+            "start" : 1743519352929,
+            "stop" : 1743519353239,
+            "duration" : 310
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Check visibility of element located by ('xpath', '//div[@class=\"tooltip-inner\" and text()=\"You hovered over the text field\"]')",
+          "time" : {
+            "start" : 1743519353240,
+            "stop" : 1743519353285,
+            "duration" : 45
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 3,
+        "hasContent" : true
+      }, {
+        "name" : "Check if alert text contains 'You hovered over the text field'",
+        "time" : {
+          "start" : 1743519353302,
+          "stop" : 1743519353302,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 5,
+      "hasContent" : true
+    }, {
+      "name" : "Check tooltip - text: Contrary ",
+      "time" : {
+        "start" : 1743519353302,
+        "stop" : 1743519353815,
+        "duration" : 513
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Hover over the specified element and wait for the tooltip to appear",
+        "time" : {
+          "start" : 1743519353302,
+          "stop" : 1743519353815,
+          "duration" : 513
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check visibility of element located by ('xpath', '//a[@href=\"javascript:void(0)\" and text() = \"Contrary\"]')",
+          "time" : {
+            "start" : 1743519353302,
+            "stop" : 1743519353347,
+            "duration" : 45
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Perform move to element action on the element located by <selenium.webdriver.remote.webelement.WebElement (session=\"ed08e8578afa54810b656858746acd53\", element=\"f.8BE2D54AD8DCB59DF4C8CE11AEE00565.d.C72A6E7B6CA4C1ECA49C89702FE6C924.e.34\")>",
+          "time" : {
+            "start" : 1743519353347,
+            "stop" : 1743519353637,
+            "duration" : 290
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Check visibility of element located by ('xpath', '//div[@class=\"tooltip-inner\" and text()=\"You hovered over the Contrary\"]')",
+          "time" : {
+            "start" : 1743519353637,
+            "stop" : 1743519353754,
+            "duration" : 117
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 3,
+        "hasContent" : true
+      }, {
+        "name" : "Check if alert text contains 'You hovered over the Contrary'",
+        "time" : {
+          "start" : 1743519353815,
+          "stop" : 1743519353815,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 5,
+      "hasContent" : true
+    }, {
+      "name" : "Check tooltip - text: 1_10_32",
+      "time" : {
+        "start" : 1743519353815,
+        "stop" : 1743519354264,
+        "duration" : 449
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Hover over the specified element and wait for the tooltip to appear",
+        "time" : {
+          "start" : 1743519353815,
+          "stop" : 1743519354264,
+          "duration" : 449
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check visibility of element located by ('xpath', '//a[@href=\"javascript:void(0)\" and text() = \"1.10.32\"]')",
+          "time" : {
+            "start" : 1743519353815,
+            "stop" : 1743519353879,
+            "duration" : 64
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Perform move to element action on the element located by <selenium.webdriver.remote.webelement.WebElement (session=\"ed08e8578afa54810b656858746acd53\", element=\"f.8BE2D54AD8DCB59DF4C8CE11AEE00565.d.C72A6E7B6CA4C1ECA49C89702FE6C924.e.36\")>",
+          "time" : {
+            "start" : 1743519353879,
+            "stop" : 1743519354171,
+            "duration" : 292
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Check visibility of element located by ('xpath', '//div[@class=\"tooltip-inner\" and text()=\"You hovered over the 1.10.32\"]')",
+          "time" : {
+            "start" : 1743519354171,
+            "stop" : 1743519354242,
+            "duration" : 71
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 3,
+        "hasContent" : true
+      }, {
+        "name" : "Check if alert text contains 'You hovered over the 1.10.32'",
+        "time" : {
+          "start" : 1743519354264,
+          "stop" : 1743519354264,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 5,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "e8378fffeac01276",
+      "name" : "screenshots/test_tool_tips_2025-04-01_17-55-54.png",
+      "source" : "e8378fffeac01276.attach",
+      "type" : "image/png",
+      "size" : 466459
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 26,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1743519355328,
+      "stop" : 1743519355410,
+      "duration" : 82
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Widgets"
+  }, {
+    "name" : "tag",
+    "value" : "screenshot"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_tool_tips"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestToolTips"
+  }, {
+    "name" : "host",
+    "value" : "4625914a204e"
+  }, {
+    "name" : "thread",
+    "value" : "17-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_tool_tips"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "1eb7b000e9fc59c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741106245949,
+          "stop" : 1741106249741,
+          "duration" : 3792
+        }
+      } ]
+    },
+    "tags" : [ "smoke", "screenshot" ]
+  },
+  "source" : "a2b0a849db44a22f.json",
+  "parameterValues" : [ ]
+}

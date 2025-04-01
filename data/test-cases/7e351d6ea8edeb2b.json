@@ -1,0 +1,273 @@
+{
+  "uid" : "7e351d6ea8edeb2b",
+  "name" : "Test standard multiselect dropdown",
+  "fullName" : "tests.test_select_menu.TestSelectMenu#test_standard_multiselect_dropdown",
+  "historyId" : "926122a56d68ac445815bc7aae8b037a",
+  "time" : {
+    "start" : 1743519335142,
+    "stop" : 1743519342906,
+    "duration" : 7764
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Expected text '['Audi', 'Opel', 'Saab']' but got '['Audi', 'Opel', 'Saab', 'Volvo']'",
+  "statusTrace" : "self = <test_select_menu.TestSelectMenu object at 0x7fe844960af0>\n\n    @allure.title(\"Test standard multiselect dropdown\")\n    @pytest.mark.smoke\n    @pytest.mark.screenshot\n    def test_standard_multiselect_dropdown(self):\n        self.select_menu.open()\n        self.select_menu.is_opened()\n        self.select_menu.select_standard_multiselect_dropdown()\n>       self.select_menu.check_select_standard_multiselect_option_dropdown()\n\ntests/test_select_menu.py:51: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/select_menu.py:68: in check_select_standard_multiselect_option_dropdown\n    self.check_if_text_matches(actual_values, expected_values)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <pages.select_menu.SelectMenu object at 0x7fe8441a4610>\nactual_text = ['Audi', 'Opel', 'Saab', 'Volvo']\nexpected_text = ['Audi', 'Opel', 'Saab'], slicing = None\n\n    def check_if_text_matches(self, actual_text, expected_text, slicing=None):\n        with allure.step(f\"Check if alert text contains '{expected_text}'\"):\n            actual_text = slicing(actual_text) if slicing else actual_text  # Slicing operation on text is expected\n>           assert expected_text == actual_text, f\"Expected text '{expected_text}' but got '{actual_text}'\"\nE           AssertionError: Expected text '['Audi', 'Opel', 'Saab']' but got '['Audi', 'Opel', 'Saab', 'Volvo']'\n\nbase/base_page.py:94: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1743519333601,
+      "stop" : 1743519334794,
+      "duration" : 1193
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1743519236093,
+      "stop" : 1743519236221,
+      "duration" : 128
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1743519334794,
+      "stop" : 1743519335140,
+      "duration" : 346
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Expected text '['Audi', 'Opel', 'Saab']' but got '['Audi', 'Opel', 'Saab', 'Volvo']'",
+    "statusTrace" : "self = <test_select_menu.TestSelectMenu object at 0x7fe844960af0>\n\n    @allure.title(\"Test standard multiselect dropdown\")\n    @pytest.mark.smoke\n    @pytest.mark.screenshot\n    def test_standard_multiselect_dropdown(self):\n        self.select_menu.open()\n        self.select_menu.is_opened()\n        self.select_menu.select_standard_multiselect_dropdown()\n>       self.select_menu.check_select_standard_multiselect_option_dropdown()\n\ntests/test_select_menu.py:51: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \npages/select_menu.py:68: in check_select_standard_multiselect_option_dropdown\n    self.check_if_text_matches(actual_values, expected_values)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <pages.select_menu.SelectMenu object at 0x7fe8441a4610>\nactual_text = ['Audi', 'Opel', 'Saab', 'Volvo']\nexpected_text = ['Audi', 'Opel', 'Saab'], slicing = None\n\n    def check_if_text_matches(self, actual_text, expected_text, slicing=None):\n        with allure.step(f\"Check if alert text contains '{expected_text}'\"):\n            actual_text = slicing(actual_text) if slicing else actual_text  # Slicing operation on text is expected\n>           assert expected_text == actual_text, f\"Expected text '{expected_text}' but got '{actual_text}'\"\nE           AssertionError: Expected text '['Audi', 'Opel', 'Saab']' but got '['Audi', 'Opel', 'Saab', 'Volvo']'\n\nbase/base_page.py:94: AssertionError",
+    "steps" : [ {
+      "name" : "Open https://demoqa.com/select-menu page",
+      "time" : {
+        "start" : 1743519335142,
+        "stop" : 1743519341476,
+        "duration" : 6334
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://demoqa.com/select-menu is opened",
+      "time" : {
+        "start" : 1743519341476,
+        "stop" : 1743519341486,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Select option in Standard Multiselect dropdown",
+      "time" : {
+        "start" : 1743519341488,
+        "stop" : 1743519342854,
+        "duration" : 1366
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Select multiple random options from dropdown in SELECT",
+        "time" : {
+          "start" : 1743519341488,
+          "stop" : 1743519342854,
+          "duration" : 1366
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check presence of element located by ('xpath', '//select[@id=\"cars\"]')",
+          "time" : {
+            "start" : 1743519341566,
+            "stop" : 1743519341597,
+            "duration" : 31
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Check select option in Standard Multiselect dropdown",
+      "time" : {
+        "start" : 1743519342855,
+        "stop" : 1743519342905,
+        "duration" : 50
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: Expected text '['Audi', 'Opel', 'Saab']' but got '['Audi', 'Opel', 'Saab', 'Volvo']'\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.10/site-packages/allure_commons/_allure.py\", line 192, in impl\n    return func(*a, **kw)\n  File \"/usr/workspace/pages/select_menu.py\", line 68, in check_select_standard_multiselect_option_dropdown\n    self.check_if_text_matches(actual_values, expected_values)\n  File \"/usr/workspace/base/base_page.py\", line 94, in check_if_text_matches\n    assert expected_text == actual_text, f\"Expected text '{expected_text}' but got '{actual_text}'\"\n",
+      "steps" : [ {
+        "name" : "Check presence of elements located by ('xpath', '//select[@id=\"cars\"]')",
+        "time" : {
+          "start" : 1743519342855,
+          "stop" : 1743519342873,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check if alert text contains '['Audi', 'Opel', 'Saab']'",
+        "time" : {
+          "start" : 1743519342905,
+          "stop" : 1743519342905,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "statusMessage" : "AssertionError: Expected text '['Audi', 'Opel', 'Saab']' but got '['Audi', 'Opel', 'Saab', 'Volvo']'\n",
+        "statusTrace" : "  File \"/usr/workspace/base/base_page.py\", line 94, in check_if_text_matches\n    assert expected_text == actual_text, f\"Expected text '{expected_text}' but got '{actual_text}'\"\n",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "510e9aad53620819",
+      "name" : "screenshots/test_standard_multiselect_dropdown_2025-04-01_17-55-43.png",
+      "source" : "510e9aad53620819.attach",
+      "type" : "image/png",
+      "size" : 317321
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1743519343892,
+      "stop" : 1743519344011,
+      "duration" : 119
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Widgets"
+  }, {
+    "name" : "tag",
+    "value" : "screenshot"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_select_menu"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSelectMenu"
+  }, {
+    "name" : "host",
+    "value" : "4625914a204e"
+  }, {
+    "name" : "thread",
+    "value" : "17-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_select_menu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "smoke", "screenshot" ]
+  },
+  "source" : "7e351d6ea8edeb2b.json",
+  "parameterValues" : [ ]
+}

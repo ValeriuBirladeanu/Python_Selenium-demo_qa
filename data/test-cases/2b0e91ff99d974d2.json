@@ -1,0 +1,276 @@
+{
+  "uid" : "2b0e91ff99d974d2",
+  "name" : "Test multiselect dropdown",
+  "fullName" : "tests.test_select_menu.TestSelectMenu#test_multiselect_dropdown",
+  "historyId" : "4b11245a172e603ad95fefcb50e0d72b",
+  "time" : {
+    "start" : 1743519333494,
+    "stop" : 1743519340779,
+    "duration" : 7285
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1743519236071,
+      "stop" : 1743519236221,
+      "duration" : 150
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1743519333154,
+      "stop" : 1743519333493,
+      "duration" : 339
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1743519332036,
+      "stop" : 1743519333151,
+      "duration" : 1115
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open https://demoqa.com/select-menu page",
+      "time" : {
+        "start" : 1743519333495,
+        "stop" : 1743519338735,
+        "duration" : 5240
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://demoqa.com/select-menu is opened",
+      "time" : {
+        "start" : 1743519338735,
+        "stop" : 1743519338761,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Select option in Multiselect dropdown",
+      "time" : {
+        "start" : 1743519338761,
+        "stop" : 1743519340639,
+        "duration" : 1878
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Select multiple random options from dropdown in DIV",
+        "time" : {
+          "start" : 1743519338761,
+          "stop" : 1743519340639,
+          "duration" : 1878
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check presence of element located by ('xpath', '//p/b[text()=\"Multiselect drop down\"]/following::div[contains(@class, \"css-yk16xz-control\")][1]')",
+          "time" : {
+            "start" : 1743519338852,
+            "stop" : 1743519339080,
+            "duration" : 228
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Check presence of elements located by ('xpath', '//div[@tabindex=\"-1\"]')",
+          "time" : {
+            "start" : 1743519339506,
+            "stop" : 1743519339608,
+            "duration" : 102
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 2,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Check select option in Multiselect dropdown",
+      "time" : {
+        "start" : 1743519340639,
+        "stop" : 1743519340779,
+        "duration" : 140
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check presence of elements located by ('xpath', '//div[@class=\"css-12jo7m5\"]')",
+        "time" : {
+          "start" : 1743519340639,
+          "stop" : 1743519340695,
+          "duration" : 56
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check if alert text contains '['Black', 'Green', 'Red']'",
+        "time" : {
+          "start" : 1743519340779,
+          "stop" : 1743519340779,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "de4c1e0d6175b0c3",
+      "name" : "screenshots/test_multiselect_dropdown_2025-04-01_17-55-40.png",
+      "source" : "de4c1e0d6175b0c3.attach",
+      "type" : "image/png",
+      "size" : 290853
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 9,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1743519341691,
+      "stop" : 1743519341828,
+      "duration" : 137
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Widgets"
+  }, {
+    "name" : "tag",
+    "value" : "screenshot"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_select_menu"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSelectMenu"
+  }, {
+    "name" : "host",
+    "value" : "4625914a204e"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_select_menu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "smoke", "screenshot" ]
+  },
+  "source" : "2b0e91ff99d974d2.json",
+  "parameterValues" : [ ]
+}

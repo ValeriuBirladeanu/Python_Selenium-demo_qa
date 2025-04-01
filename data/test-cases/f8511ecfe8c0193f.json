@@ -1,0 +1,322 @@
+{
+  "uid" : "f8511ecfe8c0193f",
+  "name" : "Test single name input",
+  "fullName" : "tests.test_auto_complete.TestAutoComplete#test_single_name_input",
+  "historyId" : "1434bf66fdac8418c9ca3d2a2129bf6d",
+  "time" : {
+    "start" : 1743519248655,
+    "stop" : 1743519256194,
+    "duration" : 7539
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1743519248167,
+      "stop" : 1743519248654,
+      "duration" : 487
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1743519247059,
+      "stop" : 1743519248167,
+      "duration" : 1108
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1743519236075,
+      "stop" : 1743519236221,
+      "duration" : 146
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open https://demoqa.com/auto-complete page",
+      "time" : {
+        "start" : 1743519248656,
+        "stop" : 1743519254940,
+        "duration" : 6284
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://demoqa.com/auto-complete is opened",
+      "time" : {
+        "start" : 1743519254940,
+        "stop" : 1743519255003,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Select single name input",
+      "time" : {
+        "start" : 1743519255003,
+        "stop" : 1743519256194,
+        "duration" : 1191
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check if element located by ('css selector', \"[id='autoCompleteSingleInput']\") is clickable",
+        "time" : {
+          "start" : 1743519255003,
+          "stop" : 1743519255351,
+          "duration" : 348
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check visibility of element located by ('css selector', \"div[class='auto-complete__menu-list css-11unzgr']\")",
+        "time" : {
+          "start" : 1743519255902,
+          "stop" : 1743519256041,
+          "duration" : 139
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check presence of element located by ('css selector', \"[class*='auto-complete__value-container auto-complete__value-container--has']\")",
+        "time" : {
+          "start" : 1743519256130,
+          "stop" : 1743519256172,
+          "duration" : 42
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Check selected single name input",
+      "time" : {
+        "start" : 1743519256194,
+        "stop" : 1743519256194,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "f422fbc006ae028f",
+      "name" : "screenshots/test_single_name_input_2025-04-01_17-54-16.png",
+      "source" : "f422fbc006ae028f.attach",
+      "type" : "image/png",
+      "size" : 406382
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1743519257052,
+      "stop" : 1743519257145,
+      "duration" : 93
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Widgets"
+  }, {
+    "name" : "tag",
+    "value" : "screenshot"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_auto_complete"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAutoComplete"
+  }, {
+    "name" : "host",
+    "value" : "4625914a204e"
+  }, {
+    "name" : "thread",
+    "value" : "14-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_auto_complete"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "8c00d52bd88b67af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741105990593,
+          "stop" : 1741106004765,
+          "duration" : 14172
+        }
+      }, {
+        "uid" : "8d0499cd5c88c14c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1740845416662,
+          "stop" : 1740845429568,
+          "duration" : 12906
+        }
+      }, {
+        "uid" : "bf401a011f3b4c70",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: -0.000\n  (Session info: chrome=132.0.6834.83)",
+        "time" : {
+          "start" : 1740061531201,
+          "stop" : 1740061831207,
+          "duration" : 300006
+        }
+      }, {
+        "uid" : "601ece09a0b79a27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738400635481,
+          "stop" : 1738400648127,
+          "duration" : 12646
+        }
+      }, {
+        "uid" : "1abbde05a47fad4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738161768739,
+          "stop" : 1738161782294,
+          "duration" : 13555
+        }
+      }, {
+        "uid" : "6926f396eb1b9728",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738147156428,
+          "stop" : 1738147163908,
+          "duration" : 7480
+        }
+      }, {
+        "uid" : "70f550268a3999c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738075450331,
+          "stop" : 1738075453224,
+          "duration" : 2893
+        }
+      }, {
+        "uid" : "bef2f62b5fed6a2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1731657381083,
+          "stop" : 1731657388354,
+          "duration" : 7271
+        }
+      } ]
+    },
+    "tags" : [ "smoke", "screenshot" ]
+  },
+  "source" : "f8511ecfe8c0193f.json",
+  "parameterValues" : [ ]
+}

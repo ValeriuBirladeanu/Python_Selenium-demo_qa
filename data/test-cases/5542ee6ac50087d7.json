@@ -1,0 +1,508 @@
+{
+  "uid" : "5542ee6ac50087d7",
+  "name" : "Click on the checkboxes",
+  "fullName" : "tests.test_check_box.TestCheckBox#test_click_check_box",
+  "historyId" : "ac46f10f1fffab8a28c9e0f981a7ac87",
+  "time" : {
+    "start" : 1743519274317,
+    "stop" : 1743519284722,
+    "duration" : 10405
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1743519274033,
+      "stop" : 1743519274316,
+      "duration" : 283
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1743519273087,
+      "stop" : 1743519274033,
+      "duration" : 946
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1743519236093,
+      "stop" : 1743519236221,
+      "duration" : 128
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open https://demoqa.com/checkbox page",
+      "time" : {
+        "start" : 1743519274318,
+        "stop" : 1743519279005,
+        "duration" : 4687
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://demoqa.com/checkbox is opened",
+      "time" : {
+        "start" : 1743519279005,
+        "stop" : 1743519279022,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click Expand All button",
+      "time" : {
+        "start" : 1743519279023,
+        "stop" : 1743519279411,
+        "duration" : 388
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check if element located by ('xpath', \"//button[@title='Expand all']\") is clickable",
+        "time" : {
+          "start" : 1743519279023,
+          "stop" : 1743519279100,
+          "duration" : 77
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Verify checkboxes are visible and clickable",
+      "time" : {
+        "start" : 1743519279411,
+        "stop" : 1743519280394,
+        "duration" : 983
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check visibility of elements located by ('xpath', \"//span[@class='rct-title']\")",
+        "time" : {
+          "start" : 1743519279411,
+          "stop" : 1743519279793,
+          "duration" : 382
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Click random checkbox",
+      "time" : {
+        "start" : 1743519280395,
+        "stop" : 1743519283856,
+        "duration" : 3461
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check visibility of elements located by ('xpath', \"//span[@class='rct-title']\")",
+        "time" : {
+          "start" : 1743519280395,
+          "stop" : 1743519280652,
+          "duration" : 257
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Verify checkbox selections are reflected in output results",
+      "time" : {
+        "start" : 1743519283856,
+        "stop" : 1743519284722,
+        "duration" : 866
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get checked checkboxes",
+        "time" : {
+          "start" : 1743519283856,
+          "stop" : 1743519284616,
+          "duration" : 760
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check visibility of elements located by ('css selector', 'svg.rct-icon.rct-icon-check')",
+          "time" : {
+            "start" : 1743519283856,
+            "stop" : 1743519284046,
+            "duration" : 190
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "Get output results",
+        "time" : {
+          "start" : 1743519284616,
+          "stop" : 1743519284722,
+          "duration" : 106
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check visibility of elements located by ('xpath', \"//span[@class='text-success']\")",
+          "time" : {
+            "start" : 1743519284616,
+            "stop" : 1743519284674,
+            "duration" : 58
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "9337f4b01c3c7579",
+      "name" : "screenshots/test_click_check_box_2025-04-01_17-54-44.png",
+      "source" : "9337f4b01c3c7579.attach",
+      "type" : "image/png",
+      "size" : 256976
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 13,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1743519285318,
+      "stop" : 1743519285446,
+      "duration" : 128
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Elements - Check Box"
+  }, {
+    "name" : "tag",
+    "value" : "screenshot"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_check_box"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCheckBox"
+  }, {
+    "name" : "host",
+    "value" : "4625914a204e"
+  }, {
+    "name" : "thread",
+    "value" : "17-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_check_box"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 34,
+        "unknown" : 0,
+        "total" : 36
+      },
+      "items" : [ {
+        "uid" : "5ee266b15431c4f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741106058357,
+          "stop" : 1741106062394,
+          "duration" : 4037
+        }
+      }, {
+        "uid" : "253ba320a448cbf0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1740845492568,
+          "stop" : 1740845506787,
+          "duration" : 14219
+        }
+      }, {
+        "uid" : "1943afc043d00c52",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: -0.000\n  (Session info: chrome=132.0.6834.83)",
+        "time" : {
+          "start" : 1740064240024,
+          "stop" : 1740064540030,
+          "duration" : 300006
+        }
+      }, {
+        "uid" : "6e8d90e7302ee894",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738400755067,
+          "stop" : 1738400769473,
+          "duration" : 14406
+        }
+      }, {
+        "uid" : "f6c3db66882b35f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738161845084,
+          "stop" : 1738161860158,
+          "duration" : 15074
+        }
+      }, {
+        "uid" : "326400e4f78df21b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738147217916,
+          "stop" : 1738147226594,
+          "duration" : 8678
+        }
+      }, {
+        "uid" : "d192b967381ce498",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738075508379,
+          "stop" : 1738075518921,
+          "duration" : 10542
+        }
+      }, {
+        "uid" : "618306e6d3c22408",
+        "status" : "passed",
+        "time" : {
+          "start" : 1731657581676,
+          "stop" : 1731657589992,
+          "duration" : 8316
+        }
+      }, {
+        "uid" : "3f48e96119a5b5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730874679373,
+          "stop" : 1730874687955,
+          "duration" : 8582
+        }
+      }, {
+        "uid" : "d368fbab738df5f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730835488412,
+          "stop" : 1730835633635,
+          "duration" : 145223
+        }
+      }, {
+        "uid" : "11f02f2359743754",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730114701303,
+          "stop" : 1730114709544,
+          "duration" : 8241
+        }
+      }, {
+        "uid" : "efa7196302400941",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729785957550,
+          "stop" : 1729785966195,
+          "duration" : 8645
+        }
+      }, {
+        "uid" : "5469ead438ccfdec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729171983383,
+          "stop" : 1729171993630,
+          "duration" : 10247
+        }
+      }, {
+        "uid" : "ca8eb2b0333ff36a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728654466312,
+          "stop" : 1728654475859,
+          "duration" : 9547
+        }
+      }, {
+        "uid" : "7ea86c9897d9e104",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727439871294,
+          "stop" : 1727439879835,
+          "duration" : 8541
+        }
+      }, {
+        "uid" : "7abd132809f3a68e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727433802278,
+          "stop" : 1727433811155,
+          "duration" : 8877
+        }
+      }, {
+        "uid" : "feea864a08913963",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727167112278,
+          "stop" : 1727167120993,
+          "duration" : 8715
+        }
+      }, {
+        "uid" : "7788d8120b538252",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726735590939,
+          "stop" : 1726735600059,
+          "duration" : 9120
+        }
+      }, {
+        "uid" : "4b8710638776874b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726734086822,
+          "stop" : 1726734090775,
+          "duration" : 3953
+        }
+      }, {
+        "uid" : "9b64a93f91dd39ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726686359474,
+          "stop" : 1726686371886,
+          "duration" : 12412
+        }
+      } ]
+    },
+    "tags" : [ "smoke", "screenshot" ]
+  },
+  "source" : "5542ee6ac50087d7.json",
+  "parameterValues" : [ ]
+}

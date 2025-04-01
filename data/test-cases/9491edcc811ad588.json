@@ -1,0 +1,409 @@
+{
+  "uid" : "9491edcc811ad588",
+  "name" : "Verify forbidden link",
+  "fullName" : "tests.test_links.TestLinks#test_forbidden_link",
+  "historyId" : "0bd61a3dc27cd9bc4c663740ac17bde3",
+  "time" : {
+    "start" : 1743519305822,
+    "stop" : 1743519312565,
+    "duration" : 6743
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1743519236071,
+      "stop" : 1743519236221,
+      "duration" : 150
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1743519304318,
+      "stop" : 1743519305532,
+      "duration" : 1214
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1743519305532,
+      "stop" : 1743519305820,
+      "duration" : 288
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open https://demoqa.com/links page",
+      "time" : {
+        "start" : 1743519305825,
+        "stop" : 1743519310980,
+        "duration" : 5155
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Page https://demoqa.com/links is opened",
+      "time" : {
+        "start" : 1743519310980,
+        "stop" : 1743519311011,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Click on the link",
+      "time" : {
+        "start" : 1743519311011,
+        "stop" : 1743519312011,
+        "duration" : 1000
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check if element located by ('xpath', \"//a[@id='forbidden']\") is clickable",
+        "time" : {
+          "start" : 1743519311071,
+          "stop" : 1743519311567,
+          "duration" : 496
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "link_key",
+        "value" : "'forbidden'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Verify link response and text",
+      "time" : {
+        "start" : 1743519312011,
+        "stop" : 1743519312564,
+        "duration" : 553
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Wait for element located by ('xpath', \"//p[@id='linkResponse']\") to contain text 'Link has responded with staus 403 and status text Forbidden'",
+        "time" : {
+          "start" : 1743519312445,
+          "stop" : 1743519312564,
+          "duration" : 119
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "link_key",
+        "value" : "'forbidden'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "e9d004bdacb05d62",
+      "name" : "screenshots/test_forbidden_link_2025-04-01_17-55-12.png",
+      "source" : "e9d004bdacb05d62.attach",
+      "type" : "image/png",
+      "size" : 354794
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1743519313639,
+      "stop" : 1743519313715,
+      "duration" : 76
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Elements - Links"
+  }, {
+    "name" : "tag",
+    "value" : "screenshot"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_links"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLinks"
+  }, {
+    "name" : "host",
+    "value" : "4625914a204e"
+  }, {
+    "name" : "thread",
+    "value" : "8-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_links"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 21,
+        "unknown" : 0,
+        "total" : 22
+      },
+      "items" : [ {
+        "uid" : "fc6bb6882064876d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1741106154487,
+          "stop" : 1741106157106,
+          "duration" : 2619
+        }
+      }, {
+        "uid" : "b085aef2060ff5b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1740845638784,
+          "stop" : 1740845651741,
+          "duration" : 12957
+        }
+      }, {
+        "uid" : "57c60b3f48671579",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: -0.000\n  (Session info: chrome=132.0.6834.83)",
+        "time" : {
+          "start" : 1740068152736,
+          "stop" : 1740068452742,
+          "duration" : 300006
+        }
+      }, {
+        "uid" : "f51e12cb11e6ec6e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738400920167,
+          "stop" : 1738400932164,
+          "duration" : 11997
+        }
+      }, {
+        "uid" : "cfd4d1c7330eb251",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738161982229,
+          "stop" : 1738161986712,
+          "duration" : 4483
+        }
+      }, {
+        "uid" : "d08a924b20b722ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738147313278,
+          "stop" : 1738147320895,
+          "duration" : 7617
+        }
+      }, {
+        "uid" : "d465af1f2267a8d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1738075631991,
+          "stop" : 1738075635167,
+          "duration" : 3176
+        }
+      }, {
+        "uid" : "cc8fbb5c162853b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1731657817237,
+          "stop" : 1731657825869,
+          "duration" : 8632
+        }
+      }, {
+        "uid" : "982afb7fff0bc5e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730874796914,
+          "stop" : 1730874804430,
+          "duration" : 7516
+        }
+      }, {
+        "uid" : "7fd40301b866aff5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730835931632,
+          "stop" : 1730835965016,
+          "duration" : 33384
+        }
+      }, {
+        "uid" : "2a29e5d824529ad0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1730114795899,
+          "stop" : 1730114803515,
+          "duration" : 7616
+        }
+      }, {
+        "uid" : "54832c094b7dce46",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729786044062,
+          "stop" : 1729786052450,
+          "duration" : 8388
+        }
+      }, {
+        "uid" : "c98cd2d1e60bde9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1729172083508,
+          "stop" : 1729172091866,
+          "duration" : 8358
+        }
+      }, {
+        "uid" : "575982260f750480",
+        "status" : "passed",
+        "time" : {
+          "start" : 1728654551753,
+          "stop" : 1728654554604,
+          "duration" : 2851
+        }
+      }, {
+        "uid" : "2c23f160fe61aeba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727439925905,
+          "stop" : 1727439933691,
+          "duration" : 7786
+        }
+      }, {
+        "uid" : "b660afb331febeff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727433860902,
+          "stop" : 1727433868615,
+          "duration" : 7713
+        }
+      }, {
+        "uid" : "d3f9156d21e76037",
+        "status" : "passed",
+        "time" : {
+          "start" : 1727167165562,
+          "stop" : 1727167173235,
+          "duration" : 7673
+        }
+      }, {
+        "uid" : "53c59d07d76537e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726735649234,
+          "stop" : 1726735657601,
+          "duration" : 8367
+        }
+      }, {
+        "uid" : "636590efde549736",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726734129400,
+          "stop" : 1726734137057,
+          "duration" : 7657
+        }
+      }, {
+        "uid" : "360686267f0c8c07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1726686589469,
+          "stop" : 1726686599205,
+          "duration" : 9736
+        }
+      } ]
+    },
+    "tags" : [ "smoke", "screenshot" ]
+  },
+  "source" : "9491edcc811ad588.json",
+  "parameterValues" : [ ]
+}
